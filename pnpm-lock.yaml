@@ -97,6 +97,9 @@ importers:
 
   packages/toolbox:
     dependencies:
+      bs58:
+        specifier: ^6.0.0
+        version: 6.0.0
       diff:
         specifier: ^8.0.3
         version: 8.0.3
@@ -118,10 +121,10 @@ importers:
     devDependencies:
       '@aave-dao/aave-delivery-infrastructure':
         specifier: github:aave-dao/aave-delivery-infrastructure
-        version: aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/8e0fc4e4e49045d808a35ffcf5b536b4147ded5b
+        version: aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/50da00e2ef6de51464f6d83ae324cefec691aeb9
       '@aave-dao/aave-governance-v3':
         specifier: github:aave-dao/aave-governance-v3
-        version: aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/4317ad0d1e33f22f2eff7e65f92622c31f0a2ec2(bufferutil@4.1.0)(utf-8-validate@5.0.10)
+        version: aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/04f57beae9cc2b59cc46102b39052ea8eb2f3692(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       '@aave-dao/aave-umbrella':
         specifier: 1.0.0
         version: 1.0.0
@@ -133,7 +136,7 @@ importers:
         version: 4.31.0(viem@2.45.0(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.2))
       '@bgd-labs/aave-price-feeds':
         specifier: github:bgd-labs/aave-price-feeds
-        version: bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/c166512a7fd816a9a5e00e7da12cb1cb8d4040d6
+        version: bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643
       '@bgd-labs/solidity-utils':
         specifier: ^1.1.2
         version: 1.1.2
@@ -2464,12 +2467,12 @@ packages:
   '@vitest/utils@3.0.7':
     resolution: {integrity: sha512-xePVpCRfooFX3rANQjwoditoXgWb1MaFbzmGuPP59MK6i13mrnDw/yEIyJudLeW6/38mCNcwCiJIGmpDPibAIg==}
 
-  aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/8e0fc4e4e49045d808a35ffcf5b536b4147ded5b:
-    resolution: {tarball: https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/8e0fc4e4e49045d808a35ffcf5b536b4147ded5b}
+  aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/50da00e2ef6de51464f6d83ae324cefec691aeb9:
+    resolution: {tarball: https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/50da00e2ef6de51464f6d83ae324cefec691aeb9}
     version: 1.0.0
 
-  aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/4317ad0d1e33f22f2eff7e65f92622c31f0a2ec2:
-    resolution: {tarball: https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/4317ad0d1e33f22f2eff7e65f92622c31f0a2ec2}
+  aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/04f57beae9cc2b59cc46102b39052ea8eb2f3692:
+    resolution: {tarball: https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/04f57beae9cc2b59cc46102b39052ea8eb2f3692}
     version: 1.0.0
 
   abitype@1.2.3:
@@ -2583,6 +2586,9 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
+  base-x@5.0.1:
+    resolution: {integrity: sha512-M7uio8Zt++eg3jPj+rHMfCC+IuygQHHCOU+IYsVtik6FWjuYpVt/+MRKcgsAMHh8mMFAwnB+Bs+mTrFiXjMzKg==}
+
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
 
@@ -2604,8 +2610,8 @@ packages:
     resolution: {integrity: sha512-pbnl5XzGBdrFU/wT4jqmJVPn2B6UHPBOhzMQkY/SPUPB6QtUXtmBHBIwCbXJol93mOpGMnQyP/+BB19q04xj7g==}
     engines: {node: '>=4'}
 
-  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/c166512a7fd816a9a5e00e7da12cb1cb8d4040d6:
-    resolution: {tarball: https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/c166512a7fd816a9a5e00e7da12cb1cb8d4040d6}
+  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643:
+    resolution: {tarball: https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643}
     version: 1.0.0
 
   birpc@4.0.0:
@@ -2655,6 +2661,9 @@ packages:
     resolution: {integrity: sha512-tbydkR/CxfMwelN0vwdP/pLkDwyAASZ+VfWm4EOwlB6SWhx1sYnWLqo8N5j0rAzPfzfRaxt0mM/4wPU/Su84RQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
+
+  bs58@6.0.0:
+    resolution: {integrity: sha512-PD0wEnEYg6ijszw/u8s+iI3H17cTymlrwkKhDhPZq+Sokl3AU4htyBFTjAeNAlCCmg0f53g6ih3jATyCKftTfw==}
 
   buffer@6.0.3:
     resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==}
@@ -8381,9 +8390,9 @@ snapshots:
       loupe: 3.1.3
       tinyrainbow: 2.0.0
 
-  aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/8e0fc4e4e49045d808a35ffcf5b536b4147ded5b: {}
+  aave-delivery-infrastructure@https://codeload.github.com/aave-dao/aave-delivery-infrastructure/tar.gz/50da00e2ef6de51464f6d83ae324cefec691aeb9: {}
 
-  aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/4317ad0d1e33f22f2eff7e65f92622c31f0a2ec2(bufferutil@4.1.0)(utf-8-validate@5.0.10):
+  aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/04f57beae9cc2b59cc46102b39052ea8eb2f3692(bufferutil@4.1.0)(utf-8-validate@5.0.10):
     dependencies:
       alchemy-sdk: 2.12.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)
       dotenv: 16.4.7
@@ -8502,6 +8511,8 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
+  base-x@5.0.1: {}
+
   base64-js@1.5.1: {}
 
   baseline-browser-mapping@2.8.32: {}
@@ -8518,7 +8529,7 @@ snapshots:
     dependencies:
       is-windows: 1.0.2
 
-  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/c166512a7fd816a9a5e00e7da12cb1cb8d4040d6: {}
+  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643: {}
 
   birpc@4.0.0: {}
 
@@ -8584,6 +8595,10 @@ snapshots:
       electron-to-chromium: 1.5.263
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.28.0)
+
+  bs58@6.0.0:
+    dependencies:
+      base-x: 5.0.1
 
   buffer@6.0.3:
     dependencies:

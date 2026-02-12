@@ -28,15 +28,16 @@
     "generate:snapshot-org": "bunx genql --endpoint https://hub.snapshot.org/graphql --output ./src/ecosystem/generated/snapshot-org"
   },
   "dependencies": {
+    "bs58": "^6.0.0",
     "diff": "^8.0.3",
     "eventsource": "^4.1.0",
     "js-yaml": "^4.1.0"
   },
   "devDependencies": {
+    "@aave-dao/aave-delivery-infrastructure": "github:aave-dao/aave-delivery-infrastructure",
+    "@aave-dao/aave-governance-v3": "github:aave-dao/aave-governance-v3",
     "@aave-dao/aave-umbrella": "1.0.0",
     "@aave-dao/aave-v3-origin": "3.6.0",
-    "@aave-dao/aave-governance-v3": "github:aave-dao/aave-governance-v3",
-    "@aave-dao/aave-delivery-infrastructure": "github:aave-dao/aave-delivery-infrastructure",
     "@bgd-labs/aave-address-book": "^4.31.0",
     "@bgd-labs/aave-price-feeds": "github:bgd-labs/aave-price-feeds",
     "@bgd-labs/solidity-utils": "^1.1.2",

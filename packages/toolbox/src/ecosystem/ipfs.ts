@@ -2,6 +2,7 @@ import { CID } from "multiformats/cid";
 import { sha256 } from "multiformats/hashes/sha2";
 import * as dagPB from "@ipld/dag-pb";
 import { UnixFS } from "ipfs-unixfs";
+import bs58 from "bs58";
 
 /**
  * Generates an IPFS CIDv0 hash for the given content
@@ -28,4 +29,8 @@ export async function hash(content: string | Uint8Array): Promise<string> {
   const cid = CID.createV0(hash);
 
   return cid.toString();
+}
+
+export async function cidV0ToBs58(cid: string): Promise<string> {
+  return `0x${Buffer.from(bs58.decode(cid)).slice(2).toString("hex")}`;
 }
