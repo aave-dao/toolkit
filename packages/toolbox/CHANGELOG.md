@@ -1,4 +1,10 @@
-# @bgd-labs/toolbox
+# @aave-dao/toolbox
+
+## 0.3.0
+
+### Minor Changes
+
+- Rename packages from the `@bgd-labs` scope to `@aave-dao` and migrate repository URLs and branding to aave-dao, for publishing under the aave-dao npm organization.
 
 ## 0.2.25
 

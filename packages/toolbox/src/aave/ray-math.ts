@@ -1,4 +1,4 @@
-// JS implementation of https://github.com/bgd-labs/aave-v3-origin/blob/main/src/contracts/protocol/libraries/math/WadRayMath.sol
+// JS implementation of https://github.com/aave-dao/aave-v3-origin/blob/main/src/contracts/protocol/libraries/math/WadRayMath.sol
 export const WAD = 10n ** 18n;
 export const HALF_WAD = WAD / 2n;
 

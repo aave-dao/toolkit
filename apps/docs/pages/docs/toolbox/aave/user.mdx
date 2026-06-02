@@ -5,7 +5,7 @@
 The aave user configuration is a bitmap encoded with alternating bits which indicate borrowing and collateral usage.
 
 ```ts twoslash
-import { decodeUserConfiguration } from "@bgd-labs/toolbox";
+import { decodeUserConfiguration } from "@aave-dao/toolbox";
 
 const userConfig = decodeUserConfiguration(0b110001n);
 // {

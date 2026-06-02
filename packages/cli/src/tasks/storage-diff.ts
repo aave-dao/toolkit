@@ -2,7 +2,7 @@ import { Command, Option } from "@commander-js/extra-typings";
 import {
   diffFoundryStorageLayout,
   foundry_getStorageLayout,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 export function registerStorageDiff(program: Command) {
   program

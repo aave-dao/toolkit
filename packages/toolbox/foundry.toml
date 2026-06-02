@@ -3,5 +3,5 @@ libs = ['../../node_modules']
 remappings=[
     "openzeppelin-contracts/=node_modules/@openzeppelin/",
     "aave-v3-origin/=node_modules/@aave-dao/aave-v3-origin/src/",
-    "solidity-utils/=node_modules/@bgd-labs/solidity-utils/src/"
+    "solidity-utils/=node_modules/@aave-dao/solidity-utils/src/"
 ]

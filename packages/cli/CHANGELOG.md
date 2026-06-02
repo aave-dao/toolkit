@@ -1,4 +1,15 @@
-# @bgd-labs/cli
+# @aave-dao/cli
+
+## 0.1.0
+
+### Minor Changes
+
+- Rename packages from the `@bgd-labs` scope to `@aave-dao` and migrate repository URLs and branding to aave-dao, for publishing under the aave-dao npm organization.
+
+### Patch Changes
+
+- Updated dependencies
+  - @aave-dao/toolbox@0.3.0
 
 ## 0.0.98
 

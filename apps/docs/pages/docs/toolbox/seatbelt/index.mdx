@@ -18,7 +18,7 @@ Seatbelt utilities help you:
 Decode raw logs using an event database (ABI):
 
 ```ts
-import { parseLogs } from "@bgd-labs/toolbox";
+import { parseLogs } from "@aave-dao/toolbox";
 import type { Abi } from "viem";
 
 const eventDb: Abi = [
@@ -52,7 +52,7 @@ const decoded = parseLogs({ logs, eventDb });
 Add human-readable formatting and asset information:
 
 ```ts
-import { enhanceLogs, getClient, ChainId } from "@bgd-labs/toolbox";
+import { enhanceLogs, getClient, ChainId } from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 
@@ -91,7 +91,7 @@ The `enhanceLogs` function recognizes and formats:
 Convert Tenderly's state diff format to a more usable structure:
 
 ```ts
-import { transformTenderlyStateDiff } from "@bgd-labs/toolbox";
+import { transformTenderlyStateDiff } from "@aave-dao/toolbox";
 
 // State diff from Tenderly simulation
 const tenderlyDiff = [
@@ -124,7 +124,7 @@ const transformed = transformTenderlyStateDiff(tenderlyDiff);
 Add context-aware formatting to state changes:
 
 ```ts
-import { enhanceStateDiff, getClient, ChainId } from "@bgd-labs/toolbox";
+import { enhanceStateDiff, getClient, ChainId } from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 
@@ -151,7 +151,7 @@ const enhanced = await enhanceStateDiff(client, changes);
 Create a readable markdown report from state changes:
 
 ```ts
-import { renderMarkdownStateDiffReport } from "@bgd-labs/toolbox";
+import { renderMarkdownStateDiffReport } from "@aave-dao/toolbox";
 
 const changes = {
   "0xContract1": [
@@ -188,7 +188,7 @@ import {
   enhanceLogs,
   getClient,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import type { Abi } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -255,7 +255,7 @@ console.log(analysis.report);
 Get token symbol and decimals:
 
 ```ts
-import { findAsset, getClient, ChainId } from "@bgd-labs/toolbox";
+import { findAsset, getClient, ChainId } from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 
@@ -271,7 +271,7 @@ const asset = await findAsset(
 Format numbers with proper decimals:
 
 ```ts
-import { prettifyNumber } from "@bgd-labs/toolbox";
+import { prettifyNumber } from "@aave-dao/toolbox";
 
 const formatted = prettifyNumber({
   value: 1234567890n,
@@ -287,7 +287,7 @@ const formatted = prettifyNumber({
 Convert Aave reserve indexes to addresses:
 
 ```ts
-import { assetIndexesToAsset, getClient, ChainId } from "@bgd-labs/toolbox";
+import { assetIndexesToAsset, getClient, ChainId } from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 

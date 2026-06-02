@@ -18,7 +18,7 @@ When fetching logs over large block ranges, RPC providers often have limits. `ge
 ### Basic Usage
 
 ```ts twoslash
-import { getLogsRecursive, getClient, ChainId } from "@bgd-labs/toolbox";
+import { getLogsRecursive, getClient, ChainId } from "@aave-dao/toolbox";
 import type { AbiEvent } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -49,7 +49,7 @@ console.log(`Fetched ${logs.length} logs`);
 Fetch logs from multiple contracts:
 
 ```ts twoslash
-import { getLogsRecursive, getClient, ChainId } from "@bgd-labs/toolbox";
+import { getLogsRecursive, getClient, ChainId } from "@aave-dao/toolbox";
 import type { AbiEvent } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -81,7 +81,7 @@ const logs = await getLogsRecursive({
 Fetch different event types:
 
 ```ts twoslash
-import { getLogsRecursive, getClient, ChainId } from "@bgd-labs/toolbox";
+import { getLogsRecursive, getClient, ChainId } from "@aave-dao/toolbox";
 import type { AbiEvent } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -158,7 +158,7 @@ import {
   getContractDeploymentBlock,
   getClient,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 
@@ -188,7 +188,7 @@ import {
   getContractDeploymentBlock,
   getClient,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 const client = getClient(ChainId.mainnet);
 
@@ -209,7 +209,7 @@ console.log(`Contract deployed at block ${deploymentBlock}`);
 For ERC-1967 proxies, read the implementation address:
 
 ```ts twoslash
-import { getImplementationSlot, getClient, ChainId } from "@bgd-labs/toolbox";
+import { getImplementationSlot, getClient, ChainId } from "@aave-dao/toolbox";
 import { getAddress } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -244,7 +244,7 @@ import {
   getLogsRecursive,
   getClient,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import type { AbiEvent } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -325,7 +325,7 @@ console.log(stats);
 ## Error Handling
 
 ```ts twoslash
-import { getLogsRecursive, getClient, ChainId } from "@bgd-labs/toolbox";
+import { getLogsRecursive, getClient, ChainId } from "@aave-dao/toolbox";
 import type { AbiEvent } from "viem";
 
 const client = getClient(ChainId.mainnet);
@@ -359,7 +359,7 @@ try {
 The module exports important constants:
 
 ```ts twoslash
-import { erc1967_ImplementationSlot } from "@bgd-labs/toolbox";
+import { erc1967_ImplementationSlot } from "@aave-dao/toolbox";
 
 console.log(erc1967_ImplementationSlot);
 // "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"

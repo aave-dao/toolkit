@@ -16,7 +16,7 @@ The Tenderly utilities provide:
 All Tenderly functions require a configuration object:
 
 ```ts
-import { tenderly_createVnet } from "@bgd-labs/toolbox";
+import { tenderly_createVnet } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "your-account",
@@ -32,7 +32,7 @@ You can find these values in your Tenderly dashboard settings.
 Create a fork of any network for testing:
 
 ```ts
-import { tenderly_createVnet, ChainId } from "@bgd-labs/toolbox";
+import { tenderly_createVnet, ChainId } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",
@@ -122,7 +122,7 @@ The `tenderly_createVnet` function returns:
 Simulate transactions without creating a vnet:
 
 ```ts
-import { tenderly_sim, ChainId } from "@bgd-labs/toolbox";
+import { tenderly_sim, ChainId } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",
@@ -152,7 +152,7 @@ console.log("Logs:", simulation.transaction.transaction_info.logs);
 Simulate transactions on an existing vnet:
 
 ```ts
-import { tenderly_simVnet } from "@bgd-labs/toolbox";
+import { tenderly_simVnet } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",
@@ -177,7 +177,7 @@ const simulation = await tenderly_simVnet(vnetId, tenderlyConfig, {
 ### Get Existing Vnets
 
 ```ts
-import { tenderly_getVnet } from "@bgd-labs/toolbox";
+import { tenderly_getVnet } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",
@@ -196,7 +196,7 @@ for (const vnet of vnets) {
 ### Delete a Vnet
 
 ```ts
-import { tenderly_deleteVnet } from "@bgd-labs/toolbox";
+import { tenderly_deleteVnet } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",
@@ -216,8 +216,8 @@ import {
   tenderly_logsToAbiLogs,
   SoltypeType,
   StorageLocation,
-} from "@bgd-labs/toolbox";
-import type { TenderlyLog } from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
+import type { TenderlyLog } from "@aave-dao/toolbox";
 
 // Tenderly logs from simulation response
 const tenderlyLogs = [
@@ -262,7 +262,7 @@ const abiLogs = tenderly_logsToAbiLogs(tenderlyLogs);
 Ping Tenderly's explorer to verify a contract:
 
 ```ts
-import { tenderly_pingExplorer, ChainId } from "@bgd-labs/toolbox";
+import { tenderly_pingExplorer, ChainId } from "@aave-dao/toolbox";
 
 await tenderly_pingExplorer(
   ChainId.mainnet,
@@ -278,7 +278,7 @@ import {
   tenderly_createVnet,
   ChainId,
   getClient
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { parseEther } from "viem";
 
 const tenderlyConfig = {
@@ -369,7 +369,7 @@ Be aware of Tenderly's rate limits:
 ## Error Handling
 
 ```ts
-import { tenderly_createVnet, ChainId } from "@bgd-labs/toolbox";
+import { tenderly_createVnet, ChainId } from "@aave-dao/toolbox";
 
 const tenderlyConfig = {
   accountSlug: "my-account",

@@ -21,7 +21,7 @@ All calculations use `bigint` for precision and are based on Aave's RAY math (27
 Calculate interest compounded per second:
 
 ```ts twoslash
-import { calculateCompoundedInterest } from "@bgd-labs/toolbox";
+import { calculateCompoundedInterest } from "@aave-dao/toolbox";
 
 const interest = calculateCompoundedInterest({
   rate: 50000000000000000000000000n, // 5% APY in RAY
@@ -36,7 +36,7 @@ const interest = calculateCompoundedInterest({
 Calculate simple linear interest:
 
 ```ts twoslash
-import { calculateLinearInterest } from "@bgd-labs/toolbox";
+import { calculateLinearInterest } from "@aave-dao/toolbox";
 
 const interest = calculateLinearInterest({
   rate: 30000000000000000000000000n, // 3% APY in RAY
@@ -53,7 +53,7 @@ const interest = calculateLinearInterest({
 Get the current liquidity index (for aToken balances):
 
 ```ts twoslash
-import { getNormalizedIncome } from "@bgd-labs/toolbox";
+import { getNormalizedIncome } from "@aave-dao/toolbox";
 
 const currentIndex = getNormalizedIncome({
   rate: 25000000000000000000000000n, // Current liquidity rate
@@ -69,7 +69,7 @@ const currentIndex = getNormalizedIncome({
 Get the current variable debt index:
 
 ```ts twoslash
-import { getNormalizedDebt } from "@bgd-labs/toolbox";
+import { getNormalizedDebt } from "@aave-dao/toolbox";
 
 const currentDebtIndex = getNormalizedDebt({
   rate: 50000000000000000000000000n, // Current variable borrow rate
@@ -87,7 +87,7 @@ const currentDebtIndex = getNormalizedDebt({
 Convert scaled aToken balance to actual balance:
 
 ```ts twoslash
-import { getCurrentLiquidityBalance } from "@bgd-labs/toolbox";
+import { getCurrentLiquidityBalance } from "@aave-dao/toolbox";
 
 const actualBalance = getCurrentLiquidityBalance({
   scaledBalance: 1000000000000000000n, // 1 token (scaled)
@@ -104,7 +104,7 @@ const actualBalance = getCurrentLiquidityBalance({
 Convert scaled debt to actual debt balance:
 
 ```ts twoslash
-import { getCurrentDebtBalance } from "@bgd-labs/toolbox";
+import { getCurrentDebtBalance } from "@aave-dao/toolbox";
 
 const actualDebt = getCurrentDebtBalance({
   scaledBalance: 500000000000000000n, // 0.5 tokens (scaled)
@@ -121,7 +121,7 @@ const actualDebt = getCurrentDebtBalance({
 Calculate a user's health factor:
 
 ```ts twoslash
-import { calculateHealthFactorFromBalances } from "@bgd-labs/toolbox";
+import { calculateHealthFactorFromBalances } from "@aave-dao/toolbox";
 
 const healthFactor = calculateHealthFactorFromBalances({
   collateralBalanceMarketReferenceCurrency: 10000000000n, // $10,000 collateral
@@ -137,7 +137,7 @@ const healthFactor = calculateHealthFactorFromBalances({
 Calculate health factor from user positions:
 
 ```ts twoslash
-import { calculateHealthFactor } from "@bgd-labs/toolbox";
+import { calculateHealthFactor } from "@aave-dao/toolbox";
 
 const result = calculateHealthFactor(
   { emode: 0 }, // User config
@@ -193,7 +193,7 @@ console.log("Total Debt:", result.totalDebtInBaseCurrency);
 Calculate how much more a user can borrow:
 
 ```ts twoslash
-import { calculateAvailableBorrowsMarketReferenceCurrency } from "@bgd-labs/toolbox";
+import { calculateAvailableBorrowsMarketReferenceCurrency } from "@aave-dao/toolbox";
 
 const availableToBorrow = calculateAvailableBorrowsMarketReferenceCurrency({
   collateralBalanceMarketReferenceCurrency: 10000000000n, // $10,000
@@ -209,7 +209,7 @@ const availableToBorrow = calculateAvailableBorrowsMarketReferenceCurrency({
 Convert asset balance to base currency and USD:
 
 ```ts twoslash
-import { getMarketReferenceCurrencyAndUsdBalance } from "@bgd-labs/toolbox";
+import { getMarketReferenceCurrencyAndUsdBalance } from "@aave-dao/toolbox";
 
 const { marketReferenceCurrencyBalance, usdBalance } =
   getMarketReferenceCurrencyAndUsdBalance({
@@ -229,7 +229,7 @@ console.log("USD:", usdBalance);
 Simple conversion from asset amount to base currency:
 
 ```ts twoslash
-import { assetToBase } from "@bgd-labs/toolbox";
+import { assetToBase } from "@aave-dao/toolbox";
 
 const baseAmount = assetToBase(
   1000000000000000000n, // 1 token (18 decimals)
@@ -247,7 +247,7 @@ import {
   calculateAvailableBorrowsMarketReferenceCurrency,
   getCurrentLiquidityBalance,
   getCurrentDebtBalance,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import type { Address } from "viem";
 
 async function getUserDashboard(
@@ -323,7 +323,7 @@ declare function fetchUserPositions(address: Address): Promise<any[]>;
 The module also exports important constants:
 
 ```ts twoslash
-import { SECONDS_PER_YEAR, LTV_PRECISION } from "@bgd-labs/toolbox";
+import { SECONDS_PER_YEAR, LTV_PRECISION } from "@aave-dao/toolbox";
 
 console.log(SECONDS_PER_YEAR); // 31536000n (365 * 24 * 60 * 60)
 console.log(LTV_PRECISION); // 4n (10000 basis points = 100%)

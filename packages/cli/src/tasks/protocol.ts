@@ -4,7 +4,7 @@ import {
   getClient,
   getReserveTokens,
   getReserveConfigurations,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { AaveV3Ethereum } from "@aave-dao/aave-address-book";
 
 export function registerProtocol(program: Command) {

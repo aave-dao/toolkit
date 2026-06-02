@@ -22,12 +22,12 @@ If given, the action substitute missing RPC_URLs with one constructed from the g
 
 ### Supported Environment Variables
 
-The supported environment variables are documented in [this](https://github.com/bgd-labs/toolbox/blob/main/packages/toolbox/src/ecosystem/rpcs.spec.ts#L54) test.
+The supported environment variables are documented in [this](https://github.com/aave-dao/toolkit/blob/main/packages/toolbox/src/ecosystem/rpcs.spec.ts#L54) test.
 
 #### Usage
 
 ```yaml
-- uses: bgd-labs/action-rpc-env@main
+- uses: aave-dao/action-rpc-env@main
   with:
     ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
     QUICKNODE_TOKEN: ${{ secrets.QUICKNODE_TOKEN }}
