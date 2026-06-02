@@ -1,15 +1,15 @@
-# BGD Toolkit
+# Aave Toolkit
 
 A TypeScript monorepo providing tools and utilities for interacting with Aave governance and DeFi protocols.
 
 ## Packages
 
-- **[@bgd-labs/toolbox](./packages/toolbox)** - Core library with utilities for Aave ecosystem development, including ABIs, address book integration, governance operations, and testing tools
-- **[@bgd-labs/cli](./packages/cli)** - Command-line interface for interacting with Aave protocols and governance
+- **[@aave-dao/toolbox](./packages/toolbox)** - Core library with utilities for Aave ecosystem development, including ABIs, address book integration, governance operations, and testing tools
+- **[@aave-dao/cli](./packages/cli)** - Command-line interface for interacting with Aave protocols and governance
 
 ## Apps
 
-- **[docs](./apps/docs)** - Centralized documentation for BGD Labs projects
+- **[docs](./apps/docs)** - Centralized documentation for Aave projects
 
 ## Getting Started
 

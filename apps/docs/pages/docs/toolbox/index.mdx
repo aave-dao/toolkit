@@ -1,6 +1,6 @@
 # Toolbox Overview [Comprehensive utilities for web3 development]
 
-The `@bgd-labs/toolbox` package provides a comprehensive collection of utilities for working with Ethereum, Aave, and other web3 protocols. It includes tools for mathematical operations, ecosystem integrations, protocol-specific helpers, and more.
+The `@aave-dao/toolbox` package provides a comprehensive collection of utilities for working with Ethereum, Aave, and other web3 protocols. It includes tools for mathematical operations, ecosystem integrations, protocol-specific helpers, and more.
 
 ## Key Features
 
@@ -37,15 +37,15 @@ The `@bgd-labs/toolbox` package provides a comprehensive collection of utilities
 :::code-group
 
 ```bash [npm]
-npm i @bgd-labs/toolbox
+npm i @aave-dao/toolbox
 ```
 
 ```bash [pnpm]
-pnpm i @bgd-labs/toolbox
+pnpm i @aave-dao/toolbox
 ```
 
 ```bash [bun]
-bun i @bgd-labs/toolbox
+bun i @aave-dao/toolbox
 ```
 
 :::
@@ -74,7 +74,7 @@ import {
   
   // Chain IDs
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 // Work with bitmaps
 const indexes = bitmapToIndexes(0b1011n); // [0, 1, 3]
@@ -105,8 +105,8 @@ The package is organized into several focused modules:
 
 The package provides different entry points for browser and Node.js environments:
 
-- **Browser**: `@bgd-labs/toolbox` (excludes Node-specific features)
-- **Node**: `@bgd-labs/toolbox/node` (includes all features)
+- **Browser**: `@aave-dao/toolbox` (excludes Node-specific features)
+- **Node**: `@aave-dao/toolbox/node` (includes all features)
 
 Most utilities work in both environments, but some Node-specific features (like Foundry integration) are only available in the Node build.
 

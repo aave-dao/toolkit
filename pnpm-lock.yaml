@@ -35,7 +35,7 @@ importers:
 
   apps/docs:
     dependencies:
-      '@bgd-labs/toolbox':
+      '@aave-dao/toolbox':
         specifier: workspace:*
         version: link:../../packages/toolbox
       react:
@@ -69,7 +69,7 @@ importers:
       '@aave-dao/aave-address-book':
         specifier: ^4.30.3
         version: 4.46.0(viem@2.45.0(bufferutil@4.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.2))
-      '@bgd-labs/toolbox':
+      '@aave-dao/toolbox':
         specifier: workspace:*
         version: link:../toolbox
       '@commander-js/extra-typings':
@@ -128,18 +128,18 @@ importers:
       '@aave-dao/aave-governance-v3':
         specifier: github:aave-dao/aave-governance-v3
         version: aave-governance-v3@https://codeload.github.com/aave-dao/aave-governance-v3/tar.gz/04f57beae9cc2b59cc46102b39052ea8eb2f3692(bufferutil@4.1.0)(utf-8-validate@5.0.10)
+      '@aave-dao/aave-price-feeds':
+        specifier: github:aave-dao/aave-price-feeds
+        version: bgd-forge-template@https://codeload.github.com/aave-dao/aave-price-feeds/tar.gz/85e6ca0298ed32b2d564eac1ad1e084f7573173a
       '@aave-dao/aave-umbrella':
         specifier: 1.0.0
         version: 1.0.0
       '@aave-dao/aave-v3-origin':
         specifier: 3.6.0
         version: 3.6.0
-      '@bgd-labs/aave-price-feeds':
-        specifier: github:bgd-labs/aave-price-feeds
-        version: bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643
-      '@bgd-labs/solidity-utils':
-        specifier: ^1.1.2
-        version: 1.1.2
+      '@aave-dao/solidity-utils':
+        specifier: github:aave-dao/solidity-utils
+        version: '@bgd-labs/solidity-utils@https://codeload.github.com/aave-dao/solidity-utils/tar.gz/65f7f29c52842f8c298604023ed468ce3930a9c2'
       '@genql/cli':
         specifier: ^6.3.3
         version: 6.3.3(enquirer@2.4.1)
@@ -401,6 +401,10 @@ packages:
 
   '@bgd-labs/solidity-utils@1.1.2':
     resolution: {integrity: sha512-GgKwrjgdfnd9yKiWX1LDWysbVIyw/HTvqewq+4I2FAJXJt7AdUgSOCSi/cJi4dymsQmE1u/zgXHSeFH5fI+XsA==}
+
+  '@bgd-labs/solidity-utils@https://codeload.github.com/aave-dao/solidity-utils/tar.gz/65f7f29c52842f8c298604023ed468ce3930a9c2':
+    resolution: {tarball: https://codeload.github.com/aave-dao/solidity-utils/tar.gz/65f7f29c52842f8c298604023ed468ce3930a9c2}
+    version: 1.1.2
 
   '@braintree/sanitize-url@7.1.1':
     resolution: {integrity: sha512-i1L7noDNxtFyL5DmZafWy1wRVhGehQmzZaz1HiN5e7iylJMSZR7ekOV7NsIqa5qBldlLrsKv4HbgFUVlQrz8Mw==}
@@ -1044,10 +1048,18 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
+  '@openzeppelin/contracts-upgradeable@5.1.0':
+    resolution: {integrity: sha512-AIElwP5Ck+cslNE+Hkemf5SxjJoF4wBvvjxc27Rp+9jaPs/CLIaUBMYe1FNzhdiN0cYuwGRmYaRHmmntuiju4Q==}
+    peerDependencies:
+      '@openzeppelin/contracts': 5.1.0
+
   '@openzeppelin/contracts-upgradeable@5.4.0':
     resolution: {integrity: sha512-STJKyDzUcYuB35Zub1JpWW58JxvrFFVgQ+Ykdr8A9PGXgtq/obF5uoh07k2XmFyPxfnZdPdBdhkJ/n2YxJ87HQ==}
     peerDependencies:
       '@openzeppelin/contracts': 5.4.0
+
+  '@openzeppelin/contracts@5.1.0':
+    resolution: {integrity: sha512-p1ULhl7BXzjjbha5aqst+QMLY+4/LCWADXOCsmLHRM77AqiPjnd9vvUN9sosUfhL9JGKpZ0TjEGxgvnizmWGSA==}
 
   '@openzeppelin/contracts@5.2.0':
     resolution: {integrity: sha512-bxjNie5z89W1Ea0NZLZluFh8PrFNn9DH8DQlujEok2yjsOlraUPKID5p1Wk3qdNbf6XkQ1Os2RvfiHrrXLHWKA==}
@@ -2605,8 +2617,8 @@ packages:
     resolution: {integrity: sha512-pbnl5XzGBdrFU/wT4jqmJVPn2B6UHPBOhzMQkY/SPUPB6QtUXtmBHBIwCbXJol93mOpGMnQyP/+BB19q04xj7g==}
     engines: {node: '>=4'}
 
-  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643:
-    resolution: {tarball: https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643}
+  bgd-forge-template@https://codeload.github.com/aave-dao/aave-price-feeds/tar.gz/85e6ca0298ed32b2d564eac1ad1e084f7573173a:
+    resolution: {tarball: https://codeload.github.com/aave-dao/aave-price-feeds/tar.gz/85e6ca0298ed32b2d564eac1ad1e084f7573173a}
     version: 1.0.0
 
   birpc@4.0.0:
@@ -5957,6 +5969,11 @@ snapshots:
       '@openzeppelin/contracts': 5.2.0
       '@openzeppelin/contracts-upgradeable': 5.4.0(@openzeppelin/contracts@5.2.0)
 
+  '@bgd-labs/solidity-utils@https://codeload.github.com/aave-dao/solidity-utils/tar.gz/65f7f29c52842f8c298604023ed468ce3930a9c2':
+    dependencies:
+      '@openzeppelin/contracts': 5.1.0
+      '@openzeppelin/contracts-upgradeable': 5.1.0(@openzeppelin/contracts@5.1.0)
+
   '@braintree/sanitize-url@7.1.1': {}
 
   '@changesets/apply-release-plan@7.0.10':
@@ -6869,9 +6886,15 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
+  '@openzeppelin/contracts-upgradeable@5.1.0(@openzeppelin/contracts@5.1.0)':
+    dependencies:
+      '@openzeppelin/contracts': 5.1.0
+
   '@openzeppelin/contracts-upgradeable@5.4.0(@openzeppelin/contracts@5.2.0)':
     dependencies:
       '@openzeppelin/contracts': 5.2.0
+
+  '@openzeppelin/contracts@5.1.0': {}
 
   '@openzeppelin/contracts@5.2.0': {}
 
@@ -8520,7 +8543,7 @@ snapshots:
     dependencies:
       is-windows: 1.0.2
 
-  bgd-forge-template@https://codeload.github.com/bgd-labs/aave-price-feeds/tar.gz/7b848b5d5fdbd20005ea040200369fe4dac91643: {}
+  bgd-forge-template@https://codeload.github.com/aave-dao/aave-price-feeds/tar.gz/85e6ca0298ed32b2d564eac1ad1e084f7573173a: {}
 
   birpc@4.0.0: {}
 

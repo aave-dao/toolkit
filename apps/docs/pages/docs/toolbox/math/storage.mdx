@@ -18,7 +18,7 @@ Read more about Solidity storage layout in the [official documentation](https://
 For mappings with `bytes32` keys, use `getSolidityStorageSlotBytes`:
 
 ```ts twoslash
-import { getSolidityStorageSlotBytes } from "@bgd-labs/toolbox";
+import { getSolidityStorageSlotBytes } from "@aave-dao/toolbox";
 
 // mapping(bytes32 => uint256) at slot 0
 const mappingSlot =
@@ -35,7 +35,7 @@ const storageSlot = getSolidityStorageSlotBytes(mappingSlot, key);
 For mappings with `uint` keys, use `getSolidityStorageSlotUint`:
 
 ```ts twoslash
-import { getSolidityStorageSlotUint } from "@bgd-labs/toolbox";
+import { getSolidityStorageSlotUint } from "@aave-dao/toolbox";
 
 // mapping(uint256 => address) at slot 5
 const mappingSlot = 5n;
@@ -50,7 +50,7 @@ const storageSlot = getSolidityStorageSlotUint(mappingSlot, key);
 For mappings with `address` keys, use `getSolidityStorageSlotAddress`:
 
 ```ts twoslash
-import { getSolidityStorageSlotAddress } from "@bgd-labs/toolbox";
+import { getSolidityStorageSlotAddress } from "@aave-dao/toolbox";
 
 // mapping(address => uint256) balances; at slot 3
 const mappingSlot = 3n;
@@ -65,7 +65,7 @@ const storageSlot = getSolidityStorageSlotAddress(mappingSlot, userAddress);
 For dynamic arrays, use `getDynamicArraySlot` to calculate the slot for a specific array element:
 
 ```ts twoslash
-import { getDynamicArraySlot } from "@bgd-labs/toolbox";
+import { getDynamicArraySlot } from "@aave-dao/toolbox";
 
 // address[] users; at slot 2
 const arrayBaseSlot = 2n;
@@ -81,7 +81,7 @@ const storageSlot = getDynamicArraySlot(arrayBaseSlot, arrayIndex, itemSize);
 If your array contains structs or multiple items per element:
 
 ```ts twoslash
-import { getDynamicArraySlot } from "@bgd-labs/toolbox";
+import { getDynamicArraySlot } from "@aave-dao/toolbox";
 
 // struct Data { uint256 a; uint256 b; }
 // Data[] records; at slot 10
@@ -99,7 +99,7 @@ const storageSlot = getDynamicArraySlot(arrayBaseSlot, arrayIndex, itemSize);
 For short strings and bytes (up to 31 bytes), use `getBytesValue`:
 
 ```ts twoslash
-import { getBytesValue } from "@bgd-labs/toolbox";
+import { getBytesValue } from "@aave-dao/toolbox";
 
 const shortString = "Hello";
 const encodedValue = getBytesValue(shortString);
@@ -112,7 +112,7 @@ const encodedValue = getBytesValue(shortString);
 Convert `bytes32` to `address` (useful when reading storage that contains addresses):
 
 ```ts twoslash
-import { bytes32ToAddress } from "@bgd-labs/toolbox";
+import { bytes32ToAddress } from "@aave-dao/toolbox";
 
 const bytes32Value =
   "0x000000000000000000000000742d35cc6634c0532925a3b844bc9e7595f0beb";
@@ -125,7 +125,7 @@ const address = bytes32ToAddress(bytes32Value);
 Here's a complete example of reading a balance from a token contract:
 
 ```ts
-import { getSolidityStorageSlotAddress, ChainId } from "@bgd-labs/toolbox";
+import { getSolidityStorageSlotAddress, ChainId } from "@aave-dao/toolbox";
 import { getStorageAt } from "viem/actions";
 import type { Client } from "viem";
 
@@ -161,7 +161,7 @@ For nested mappings like `mapping(address => mapping(uint256 => bool))`:
 import {
   getSolidityStorageSlotAddress,
   getSolidityStorageSlotUint,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 // mapping(address => mapping(uint256 => bool)) approvals; at slot 4
 const baseSlot = 4n;

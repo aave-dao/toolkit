@@ -1,6 +1,6 @@
 {
-  "name": "@bgd-labs/toolbox",
-  "version": "0.2.25",
+  "name": "@aave-dao/toolbox",
+  "version": "0.4.0",
   "main": "./dist/index.mjs",
   "browser": "./dist/browser.mjs",
   "module": "./dist/index.mjs",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bgd-labs/toolkit.git",
+    "url": "https://github.com/aave-dao/toolkit.git",
     "directory": "packages/toolbox"
   },
   "files": [
@@ -39,8 +39,8 @@
     "@aave-dao/aave-umbrella": "1.0.0",
     "@aave-dao/aave-v3-origin": "3.6.0",
     "@aave-dao/aave-address-book": "^4.31.0",
-    "@bgd-labs/aave-price-feeds": "github:bgd-labs/aave-price-feeds",
-    "@bgd-labs/solidity-utils": "^1.1.2",
+    "@aave-dao/aave-price-feeds": "github:aave-dao/aave-price-feeds",
+    "@aave-dao/solidity-utils": "github:aave-dao/solidity-utils",
     "@genql/cli": "^6.3.3",
     "@ipld/dag-pb": "^4.1.3",
     "@openzeppelin/contracts": "^5.2.0",

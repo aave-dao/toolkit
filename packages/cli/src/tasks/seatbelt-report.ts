@@ -6,7 +6,7 @@ import {
   renderTenderlyReport,
   tenderly_createVnet,
   IPayloadsController_ABI,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { Command, Option } from "@commander-js/extra-typings";
 import { mkdirSync, writeFileSync } from "node:fs";
 import {
@@ -76,7 +76,7 @@ export function registerSeatbeltReport(program: Command) {
           {
             baseChainId: Number(chainId),
             forkChainId: 3030,
-            slug: `${Math.floor(Math.random() * 1000)}acli-bgd-labs-vnet-${chainId}`,
+            slug: `${Math.floor(Math.random() * 1000)}acli-aave-dao-vnet-${chainId}`,
             displayName: "seatbelt",
           },
           {
@@ -208,5 +208,5 @@ export function registerSeatbeltReport(program: Command) {
 }
 
 function flagAsKnown(value: string, reference: string) {
-  return `${value} [:ghost:](https://github.com/bgd-labs/aave-address-book  "${reference}")`;
+  return `${value} [:ghost:](https://github.com/aave-dao/aave-address-book  "${reference}")`;
 }

@@ -4,7 +4,7 @@ export const sidebar = {
   "/docs/": [
     { text: "Getting started", link: "/docs/getting-started" },
     {
-      text: "@bgd-labs/toolbox",
+      text: "@aave-dao/toolbox",
       link: "/docs/toolbox",
       items: [
         {
@@ -56,7 +56,7 @@ export const sidebar = {
       ],
     },
     {
-      text: "@bgd-labs/cli",
+      text: "@aave-dao/cli",
       items: [
         { text: "Code diffing", link: "/docs/cli/code-diff" },
         { text: "Aave vnet", link: "/docs/cli/aave-vnet" },

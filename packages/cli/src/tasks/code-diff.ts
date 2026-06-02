@@ -6,7 +6,7 @@ import {
   parseBlockscoutStyleSourceCode,
   parseEtherscanStyleSourceCode,
   StandardJsonInput,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { mkdirSync, writeFileSync } from "node:fs";
 
 export function registerCodeDiff(program: Command) {

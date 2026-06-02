@@ -1,6 +1,6 @@
 {
-  "name": "@bgd-labs/docs",
-  "description": "A cenralized place with docs for all the bgd-labs projects",
+  "name": "@aave-dao/docs",
+  "description": "A cenralized place with docs for all the Aave projects",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@bgd-labs/toolbox": "workspace:*",
+    "@aave-dao/toolbox": "workspace:*",
     "viem": "catalog:",
     "vocs": "^1.2.1"
   },

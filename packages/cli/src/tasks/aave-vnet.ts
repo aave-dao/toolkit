@@ -4,7 +4,7 @@ import {
   getPayloadsController,
   makePayloadExecutableOnTestClient,
   tenderly_createVnet,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { checkbox, select, Separator, input } from "@inquirer/prompts";
 import * as addresses from "@aave-dao/aave-address-book";
 import { Address, parseAbi, zeroAddress } from "viem";
@@ -55,8 +55,8 @@ export function registerAaveVNet(program: Command) {
           {
             baseChainId: Number(chainId),
             forkChainId: 3030,
-            slug: `${Math.floor(Math.random() * 1000)}acli-bgd-labs-vnet-${chainId}`,
-            displayName: "bgd-labs cli vnet",
+            slug: `${Math.floor(Math.random() * 1000)}acli-aave-dao-vnet-${chainId}`,
+            displayName: "aave-dao cli vnet",
           },
           {
             accessToken:

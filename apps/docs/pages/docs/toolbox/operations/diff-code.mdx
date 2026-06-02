@@ -15,7 +15,7 @@ When analyzing contract upgrades or comparing implementations, you need to under
 ## Basic Usage
 
 ```ts twoslash
-import { diffCode } from "@bgd-labs/toolbox";
+import { diffCode } from "@aave-dao/toolbox";
 
 const beforeSource = {
   language: "Solidity",
@@ -77,7 +77,7 @@ import {
   getSourceCode,
   parseEtherscanStyleSourceCode,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 // Get source code for two contract versions
 const oldImplementation = await getSourceCode({
@@ -139,7 +139,7 @@ Lines starting with:
 The function also detects compiler settings changes:
 
 ```ts twoslash
-import { diffCode } from "@bgd-labs/toolbox";
+import { diffCode } from "@aave-dao/toolbox";
 
 const before = {
   language: "Solidity",
@@ -170,7 +170,7 @@ const changes = await diffCode(before, after);
 When file paths change but content is similar, the function intelligently matches files:
 
 ```ts twoslash
-import { diffCode } from "@bgd-labs/toolbox";
+import { diffCode } from "@aave-dao/toolbox";
 
 const before = {
   language: "Solidity",
@@ -209,7 +209,7 @@ const changes = await diffCode(before, after);
 ## Detecting Additions and Removals
 
 ```ts twoslash
-import { diffCode } from "@bgd-labs/toolbox";
+import { diffCode } from "@aave-dao/toolbox";
 
 const before = {
   language: "Solidity",
@@ -250,9 +250,9 @@ import {
   getSourceCode,
   parseEtherscanStyleSourceCode,
   ChainId,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 import { readContract } from "viem/actions";
-import { getClient } from "@bgd-labs/toolbox";
+import { getClient } from "@aave-dao/toolbox";
 
 async function analyzeProxyUpgrade(
   proxyAddress: string,

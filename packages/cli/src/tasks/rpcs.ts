@@ -1,5 +1,5 @@
 import { Command, Option } from "@commander-js/extra-typings";
-import { ChainId, getNetworkEnv, getRPCUrl } from "@bgd-labs/toolbox";
+import { ChainId, getNetworkEnv, getRPCUrl } from "@aave-dao/toolbox";
 
 /**
  * Logs a list of rpcs to be used in your foundry project

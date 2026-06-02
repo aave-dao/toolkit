@@ -12,7 +12,7 @@ import { registerSeatbeltReport } from "./tasks/seatbelt-report.js";
 const program = new Command();
 
 program
-  .name("@bgd-labs/cli")
+  .name("@aave-dao/cli")
   .description("A cli to help with web3 / solidity tasks")
   .version(packageJson.version)
   .showHelpAfterError();

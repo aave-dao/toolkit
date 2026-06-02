@@ -13,7 +13,7 @@ Bitmaps use individual bits to represent boolean flags or indexes. The `bitmapTo
 ### Basic Usage
 
 ```ts twoslash
-import { bitmapToIndexes } from "@bgd-labs/toolbox";
+import { bitmapToIndexes } from "@aave-dao/toolbox";
 
 const bitmap = 0b1011n; // Binary: bits 0, 1, and 3 are set
 const indexes = bitmapToIndexes(bitmap);
@@ -23,7 +23,7 @@ const indexes = bitmapToIndexes(bitmap);
 ### Practical Example
 
 ```ts twoslash
-import { bitmapToIndexes } from "@bgd-labs/toolbox";
+import { bitmapToIndexes } from "@aave-dao/toolbox";
 
 // User has enabled reserve IDs 0, 2, and 5 as collateral
 const collateralBitmap = 0b100101n;
@@ -38,7 +38,7 @@ console.log(`User has ${enabledReserves.length} reserves enabled`);
 Works with bitmaps of any size:
 
 ```ts twoslash
-import { bitmapToIndexes } from "@bgd-labs/toolbox";
+import { bitmapToIndexes } from "@aave-dao/toolbox";
 
 // 256-bit bitmap (uint256 in Solidity)
 const largeBitmap = (1n << 255n) | (1n << 128n) | 1n;
@@ -55,7 +55,7 @@ When values are tightly packed in Solidity storage slots (like Aave's reserve co
 Extract a range of bits from a number:
 
 ```ts twoslash
-import { getBits } from "@bgd-labs/toolbox";
+import { getBits } from "@aave-dao/toolbox";
 
 // Extract bits 0-3 (rightmost 4 bits)
 getBits(0b11010110n, 0n, 3n); // Returns: 0b0110n (6)
@@ -72,7 +72,7 @@ getBits(0b11010110n, 5n, 5n); // Returns: 0b1n (1)
 The improved `getBits` function includes robust validation:
 
 ```ts twoslash
-import { getBits } from "@bgd-labs/toolbox";
+import { getBits } from "@aave-dao/toolbox";
 
 // Handles ranges beyond actual bit length
 getBits(0b1111n, 0n, 100n); // Returns: 0b1111n (clamped to actual length)
@@ -102,7 +102,7 @@ try {
 Replace a range of bits with a new value:
 
 ```ts twoslash
-import { setBits } from "@bgd-labs/toolbox";
+import { setBits } from "@aave-dao/toolbox";
 
 // Set bits 0-3 to binary 0101 (5)
 setBits(0b11111111n, 0n, 3n, 0b0101n); // Returns: 0b11110101n
@@ -119,7 +119,7 @@ setBits(0b1000n, 2n, 2n, 1n); // Returns: 0b1100n
 Aave stores reserve configuration in a tightly packed uint256. Here's how to decode it:
 
 ```ts twoslash
-import { getBits } from "@bgd-labs/toolbox";
+import { getBits } from "@aave-dao/toolbox";
 
 const reserveConfig =
   7237005577332262213973186568751985360575562463970013900505353201163601190220n;
@@ -160,7 +160,7 @@ The `getBits` function has been optimized with:
 ### Checking Multiple Flags
 
 ```ts twoslash
-import { getBits } from "@bgd-labs/toolbox";
+import { getBits } from "@aave-dao/toolbox";
 
 function checkFlags(config: bigint) {
   return {
@@ -178,7 +178,7 @@ const flags = checkFlags(0b1010n);
 ### Extracting Multiple Values
 
 ```ts twoslash
-import { getBits } from "@bgd-labs/toolbox";
+import { getBits } from "@aave-dao/toolbox";
 
 function decodePackedData(packed: bigint) {
   return {
@@ -193,7 +193,7 @@ function decodePackedData(packed: bigint) {
 ### Building Configuration
 
 ```ts twoslash
-import { setBits } from "@bgd-labs/toolbox";
+import { setBits } from "@aave-dao/toolbox";
 
 function buildConfig(params: {
   ltv: number;

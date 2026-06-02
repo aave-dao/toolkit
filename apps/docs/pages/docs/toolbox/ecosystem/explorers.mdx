@@ -11,7 +11,7 @@ We prioritize explorers the following way:
 2. routescan
 
 ```ts twoslash
-import { getExplorer } from "@bgd-labs/toolbox";
+import { getExplorer } from "@aave-dao/toolbox";
 
 const explorer = getExplorer(1);
 ```
@@ -27,7 +27,7 @@ Therefore we provide some utilities to generate a workable json structure.
 import {
   getSourceCode,
   parseEtherscanStyleSourceCode,
-} from "@bgd-labs/toolbox";
+} from "@aave-dao/toolbox";
 
 const source = await getSourceCode({
   chainId: 1,
