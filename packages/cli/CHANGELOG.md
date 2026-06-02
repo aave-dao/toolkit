@@ -1,5 +1,16 @@
 # @aave-dao/cli
 
+## 0.2.0
+
+### Minor Changes
+
+- rename
+
+### Patch Changes
+
+- Updated dependencies
+  - @aave-dao/toolbox@0.4.0
+
 ## 0.1.0
 
 ### Minor Changes

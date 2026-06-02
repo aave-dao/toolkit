@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.4.0
+
+### Minor Changes
+
+- rename
+
 ## 0.3.0
 
 ### Minor Changes

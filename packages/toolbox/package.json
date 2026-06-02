@@ -1,6 +1,6 @@
 {
   "name": "@aave-dao/toolbox",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "./dist/index.mjs",
   "browser": "./dist/browser.mjs",
   "module": "./dist/index.mjs",
