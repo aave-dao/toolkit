@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.5.0
+
+### Minor Changes
+
+- bb55a03: add monad
+
 ## 0.4.0
 
 ### Minor Changes
