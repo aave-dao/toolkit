@@ -10,6 +10,8 @@ exports[`rpcs > should return alchemy supported chain 100 > gnosis-mainnet 1`] =
 
 exports[`rpcs > should return alchemy supported chain 137 > polygon-mainnet 1`] = `"https://polygon-mainnet.g.alchemy.com/v2/abc"`;
 
+exports[`rpcs > should return alchemy supported chain 143 > monad-mainnet 1`] = `"https://monad-mainnet.g.alchemy.com/v2/abc"`;
+
 exports[`rpcs > should return alchemy supported chain 146 > sonic-mainnet 1`] = `"https://sonic-mainnet.g.alchemy.com/v2/abc"`;
 
 exports[`rpcs > should return alchemy supported chain 196 > xlayer-mainnet 1`] = `"https://xlayer-mainnet.g.alchemy.com/v2/abc"`;
