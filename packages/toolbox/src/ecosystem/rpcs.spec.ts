@@ -73,6 +73,7 @@ describe("rpcs", () => {
         "RPC_MANTLE": 5000,
         "RPC_MEGAETH": 4326,
         "RPC_METIS": 1088,
+        "RPC_MONAD": 143,
         "RPC_OPTIMISM": 10,
         "RPC_OPTIMISM_SEPOLIA": 11155420,
         "RPC_PLASMA": 9745,

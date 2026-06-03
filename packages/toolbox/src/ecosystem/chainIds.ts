@@ -33,6 +33,7 @@ import {
   Chain,
   xLayer,
   megaeth,
+  monad,
 } from "viem/chains";
 
 export const ChainId = {
@@ -69,6 +70,7 @@ export const ChainId = {
   plasma: plasma.id,
   xLayer: xLayer.id,
   megaeth: megaeth.id,
+  monad: monad.id,
 } as const;
 
 export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
@@ -112,7 +114,10 @@ export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
   [ChainId.ink_sepolia]: {
     ...inkSepolia,
     blockExplorers: {
-      default: { url: "https://explorer-sepolia.inkonchain.com/", name: "Ink Sepolia" },
+      default: {
+        url: "https://explorer-sepolia.inkonchain.com/",
+        name: "Ink Sepolia",
+      },
     },
   },
   [ChainId.soneium]: soneium,
@@ -120,4 +125,14 @@ export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
   [ChainId.plasma]: plasma,
   [ChainId.xLayer]: xLayer,
   [ChainId.megaeth]: megaeth,
+  [ChainId.monad]: {
+    ...monad,
+    blockExplorers: {
+      default: {
+        name: "Monadscan",
+        url: "https://monadscan.com",
+        apiUrl: "https://api.monadscan.com/api",
+      },
+    },
+  },
 };
