@@ -1,0 +1,20 @@
+packages/toolbox/src/ecosystem/chainIds.ts
+  h_739c25e72c37fb 36,73,119,128-137
+packages/toolbox/src/ecosystem/rpcs.ts
+  h_739c25e72c37fb 41-42
+packages/toolbox/src/ecosystem/rpcs.spec.ts
+  h_739c25e72c37fb 76
+.changeset/hip-germs-brush.md
+  h_739c25e72c37fb 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "8c9e013471cd853a49085aa2b7a9d089163de41a",
+  "prompts": {},
+  "humans": {
+    "h_739c25e72c37fb": {
+      "author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
