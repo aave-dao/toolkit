@@ -1,5 +1,12 @@
 # @aave-dao/cli
 
+## 0.2.1
+
+### Patch Changes
+
+- Updated dependencies [bb55a03]
+  - @aave-dao/toolbox@0.5.0
+
 ## 0.2.0
 
 ### Minor Changes
