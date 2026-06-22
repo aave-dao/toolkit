@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.5.1
+
+### Patch Changes
+
+- 146a5d8: update supported network map
+
 ## 0.5.0
 
 ### Minor Changes
