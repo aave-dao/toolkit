@@ -10,6 +10,7 @@ export const quicknodeNetworkMap = {
   114: "flare-coston2",
   130: "unichain-mainnet",
   137: "matic",
+  143: "monad-mainnet",
   146: "sonic-mainnet",
   196: "xlayer-mainnet",
   250: "fantom",
@@ -34,6 +35,7 @@ export const quicknodeNetworkMap = {
   2741: "abstract-mainnet",
   2818: "morph-mainnet",
   3338: "peaq-mainnet",
+  4326: "megaeth-mainnet",
   4801: "worldchain-sepolia",
   5000: "mantle-mainnet",
   5003: "mantle-sepolia",
@@ -54,6 +56,7 @@ export const quicknodeNetworkMap = {
   42429: "tempo-testnet",
   43113: "avalanche-testnet",
   43114: "avalanche-mainnet",
+  57073: "ink-mainnet",
   59144: "linea-mainnet",
   80002: "matic-amoy",
   80069: "bera-bepolia",
@@ -71,5 +74,5 @@ export const quicknodeNetworkMap = {
   11155420: "optimism-sepolia",
   111557560: "cyber-sepolia",
   168587773: "blast-sepolia",
-  37714555429: "xai-testnet"
+  37714555429: "xai-testnet",
 } as const;
