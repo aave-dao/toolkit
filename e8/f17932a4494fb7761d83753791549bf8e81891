@@ -1,0 +1,28 @@
+packages/toolbox/src/ecosystem/generated/tenderly.ts
+  s_dc2ba153a9e3df::t_36d0b562736449 33-34,50,60,86-87,152,162,188,193-194
+packages/toolbox/src/ecosystem/generated/hyperRPC.ts
+  s_dc2ba153a9e3df::t_36d0b562736449 78
+packages/toolbox/src/ecosystem/generated/quicknodeNetworkMap.ts
+  h_739c25e72c37fb 13,38,59,77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "e8f17932a4494fb7761d83753791549bf8e81891",
+  "prompts": {},
+  "humans": {
+    "h_739c25e72c37fb": {
+      "author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  },
+  "sessions": {
+    "s_dc2ba153a9e3df": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0915656d-770e-48bf-9682-bf3b5a85f276",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
