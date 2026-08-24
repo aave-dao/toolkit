@@ -55,6 +55,7 @@ describe("rpcs", () => {
       {
         "RPC_ARBITRUM": 42161,
         "RPC_ARBITRUM_SEPOLIA": 421614,
+        "RPC_ARC": 5042,
         "RPC_AVALANCHE": 43114,
         "RPC_AVALANCHE_FUJI": 43113,
         "RPC_BASE": 8453,

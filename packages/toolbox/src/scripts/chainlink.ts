@@ -22,6 +22,7 @@ const chainToJson = {
   [ChainId.soneium]: "soneium-mainnet",
   [ChainId.sonic]: "sonic-mainnet",
   [ChainId.mantle]: "ethereum-mainnet-mantle-1",
+  [ChainId.arc]: "arc-mainnet",
 };
 
 (async function getPriceFeeds() {

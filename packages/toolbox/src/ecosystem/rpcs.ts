@@ -42,8 +42,18 @@ export const publicRPCs = {
   [ChainId.monad]: "https://monad-mainnet.drpc.org",
 } as const;
 
+// TODO: drop once Alchemy publishes arc-mainnet in the network config `generate:rpcs` reads.
+const manualAlchemyNetworkMap = {
+  [ChainId.arc]: "arc-mainnet",
+} as const;
+
+const alchemyNetworks = {
+  ...alchemyNetworkMap,
+  ...manualAlchemyNetworkMap,
+};
+
 export const alchemySupportedChainIds = Object.values(ChainId).filter(
-  (id) => alchemyNetworkMap[id as keyof typeof alchemyNetworkMap],
+  (id) => alchemyNetworks[id as keyof typeof alchemyNetworks],
 );
 
 export const getNetworkEnv = (chainId: SupportedChainIds) => {
@@ -74,8 +84,7 @@ export function getExplicitRPC(chainId: SupportedChainIds) {
 }
 
 export function getAlchemyRPC(chainId: SupportedChainIds, alchemyKey: string) {
-  const alchemyId =
-    alchemyNetworkMap[chainId as keyof typeof alchemyNetworkMap];
+  const alchemyId = alchemyNetworks[chainId as keyof typeof alchemyNetworks];
 
   if (!alchemyId) {
     throw new Error(`ChainId '${chainId}' is not supported by Alchemy.`);

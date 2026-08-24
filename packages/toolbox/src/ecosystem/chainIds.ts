@@ -35,6 +35,23 @@ import {
   megaeth,
   monad,
 } from "viem/chains";
+import { defineChain } from "viem";
+
+// TODO: replace with viem's own chain once it ships Arc mainnet, 2.45 only has `arcTestnet`.
+const arc = defineChain({
+  id: 5042,
+  name: "Arc",
+  nativeCurrency: { name: "USDC", symbol: "USDC", decimals: 18 },
+  // TODO: populate once Arc exposes a public rpc.
+  rpcUrls: { default: { http: [] } },
+  blockExplorers: {
+    // TODO: add `apiUrl` once the explorer is no longer gated behind Cloudflare Access.
+    default: { name: "Arc Explorer", url: "https://explorer.arc.io" },
+  },
+  contracts: {
+    multicall3: { address: "0xcA11bde05977b3631167028862bE2a173976CA11" },
+  },
+});
 
 export const ChainId = {
   celo: celo.id,
@@ -71,6 +88,7 @@ export const ChainId = {
   xLayer: xLayer.id,
   megaeth: megaeth.id,
   monad: monad.id,
+  arc: arc.id,
 } as const;
 
 export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
@@ -135,4 +153,5 @@ export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
       },
     },
   },
+  [ChainId.arc]: arc,
 };
