@@ -1,0 +1,43 @@
+.changeset/wise-camels-verify.md
+  s_c7d6a4e0370256::t_396f1d7daa7070 1-5
+packages/toolbox/src/ecosystem/explorers.spec.ts
+  s_c7d6a4e0370256::t_96627c51915665 56-143
+  s_c7d6a4e0370256::t_b36951852a2ad3 1,3
+packages/toolbox/src/ecosystem/explorers.ts
+  s_c7d6a4e0370256::t_8ae2ef5d8cb36e 103-107
+  s_c7d6a4e0370256::t_22166c4855aa3e 143-145,157-178,180
+  s_c7d6a4e0370256::t_5ca82e7f620695 37-47
+packages/toolbox/src/seatbelt/verified.ts
+  s_c7d6a4e0370256::t_3c67df63e4c13f 2-5
+  s_c7d6a4e0370256::t_3a9c63315d615f 89-92
+  s_c7d6a4e0370256::t_d2d52aeac39bc1 19,21-22,33-34
+packages/toolbox/src/seatbelt/tenderly-report.ts
+  s_c7d6a4e0370256::t_744a91aa5aae15 160-163,166,174-175,184-186,192
+  s_4d778345b06c59::t_08fd80eee9fda3 187-191
+packages/toolbox/src/test/polly-global-setup.ts
+  s_c7d6a4e0370256::t_2f17be41009d64 92-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "cf7868402b519afcf8f16543d67de2db2620d4a5",
+  "prompts": {},
+  "sessions": {
+    "s_4d778345b06c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5d593999-37f8-435e-8c3b-8cb172489852",
+        "model": "claude-fable-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    },
+    "s_c7d6a4e0370256": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c909aac3-10c9-414d-ba9c-ffac376659b3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
