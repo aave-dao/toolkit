@@ -109,6 +109,25 @@ describe("ecosystem:explorers with mocked fetch", () => {
     ).rejects.toThrowError(ContractNotVerifiedError);
   });
 
+  it("getSourceCode should not treat oklink error responses as unverified and not retry them", async () => {
+    // oklink error responses also carry "data": []
+    const fetchMock = vi.fn().mockResolvedValue({
+      json: async () => ({
+        code: "50038",
+        msg: "This chain does not currently support.",
+        data: [],
+      }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+    await expect(
+      getSourceCode({
+        chainId: 196,
+        address: "0x80e11cB895a23C901a990239E5534054C66476B5",
+      }),
+    ).rejects.toThrowError(/OKLink request failed: 50038/);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
   it("getSourceCode should send the Ok-Access-Key header when OKLINK_API_KEY is set", async () => {
     vi.stubEnv("OKLINK_API_KEY", "test-key");
     const fetchMock = vi.fn().mockResolvedValue({

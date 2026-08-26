@@ -165,17 +165,18 @@ async function getXLayerSourceCode(params: GetSourceCodeParams) {
       oklinkApiKey ? { headers: { "Ok-Access-Key": oklinkApiKey } } : undefined,
     );
     response = (await request.json()) as typeof response;
-    if (response?.data && response.code !== "50011") break;
+    if (response?.code !== "50011" || attempt === OKLINK_MAX_ATTEMPTS) break;
     // the keyless oklink api rate limits almost immediately ({"code":"50011","msg":"Too Many Requests"}),
-    // but recovers after a few seconds
-    if (attempt === OKLINK_MAX_ATTEMPTS) {
-      throw new Error(
-        `OKLink request failed after ${OKLINK_MAX_ATTEMPTS} attempts: ${response?.msg}`,
-      );
-    }
+    // but recovers after a few seconds; other error codes are not retryable
     await new Promise((resolve) => setTimeout(resolve, OKLINK_RETRY_DELAY));
   }
-  const data = response!.data!;
+  // oklink error responses also carry "data": [], so only a success code means "no verified source"
+  if (response?.code !== "0" || !response.data) {
+    throw new Error(
+      `OKLink request failed: ${response?.code} ${response?.msg}`,
+    );
+  }
+  const data = response.data;
   if (data.length === 0) {
     throw new ContractNotVerifiedError(params.address);
   }
