@@ -1,5 +1,8 @@
 import { Address, Client } from "viem";
-import { getSourceCode } from "../ecosystem/explorers";
+import {
+  ContractNotVerifiedError,
+  getSourceCode,
+} from "../ecosystem/explorers";
 import { getCode } from "viem/actions";
 
 interface GetVerificationStatusParams {
@@ -13,7 +16,10 @@ interface GetVerificationStatusParams {
 export enum VerificationStatus {
   EOA,
   CONTRACT,
+  // the explorer positively reported that no verified source exists
   ERROR,
+  // the explorer request failed, so the verification status could not be determined
+  UNKNOWN,
 }
 
 export function verificationStatusToString(status: VerificationStatus) {
@@ -24,6 +30,8 @@ export function verificationStatusToString(status: VerificationStatus) {
       return "Contract";
     case VerificationStatus.ERROR:
       return "Error";
+    case VerificationStatus.UNKNOWN:
+      return "Unknown (explorer error)";
   }
 }
 
@@ -78,7 +86,10 @@ export async function getVerificationStatus({
     } catch (e) {
       results.push({
         address,
-        status: VerificationStatus.ERROR,
+        status:
+          e instanceof ContractNotVerifiedError
+            ? VerificationStatus.ERROR
+            : VerificationStatus.UNKNOWN,
       });
     }
   }
