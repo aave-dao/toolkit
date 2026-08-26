@@ -1,0 +1,22 @@
+packages/toolbox/src/ecosystem/explorers.spec.ts
+  s_c7d6a4e0370256::t_5ffb28a3005eea 112-130
+packages/toolbox/src/ecosystem/explorers.ts
+  s_c7d6a4e0370256::t_df2689843c530c 168
+  s_c7d6a4e0370256::t_7dc48fd04316a3 170,173-179
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "1a5cceab2ab3543be04e5bdffd908bb5c5ee9bce",
+  "prompts": {},
+  "sessions": {
+    "s_c7d6a4e0370256": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c909aac3-10c9-414d-ba9c-ffac376659b3",
+        "model": "claude-fable-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
