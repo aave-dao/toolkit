@@ -89,6 +89,9 @@ beforeAll(async (context) => {
         if (lowerName === 'x-access-key') {
           return { ...header, value: 'REDACTED_API_KEY' };
         }
+        if (lowerName === 'ok-access-key') {
+          return { ...header, value: 'REDACTED_API_KEY' };
+        }
         return header;
       });
     }
