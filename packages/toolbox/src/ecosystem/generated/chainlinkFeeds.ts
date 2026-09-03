@@ -5783,6 +5783,43 @@ export const chainlinkFeeds = {
       "name": "USDT / USD"
     }
   ],
+  "5042": [
+    {
+      "contractAddress": "0x3A9eb2B28B7f2a7C38807eb0cB64644c803C54b8",
+      "proxyAddress": "0x84EA90AC252Dc437031461836DB5164219147905",
+      "decimals": 8,
+      "name": "SVR USDC / USD",
+      "secondaryProxyAddress": "0xBC88A5182848151AE1f7b4877021F828d8F4D735"
+    },
+    {
+      "contractAddress": "0x733FE1bA02ea9003C3CFbf5dcc41cf685fF64362",
+      "proxyAddress": "0xa109B535C70C8Be9995be64Bb6751AcDB27e03De",
+      "decimals": 8,
+      "name": "SVR BTC / USD",
+      "secondaryProxyAddress": "0x7777547914e03BCbB04Ae034942765a0dbb26aE3"
+    },
+    {
+      "contractAddress": "0xCEDbC96d866EBe46dcbeF8Ed12F9feA2C464d88F",
+      "proxyAddress": "0xDd5B15443cd733D3966a50a3E48cB7DF9Fb5DE0D",
+      "decimals": 8,
+      "name": "SVR EUR / USD",
+      "secondaryProxyAddress": "0xa4266689D107aF71c7dBE975cfB92aB40E7b4EFE"
+    },
+    {
+      "contractAddress": "0xDBD49223AAaFEBA743A58D45df45D78A61234eC7",
+      "proxyAddress": "0x50FCDD99D6762D1C170DC6A9111db944AEE6D364",
+      "decimals": 8,
+      "name": "SVR ETH / USD",
+      "secondaryProxyAddress": "0x2c7Dc3567b3490f53A8d32625d766834dd023F60"
+    },
+    {
+      "contractAddress": "0xd0586A927E9B6AF51b5B83e58453c811Fa5c243E",
+      "proxyAddress": "0x361b95c10b76Ca3f35C686d423e43A951755Bf23",
+      "decimals": 8,
+      "name": "SVR EURC / USD",
+      "secondaryProxyAddress": "0x71B0305ACA6A29d6485f9e4ac5a333af5Df2b62c"
+    }
+  ],
   "8453": [
     {
       "contractAddress": "0x00480f7Df64d3711940E956c2Ca0C47Cc48240eB",
