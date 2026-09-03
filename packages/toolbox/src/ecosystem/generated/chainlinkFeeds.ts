@@ -8,13 +8,6 @@ export const chainlinkFeeds = {
       "name": "JTRSY NAV"
     },
     {
-      "contractAddress": "0x00E501F833feC52b88143471E411c93A8fc7b574",
-      "proxyAddress": "0xEbc15D318379D46542459b0Dd922aFE30db2292B",
-      "decimals": 8,
-      "name": "SVR EUR / USD",
-      "secondaryProxyAddress": "0xB34864138863eD5fB6fC8324e92d10fDa58b9902"
-    },
-    {
       "contractAddress": "0x00f0eFB3d9dBe7fE91fee44aE09DAe5DFA65c382",
       "proxyAddress": "0x75A0d3264a949C2C920d7F25Df174af1FaF73399",
       "decimals": 8,
@@ -45,12 +38,6 @@ export const chainlinkFeeds = {
       "name": "USDf / USD"
     },
     {
-      "contractAddress": "0x05A75d586B0B06e3843517DBf470270cd92C27a9",
-      "proxyAddress": "0x02ae69C812DD749c32afb4F1723F6833EeF3d7a3",
-      "decimals": 18,
-      "name": "USPC NAV"
-    },
-    {
       "contractAddress": "0x072eC2295E72815f4D0c6B378D67De0be9781100",
       "proxyAddress": "0xfAA9147190c2C2cc5B8387B4f49016bDB3380572",
       "decimals": 8,
@@ -73,18 +60,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xBfC7d98Eea35380ceEC0a1DC1702Ea186723602C",
       "decimals": 18,
       "name": "USDD / USDC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x094ff63c57e6c37A2f8B419aC2A396a76058B433",
-      "proxyAddress": "0x95873A9ac303Ed7a82F3150a6976d1eeEB29fB44",
-      "decimals": 18,
-      "name": "rwaUSD NAV"
-    },
-    {
-      "contractAddress": "0x0955F0d3B7Ef20f305Bc5896878770cC98bDF99F",
-      "proxyAddress": "0x922aeA120769F6964793cC87dD3F7cf68635AEcd",
-      "decimals": 18,
-      "name": "PMUSD / USD Exchange Rate"
     },
     {
       "contractAddress": "0x0B539d864C16398DcC7353521C62186380dE6B56",
@@ -123,16 +98,22 @@ export const chainlinkFeeds = {
       "name": "BAT / ETH"
     },
     {
+      "contractAddress": "0x0bb1203d3Df75752723290EFB116a91a1a9196D1",
+      "proxyAddress": "0x7Eaa6f116Ab9E57f58d9A9Ce88cc3f1c2476ECfA",
+      "decimals": 18,
+      "name": "stBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x0c5781B3d5E2F7c00bC286E910cB9D28a86D94b6",
+      "proxyAddress": "0x0981af0C002345c9C5AD5efd26242D0cBe5aCA99",
+      "decimals": 27,
+      "name": "Synthetix Aggregator Debt Ratio"
+    },
+    {
       "contractAddress": "0x0d5F4aADf3fde31BBB55dB5F42C080F18aD54Df5",
       "proxyAddress": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
       "decimals": 8,
       "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x0e078dC7FCd6f8FAa6787e0cF783b8208c1DB0f6",
-      "proxyAddress": "0xB92A68763b2F83e094595c7B41a7FB9D0f8Da193",
-      "decimals": 8,
-      "name": "mGLOBAL NAV"
     },
     {
       "contractAddress": "0x0e3dd634FFbF7EA89BbDCF09Ccc463302FD5f903",
@@ -147,6 +128,12 @@ export const chainlinkFeeds = {
       "name": "SUSHI / ETH"
     },
     {
+      "contractAddress": "0x10B4ab2dD75Ea3885d14CC2825caf3d2Bf90A82A",
+      "proxyAddress": "0x5b79480BbF13930B777B2Cb9Ca8d664B7AA3aa6a",
+      "decimals": 8,
+      "name": "CUSDO / USD"
+    },
+    {
       "contractAddress": "0x15D8Aac71A442ece966576c85438B0DFa7FcAbe1",
       "proxyAddress": "0xf8fF43E991A81e6eC886a3D281A2C6cC19aE70Fc",
       "decimals": 8,
@@ -157,12 +144,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xBE456fd14720C3aCCc30A2013Bffd782c9Cb75D5",
       "decimals": 18,
       "name": "TUSD Reserves"
-    },
-    {
-      "contractAddress": "0x1714e782EB2E646A484f3d2Bf7aB400C7d0a0166",
-      "proxyAddress": "0xF6351B2dCF0110E76c71C1d319Af2f410454B6f3",
-      "decimals": 18,
-      "name": "U / USD"
     },
     {
       "contractAddress": "0x186d9E74C4DBBAb2Ebbb78cBcceDB707a05D781F",
@@ -195,35 +176,16 @@ export const chainlinkFeeds = {
       "name": "CBETH / ETH"
     },
     {
-      "contractAddress": "0x1Eb65Da53150b09732FA64192C4A93aF489489c1",
-      "proxyAddress": "0x67d4Ae9f265270aE123c08D2657536771D19cD91",
-      "decimals": 8,
-      "name": "STRCon / USD (Ondo API)"
-    },
-    {
       "contractAddress": "0x1c9049C48C24111A3546a73C67FD2A4Fc6C86Fdc",
       "proxyAddress": "0x9441D7556e7820B5ca42082cfa99487D56AcA958",
       "decimals": 8,
       "name": "BAT / USD"
     },
     {
-      "contractAddress": "0x1d37422e15ee379549B0B8E2a47523D3Ef5071a9",
-      "proxyAddress": "0xa4f8f863a192FB028c81E242740A48fFf89883AA",
-      "decimals": 8,
-      "name": "SVR SPCX-USD (24/5)",
-      "secondaryProxyAddress": "0xa63E129eBBe3F8fAAfC6c8f9600806dfe749FE77"
-    },
-    {
       "contractAddress": "0x1f27EE4809c74422E0A165BcA3c8480623918EC4",
       "proxyAddress": "0x1B39Ee86Ec5979ba5C322b826B3ECb8C79991699",
       "decimals": 18,
       "name": "COMP / ETH"
-    },
-    {
-      "contractAddress": "0x1ffa02811441F084b83cF6DBA42Fc2438865990D",
-      "proxyAddress": "0x135CC2DD9a29377aC0A845b4EE3D193632AcA3FF",
-      "decimals": 8,
-      "name": "BTC / USDC"
     },
     {
       "contractAddress": "0x2053257478bA1FeDF7F99dEF0C412006753aC9Bf",
@@ -239,6 +201,12 @@ export const chainlinkFeeds = {
       "name": "PCE Price Index — Level"
     },
     {
+      "contractAddress": "0x20938e1f96DD1908c4B7eFB6D84F3b81808F4827",
+      "proxyAddress": "0xbCF5792575bA3A875D8C406F4E7270f51a902539",
+      "decimals": 18,
+      "name": "Synthetix Aggregator Issued Synths"
+    },
+    {
       "contractAddress": "0x20EA5A0033B4C9e1Bec9E3F89D2056C4a40F7110",
       "proxyAddress": "0x59c2287c8E848310c809C061a1Be0d1556eFF4e2",
       "decimals": 8,
@@ -249,12 +217,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x5a489EACad4BEc30B5bC3BcE8a0b9301CCDC0f60",
       "decimals": 18,
       "name": "stGLD / tGLD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x2279f23EA48Be063b47eD9D53C064f4399A09E06",
-      "proxyAddress": "0xe2c4E28D938aA42A5c5EDD5193f7BD2a972Bf7Bf",
-      "decimals": 6,
-      "name": "USDW Reserves"
     },
     {
       "contractAddress": "0x24e3c657c27DfC7ea6f9f58e86387D846b3BaA59",
@@ -305,12 +267,6 @@ export const chainlinkFeeds = {
       "name": "1INCH / ETH"
     },
     {
-      "contractAddress": "0x2d5ee9a108f8FfA8A69539924092B6FB0982153E",
-      "proxyAddress": "0xC353ac4b425f818Ad87E228bf816E15c2173AC07",
-      "decimals": 8,
-      "name": "STRCon-USD (Calculated)"
-    },
-    {
       "contractAddress": "0x2d7Cd12f24bD28684847bF3e4317899a4Db53c58",
       "proxyAddress": "0x19e2d716288751c5A59deaB61af012D5DF895962",
       "decimals": 6,
@@ -321,13 +277,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xF05D9B6C08757EAcb1fbec18e36A1B7566a13DEB",
       "decimals": 18,
       "name": "Calculated XSUSHI / ETH"
-    },
-    {
-      "contractAddress": "0x305f1D140768dF6D5e3cF7C696C384fd839a2EF8",
-      "proxyAddress": "0x7922912AB91eb6A4b0350b01Dd066994BA64f882",
-      "decimals": 8,
-      "name": "SVR CBBTC / USD",
-      "secondaryProxyAddress": "0x50C1008722Ffa2d3170f3bA5cB9e7C0238bfa2a9"
     },
     {
       "contractAddress": "0x31EAf29E8F179E0877617c4A8b9A7fA51694efE5",
@@ -373,12 +322,6 @@ export const chainlinkFeeds = {
       "name": "LUSD / USD"
     },
     {
-      "contractAddress": "0x36A670000eFADB674C9766Af054Ca074a6116e12",
-      "proxyAddress": "0x369C67E8b026CC4Ef98350f332D7Dd52b85b7674",
-      "decimals": 18,
-      "name": "tGLD/USD - 24/7 Blended Price"
-    },
-    {
       "contractAddress": "0x3737f955897310f7cAcbc5Cc5da9362aaD18B38c",
       "proxyAddress": "0x7B2Fb2c667af80Bccc0B2556378352dFDE2be914",
       "decimals": 18,
@@ -401,12 +344,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
       "decimals": 8,
       "name": "PYUSD / USD"
-    },
-    {
-      "contractAddress": "0x3A9763662BFCa861340d1D40bA5e5A2a29Bc5f3e",
-      "proxyAddress": "0x3126E7F38D5f60f4E2B6ec3511C7bdbD79317Df1",
-      "decimals": 8,
-      "name": "BRL / USD"
     },
     {
       "contractAddress": "0x3B4f49f4aa5491B5a60C0724467A67b4910aEAAc",
@@ -445,12 +382,6 @@ export const chainlinkFeeds = {
       "name": "JAAA NAV - Aave LlamaGuard"
     },
     {
-      "contractAddress": "0x3f2647A71cc99ff788a87160FEfB535F6Eb6896f",
-      "proxyAddress": "0xC1E5FA6d48ba11cA163b03f2aBf843471eB7B2fB",
-      "decimals": 6,
-      "name": "SAFO NAV"
-    },
-    {
       "contractAddress": "0x4014F1F654a454785A6a97B9125FECFa88868192",
       "proxyAddress": "0xcBe87Dc0Cf9d807848a3E703B01A90B28eCFb2a7",
       "decimals": 8,
@@ -473,12 +404,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x759bBC1be8F90eE6457C44abc7d443842a976d02",
       "decimals": 8,
       "name": "RSR / USD"
-    },
-    {
-      "contractAddress": "0x44E4d73d8E2d9D3b89D32904B129f5717a2a0A61",
-      "proxyAddress": "0x917da15AD7C4801eB63540D1db34A4174931e132",
-      "decimals": 8,
-      "name": "FLHYon-USD (Ondo API)"
     },
     {
       "contractAddress": "0x45639C11F5a920fc84cDf92cf54f7AAE0dD0c6f2",
@@ -506,10 +431,10 @@ export const chainlinkFeeds = {
       "name": "TSLA-USD (24/5)"
     },
     {
-      "contractAddress": "0x48F9A46BA852B5c22D4153D0534397B59AbfdeF5",
-      "proxyAddress": "0xf17C0EdcAA28371e9c8012D7699bF40ECF0F58d1",
+      "contractAddress": "0x48afBeDF849449b7B9eea101EdAbdc81417b04c8",
+      "proxyAddress": "0x194a9AaF2e0b67c35915cD01101585A33Fe25CAa",
       "decimals": 18,
-      "name": "HASTRAPRIME / WYLDS Exchange Rate"
+      "name": "ALCX / ETH"
     },
     {
       "contractAddress": "0x4F3EBf190f8889734424aE71Ac0B00e1A8013f3C",
@@ -525,10 +450,10 @@ export const chainlinkFeeds = {
       "name": "BTC / USD"
     },
     {
-      "contractAddress": "0x4e03320eF44B5112C02010121ae82c1dC951943D",
-      "proxyAddress": "0x651b101f72F82630cf59c68E6EE4305aFBd3B1F5",
+      "contractAddress": "0x4cf78A2083608153313e1D341Efb595fAFdF4CF8",
+      "proxyAddress": "0xec21B3e882CE09928cb397DcfF31B15cBBD1e1C3",
       "decimals": 18,
-      "name": "APXUSD / USD Exchange Rate"
+      "name": "SWETH / ETH"
     },
     {
       "contractAddress": "0x4ebCB4E84b15688316BbaA10B89b59505A989315",
@@ -559,6 +484,18 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x70c158c7731Da2C14BC84aEBa39A4FF703DDc7d2",
       "decimals": 8,
       "name": "Lombard Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x556355Ab35b05F0d254378d3e5cbdFbE9Cdec891",
+      "proxyAddress": "0x3425455fe737cdaE8564640df27bbF2eCD56E584",
+      "decimals": 8,
+      "name": "Metis Healthcheck"
+    },
+    {
+      "contractAddress": "0x55A5f1E833e9412925502459e7AB3656a596591e",
+      "proxyAddress": "0x3886BA987236181D98F2401c507Fb8BeA7871dF2",
+      "decimals": 18,
+      "name": "TUSD / ETH"
     },
     {
       "contractAddress": "0x55fbFB9F8D4d03BEc3c466eaFBf35F973704661E",
@@ -651,12 +588,6 @@ export const chainlinkFeeds = {
       "name": "DOLA / USD"
     },
     {
-      "contractAddress": "0x61b35E8fD649992e184FC3e619E6899c0e851460",
-      "proxyAddress": "0xe034De753a3d855B6daD1A4984de75a5c443E939",
-      "decimals": 8,
-      "name": "mGlobal NAV - Aave Llamaguard"
-    },
-    {
       "contractAddress": "0x62a897c3e81d809c7444BB63D7D51E1F2EbB6C3D",
       "proxyAddress": "0x9B4a96210bc8D9D55b1908B465D8B0de68B7fF83",
       "decimals": 8,
@@ -724,6 +655,12 @@ export const chainlinkFeeds = {
       "name": "SAND / USD"
     },
     {
+      "contractAddress": "0x6B3A1CFFD3136cfF5C49F3379A4Da721Bc4f5d68",
+      "proxyAddress": "0x6029F53A5Df21E5e70C460F5E4c9Aad20427B090",
+      "decimals": 2,
+      "name": "BUIDL NAV"
+    },
+    {
       "contractAddress": "0x6C659766386874a46dacd7a9aEf04818FD3b13F0",
       "proxyAddress": "0x3f929667bdf783b99274F10465a89d6aF772736E",
       "decimals": 18,
@@ -754,6 +691,12 @@ export const chainlinkFeeds = {
       "name": "QQQ-USD (24/5)"
     },
     {
+      "contractAddress": "0x6dFF3fE0bF312f54551788f843F06177fE89C4bd",
+      "proxyAddress": "0x03c68933f7a3F76875C0bc670a58e69294cDFD01",
+      "decimals": 18,
+      "name": "RSETH / ETH"
+    },
+    {
       "contractAddress": "0x6f3F8d82694d52E6B6171A7b26A88c9554e7999b",
       "proxyAddress": "0x8adE2c8d55F7ee2C9234ad868D44a60Eb9C07f8c",
       "decimals": 8,
@@ -771,18 +714,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x656c0544eF4C98A6a98491833A89204Abb045d6b",
       "decimals": 18,
       "name": "KNC / ETH"
-    },
-    {
-      "contractAddress": "0x718681aC045C42f1839f914b7Afe9caC93f50de0",
-      "proxyAddress": "0x0fBE44B96320EBD455FF9CCE0781fA9A83Ddee7a",
-      "decimals": 18,
-      "name": "SUSDAI / USDAI Exchange Rate"
-    },
-    {
-      "contractAddress": "0x725609aE7d540A7985D7fD189e155db9D72c1D44",
-      "proxyAddress": "0xf4d2076277fff631EFC4385Ab36b1f7734218d23",
-      "decimals": 8,
-      "name": "STRC / USD"
     },
     {
       "contractAddress": "0x74acdD8Ca84fF6a9Eb0814e7F000b4F33195152d",
@@ -810,28 +741,22 @@ export const chainlinkFeeds = {
       "name": "SXT / USD"
     },
     {
-      "contractAddress": "0x7842fe224A835f5587ac33d321Cb054A7dd65c98",
-      "proxyAddress": "0x4BE50bE32dB1510240d542f77c5B36Ca0D0965E6",
-      "decimals": 6,
-      "name": "PST-USDC Exchange Rate (Calculated)"
-    },
-    {
       "contractAddress": "0x786ba26Ee47097E6A5086E742aEf5Efbc6A93447",
       "proxyAddress": "0x9656D3A00402bD9c18EeF89b29ca6810734ABCAd",
       "decimals": 0,
       "name": "Ink Healthcheck"
     },
     {
-      "contractAddress": "0x788d4DC49C99D67b092e0C4AbfddC33c3d8e20c3",
-      "proxyAddress": "0x7Ff41654D1551F01E622e2b1050EA027a3A6C9dc",
-      "decimals": 18,
-      "name": "HEMIBTC / BTC Exchange Rate"
-    },
-    {
       "contractAddress": "0x78AD144b290A98a56Ebd8338B29a960667e3b502",
       "proxyAddress": "0x014f606c37Cfd6Fc42Ec11D10086DF500125e0A5",
       "decimals": 18,
       "name": "USDD / USDT Exchange Rate"
+    },
+    {
+      "contractAddress": "0x793f1aEf27F38e93116725Ac26959E3E9a03704c",
+      "proxyAddress": "0x833D8Eb16D306ed1FbB5D7A2E019e106B960965A",
+      "decimals": 8,
+      "name": "BUSD / USD"
     },
     {
       "contractAddress": "0x7A5dc0C6A59e76B3A65c73224316C110663CEd1B",
@@ -866,12 +791,6 @@ export const chainlinkFeeds = {
       "name": "RLUSD / USD"
     },
     {
-      "contractAddress": "0x7dF19fF8AF15e553e5ac9DA447d7FF323586C227",
-      "proxyAddress": "0x2E4409C6835F302FBbd6238FE512e8104415584B",
-      "decimals": 18,
-      "name": "stMXN / tMXN Exchange Rate"
-    },
-    {
       "contractAddress": "0x80C1B1EE029F05889E3A693fD8c5f76f9b9fe194",
       "proxyAddress": "0xe471bc940AA9831a0AeA21E6F40C1A1236EB4BB3",
       "decimals": 18,
@@ -896,10 +815,10 @@ export const chainlinkFeeds = {
       "name": "LsETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x8368e824fd9755D53d5eC943C8284959Ec7Ed8AA",
-      "proxyAddress": "0x016E9B9FEF398Da65eF33346cD2E3d717185A8B2",
-      "decimals": 18,
-      "name": "ION Digital Total Reserve Proof of Reserves"
+      "contractAddress": "0x83cE6dbda88D4b59b370d765567d2CaB460bBdc9",
+      "proxyAddress": "0x43921Ca0eca1EA69722c048A6afbc2CAd0BB80e9",
+      "decimals": 8,
+      "name": "21BTC Proof of Reserves"
     },
     {
       "contractAddress": "0x841385263b2192A6f4b14353574C02bf0577473d",
@@ -938,12 +857,6 @@ export const chainlinkFeeds = {
       "name": "DAI / ETH"
     },
     {
-      "contractAddress": "0x88A86Bbe9d494DCc80BA542D0289F3efc8A66808",
-      "proxyAddress": "0x23B5Cc113290B4159fC8AFf0790180e5C80087C1",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0x88cedA42c33fd19D58E161964190377b9eE01500",
       "proxyAddress": "0xA5265f5B54D0AdD0D48BE88BC3CB0Cdb1a54B816",
       "decimals": 3,
@@ -972,6 +885,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xAd410E655C0fE4741F573152592eeb766e686CE7",
       "decimals": 18,
       "name": "stETH Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x8c944f66a996b5399F51dc3d8d023E07Bb0767fD",
+      "proxyAddress": "0x5C8D8AaB4ffa4652753Df94f299330Bb4479bF85",
+      "decimals": 8,
+      "name": "HIGH / USD"
     },
     {
       "contractAddress": "0x8fEe58B0F1a9d47A4EAa2eCD6b020f6F1be31d35",
@@ -1016,12 +935,6 @@ export const chainlinkFeeds = {
       "name": "Unichain Healthcheck"
     },
     {
-      "contractAddress": "0x9404Dc13440F6BAC4323691b3D36A2A4Af1A0e29",
-      "proxyAddress": "0xdb4881Ab0ad6b8423f76dd8C9d65542749a1dB77",
-      "decimals": 8,
-      "name": "MXN / USD"
-    },
-    {
       "contractAddress": "0x94Ac91B209043162e6761942563A9f1F8dd75209",
       "proxyAddress": "0x1f34794A16D644b9810477EbF3f0b3870141E2e3",
       "decimals": 18,
@@ -1039,6 +952,13 @@ export const chainlinkFeeds = {
       "decimals": 8,
       "name": "SVR TSLAon / USD (Ondo API)",
       "secondaryProxyAddress": "0xED4E679adAFA9aBC97a3fA797dEE000d7b0ed247"
+    },
+    {
+      "contractAddress": "0x965750914f5bB1c9Da8dbf5587970FEDAc1534C4",
+      "proxyAddress": "0xC0457F67cac4eb0567A208955C332897a597A207",
+      "decimals": 8,
+      "name": "SVR CRCLon / USD (Ondo API)",
+      "secondaryProxyAddress": "0x393899FeF73E3C08100BF9b8a78bA84769Fa5B96"
     },
     {
       "contractAddress": "0x966Dad3B93C207A9EE3a79C336145e013C5cD3fc",
@@ -1089,12 +1009,6 @@ export const chainlinkFeeds = {
       "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
     },
     {
-      "contractAddress": "0x9F4729fE74Bae0E7A5880ac89BfaF2e1B1a58DD5",
-      "proxyAddress": "0x2717d691013506ef7cA49B35f054b2662d081c5d",
-      "decimals": 18,
-      "name": "nvPRIME / PRIME Exchange Rate"
-    },
-    {
       "contractAddress": "0x9F6B06e826d3DF391285c695749F8f921F6972D9",
       "proxyAddress": "0x89904B6fcF8dAD1e5DA47dFdF69fC38Ad6be0bd5",
       "decimals": 8,
@@ -1112,12 +1026,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x3C7dB4D25deAb7c89660512C5494Dc9A3FC40f78",
       "decimals": 18,
       "name": "PHP / USD"
-    },
-    {
-      "contractAddress": "0x9d7fE32813b1B8fd927bB515ac5380b9256e129c",
-      "proxyAddress": "0x73B8E902638a21B4d0319CF99Fa333b2727AD318",
-      "decimals": 18,
-      "name": "Saturn sUSDat NAV"
     },
     {
       "contractAddress": "0x9dDb5fBA9A737860c7ccEd0D9177Af56AB16c183",
@@ -1164,6 +1072,126 @@ export const chainlinkFeeds = {
       "name": "WBTC / BTC"
     },
     {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 0,
+      "name": "sUSDe-USDe Exchange Rate"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 10,
+      "name": "truAPT-APT Exchange Rate - Production Mainnet"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 12,
+      "name": "eAPT-APT Exchange Rate - Production Mainnet"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 8,
+      "name": "aBTC PoR Production Mainnet"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "METIS/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "DAI/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "APT/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "USDT/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "WEMIX/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "CELO/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "CAKE/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "USD1/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "USDE/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "AVAX/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "ETH/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "BNB/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "POL/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "LINK/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "BTC/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
+      "contractAddress": "0xA618f119504455762c9bBbcE4aC9EE7fde457d05",
+      "proxyAddress": null,
+      "decimals": 18,
+      "name": "USDC/USD-RefPrice-DF-stream-EthereumMainnet-001"
+    },
+    {
       "contractAddress": "0xA674a0fD742F37BD5077AFc90D1E82485c91989C",
       "proxyAddress": "0x04F84020Fdf10d9ee64D1dcC2986EDF2F556DA11",
       "decimals": 8,
@@ -1176,16 +1204,16 @@ export const chainlinkFeeds = {
       "name": "BNB / USD"
     },
     {
-      "contractAddress": "0xAa7F4b5DC26A5c5B8A36F3f4a2862a2E1FBfD71d",
-      "proxyAddress": "0x79F7ADfd5c3E736c6737B3936aF13b5f05f067FE",
-      "decimals": 18,
-      "name": "USDi / USD Exchange Rate"
-    },
-    {
       "contractAddress": "0xAbab7646c0535dF1BeC82D4257c4E1f8df79c625",
       "proxyAddress": "0x32EaFC72772821936BCc9b8A32dC394fEFcDBfD9",
       "decimals": 0,
       "name": "Arbitrum Healthcheck"
+    },
+    {
+      "contractAddress": "0xB30Aae40B630500D5c8140B7d1E5Bb1d61C86B64",
+      "proxyAddress": "0xD93571A6201978976e37c4A0F7bE17806f2Feab2",
+      "decimals": 18,
+      "name": "stBTC / BTC Exchange Rate"
     },
     {
       "contractAddress": "0xB38d1D12Ba17aA62255e588a0bC845c1a589A50d",
@@ -1194,22 +1222,10 @@ export const chainlinkFeeds = {
       "name": "XAG / USD"
     },
     {
-      "contractAddress": "0xB47777D7082d68367aA5f47653def255B37Baa61",
-      "proxyAddress": "0x8B3b1f59D7A813d512C1144AC45E58E6e5224160",
-      "decimals": 8,
-      "name": "IAUon-USD (Ondo API)"
-    },
-    {
       "contractAddress": "0xB7fd4e173Fc15D4148f13789Cc9aF9cE9b65aE76",
       "proxyAddress": "0x48D9DA600EC48DDd6ce7FC1D47D683818e511c81",
       "decimals": 0,
       "name": "Base Healthcheck"
-    },
-    {
-      "contractAddress": "0xB8939440623A2d31d3D2F73bc7e670f52C17621A",
-      "proxyAddress": "0xE41cD2DcC63EB63A9D9e62f2a3D9b49e6d0C0A1d",
-      "decimals": 8,
-      "name": "ARS / USD"
     },
     {
       "contractAddress": "0xB996D9f788D1ff0516c033794F438f10d6D7190d",
@@ -1326,22 +1342,10 @@ export const chainlinkFeeds = {
       "name": "TBTC / USD"
     },
     {
-      "contractAddress": "0xDDf4451CFF6CFc865Fe5CB22b541463143070d61",
-      "proxyAddress": "0x17d012d489734FBA31d997a902984460d316c620",
-      "decimals": 0,
-      "name": "MegaETH Healthcheck"
-    },
-    {
       "contractAddress": "0xE1f7a8C74661A188FE6F340777CFbc5F5654628B",
       "proxyAddress": "0x83BefF09647663136A00cF2C30Ed948FeaffA2a6",
       "decimals": 8,
       "name": "M Reserves"
-    },
-    {
-      "contractAddress": "0xE2C7f1BB9ACB754210246aFE2f33019926865Ca2",
-      "proxyAddress": "0x1f82248AB79b2D699Fc447F6B357cd15D529cbE8",
-      "decimals": 8,
-      "name": "FLHYon-USD (Calculated)"
     },
     {
       "contractAddress": "0xE5490FcdFe66b1680f2b4c09f81149f0C285a2E3",
@@ -1354,12 +1358,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x32d1463EB53b73C095625719Afa544D5426354cB",
       "decimals": 8,
       "name": "IB01 / USD"
-    },
-    {
-      "contractAddress": "0xE774BC668d300E3AC157E405149aaFF89EEd1df6",
-      "proxyAddress": "0x799fdc55150583b5Baa0b47065E1C901862c95d5",
-      "decimals": 6,
-      "name": "EURSAFO NAV"
     },
     {
       "contractAddress": "0xE95FEbF9b8623b1b3B79BF995491197A8b67D2A7",
@@ -1507,11 +1505,10 @@ export const chainlinkFeeds = {
       "name": "NZD / USD"
     },
     {
-      "contractAddress": "0xc1E84F39413eb3641a208dcf784Ab477a6e1336F",
-      "proxyAddress": "0xe35CcF1bE62Bc13f2f259acE624db10C3d527135",
-      "decimals": 8,
-      "name": "SVR FLHYon / USD (Calculated)",
-      "secondaryProxyAddress": "0x1b5dEC296BEE063230B7E477D5FE5aDA326Cb08e"
+      "contractAddress": "0xc0bc2B4DB974586f481C2a13549a4C61F350f8E4",
+      "proxyAddress": "0xa7d76167900493Acf2650Dc001fb2Bc5256579B0",
+      "decimals": 18,
+      "name": "CETH Reserves"
     },
     {
       "contractAddress": "0xc1c54D09554Cf65d74a289805c2731cf6EA57373",
@@ -1524,18 +1521,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xBAEbEFc1D023c0feCcc047Bff42E75F15Ff213E6",
       "decimals": 8,
       "name": "IMX / USD"
-    },
-    {
-      "contractAddress": "0xc30fB86c2559E4B757C037976e3244901c10FAf8",
-      "proxyAddress": "0xBb65fa58BDb7d33e4a3D1A40a7A9BD99E746367b",
-      "decimals": 8,
-      "name": "USD / ARS"
-    },
-    {
-      "contractAddress": "0xc40526086db1B5983FaD6F0E59567113B7b5E31F",
-      "proxyAddress": "0xAe11A5C9b30659501eDF487e300fc026cEB23fd2",
-      "decimals": 18,
-      "name": "stBRL / tBRL Exchange Rate"
     },
     {
       "contractAddress": "0xc778E9686F0fde6Fe4D7d8fE4B481463Fce898fD",
@@ -1641,12 +1626,6 @@ export const chainlinkFeeds = {
       "name": "EUTBL NAV"
     },
     {
-      "contractAddress": "0xdb59E503B3dEe414F494e0594e87660f42A60238",
-      "proxyAddress": "0x0c829741d2D2e2536FA1D59E283c8771516fE0cd",
-      "decimals": 18,
-      "name": "Treasury+ NAV"
-    },
-    {
       "contractAddress": "0xdc715c751f1cc129A6b47fEDC87D9918a4580502",
       "proxyAddress": "0x85355da30ee4b35F4B30759Bd49a1EBE3fc41Bdb",
       "decimals": 8,
@@ -1680,22 +1659,10 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xE6417a3B82438f783DC8fd2B1cB6B0808585030B"
     },
     {
-      "contractAddress": "0xe69544ff3E19179969222E7192173A1B9273FD90",
-      "proxyAddress": "0x1f09475Fe4D212fC24611bAE180201869956c238",
-      "decimals": 8,
-      "name": "IAUon-USD (Calculated)"
-    },
-    {
       "contractAddress": "0xe88C679E2D42963acDC76810d21daC2e6a8D7c29",
       "proxyAddress": "0x2885d15b8Af22648b98B122b22FDF4D2a56c6023",
       "decimals": 8,
       "name": "ZRX / USD"
-    },
-    {
-      "contractAddress": "0xe902CD939A0605001257a5719B4d6D5478B490b4",
-      "proxyAddress": "0x5a33E6CB085E2DdD0df558c0D7d71a27be6b9131",
-      "decimals": 18,
-      "name": "BTCY NAV"
     },
     {
       "contractAddress": "0xe9a6BCCdE4875F8c1228975F9c84598558a75AC8",
@@ -1710,10 +1677,10 @@ export const chainlinkFeeds = {
       "name": "WLFI / USD"
     },
     {
-      "contractAddress": "0xeb52759b7E94d0c4AeEDa2e21475e6BC3AAbf43B",
-      "proxyAddress": "0x0a585B784513AB053563deE3CF830c633e4ff6c7",
-      "decimals": 8,
-      "name": "SPCX / USD"
+      "contractAddress": "0xecA1d16A120fC96Fe33CfEB64Adca70B678dFb8b",
+      "proxyAddress": "0x42fC9d7c315Cf64Edc39ec984Bf89Bc34BbE9FD5",
+      "decimals": 18,
+      "name": "ezETH Proof of Reserves"
     },
     {
       "contractAddress": "0xf17CB308606999DF25F5d4B9f74bD9fe47A5b3b3",
@@ -1766,346 +1733,334 @@ export const chainlinkFeeds = {
   ],
   "10": [
     {
-      "contractAddress": "0x01205B1B7bcB68806160E1826a4C60A010CE6c26",
-      "proxyAddress": "0x21515B1Da412ecdCa071a84f32193eD90D4ddb59",
+      "contractAddress": "0x020F4f4487672e88F27c8084cd50123808e4d630",
+      "proxyAddress": "0xa8CD85030b6810663DDeD48aA15330F091fb4c9b",
       "decimals": 18,
-      "name": "apxETH / pxETH Exchange Rate"
+      "name": "vyUSD / USD Exchange Rate"
     },
     {
-      "contractAddress": "0x04Ed6942692011410b1302A81fe3DF69a7718104",
-      "proxyAddress": "0x22Ba046769b584c3B05530F7c50d0E8638bd71F1",
-      "decimals": 8,
-      "name": "POL / USD"
-    },
-    {
-      "contractAddress": "0x04F747f7468981f7cFff4d9e218d0356aec320E4",
-      "proxyAddress": "0x9651C988e590E571b28561c05aF5598d3e73cA31",
-      "decimals": 18,
-      "name": "Virtune Arbitrum ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x05449f2679Bff825731861eD1A81BF474E66EEE1",
-      "proxyAddress": "0xEaf1a9fe242aa9928faedc6CE7e09aD4875f7133",
-      "decimals": 8,
-      "name": "SUI / USD"
-    },
-    {
-      "contractAddress": "0x07C15082440A5E435BA15Fe9AB704DaEAd84897A",
-      "proxyAddress": "0x0D276FC14719f9292D5C1eA2198673d1f4269246",
-      "decimals": 8,
-      "name": "OP / USD"
-    },
-    {
-      "contractAddress": "0x0DCB9f70CAC1994e0f26Cda7F8D35ad42af476c7",
-      "proxyAddress": "0x2FCF37343e916eAEd1f1DdaaF84458a359b53877",
-      "decimals": 8,
-      "name": "SNX / USD"
-    },
-    {
-      "contractAddress": "0x0F8B55e56e3F6A0181C415D3A345864A725f1Fc6",
-      "proxyAddress": "0x05950959B6d876ae0fed1BBe5Caa2d74d8659D59",
-      "decimals": 8,
-      "name": "sUSDe / USD"
-    },
-    {
-      "contractAddress": "0x0a0EdEe6D069E93A3077cfA25d799b6e0d4B2919",
-      "proxyAddress": "0x8dBa75e83DA73cc766A7e5a0ee71F656BAb470d6",
-      "decimals": 8,
-      "name": "DAI / USD"
-    },
-    {
-      "contractAddress": "0x0d48175cf3508Ac7B9C9c20201f8411570B052E9",
-      "proxyAddress": "0xCb93226806156b03c8896bbD1cd5e4174cdb0806",
-      "decimals": 18,
-      "name": "ynETHx / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x11c3903877822802e3E6FbEA0350206848086D05",
-      "proxyAddress": "0xC6066533917f034Cf610c08e1fe5e9c7eADe0f54",
-      "decimals": 8,
-      "name": "DOGE / USD"
-    },
-    {
-      "contractAddress": "0x12E0E09499D3E86A09294178f09592d4078EbC58",
-      "proxyAddress": "0x138b809B8472fF09Cd3E075E6EcbB2e42D41d870",
-      "decimals": 18,
-      "name": "CBETH / ETH"
-    },
-    {
-      "contractAddress": "0x16AE8b39389aE5069eef4656447c1c0724470e94",
-      "proxyAddress": "0x367d706bf106136dc51a74209f619d4EF833BCc4",
-      "decimals": 8,
-      "name": "GOOGL-USD (24/5)"
-    },
-    {
-      "contractAddress": "0x16C04812FA9dB1D0236c3841dDA8E86225BC3f3e",
+      "contractAddress": "0x02f5E9e9dcc66ba6392f6904D5Fcf8625d9B19C9",
       "proxyAddress": "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
       "decimals": 8,
       "name": "ETH / USD"
     },
     {
-      "contractAddress": "0x17ebe917Bc7980674fc4A177D755c8980eA99614",
-      "proxyAddress": "0xf37c76163b2918bB4533579D449524F8542E64AD",
-      "decimals": 8,
-      "name": "FET / USD"
-    },
-    {
-      "contractAddress": "0x18Ba67BAa4c9330Af1AF9d40973ED8A4A37BDcb5",
-      "proxyAddress": "0xec236454209A76a6deCdf5C1183aE2Eb5e82a829",
+      "contractAddress": "0x034f1d70092e81b7738459f02F409a5c5c4b8189",
+      "proxyAddress": "0x524299Ab0987a7c4B3c8022a35669DdcdC715a10",
       "decimals": 18,
-      "name": "BONK / USD"
+      "name": "WSTETH / ETH"
     },
     {
-      "contractAddress": "0x18e2b087944C38c28C7835466239b5a50cF977d1",
-      "proxyAddress": "0xD7bC56BBF8D555936cb5121f38d1d362c586776A",
+      "contractAddress": "0x04223ac51e3C5c7c84924289a37438B37553C09E",
+      "proxyAddress": "0x7CFB4fac1a2FDB1267F8bc17FADc12804AC13CFE",
       "decimals": 8,
-      "name": "TIA / USD"
+      "name": "ONE / USD"
     },
     {
-      "contractAddress": "0x1BbE2D5ebDae66197154446320582041DB718Df8",
-      "proxyAddress": "0xBfbb4fE2fB71022DbFE0D4232c8C528bddf9c57f",
+      "contractAddress": "0x057B4ffE41aFb2104C3355a8396bab7c64E4017F",
+      "proxyAddress": "0x5a61374950D4BFa5a3D4f2CA36FC1d23A92b6f21",
       "decimals": 8,
-      "name": "ZRX / USD"
+      "name": "TBTC / USD"
     },
     {
-      "contractAddress": "0x1C19F03aD427C7AB9A11be4FBdB43a3BC8066580",
-      "proxyAddress": "0x028F7347Df25220DA7D63eB7c29fa10448231489",
-      "decimals": 18,
-      "name": "instETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x1b40656Bc7b096a49C19DDEd69914D4042FE66ff",
-      "proxyAddress": "0x39be70E93D2D285C9E71be7f70FC5a45A7777B14",
+      "contractAddress": "0x06290b2dfCe23a8917d680FC6BB790F9bF72b999",
+      "proxyAddress": "0x05950959B6d876ae0fed1BBe5Caa2d74d8659D59",
       "decimals": 8,
-      "name": "AUD / USD"
+      "name": "sUSDe / USD"
     },
     {
-      "contractAddress": "0x1bE5934a5b451f284a343F78c2B21AeA9E53f86b",
-      "proxyAddress": "0x9dfc79Aaeb5bb0f96C6e9402671981CdFc424052",
-      "decimals": 8,
-      "name": "LUSD / USD"
-    },
-    {
-      "contractAddress": "0x1f54328E07c6084A3fD4994028db599EfE526Ef3",
-      "proxyAddress": "0xFC3b7bd4368b2919f67E437f8c6Ca42C7FD55dd5",
-      "decimals": 8,
-      "name": "JTO / USD"
-    },
-    {
-      "contractAddress": "0x2352E537e2Dd569749F1d8903DBF5Ea4d764c2C0",
-      "proxyAddress": "0x4e8e8F5b3d0f49e00F3DFb9CF827d1A0FBe33B21",
-      "decimals": 18,
-      "name": "tETH / wstETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x26CF5E04dad960C2A5a4107919041ee20253b1c6",
-      "proxyAddress": "0x55d54A8550fC9Ce4bAD8432155Ef7D1da190c411",
-      "decimals": 8,
-      "name": "AMZN-USD (24/5)"
-    },
-    {
-      "contractAddress": "0x27BD93d00292F60b72dBD6Eea77A9eE7c05D6280",
-      "proxyAddress": "0xfa042d5F474d7A39454C594CCfE014Ea011495f2",
-      "decimals": 8,
-      "name": "GRT / USD"
-    },
-    {
-      "contractAddress": "0x2841df0e2E995AE81778b013327B3c200C2722C9",
-      "proxyAddress": "0x4e1C6B168DCFD7758bC2Ab9d2865f1895813D236",
-      "decimals": 8,
-      "name": "WLD / USD"
-    },
-    {
-      "contractAddress": "0x29C3107cDf4435A769F8A23c231FD974AD8A63F9",
-      "proxyAddress": "0xd1e56e7657C0E0d20c0e11C2B6ae0D90932d5665",
-      "decimals": 8,
-      "name": "SHIB / USD"
-    },
-    {
-      "contractAddress": "0x2f35212D47CB5435876fB004B723Ca6BDF061E98",
-      "proxyAddress": "0xe59EBa0D492cA53C6f46015EEa00517F2707dc77",
-      "decimals": 18,
-      "name": "wstETH-stETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x2fd558bAd4e3706e25498e9b7342AB2Be3760458",
-      "proxyAddress": "0x5eb9F7baCd59C886fBD9aa2C0a891223482a1ed4",
-      "decimals": 8,
-      "name": "JUP / USD"
-    },
-    {
-      "contractAddress": "0x3112a20dC3A3CA5Cf1811d4d2DF798987447E2c6",
-      "proxyAddress": "0x43dEa17DeE1ca50c6266acb59b32659E44D3ee5D",
-      "decimals": 8,
-      "name": "ADA / USD"
-    },
-    {
-      "contractAddress": "0x31dD35b4cCe29B3F97683Fb0ff7116eD26cE1731",
-      "proxyAddress": "0xe1011160d78a80E2eEBD60C228EEf7af4Dfcd4d7",
-      "decimals": 8,
-      "name": "COMP / USD"
-    },
-    {
-      "contractAddress": "0x33c527df3DE68791d82d3b962613a165e935cE8f",
-      "proxyAddress": "0x5087Dc69Fd3907a016BD42B38022F7f024140727",
-      "decimals": 8,
-      "name": "AVAX / USD"
-    },
-    {
-      "contractAddress": "0x3453d7D32a0f5Cd501B92542fE71C845C694a809",
-      "proxyAddress": "0x977CD3bC66A1FA9Fb22F9BEAA966E06996f70512",
-      "decimals": 8,
-      "name": "PAXG / USD"
-    },
-    {
-      "contractAddress": "0x34be70f9ab4C848fC162287F369E32585A448D34",
-      "proxyAddress": "0x3E75C48A27b54dEEc3381689CfA9Ce41Ca55C050",
-      "decimals": 3,
-      "name": "PCE Price Index — Level"
-    },
-    {
-      "contractAddress": "0x35938f21FeDf79050C3bC0158eE84EfD53960c43",
-      "proxyAddress": "0xbD92C6c284271c227a1e0bF1786F468b539f51D9",
-      "decimals": 8,
-      "name": "CRV / USD"
-    },
-    {
-      "contractAddress": "0x36532596e1ff9e6E229725ec9981aA14B486675D",
-      "proxyAddress": "0x0C194aE5819c4631c58A2849051b269e57A3B657",
-      "decimals": 18,
-      "name": "YBTC-BTC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3830C7e46Bf061Ad6532e1876C37B6cB4abE60Cf",
-      "proxyAddress": "0xc3cda94d924Eb5c1b0b64e05F01487d30dA3f235",
-      "decimals": 1,
-      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x38C6E53E891A56939bdF8788dF4796f6e9273ddd",
-      "proxyAddress": "0x0E09921cf7801A5aD47B892C8727593275625a9f",
-      "decimals": 8,
-      "name": "TRX / USD"
-    },
-    {
-      "contractAddress": "0x39540B582cF7bFfaA009B67A8Eb94Ca88bA79463",
-      "proxyAddress": "0x372cc5e685115A56F14fa7e4716F1294e04c278A",
-      "decimals": 8,
-      "name": "RUNE / USD"
-    },
-    {
-      "contractAddress": "0x3E479057309f3BB53B7741Ad672921E3f2Ef058C",
-      "proxyAddress": "0x799A346e7dBfa0f66Ad0961259366F93A1ee34C4",
-      "decimals": 8,
-      "name": "XLM / USD"
-    },
-    {
-      "contractAddress": "0x3aDcDd93E8f16663dbD6dfE4370a5595F5105dd6",
-      "proxyAddress": "0x46C627150f7993CB71F12E158478546F5Fe060FF",
-      "decimals": 18,
-      "name": "yUSD / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3b9C20928f913645eE1E56aaa8bF399367Fb4dCB",
-      "proxyAddress": "0x3626369857A10CcC6cc3A6e4f5C2f5984a519F20",
-      "decimals": 8,
-      "name": "EUR / USD"
-    },
-    {
-      "contractAddress": "0x4003a445B671C34B4e09ad6f1768EfD36337f294",
-      "proxyAddress": "0xed5D3c24A8B0591CB3029Ca272DD1721343a9C1D",
-      "decimals": 18,
-      "name": "WEETH / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x402a6496CcAF991f46BC2BD649697933A30b4324",
-      "proxyAddress": "0xD38579f7cBD14c22cF1997575eA8eF7bfe62ca2c",
-      "decimals": 8,
-      "name": "BNB / USD"
-    },
-    {
-      "contractAddress": "0x4191eAb24da926C1190AB6A54a6186BCcea97DfB",
-      "proxyAddress": "0x640349aa5A2A37ad628F9c934Dd78A3Dd45F7933",
-      "decimals": 8,
-      "name": "Virtune Bitcoin ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x455DC265360B8D9f5126392A033e08CDc1CADBee",
-      "proxyAddress": "0x7125F14F85503da9A51267FC3BcB00B5d16bbB8d",
-      "decimals": 8,
-      "name": "META-USD (24/5)"
-    },
-    {
-      "contractAddress": "0x460D0873aD9a2a981613fAd657f965B941006343",
-      "proxyAddress": "0x58F23F80bF389DB1af9e3aA8c59679806749A8a4",
-      "decimals": 8,
-      "name": "PENDLE / USD"
-    },
-    {
-      "contractAddress": "0x47F016C0C28f4c132f9E6F87907c76fF370a9a7d",
-      "proxyAddress": "0x37677A136CD3ff2767107D34cfC9213aa474f2BA",
-      "decimals": 18,
-      "name": "agETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x4B97c523dc8B6b8f702117A11Dc2cb393577199F",
+      "contractAddress": "0x067c8e71158C902Da7eD51712095663Aa90cFB0c",
       "proxyAddress": "0xa29660E9B69da3399141cBDDFb819451b1d530Ae",
       "decimals": 6,
       "name": "Virtune XRP ETP / Proof of Reserves"
     },
     {
-      "contractAddress": "0x4BE3e58cE82934Aa8ed9C1b74C57EFA8e2432D15",
-      "proxyAddress": "0x98FB6366E71E9A71C247052d447E928303e17bB6",
-      "decimals": 18,
-      "name": "ankrETH / ETH Exchange Rate"
+      "contractAddress": "0x070c58467E2a9b55B094936F500c297C84020c68",
+      "proxyAddress": "0x8158d24603296Ce54ba903c7D5299E3B6744b555",
+      "decimals": 1,
+      "name": "PCE Price Index — Percent Change (Annual Rate)"
     },
     {
-      "contractAddress": "0x4b588Ff00979cD63EF3E0825C7e9FA29cd5Dc3dA",
-      "proxyAddress": "0x48f2EcF0Bd180239AEF474a9da945F2e2d41daA3",
+      "contractAddress": "0x084a31e46d1cf4A301442A704FD6Db5c6848A668",
+      "proxyAddress": "0x895eAD698bc4C34ad2863a20932f0d5E7896F11c",
+      "decimals": 9,
+      "name": "Virtune Staked Solana ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x0C1272d2aC652D10d03bb4dEB0D31F15ea3EAb2b",
+      "proxyAddress": "0xD702DD976Fb76Fffc2D3963D037dfDae5b04E593",
       "decimals": 8,
-      "name": "APT / USD"
+      "name": "BTC / USD"
     },
     {
-      "contractAddress": "0x4b8147cf15003A80C542dC960A321ccCa6ff63b0",
-      "proxyAddress": "0x14d2d3a82AeD4019FddDfe07E8bdc485fb0d2249",
+      "contractAddress": "0x0D5642c6329adB3246c13D78B429a9FB1965a0d8",
+      "proxyAddress": "0x94A178f2c480D14F8CdDa908D173d7a73F779cb7",
+      "decimals": 27,
+      "name": "Synthetix Aggregator Debt Ratio"
+    },
+    {
+      "contractAddress": "0x0b4C6AFb26FA6657E0f904f9FC4A531d7e63D735",
+      "proxyAddress": "0x5CC26e6798A3b05525076913840aa07b1d65eE00",
       "decimals": 18,
-      "name": "STETH / ETH"
+      "name": "inETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x500C9e40f7A74E9EfDDEB265a90DAb76AF703e33",
-      "proxyAddress": "0xC6884869673a6960486FE0f6B0E775A53521e433",
+      "contractAddress": "0x0d110cC7876d73c3C4190324bCF4C59416bBD259",
+      "proxyAddress": "0x698B585CbC4407e2D54aa898B2600B53C68958f7",
       "decimals": 8,
-      "name": "MEME / USD"
+      "name": "WSTETH / USD"
     },
     {
-      "contractAddress": "0x522B8459766a5BCF4B22EDB8160850B23cc95f32",
-      "proxyAddress": "0x73b8BE3b653c5896BC34fC87cEBC8AcF4Fb7A545",
-      "decimals": 18,
-      "name": "wrsETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x525A27268f0006B237bC21eFD2d21499a6d1f729",
-      "proxyAddress": "0x718A5788b89454aAE3A028AE9c111A29Be6c2a6F",
+      "contractAddress": "0x0eDD9aC354033Ef766eCD45cb235d81139Df3d90",
+      "proxyAddress": "0x62f42f70ba85De1086476bB6BADE926d0E0b8a4C",
       "decimals": 8,
-      "name": "WBTC / USD"
+      "name": "GMX / USD"
     },
     {
-      "contractAddress": "0x54c1B067b4A5C5F5e6820d1B1dBE4493e866B479",
-      "proxyAddress": "0x9A3C975993354354080d815e313eEEdEb907fF34",
-      "decimals": 18,
-      "name": "ETHFI / USD"
+      "contractAddress": "0x12151E9e21CaA9b2ca132c641A71bF390FF0bc81",
+      "proxyAddress": "0xeEC819b2e155CC8FEae194F5129f767409e2327c",
+      "decimals": 8,
+      "name": "UMA / USD"
     },
     {
-      "contractAddress": "0x55594bcD5b7AcdDE0205DeEe650d842ccFffe564",
+      "contractAddress": "0x12922291D1FcD0d121B5C88f061047fE18732743",
+      "proxyAddress": "0x41878779a388585509657CE5Fb95a80050502186",
+      "decimals": 8,
+      "name": "STETH / USD"
+    },
+    {
+      "contractAddress": "0x1343bCF0AD22235f5673B4C172b43401b31e95F8",
+      "proxyAddress": "0xc3cda94d924Eb5c1b0b64e05F01487d30dA3f235",
+      "decimals": 1,
+      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0x137b5b4502a65C15171a0Ce784483Aa82c740c5b",
       "proxyAddress": "0xfBe83018d075bDD6AffBe85E5F1E37f0b43bf1F6",
       "decimals": 3,
       "name": "Real GDP — Level"
     },
     {
-      "contractAddress": "0x564CC7FA4E1E5b6ff26bE773CE671576bdA7e451",
-      "proxyAddress": "0x1e40d659b382B7e3504F6b218267eb7405F4AaA7",
+      "contractAddress": "0x17D582034c038BaEb17A9E2A969d06f550d3586b",
+      "proxyAddress": "0x7f99817d87baD03ea21E05112Ca799d715730efe",
       "decimals": 8,
-      "name": "Virtune Litecoin ETP Proof of Reserves"
+      "name": "SUSD / USD"
+    },
+    {
+      "contractAddress": "0x193285B1b49A085EbE60A4764Cd69525c4BF031B",
+      "proxyAddress": "0x0805fAA94F056C06c2a69e115Aa7633EfD3efDca",
+      "decimals": 8,
+      "name": "ALETH / USD"
+    },
+    {
+      "contractAddress": "0x19BcA7C81f3ed561a49326b78468EaC64D0E8F2a",
+      "proxyAddress": "0xee35A95c9a064491531493D8b380bC40A4CCd0Da",
+      "decimals": 8,
+      "name": "DYDX / USD"
+    },
+    {
+      "contractAddress": "0x19dC743a5E9a73eefAbA7047C7CEeBc650F37336",
+      "proxyAddress": "0x9dfc79Aaeb5bb0f96C6e9402671981CdFc424052",
+      "decimals": 8,
+      "name": "LUSD / USD"
+    },
+    {
+      "contractAddress": "0x19e0f61d3e8C3501b665Eb4a88Ceac5CFCE38293",
+      "proxyAddress": "0x602eB777BE29Fbe63349A33306bD73Ff333D02bB",
+      "decimals": 8,
+      "name": "STX / USD"
+    },
+    {
+      "contractAddress": "0x1C1245eEfB57d50F90EFc4070b508f4f24c3aB7A",
+      "proxyAddress": "0x73A3919a69eFCd5b19df8348c6740bB1446F5ed0",
+      "decimals": 8,
+      "name": "MIMATIC / USD"
+    },
+    {
+      "contractAddress": "0x1C4f2b051fdBE353d17c58Eca8FFb2fe15b5Da71",
+      "proxyAddress": "0x14d2d3a82AeD4019FddDfe07E8bdc485fb0d2249",
+      "decimals": 18,
+      "name": "STETH / ETH"
+    },
+    {
+      "contractAddress": "0x1aafcf49E103a71b31506Cb05FB072ED1B5b0414",
+      "proxyAddress": "0x372cc5e685115A56F14fa7e4716F1294e04c278A",
+      "decimals": 8,
+      "name": "RUNE / USD"
+    },
+    {
+      "contractAddress": "0x1f49B12fF9eb31E04ce1985130C4c78591169084",
+      "proxyAddress": "0xebE1590Be4700994b9b373c860BabeA57b681296",
+      "decimals": 7,
+      "name": "Virtune Stellar ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x1ff4e94C20Fa84e83B6aDB912bC36E6681F8fb33",
+      "proxyAddress": "0xBfbb4fE2fB71022DbFE0D4232c8C528bddf9c57f",
+      "decimals": 8,
+      "name": "ZRX / USD"
+    },
+    {
+      "contractAddress": "0x206A01D5b59B7D7315B6bC7B5866f62A6fdFF7bA",
+      "proxyAddress": "0x0E09921cf7801A5aD47B892C8727593275625a9f",
+      "decimals": 8,
+      "name": "TRX / USD"
+    },
+    {
+      "contractAddress": "0x22f04BC4162D63730dCde051FDFD97B4f55fF63B",
+      "proxyAddress": "0x37AAFb2EE35F1250A001202C660B13c301D2130b",
+      "decimals": 18,
+      "name": "Synthetix Aggregator Issued Synths"
+    },
+    {
+      "contractAddress": "0x25F99e20f894DAF1BD5008fC41B11195b433d1e4",
+      "proxyAddress": "0x089730f866C6D478398ce1632C7C38677c475EC1",
+      "decimals": 18,
+      "name": "uniBTC / BTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0x25dD1949cDb81f5fc38841a8abF342c4EF48dbfd",
+      "proxyAddress": "0xD38579f7cBD14c22cF1997575eA8eF7bfe62ca2c",
+      "decimals": 8,
+      "name": "BNB / USD"
+    },
+    {
+      "contractAddress": "0x28FE62353a3461511b3De51b922b86c7d4cEA2e0",
+      "proxyAddress": "0x30795BeACc0f43920EF1288dB6676B5e205AE288",
+      "decimals": 8,
+      "name": "ORDI / USD"
+    },
+    {
+      "contractAddress": "0x28a6B219403c1Dac04172cBb8cC1aB8bF5925830",
+      "proxyAddress": "0x5535e67d8f99c8ebe961E1Fc1F6DDAE96FEC82C9",
+      "decimals": 8,
+      "name": "INR / USD"
+    },
+    {
+      "contractAddress": "0x2aEb623AbF436E256d7975787BECc95f4a4bf89f",
+      "proxyAddress": "0xBf5384854988939729E8B76b8AeCe7d8D930F9f3",
+      "decimals": 8,
+      "name": "ALGO / USD"
+    },
+    {
+      "contractAddress": "0x2b6efc1eA650d5D566D1d4A7C1BE988bEF60A559",
+      "proxyAddress": "0xA369969F522Fda5Ce1D3823d07A393C27b74f723",
+      "decimals": 1,
+      "name": "Real GDP — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0x32f67C5e0c4A184A5eBf5ACDE79a42dBb39Fdb5c",
+      "proxyAddress": "0x90da1D1DB26c0A84164Ff03090e0B31Ad08A137A",
+      "decimals": 18,
+      "name": "rswETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x3442bB3aD11957449D9Af5aCE9d17709240dcCe7",
+      "proxyAddress": "0x48f2EcF0Bd180239AEF474a9da945F2e2d41daA3",
+      "decimals": 8,
+      "name": "APT / USD"
+    },
+    {
+      "contractAddress": "0x36D86c4D65B534375380a31749c3E8c0E8756bD8",
+      "proxyAddress": "0xAE33e077a02071E62d342E449Afd9895b016d541",
+      "decimals": 8,
+      "name": "SAND / USD"
+    },
+    {
+      "contractAddress": "0x384547665C7BF2bb7927E67A8a321E9a0c91Fe59",
+      "proxyAddress": "0x89178957E9bD07934d7792fFc0CF39f11c8C2B1F",
+      "decimals": 8,
+      "name": "APE / USD"
+    },
+    {
+      "contractAddress": "0x3E313e778dA811F79A66570b8703c66204112Dfd",
+      "proxyAddress": "0x34E0E85CeEc6be6146c4f0115769a29a9539222e",
+      "decimals": 8,
+      "name": "FLOKI / USD"
+    },
+    {
+      "contractAddress": "0x4301586E9e12E7A3A8a80217A315FCF6CC408750",
+      "proxyAddress": "0x73b8BE3b653c5896BC34fC87cEBC8AcF4Fb7A545",
+      "decimals": 18,
+      "name": "wrsETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x444fd822CbCfDC0F24c78f7DD71F67785CddeA43",
+      "proxyAddress": "0xfa042d5F474d7A39454C594CCfE014Ea011495f2",
+      "decimals": 8,
+      "name": "GRT / USD"
+    },
+    {
+      "contractAddress": "0x4713B96931c490F1B66D25cc2ac96Eb0AAFa2ac3",
+      "proxyAddress": "0x0f2Ed59657e391746C1a097BDa98F2aBb94b1120",
+      "decimals": 8,
+      "name": "VELODROME / USD"
+    },
+    {
+      "contractAddress": "0x491A63E35688F90780fE57610679D0cfb91a43Fe",
+      "proxyAddress": "0x30F6ffb911ac7B9aDF471f28366ce1826C05776e",
+      "decimals": 8,
+      "name": "USD1 / USD"
+    },
+    {
+      "contractAddress": "0x4F6dFDFd4d68F68b2692E79f9e94796fC8015770",
+      "proxyAddress": "0x0D276FC14719f9292D5C1eA2198673d1f4269246",
+      "decimals": 8,
+      "name": "OP / USD"
+    },
+    {
+      "contractAddress": "0x4a7eb4e962D8d3eA1D6074A12c5a581f2d616481",
+      "proxyAddress": "0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3",
+      "decimals": 18,
+      "name": "wOETH / OETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x4cc6B29D046c36098D8ca385eC521D8C4E346EE9",
+      "proxyAddress": "0xFAD40C0e2BeF93c6a822015863045CAAeAAde4d3",
+      "decimals": 18,
+      "name": "ezETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x4eDAbF7e2CCEe44e8ac7240834f6aCe24ded57a4",
+      "proxyAddress": "0x46C627150f7993CB71F12E158478546F5Fe060FF",
+      "decimals": 18,
+      "name": "yUSD / USD Exchange Rate"
+    },
+    {
+      "contractAddress": "0x50Ac053Def94ec35D87CA8234BCbB9a84e85ff3c",
+      "proxyAddress": "0x799A346e7dBfa0f66Ad0961259366F93A1ee34C4",
+      "decimals": 8,
+      "name": "XLM / USD"
+    },
+    {
+      "contractAddress": "0x531b52602E8942D8239D5cFe6fc08e24286757Cc",
+      "proxyAddress": "0xd2AdD08d9Cd83720c9296A991ce066BB08265eAc",
+      "decimals": 18,
+      "name": "sfrxETH / frxETH-Exchange-Rate"
+    },
+    {
+      "contractAddress": "0x532027c797d741679a025ceA6547592388E54a0f",
+      "proxyAddress": "0x6C7f319E76456749Ee291EdB8bD0027e5E5d3298",
+      "decimals": 8,
+      "name": "Virtune Bitcoin Prime ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x544A5aBfD49782b68d58E69Bc52204b692A86d9E",
+      "proxyAddress": "0xb7B9A39CC63f856b90B364911CC324dC46aC1770",
+      "decimals": 8,
+      "name": "ETC / USD"
+    },
+    {
+      "contractAddress": "0x54e266E89b5AD35fbB5fb1a63ccD6C9dBD99768a",
+      "proxyAddress": "0x8d8bEC17703Ac4BbdB42d3e4741C933a0d9a7331",
+      "decimals": 10,
+      "name": "Virtune Staked Polkadot ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x57640993dbB9C8DAF6269f94f27F11586385AD65",
+      "proxyAddress": "0x5eb9F7baCd59C886fBD9aa2C0a891223482a1ed4",
+      "decimals": 8,
+      "name": "JUP / USD"
     },
     {
       "contractAddress": "0x58218ea7422255EBE94e56b504035a784b7AA204",
@@ -2114,610 +2069,592 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0x58aEE3abf3fb31e072a766521B1f2dcD7A27a500",
-      "proxyAddress": "0x2a8D91686A048E98e6CCF1A89E82f40D14312672",
+      "contractAddress": "0x584F57911b6EEDab5503E202f8e193663c9bd3DB",
+      "proxyAddress": "0x2FCF37343e916eAEd1f1DdaaF84458a359b53877",
       "decimals": 8,
-      "name": "XMR / USD"
+      "name": "SNX / USD"
     },
     {
-      "contractAddress": "0x58b4b3D9c81f092C017121EC5Ece41301C32A2B6",
-      "proxyAddress": "0x5CC26e6798A3b05525076913840aa07b1d65eE00",
-      "decimals": 18,
-      "name": "inETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x59C0460E6ABD7fD1fe1ceE2385EE81e67b692410",
-      "proxyAddress": "0xB22900D4D0CEa5DB0B3bb08565a9f0f4a831D32C",
-      "decimals": 8,
-      "name": "BRL / USD"
-    },
-    {
-      "contractAddress": "0x5Fa894918e622F7dB044049ECaD2DBC7b25226cB",
-      "proxyAddress": "0x8158d24603296Ce54ba903c7D5299E3B6744b555",
-      "decimals": 1,
-      "name": "PCE Price Index — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x5ed1bf609bB44FBEaa30773c9774b4d666334AC7",
-      "proxyAddress": "0x524299Ab0987a7c4B3c8022a35669DdcdC715a10",
-      "decimals": 18,
-      "name": "WSTETH / ETH"
-    },
-    {
-      "contractAddress": "0x5f045E66369FF09373B145FB566c4Bec1fB6065c",
-      "proxyAddress": "0x5A9072a995E072fD06D8f1EB95933955FDa53C0a",
-      "decimals": 8,
-      "name": "CELO / USD"
-    },
-    {
-      "contractAddress": "0x65088f4d716B36A0513FBdC99d4e7464aea69883",
-      "proxyAddress": "0xe3Ec83f2EE37f7AF2B2711e8aF7554D01B963550",
-      "decimals": 18,
-      "name": "wstUSR / stUSR Exchange Rate"
-    },
-    {
-      "contractAddress": "0x658BC154f25aD1a5cfa47D319BAB62D7F7Fd864D",
-      "proxyAddress": "0xAE33e077a02071E62d342E449Afd9895b016d541",
-      "decimals": 8,
-      "name": "SAND / USD"
-    },
-    {
-      "contractAddress": "0x66F09aCe9950eB359c36f97bF492dC65dCA542e9",
+      "contractAddress": "0x596246c4A55E5666312Fae266DbA826458C159Ef",
       "proxyAddress": "0x4D4f9BF097DfE85C513E29D770e7CaceD9C07801",
       "decimals": 18,
       "name": "ynETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x694f4b7Da206bCF457fEe2fC98E7FB8f2f86a9a4",
-      "proxyAddress": "0x290dd71254874f0d4356443607cb8234958DEe49",
-      "decimals": 8,
-      "name": "XAG / USD"
-    },
-    {
-      "contractAddress": "0x6D89A06075a8BbD7B896b9547b9795aBdA618DEA",
-      "proxyAddress": "0x90da1D1DB26c0A84164Ff03090e0B31Ad08A137A",
-      "decimals": 18,
-      "name": "rswETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x6bf5aA4dc8aa46A0D02a80758B91628433B42AD5",
-      "proxyAddress": "0x5F77134CfAA7DB2906649Ca21C50dA54daE9291d",
-      "decimals": 8,
-      "name": "SPY-USD (24/5)"
-    },
-    {
-      "contractAddress": "0x6e41f1Cb783cB643123c7337447a183529D174C2",
-      "proxyAddress": "0x85342bC62aadef58f029ab6d17D643949e6F073e",
-      "decimals": 18,
-      "name": "sUSDe / USDe Exchange Rate"
-    },
-    {
-      "contractAddress": "0x702efceF3a71A78996266413A02a1844B1ECCEc3",
-      "proxyAddress": "0x89178957E9bD07934d7792fFc0CF39f11c8C2B1F",
-      "decimals": 8,
-      "name": "APE / USD"
-    },
-    {
-      "contractAddress": "0x706326Ca7E5aFB383932e8E5190a9ccED78C408A",
-      "proxyAddress": "0xcFdb47A0c2CBF1eBED49b03BC6D15954C81004dB",
-      "decimals": 18,
-      "name": "YETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x70Bf8309A0CD2F7c57Ed8e317797a79E31f65048",
-      "proxyAddress": "0x8F7bFb42Bf7421c2b34AAD619be4654bFa7B3B8B",
-      "decimals": 8,
-      "name": "XAU / USD"
-    },
-    {
-      "contractAddress": "0x70FE6572bd0D32107D6A0a9Ee764BF749B8A67DA",
-      "proxyAddress": "0x0805fAA94F056C06c2a69e115Aa7633EfD3efDca",
-      "decimals": 8,
-      "name": "ALETH / USD"
-    },
-    {
-      "contractAddress": "0x7201015B7d68Ae4CEadb1F61D8e2a49a637089C3",
-      "proxyAddress": "0xBf5384854988939729E8B76b8AeCe7d8D930F9f3",
-      "decimals": 8,
-      "name": "ALGO / USD"
-    },
-    {
-      "contractAddress": "0x7295147C50850B58B26f8B2BCf5a409CF132b3dd",
-      "proxyAddress": "0x2FF8822F371b283604369700d6F06da3fBb31064",
-      "decimals": 8,
-      "name": "ZEC / USD"
-    },
-    {
-      "contractAddress": "0x7323bdE2826aAdFA3505C16da8e2631Af76684AD",
-      "proxyAddress": "0x5535e67d8f99c8ebe961E1Fc1F6DDAE96FEC82C9",
-      "decimals": 8,
-      "name": "INR / USD"
-    },
-    {
-      "contractAddress": "0x75Bed7855Abf1CC3441B6164a65E16034dacaA08",
-      "proxyAddress": "0x536944c3A71FEb7c1E5C66Ee37d1a148d8D8f619",
-      "decimals": 8,
-      "name": "JPY / USD"
-    },
-    {
-      "contractAddress": "0x77308950c9C4E1F17CF4f47AB3a6D6c3A94dc42e",
-      "proxyAddress": "0xb4479d436DDa5c1A79bD88D282725615202406E3",
-      "decimals": 18,
-      "name": "weETH / ETH"
-    },
-    {
-      "contractAddress": "0x7797caE41f17c5045A44b7C270bD443b7f4BFec8",
-      "proxyAddress": "0xa9d0B1F1D7b5C4129b27EcE9a4562B32dB33343C",
-      "decimals": 18,
-      "name": "Virtune Avalanche ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x7996543eD62AB2316A792D0e9184fcCb64F7Daf4",
-      "proxyAddress": "0xA369969F522Fda5Ce1D3823d07A393C27b74f723",
-      "decimals": 1,
-      "name": "Real GDP — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x7Db13771690daFCC2180bc5AB47c9bbC2A961F7D",
-      "proxyAddress": "0xca6fa4b8CB365C02cd3Ba70544EFffe78f63ac82",
-      "decimals": 8,
-      "name": "NEAR / USD"
-    },
-    {
-      "contractAddress": "0x7e74bdC5af5b2A39A91e9E1b9d7dDcb98FdeB982",
-      "proxyAddress": "0x0838cFe6A97C9CE1611a6Ed17252477a3c71eBEb",
-      "decimals": 8,
-      "name": "PYTH / USD"
-    },
-    {
-      "contractAddress": "0x811D6f57f2e1724d71b4305B88535878c8e9ca93",
-      "proxyAddress": "0x14a2Aa4189Aed564bFB04071c99f308C7ffd5283",
-      "decimals": 8,
-      "name": "FRXUSD / USD"
-    },
-    {
-      "contractAddress": "0x824D04793f7426fEf1dC04eF257696036FC9d2cE",
-      "proxyAddress": "0x6C7f319E76456749Ee291EdB8bD0027e5E5d3298",
-      "decimals": 8,
-      "name": "Virtune Bitcoin Prime ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x87C32c5103E01D20906C5239fe81aA67110BdE16",
-      "proxyAddress": "0xe04E47A971770C55Ad7A73F294AA28e625c5B911",
-      "decimals": 8,
-      "name": "NVDA-USD (24/5)"
-    },
-    {
-      "contractAddress": "0x8B867afB4cde22362875C2Cb735E3A8a3a78F959",
-      "proxyAddress": "0x0cD83cC474e69E611d240f0d35D5794361F5e5C2",
-      "decimals": 8,
-      "name": "ENJ / USD"
-    },
-    {
-      "contractAddress": "0x8BD2E2D86C81b2063bA1639C62Cf953abB1208Ff",
-      "proxyAddress": "0x955b05dD4573dDFAfB47cb78db16B1Fa127E6e71",
-      "decimals": 8,
-      "name": "CVX / USD"
-    },
-    {
-      "contractAddress": "0x8BEa8a310a677d47B30798346C2640BF2326b259",
-      "proxyAddress": "0x8788F0DBDa7678244Ac7FF09d963d7696D56A8a0",
-      "decimals": 8,
-      "name": "XRP / USD"
-    },
-    {
-      "contractAddress": "0x8F97c74Ab8e9a8511094362f348fDEEA75F16eB4",
-      "proxyAddress": "0x34E0E85CeEc6be6146c4f0115769a29a9539222e",
-      "decimals": 8,
-      "name": "FLOKI / USD"
-    },
-    {
-      "contractAddress": "0x8d8254Fda0632874f86e21FE8308ea2fC6528956",
-      "proxyAddress": "0x72EC6bF88effEd88290C66DCF1bE2321d80502f5",
-      "decimals": 18,
-      "name": "weETH / eETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x922553A373bFF01aFB976F879cf28627960EF24A",
-      "proxyAddress": "0x338ed6787f463394D24813b297401B9F05a8C9d1",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0x9278b42aD637a9Cec3e552763cC80d7a3c4d6026",
-      "proxyAddress": "0x233D6aC20d3c48317fcb46c013A35D54f570e5f6",
-      "decimals": 8,
-      "name": "GHO / USD"
-    },
-    {
-      "contractAddress": "0x961CB2a6e1A6DE8187785af1223F8Bb6D232C272",
-      "proxyAddress": "0xd2AdD08d9Cd83720c9296A991ce066BB08265eAc",
-      "decimals": 18,
-      "name": "sfrxETH / frxETH-Exchange-Rate"
-    },
-    {
-      "contractAddress": "0x96C494a726C993e23dFf5AD4a1F0C25C37c3CB03",
-      "proxyAddress": "0xe4b9bcD7d0AA917f19019165EB89BdbbF36d2cBe",
-      "decimals": 8,
-      "name": "ETH / BTC"
-    },
-    {
-      "contractAddress": "0x97798A7a5Ea9761a1b5f91e537De8A40F0c89624",
-      "proxyAddress": "0x6D94824F8c4F5a168913669B9bD9071fAb39BFD2",
-      "decimals": 8,
-      "name": "TBLL / USD"
-    },
-    {
-      "contractAddress": "0x97858A88aC683CCDa1D220b508e01eEF0e03935A",
-      "proxyAddress": "0x602eB777BE29Fbe63349A33306bD73Ff333D02bB",
-      "decimals": 8,
-      "name": "STX / USD"
-    },
-    {
-      "contractAddress": "0x97D8b4bD11a0fbfBA9cb6475c020ff5ae9f9D452",
-      "proxyAddress": "0x62f42f70ba85De1086476bB6BADE926d0E0b8a4C",
-      "decimals": 8,
-      "name": "GMX / USD"
-    },
-    {
-      "contractAddress": "0x98e71C416ea1f78788B0924828da026d6c2384eD",
-      "proxyAddress": "0xa8CD85030b6810663DDeD48aA15330F091fb4c9b",
-      "decimals": 18,
-      "name": "vyUSD / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9A6F13B94B0433EA1ec6bB81FFDC3FA9770478b7",
-      "proxyAddress": "0xb429DE60943a8e6DeD356dca2F93Cd31201D9ed0",
-      "decimals": 18,
-      "name": "RETH / ETH"
-    },
-    {
-      "contractAddress": "0x9AbA5ec2ec3ffDCEcE4B13D151Bd72777dCb7026",
-      "proxyAddress": "0x961f6a07bFc62F618a4fA737eDe08F23aD6Da67F",
-      "decimals": 8,
-      "name": "HYPE / USD"
-    },
-    {
-      "contractAddress": "0x9E6619052B1751261eF3065E451Ca347275eC50E",
-      "proxyAddress": "0x45954efBD01f5A12428A09E4C38b8434C3dD4Ac3",
-      "decimals": 8,
-      "name": "LTC / USD"
-    },
-    {
-      "contractAddress": "0x9aCc5bBf448a5C1Bb49796188D7bBDA5149C9ed5",
-      "proxyAddress": "0x8792DD897CFB1F6e81dd6C7c4491f97ed79eaD24",
-      "decimals": 18,
-      "name": "BEHYPE / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9eb0e9E2332e67fF13B6DE8De18416e133F6DA3C",
-      "proxyAddress": "0x72155D46FD9f03AF1739637F9E7Db8A87C40A730",
-      "decimals": 8,
-      "name": "SUSHI / USD"
-    },
-    {
-      "contractAddress": "0xA3Df300f33AA13570265bC9bF634c7eDd3a8b3e8",
-      "proxyAddress": "0x0f2Ed59657e391746C1a097BDa98F2aBb94b1120",
-      "decimals": 8,
-      "name": "VELODROME / USD"
-    },
-    {
-      "contractAddress": "0xA5016636f1755315a13164Bf3fac13464e7fd01D",
-      "proxyAddress": "0x11429eE838cC01071402f21C219870cbAc0a59A0",
-      "decimals": 8,
-      "name": "UNI / USD"
-    },
-    {
-      "contractAddress": "0xA539222d1394B8e70dEa51b4c42B9a201DccF633",
-      "proxyAddress": "0x73A3919a69eFCd5b19df8348c6740bB1446F5ed0",
-      "decimals": 8,
-      "name": "MIMATIC / USD"
-    },
-    {
-      "contractAddress": "0xA86D5b67caaEF94bEcc76fb37904CD65329C17A4",
-      "proxyAddress": "0x8f14546d0B960793180ee355B73fA55041a4a356",
-      "decimals": 8,
-      "name": "ARB / USD"
-    },
-    {
-      "contractAddress": "0xAB4fe85416F1b5D641d0f334Ec973abeb6Ae2464",
-      "proxyAddress": "0xE036C2B215B2533BCE1c9D0436728cE8ABE5665D",
-      "decimals": 3,
-      "name": "Real Final Sales to Private Domestic Purchasers — Level"
-    },
-    {
-      "contractAddress": "0xBE4d7ca0b7CB8007D48c63d84f8f409CB6b78180",
-      "proxyAddress": "0xebE1590Be4700994b9b373c860BabeA57b681296",
-      "decimals": 7,
-      "name": "Virtune Stellar ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xC74b1BEF4960B0c7588d638CD64724Ed7F2c772f",
-      "proxyAddress": "0x8d8bEC17703Ac4BbdB42d3e4741C933a0d9a7331",
-      "decimals": 10,
-      "name": "Virtune Staked Polkadot ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xC9aED1320C0C8698365057C82c44B7e2EdF2227c",
-      "proxyAddress": "0x698B585CbC4407e2D54aa898B2600B53C68958f7",
-      "decimals": 8,
-      "name": "WSTETH / USD"
-    },
-    {
-      "contractAddress": "0xCB43Db3106Eb558D8e1F07A2B917936b4Dc777A9",
-      "proxyAddress": "0x30F6ffb911ac7B9aDF471f28366ce1826C05776e",
-      "decimals": 8,
-      "name": "USD1 / USD"
-    },
-    {
-      "contractAddress": "0xCB7836704B7f66cCe44d011947481625ace6afD9",
-      "proxyAddress": "0xE59148F773705A7231e9E04c8431CDD6EDF197D1",
-      "decimals": 8,
-      "name": "QQQ-USD (24/5)"
-    },
-    {
-      "contractAddress": "0xCFFd606D79a25363F0c03809022aA3d4d8696A91",
-      "proxyAddress": "0xb7B9A39CC63f856b90B364911CC324dC46aC1770",
-      "decimals": 8,
-      "name": "ETC / USD"
-    },
-    {
-      "contractAddress": "0xD05a838ce10c1ab6d054e291f2861B5026D1465E",
-      "proxyAddress": "0x221618871470f78D8a3391d35B77dFb3C0fbc383",
-      "decimals": 8,
-      "name": "LDO / USD"
-    },
-    {
-      "contractAddress": "0xD29ba2441E3910B21B98aA1a14577ED1A11dECF3",
-      "proxyAddress": "0x22F3727be377781d1579B7C9222382b21c9d1a8f",
-      "decimals": 18,
-      "name": "rETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xD4060c0295850c78714D9E487978d1369ed24fd1",
-      "proxyAddress": "0x5Ce9c0a0Bc15236a110fbC19df547d2b23d3ce3B",
-      "decimals": 8,
-      "name": "TSLA-USD (24/5)"
-    },
-    {
-      "contractAddress": "0xD5cDCcd30a7E1691E7e1f8CBd6712522eC9433C6",
-      "proxyAddress": "0x3FF5BDB2bB6E3f946d9485De6c591c93B4179ae7",
-      "decimals": 8,
-      "name": "TRB / USD"
-    },
-    {
-      "contractAddress": "0xE0F48213C74b10Bc0f77d3d50440BC968b3A0B3A",
-      "proxyAddress": "0xEF89db2eA46B4aD4E333466B6A486b809e613F39",
-      "decimals": 8,
-      "name": "ATOM / USD"
-    },
-    {
-      "contractAddress": "0xE1Fd569Ad99ea01bb8443FFa450298135D342a8F",
-      "proxyAddress": "0xEEDF0B095B5dfe75F3881Cb26c19DA209A27463a",
-      "decimals": 8,
-      "name": "USDe / USD"
-    },
-    {
-      "contractAddress": "0xE47D31B1bD612eedE9b1D578a8062fd83Ec836AA",
-      "proxyAddress": "0x66F61FEe824c1dF059BccCC5F21ca39e083EefDf",
-      "decimals": 8,
-      "name": "FIL / USD"
-    },
-    {
-      "contractAddress": "0xE757dc20bd2149621829F0C02780dF3B84399E4B",
-      "proxyAddress": "0xe98290265E4aE3758503a03e937F381A2A7aFB57",
-      "decimals": 8,
-      "name": "ICP / USD"
-    },
-    {
-      "contractAddress": "0xE99308Dfc9785DCFD2ce829522f963d9719F7dc2",
-      "proxyAddress": "0x28e67BAeEB5dE7A788f3Dde6CF6ee491369Bb3Fa",
-      "decimals": 8,
-      "name": "DOT / USD"
-    },
-    {
-      "contractAddress": "0xEAa6c4243232F700774Bee3044dA86d57d0e8EBb",
-      "proxyAddress": "0xab97582664f2A24ecA411AA2B02D4C1Ae82E52a6",
-      "decimals": 8,
-      "name": "MSFT-USD (24/5)"
-    },
-    {
-      "contractAddress": "0xF012C39384440e1DaA0E11136F6f3Ff384dcBF9f",
-      "proxyAddress": "0xD702DD976Fb76Fffc2D3963D037dfDae5b04E593",
-      "decimals": 8,
-      "name": "BTC / USD"
-    },
-    {
-      "contractAddress": "0xF491bE2Dd9b4154D3c4285AC4e0d4b9F4Ea9dBE9",
-      "proxyAddress": "0x6f6cED6B096708C1276056fdBdb7BbDe07Ca462C",
-      "decimals": 8,
-      "name": "SEI / USD"
-    },
-    {
-      "contractAddress": "0xF82C38537C266BaaF41416Ae7e23f8C9bfCEa7C5",
-      "proxyAddress": "0x5241f3beaDaD396ef67035A9187c2F71D9cC58f2",
-      "decimals": 8,
-      "name": "AAPL-USD (24/5)"
-    },
-    {
-      "contractAddress": "0xFAeE579b25C99828E748ba5efAE78C746E8C87E2",
-      "proxyAddress": "0x9fCe737834500045FB07AD158991BCAC3b05D5A6",
-      "decimals": 8,
-      "name": "1INCH / USD"
-    },
-    {
-      "contractAddress": "0xFa8944686a5D1ce12ec71c5F9bfDdf4B5B5863bd",
-      "proxyAddress": "0x8f096bFFe37313Ad6bD5B9fF48F9FF6E4E5Cd065",
-      "decimals": 18,
-      "name": "sFRAX / FRAX Exchange Rate"
-    },
-    {
-      "contractAddress": "0xaC548a8998A1a6Ba8EB3E13dbF8035BfcC6aa39f",
-      "proxyAddress": "0x464A1515ADc20de946f8d0DEB99cead8CEAE310d",
-      "decimals": 18,
-      "name": "LINK / ETH"
-    },
-    {
-      "contractAddress": "0xac63Eac84020516737F61FF5737d8fad7d2421F0",
-      "proxyAddress": "0xE91Ac697637acd6f038055Bccdad4Fb0E7F01700",
-      "decimals": 8,
-      "name": "MSTR-USD (24/5)"
-    },
-    {
-      "contractAddress": "0xaf2eD5eAc6add1858997b2C4Bf95319329f604D5",
-      "proxyAddress": "0x089730f866C6D478398ce1632C7C38677c475EC1",
-      "decimals": 18,
-      "name": "uniBTC / BTC Exchange Rate"
-    },
-    {
-      "contractAddress": "0xb63Df6E680cf78a99902b6298d7E67dE4b572E0e",
-      "proxyAddress": "0x5a61374950D4BFa5a3D4f2CA36FC1d23A92b6f21",
-      "decimals": 8,
-      "name": "TBTC / USD"
-    },
-    {
-      "contractAddress": "0xb8cBb8329FFf7697d5C38Be4C5AB352cC7b0d227",
-      "proxyAddress": "0x5cdC797acCBf57EE2363Fed9701262Abc87a232e",
-      "decimals": 8,
-      "name": "YFI / USD"
-    },
-    {
-      "contractAddress": "0xbeeef230B7B6491c7CE5b58da26ccB75562524B3",
-      "proxyAddress": "0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3",
-      "decimals": 18,
-      "name": "wOETH / OETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xc08C52B65EB4F9E46b305E4b4F0b87A3c352CF3c",
-      "proxyAddress": "0xeA2aeD0087A620995Bf609D1bCD76Ea099905138",
-      "decimals": 8,
-      "name": "XTZ / USD"
-    },
-    {
-      "contractAddress": "0xc08c9c6579b55367b32A026a4f5608Ec34B575Aa",
-      "proxyAddress": "0xCc232dcFAAE6354cE191Bd574108c1aD03f86450",
-      "decimals": 8,
-      "name": "LINK / USD"
-    },
-    {
-      "contractAddress": "0xc422E62fa3241053Fed66F08eC4eE3589c3e265D",
-      "proxyAddress": "0x8814dEC83E2862A3792A0D6aDFC48CF76Add1890",
-      "decimals": 8,
-      "name": "STRK / USD"
-    },
-    {
-      "contractAddress": "0xc5AB69fD5f3f9dEecDDef661A1Ec775bdf2A5a22",
-      "proxyAddress": "0x4C92f5b4f8AE43D5DB11f4b87e6D9156e064F4F0",
-      "decimals": 18,
-      "name": "Virtune Polygon ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xc707749CFE0d6d7e9871D387067376690AE08D0c",
+      "contractAddress": "0x5D860ee3A9F47dfd86d40aec1EF7DDD876356F71",
       "proxyAddress": "0x26Fce884555FAe5F0E4701cc976FE8D8bB111A38",
       "decimals": 8,
       "name": "IMX / USD"
     },
     {
-      "contractAddress": "0xd0096659eb5995cD9B89Fe80d60b6f490C11C68e",
-      "proxyAddress": "0xC663315f7aF904fbbB0F785c32046dFA03e85270",
+      "contractAddress": "0x5d101824C693C70a68FFc3CDb0Cc394F3a4fb9Ec",
+      "proxyAddress": "0xCc232dcFAAE6354cE191Bd574108c1aD03f86450",
       "decimals": 8,
-      "name": "SOL / USD"
+      "name": "LINK / USD"
     },
     {
-      "contractAddress": "0xd3111BC20E4446100086e1E497bfd4B0FcC54Ae1",
+      "contractAddress": "0x5d782463840e3a2Ed55e425916d498319f289DEd",
+      "proxyAddress": "0xD7bC56BBF8D555936cb5121f38d1d362c586776A",
+      "decimals": 8,
+      "name": "TIA / USD"
+    },
+    {
+      "contractAddress": "0x5e8A3e56e790C9DcAA1657aa9f399F2c954649De",
+      "proxyAddress": "0x75c3bF05EeF2c1966D6d5890Def3DbE640627642",
+      "decimals": 8,
+      "name": "WIF / USD"
+    },
+    {
+      "contractAddress": "0x5f7ad449BD9Ac6326b175b915F8FA4350125672f",
+      "proxyAddress": "0x028F7347Df25220DA7D63eB7c29fa10448231489",
+      "decimals": 18,
+      "name": "instETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x6131C96D9a73126c3B68bB1f4998eeE0708ffc10",
+      "proxyAddress": "0x8281Af165B4380c7aa2445F1c93C150EaD336022",
+      "decimals": 8,
+      "name": "USR / USD"
+    },
+    {
+      "contractAddress": "0x647dA0ebfD5314aF3Bd53eA40541c6B67169e6D0",
+      "proxyAddress": "0x138b809B8472fF09Cd3E075E6EcbB2e42D41d870",
+      "decimals": 18,
+      "name": "CBETH / ETH"
+    },
+    {
+      "contractAddress": "0x65F2c716937FB44b2C28417A7AfC2DACcF1C2D61",
+      "proxyAddress": "0x718A5788b89454aAE3A028AE9c111A29Be6c2a6F",
+      "decimals": 8,
+      "name": "WBTC / USD"
+    },
+    {
+      "contractAddress": "0x6AA7cC6feA036Bd57f36E2b82878c15012c48771",
+      "proxyAddress": "0x39be70E93D2D285C9E71be7f70FC5a45A7777B14",
+      "decimals": 8,
+      "name": "AUD / USD"
+    },
+    {
+      "contractAddress": "0x6B89879aC4c699d89673BD2ff3464916fB10Cf65",
+      "proxyAddress": "0xcFdb47A0c2CBF1eBED49b03BC6D15954C81004dB",
+      "decimals": 18,
+      "name": "YETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x6D95344ba8d22a7d1C5BF1822ed80A70f411740a",
+      "proxyAddress": "0x5cdC797acCBf57EE2363Fed9701262Abc87a232e",
+      "decimals": 8,
+      "name": "YFI / USD"
+    },
+    {
+      "contractAddress": "0x6D9d0440b5f5a2972ce1D190F3E228132d318250",
+      "proxyAddress": "0x0cD83cC474e69E611d240f0d35D5794361F5e5C2",
+      "decimals": 8,
+      "name": "ENJ / USD"
+    },
+    {
+      "contractAddress": "0x6E7A3ceB4797D0Fd7b9854B251929ad68849951a",
+      "proxyAddress": "0xe59EBa0D492cA53C6f46015EEa00517F2707dc77",
+      "decimals": 18,
+      "name": "wstETH-stETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x6cF3c03cc87b7fbA793d6cFcA6B36173a757D48E",
+      "proxyAddress": "0xE036C2B215B2533BCE1c9D0436728cE8ABE5665D",
+      "decimals": 3,
+      "name": "Real Final Sales to Private Domestic Purchasers — Level"
+    },
+    {
+      "contractAddress": "0x6ecf3b8d725beE36D577fFf954D90513863c875b",
+      "proxyAddress": "0x4C92f5b4f8AE43D5DB11f4b87e6D9156e064F4F0",
+      "decimals": 18,
+      "name": "Virtune Polygon ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x6f0D003A0743F5acea5680B1D128bd433B07ffCE",
+      "proxyAddress": "0xEEDF0B095B5dfe75F3881Cb26c19DA209A27463a",
+      "decimals": 8,
+      "name": "USDe / USD"
+    },
+    {
+      "contractAddress": "0x7303b6034C60BfaAC885883D6b0aE2382C668aa0",
+      "proxyAddress": "0xeA2aeD0087A620995Bf609D1bCD76Ea099905138",
+      "decimals": 8,
+      "name": "XTZ / USD"
+    },
+    {
+      "contractAddress": "0x73316EF731f3C7219482716682C063dBbd1602F2",
       "proxyAddress": "0x90CC16F5493894eff84a5Fedd1dcE297d174fEEf",
       "decimals": 8,
       "name": "INJ / USD"
     },
     {
-      "contractAddress": "0xd3A27816D8719E00eAa1917C3863A7B382ccB0c1",
-      "proxyAddress": "0x33E047119359161288bcB143e0C15467C7151d4c",
+      "contractAddress": "0x78F049f6da1aC1dcA50D6D8f184Acf47eB269852",
+      "proxyAddress": "0x8F7bFb42Bf7421c2b34AAD619be4654bFa7B3B8B",
       "decimals": 8,
-      "name": "BCH / USD"
+      "name": "XAU / USD"
     },
     {
-      "contractAddress": "0xdF49DF228E51aa16480d2b781bE022159fe161ea",
-      "proxyAddress": "0x895eAD698bc4C34ad2863a20932f0d5E7896F11c",
-      "decimals": 9,
-      "name": "Virtune Staked Solana ETP / Proof of Reserves"
+      "contractAddress": "0x79D80df3432A4352b5CA2f4ed8262c2A0D63CA1e",
+      "proxyAddress": "0x3E75C48A27b54dEEc3381689CfA9Ce41Ca55C050",
+      "decimals": 3,
+      "name": "PCE Price Index — Level"
     },
     {
-      "contractAddress": "0xdb5a1d830b72ce47B881C0093dBC9C6321091e78",
-      "proxyAddress": "0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3",
-      "decimals": 8,
-      "name": "USDC / USD"
-    },
-    {
-      "contractAddress": "0xde84A4BAb75EF9F33B0A9eF2f77017a75d06F45c",
-      "proxyAddress": "0x675aF77D9266BF28042b0965C11e223153C51aFd",
-      "decimals": 18,
-      "name": "Virtune Staked Ethereum ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xe19E97cc5D34049D5bc280e5c12c9ba7c69c07CB",
-      "proxyAddress": "0x41878779a388585509657CE5Fb95a80050502186",
-      "decimals": 8,
-      "name": "STETH / USD"
-    },
-    {
-      "contractAddress": "0xe217c2616BF009825D3ccd0bCa7F3a7616fF0D38",
+      "contractAddress": "0x7A18889f137B593f4E03C0A698A4360f43d1731c",
       "proxyAddress": "0x805a61D54bb686e57F02D1EC96A1491C7aF40893",
       "decimals": 8,
       "name": "AXS / USD"
     },
     {
-      "contractAddress": "0xe6c99A763a787F0b4065413379800a1547C6c5d0",
-      "proxyAddress": "0xaC6eCc82b5c30Cc6EC9FE97B0627B29863a36fcf",
-      "decimals": 6,
-      "name": "Virtune Staked Cardano ETP Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xe8CBb6Ff2b924F96a6520da04A90F9229421FDB7",
-      "proxyAddress": "0xDb2A51a5DD73865F1b0d1c33F99a96E0e7ae742c",
+      "contractAddress": "0x7E36B8C677D84556B4742F9d7791019bC7d408Db",
+      "proxyAddress": "0x8f14546d0B960793180ee355B73fA55041a4a356",
       "decimals": 8,
-      "name": "EURC / USD"
+      "name": "ARB / USD"
     },
     {
-      "contractAddress": "0xe8cbc422Fd754E976f7E945d7945963CB873473e",
+      "contractAddress": "0x7c56d3650f9aCD992b3Aa635C04A311c54Ad264c",
+      "proxyAddress": "0xbD92C6c284271c227a1e0bF1786F468b539f51D9",
+      "decimals": 8,
+      "name": "CRV / USD"
+    },
+    {
+      "contractAddress": "0x818E89b7FC0dF4683a4D3768c4fDf2612A73277A",
+      "proxyAddress": "0xb4479d436DDa5c1A79bD88D282725615202406E3",
+      "decimals": 18,
+      "name": "weETH / ETH"
+    },
+    {
+      "contractAddress": "0x81cC0c227BF9bFB8088b14755DfcA65f7892203b",
+      "proxyAddress": "0x338ed6787f463394D24813b297401B9F05a8C9d1",
+      "decimals": 8,
+      "name": "AAVE / USD"
+    },
+    {
+      "contractAddress": "0x81d9a9056e9Af6585010B784Df5853a0fDEf8b11",
+      "proxyAddress": "0xEF89db2eA46B4aD4E333466B6A486b809e613F39",
+      "decimals": 8,
+      "name": "ATOM / USD"
+    },
+    {
+      "contractAddress": "0x823DAdDA66b631776660B849E734B95A4F3241Bf",
+      "proxyAddress": "0xb429DE60943a8e6DeD356dca2F93Cd31201D9ed0",
+      "decimals": 18,
+      "name": "RETH / ETH"
+    },
+    {
+      "contractAddress": "0x82C3B7afEa9d8c799a75573cF9b8abd0AE042F2d",
+      "proxyAddress": "0x72155D46FD9f03AF1739637F9E7Db8A87C40A730",
+      "decimals": 8,
+      "name": "SUSHI / USD"
+    },
+    {
+      "contractAddress": "0x85A48ded8c35d82f8f29844e25dD51a70a23c93d",
+      "proxyAddress": "0x11429eE838cC01071402f21C219870cbAc0a59A0",
+      "decimals": 8,
+      "name": "UNI / USD"
+    },
+    {
+      "contractAddress": "0x864d81b461b27906261c695B3E38B98F4D1A3E63",
+      "proxyAddress": "0xe3Ec83f2EE37f7AF2B2711e8aF7554D01B963550",
+      "decimals": 18,
+      "name": "wstUSR / stUSR Exchange Rate"
+    },
+    {
+      "contractAddress": "0x893b7022160E47F32FcE0C6F83bc9bA1f57eFd50",
+      "proxyAddress": "0x98FB6366E71E9A71C247052d447E928303e17bB6",
+      "decimals": 18,
+      "name": "ankrETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x8AfC1cC622Be1Cd1644579c9c7eC3fbbA6bD02d2",
+      "proxyAddress": "0xC6066533917f034Cf610c08e1fe5e9c7eADe0f54",
+      "decimals": 8,
+      "name": "DOGE / USD"
+    },
+    {
+      "contractAddress": "0x8d486D0E63cc20df15C9426A0Ff74f0F2BD5a709",
       "proxyAddress": "0xFCdb9EaD2F752AD002Cdf8FcB08Caac4A3402375",
       "decimals": 0,
       "name": "AAVE Network Emergency Count (Optimism)"
     },
     {
-      "contractAddress": "0xe8fc6e3F27a6804Fb400A7a156b59253Fa85025A",
-      "proxyAddress": "0x8Ef4207CBC405085B6740fc931114cAFCD1d9158",
-      "decimals": 18,
-      "name": "Virtune Chainlink ETP / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xeb0990Fbe4C12B49396ecD9c9D18DBE67c84Efbe",
-      "proxyAddress": "0xFAD40C0e2BeF93c6a822015863045CAAeAAde4d3",
-      "decimals": 18,
-      "name": "ezETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xeceF919ce0AE8a89E3F9f0886b12CC0C85c6e5c9",
-      "proxyAddress": "0x30795BeACc0f43920EF1288dB6676B5e205AE288",
-      "decimals": 8,
-      "name": "ORDI / USD"
-    },
-    {
-      "contractAddress": "0xfD7f8e6bA7B6d36f4B3c9013DE5fa527D8347643",
-      "proxyAddress": "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0xfc6fFF918C789bA7eb88C57571821afb76315387",
+      "contractAddress": "0x903F58eE6d6c3c2Ca26427c8F917F6aE515827B1",
       "proxyAddress": "0x64Ecf089a6594Be781908D5a26FC8fA6CB08A2C7",
       "decimals": 18,
       "name": "PEPE / USD"
     },
     {
-      "contractAddress": "0xfe0306ae36e0eA9344aAd05d5DAfcaf847B9CEb2",
-      "proxyAddress": "0x7f99817d87baD03ea21E05112Ca799d715730efe",
+      "contractAddress": "0x9076A9cCEDf0694939068369Aaa9d9d2FF419C25",
+      "proxyAddress": "0x22Ba046769b584c3B05530F7c50d0E8638bd71F1",
       "decimals": 8,
-      "name": "SUSD / USD"
+      "name": "POL / USD"
+    },
+    {
+      "contractAddress": "0x90AC3f96131699b7920004a58717C5Eac8E5c9Cc",
+      "proxyAddress": "0xe4b9bcD7d0AA917f19019165EB89BdbbF36d2cBe",
+      "decimals": 8,
+      "name": "ETH / BTC"
+    },
+    {
+      "contractAddress": "0x9269B5F560bDEdb4b34EAEE607b89fAA44A7f20B",
+      "proxyAddress": "0x72EC6bF88effEd88290C66DCF1bE2321d80502f5",
+      "decimals": 18,
+      "name": "weETH / eETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x92C9B9C512759f5D04563eFa3698FC4fbF735d59",
+      "proxyAddress": "0xC663315f7aF904fbbB0F785c32046dFA03e85270",
+      "decimals": 8,
+      "name": "SOL / USD"
+    },
+    {
+      "contractAddress": "0x962e192e23fcc5Ec59141b58B112e5Fe0e0B70C0",
+      "proxyAddress": "0x4e8e8F5b3d0f49e00F3DFb9CF827d1A0FBe33B21",
+      "decimals": 18,
+      "name": "tETH / wstETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x9c41500de0162Cc0bC4798982C867860C1601a60",
+      "proxyAddress": "0x33E047119359161288bcB143e0C15467C7151d4c",
+      "decimals": 8,
+      "name": "BCH / USD"
+    },
+    {
+      "contractAddress": "0x9eBe6cc4465324d57DAE68fF3f45D6e78B752F9D",
+      "proxyAddress": "0xCb93226806156b03c8896bbD1cd5e4174cdb0806",
+      "decimals": 18,
+      "name": "ynETHx / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x9eb9113743Bf7A1a3C8b55994CDf62917c60A23b",
+      "proxyAddress": "0x9651C988e590E571b28561c05aF5598d3e73cA31",
+      "decimals": 18,
+      "name": "Virtune Arbitrum ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xA0aDEfAD7c8246E2BFaD900dC28539b8C0DC5703",
+      "proxyAddress": "0x1520874FC216f5F07E03607303Df2Fda6C3Fc203",
+      "decimals": 8,
+      "name": "ZIL / USD"
+    },
+    {
+      "contractAddress": "0xA2f199CDb286C716b4315Ee216192d8BDE617611",
+      "proxyAddress": "0xf37c76163b2918bB4533579D449524F8542E64AD",
+      "decimals": 8,
+      "name": "FET / USD"
+    },
+    {
+      "contractAddress": "0xA57074acA7FCa1A3Ce8e79ECFE31c2C11bE80982",
+      "proxyAddress": "0x22F3727be377781d1579B7C9222382b21c9d1a8f",
+      "decimals": 18,
+      "name": "rETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xAA75acE4575AbBE1D237D991a7461f497a56a8F0",
+      "proxyAddress": "0x3626369857A10CcC6cc3A6e4f5C2f5984a519F20",
+      "decimals": 8,
+      "name": "EUR / USD"
+    },
+    {
+      "contractAddress": "0xADe1f55d13D3B8eA4a6605B58Dc38372d6af6132",
+      "proxyAddress": "0x58F23F80bF389DB1af9e3aA8c59679806749A8a4",
+      "decimals": 8,
+      "name": "PENDLE / USD"
+    },
+    {
+      "contractAddress": "0xAc37790fF4aBf9483fAe2D1f62fC61fE6b8E4789",
+      "proxyAddress": "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
+      "contractAddress": "0xAd1e27Afb932d835ff9829bD16534E5E2c4A6fEd",
+      "proxyAddress": "0xADE082c91A6AeCC86fC11704a830e933e1b382eA",
+      "decimals": 8,
+      "name": "RPL / USD"
+    },
+    {
+      "contractAddress": "0xB001D353633cd96B68000aa915C8A8A136d90A98",
+      "proxyAddress": "0x4e1C6B168DCFD7758bC2Ab9d2865f1895813D236",
+      "decimals": 8,
+      "name": "WLD / USD"
+    },
+    {
+      "contractAddress": "0xB1459434Ed18bf2D7e92b312FE784eb818065B65",
+      "proxyAddress": "0x21515B1Da412ecdCa071a84f32193eD90D4ddb59",
+      "decimals": 18,
+      "name": "apxETH / pxETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xB42F9F7c0F9997f62AE521CEF14B20a58bd9E088",
+      "proxyAddress": "0x66F61FEe824c1dF059BccCC5F21ca39e083EefDf",
+      "decimals": 8,
+      "name": "FIL / USD"
+    },
+    {
+      "contractAddress": "0xB6B77f1696bc4F95860228286d27f7f4df5D26e4",
+      "proxyAddress": "0xd1e56e7657C0E0d20c0e11C2B6ae0D90932d5665",
+      "decimals": 8,
+      "name": "SHIB / USD"
+    },
+    {
+      "contractAddress": "0xB6b7B9b2362F87F204f1CCadDD8832D3a0557dce",
+      "proxyAddress": "0x221618871470f78D8a3391d35B77dFb3C0fbc383",
+      "decimals": 8,
+      "name": "LDO / USD"
+    },
+    {
+      "contractAddress": "0xBaA412C256a3C021B6B3D5acD28113019F9AC41d",
+      "proxyAddress": "0x03fe94a215E3842deD931769F913d93FF33d0051",
+      "decimals": 18,
+      "name": "RSETH / ETH"
+    },
+    {
+      "contractAddress": "0xC2262cA31b16AE1Cfe6F7612f49E79B821e31162",
+      "proxyAddress": "0x43dEa17DeE1ca50c6266acb59b32659E44D3ee5D",
+      "decimals": 8,
+      "name": "ADA / USD"
+    },
+    {
+      "contractAddress": "0xC92524EdD3529F6D29a18c4c750927ACe7345700",
+      "proxyAddress": "0x640349aa5A2A37ad628F9c934Dd78A3Dd45F7933",
+      "decimals": 8,
+      "name": "Virtune Bitcoin ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xCEd4517039bA250d8849746295ECB1426f6A9398",
+      "proxyAddress": "0x675aF77D9266BF28042b0965C11e223153C51aFd",
+      "decimals": 18,
+      "name": "Virtune Staked Ethereum ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xCF4F7734a1DB7Be735cd936f35703fD4bd217968",
+      "proxyAddress": "0x50f8cf458E7334Be143f3c9F1f1577EE37A45653",
+      "decimals": 18,
+      "name": "SATS / USD"
+    },
+    {
+      "contractAddress": "0xCa80A73840718826a7A8b6b7216Bd5fDa12c121A",
+      "proxyAddress": "0xB22900D4D0CEa5DB0B3bb08565a9f0f4a831D32C",
+      "decimals": 8,
+      "name": "BRL / USD"
+    },
+    {
+      "contractAddress": "0xD49Ff59237be38fEB5894FBccE4cc5dA803517d7",
+      "proxyAddress": "0x37677A136CD3ff2767107D34cfC9213aa474f2BA",
+      "decimals": 18,
+      "name": "agETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xD654CaF9177dD29dd76550f27F80C3B92Ddc734E",
+      "proxyAddress": "0xF4d48d48C177C4CcBb95F8cbe62619A80a992A99",
+      "decimals": 8,
+      "name": "HAI / USD"
+    },
+    {
+      "contractAddress": "0xDa6fCf88c718eCEB18c2c08A543562b1146F4996",
+      "proxyAddress": "0x2a8D91686A048E98e6CCF1A89E82f40D14312672",
+      "decimals": 8,
+      "name": "XMR / USD"
+    },
+    {
+      "contractAddress": "0xDaD904E1C8387E0626De1443F112C9d0123e5a03",
+      "proxyAddress": "0xec236454209A76a6deCdf5C1183aE2Eb5e82a829",
+      "decimals": 18,
+      "name": "BONK / USD"
+    },
+    {
+      "contractAddress": "0xE18a4E99F019F92CD72E0C7C05599d76a89296Cd",
+      "proxyAddress": "0xA12CDDd8e986AF9288ab31E58C60e65F2987fB13",
+      "decimals": 8,
+      "name": "PERP / USD"
+    },
+    {
+      "contractAddress": "0xE1f2671BAde2fba894DE982880c716592AB99dAa",
+      "proxyAddress": "0xca6fa4b8CB365C02cd3Ba70544EFffe78f63ac82",
+      "decimals": 8,
+      "name": "NEAR / USD"
+    },
+    {
+      "contractAddress": "0xE4003Ce4321FBd0a0b691690f917e3A82B97628c",
+      "proxyAddress": "0x0838cFe6A97C9CE1611a6Ed17252477a3c71eBEb",
+      "decimals": 8,
+      "name": "PYTH / USD"
+    },
+    {
+      "contractAddress": "0xE5D13134e228d74eF8b3881618e04221D50543bA",
+      "proxyAddress": "0x51E06250C8E46c8E5DE41ac8B917a47D706128C2",
+      "decimals": 8,
+      "name": "MAV / USD"
+    },
+    {
+      "contractAddress": "0xE67a10DA53Fcd59fae7e47F155c290cb5Defb4B0",
+      "proxyAddress": "0x464A1515ADc20de946f8d0DEB99cead8CEAE310d",
+      "decimals": 18,
+      "name": "LINK / ETH"
+    },
+    {
+      "contractAddress": "0xE8A9ddc8F8c9632B3CdB49481D87ac0e2B81A837",
+      "proxyAddress": "0xa9d0B1F1D7b5C4129b27EcE9a4562B32dB33343C",
+      "decimals": 18,
+      "name": "Virtune Avalanche ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xF030366b47eB1a9b14AD570381d29647E40955Af",
+      "proxyAddress": "0x28e67BAeEB5dE7A788f3Dde6CF6ee491369Bb3Fa",
+      "decimals": 8,
+      "name": "DOT / USD"
+    },
+    {
+      "contractAddress": "0xF46ef0157B8ccD16340f6e4DD841F20cc180bF91",
+      "proxyAddress": "0x0C194aE5819c4631c58A2849051b269e57A3B657",
+      "decimals": 18,
+      "name": "YBTC-BTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0xa2a740744C8222d15B6343B71951a68f8Fcc69b7",
+      "proxyAddress": "0x6f6cED6B096708C1276056fdBdb7BbDe07Ca462C",
+      "decimals": 8,
+      "name": "SEI / USD"
+    },
+    {
+      "contractAddress": "0xa44681BdaE78DB54cAc3d7f862d6A5BaE8c79CbC",
+      "proxyAddress": "0xFC3b7bd4368b2919f67E437f8c6Ca42C7FD55dd5",
+      "decimals": 8,
+      "name": "JTO / USD"
+    },
+    {
+      "contractAddress": "0xa6d25eEBae9c841C44AD01c9176556a4c2189961",
+      "proxyAddress": "0x5087Dc69Fd3907a016BD42B38022F7f024140727",
+      "decimals": 8,
+      "name": "AVAX / USD"
+    },
+    {
+      "contractAddress": "0xa7F0FF864196729787Cce72f78D769ecA926bA1D",
+      "proxyAddress": "0xe1011160d78a80E2eEBD60C228EEf7af4Dfcd4d7",
+      "decimals": 8,
+      "name": "COMP / USD"
+    },
+    {
+      "contractAddress": "0xaE4c8567C942B974Af4A860380c99A8D03C6148E",
+      "proxyAddress": "0x536944c3A71FEb7c1E5C66Ee37d1a148d8D8f619",
+      "decimals": 8,
+      "name": "JPY / USD"
+    },
+    {
+      "contractAddress": "0xb14cbe04a49bF352B939576f9f9665E1D8DC02d2",
+      "proxyAddress": "0x8788F0DBDa7678244Ac7FF09d963d7696D56A8a0",
+      "decimals": 8,
+      "name": "XRP / USD"
+    },
+    {
+      "contractAddress": "0xb1B575DA673d67b1d10f4A9CbfBA2e106736E30b",
+      "proxyAddress": "0x2FF8822F371b283604369700d6F06da3fBb31064",
+      "decimals": 8,
+      "name": "ZEC / USD"
+    },
+    {
+      "contractAddress": "0xb785e9aa87cDB29cC11a3f2b8bd17E6279275A35",
+      "proxyAddress": "0x517C2557c29F7c53Aa5F97a1DAE465E0d5C174AA",
+      "decimals": 8,
+      "name": "BLUR / USD"
+    },
+    {
+      "contractAddress": "0xbCe7579e241e5d676c2371Dc21891489dAcDA250",
+      "proxyAddress": "0x8dBa75e83DA73cc766A7e5a0ee71F656BAb470d6",
+      "decimals": 8,
+      "name": "DAI / USD"
+    },
+    {
+      "contractAddress": "0xbF620CB752ba2d16bAe2a3c5488cbf00b7D0Cc67",
+      "proxyAddress": "0x9fCe737834500045FB07AD158991BCAC3b05D5A6",
+      "decimals": 8,
+      "name": "1INCH / USD"
+    },
+    {
+      "contractAddress": "0xba4a83372c28E4Ef0925d174f9FEf55743B87A4a",
+      "proxyAddress": "0x8814dEC83E2862A3792A0D6aDFC48CF76Add1890",
+      "decimals": 8,
+      "name": "STRK / USD"
+    },
+    {
+      "contractAddress": "0xc1c4a83d4707878d6D86C8D9C3f45c4D48473AA9",
+      "proxyAddress": "0x5A9072a995E072fD06D8f1EB95933955FDa53C0a",
+      "decimals": 8,
+      "name": "CELO / USD"
+    },
+    {
+      "contractAddress": "0xc51C6af1B2c0184F101D9d23d059bDaD2fd330aF",
+      "proxyAddress": "0x955b05dD4573dDFAfB47cb78db16B1Fa127E6e71",
+      "decimals": 8,
+      "name": "CVX / USD"
+    },
+    {
+      "contractAddress": "0xcC341634464b6FD1221e4d517cD7801155ABaC55",
+      "proxyAddress": "0x290dd71254874f0d4356443607cb8234958DEe49",
+      "decimals": 8,
+      "name": "XAG / USD"
+    },
+    {
+      "contractAddress": "0xcCb014Fe9d7d7FB0E50E3aE8f0BF25b26e6596c6",
+      "proxyAddress": "0xe98290265E4aE3758503a03e937F381A2A7aFB57",
+      "decimals": 8,
+      "name": "ICP / USD"
+    },
+    {
+      "contractAddress": "0xd1Cb03cc31caa72D34dba7eBE21897D9580c4AF0",
+      "proxyAddress": "0x16a9FA2FDa030272Ce99B29CF780dFA30361E0f3",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
+      "contractAddress": "0xd3fE68830c858Bb8af768F6cfBbd5950f9330563",
+      "proxyAddress": "0x8Ef4207CBC405085B6740fc931114cAFCD1d9158",
+      "decimals": 18,
+      "name": "Virtune Chainlink ETP / Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xd57a242FB40ED4526083B6fA05238B3d57f78D45",
+      "proxyAddress": "0x85342bC62aadef58f029ab6d17D643949e6F073e",
+      "decimals": 18,
+      "name": "sUSDe / USDe Exchange Rate"
+    },
+    {
+      "contractAddress": "0xe05a8c52B2e813c9605CFB8F073178ebe5A74705",
+      "proxyAddress": "0xEaf1a9fe242aa9928faedc6CE7e09aD4875f7133",
+      "decimals": 8,
+      "name": "SUI / USD"
+    },
+    {
+      "contractAddress": "0xe4391393205B6265585250E7A026103a0D1E168d",
+      "proxyAddress": "0xCB24d22aF35986aC1feb8874AdBbDF68f6dC2e96",
+      "decimals": 8,
+      "name": "KNC / USD"
+    },
+    {
+      "contractAddress": "0xeBEE769fF6A85E3Ba27384C5BA0d1fcdf5f2176c",
+      "proxyAddress": "0xC6884869673a6960486FE0f6B0E775A53521e433",
+      "decimals": 8,
+      "name": "MEME / USD"
+    },
+    {
+      "contractAddress": "0xf15d466a604932d222020196156C9021B13a3F5d",
+      "proxyAddress": "0x8f096bFFe37313Ad6bD5B9fF48F9FF6E4E5Cd065",
+      "decimals": 18,
+      "name": "sFRAX / FRAX Exchange Rate"
+    },
+    {
+      "contractAddress": "0xfC7608cf76F489191Cb319DD6167aEEE387Bb251",
+      "proxyAddress": "0x45954efBD01f5A12428A09E4C38b8434C3dD4Ac3",
+      "decimals": 8,
+      "name": "LTC / USD"
+    },
+    {
+      "contractAddress": "0xfb391c19908c288799C32593B4aC674DF17fFE44",
+      "proxyAddress": "0x3FF5BDB2bB6E3f946d9485De6c591c93B4179ae7",
+      "decimals": 8,
+      "name": "TRB / USD"
     }
   ],
   "56": [
@@ -2851,10 +2788,23 @@ export const chainlinkFeeds = {
       "name": "UNI / BNB"
     },
     {
+      "contractAddress": "0x1df4D7704b1bB87D95eE3Cf6763d1E934b0D8a3C",
+      "proxyAddress": "0xCE3ed5b9AF3a0686EEa8c42dED1D62371d47597e",
+      "decimals": 18,
+      "name": "SVR SOL / USD",
+      "secondaryProxyAddress": "0x428f1d3A31E2b648791b875c70A9Ab1aFda4d331"
+    },
+    {
       "contractAddress": "0x207D6fe4c64C40F17cf7D4e1058B6A4c7Eaaa1Ff",
       "proxyAddress": "0xf93b9B23c46331704EC550c24CB4110975057863",
       "decimals": 8,
       "name": "solvBTC / BTC"
+    },
+    {
+      "contractAddress": "0x20D31b15E56c0A0F4CCbE559277b71BE58948fa5",
+      "proxyAddress": "0xD7eAa5Bf3013A96e3d515c055Dbd98DbdC8c620D",
+      "decimals": 8,
+      "name": "YFI / USD"
     },
     {
       "contractAddress": "0x21D183Ab4AE2101D4088b50892dB72681550AEB6",
@@ -2876,12 +2826,6 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xF884002406Ac6Fd93FF5C989506220f781A97eEA"
     },
     {
-      "contractAddress": "0x274685149c3b5b3A7f7cFB5bCB5D51D72971116A",
-      "proxyAddress": "0xaC26Dfb3433e63e087A9d6CbA7732FABB8335d5B",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0x27847d350F93B95744d6114e04F04cCb58d4bE9A",
       "proxyAddress": "0x9a177Bb9f5b6083E962f9e62bD21d4b5660Aeb03",
       "decimals": 8,
@@ -2895,10 +2839,22 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xe48a5Fd74d4A5524D76960ef3B52204C0e11fCD1"
     },
     {
+      "contractAddress": "0x297542a584BDfa1F1C450ae3542137790C60B1EB",
+      "proxyAddress": "0x1f771B2b1F3c3Db6C7A1d5F38961a49CEcD116dA",
+      "decimals": 8,
+      "name": "CHR / USD"
+    },
+    {
       "contractAddress": "0x299c8413295941cFb52e20Fc864cfD39b7cB1220",
       "proxyAddress": "0xa400421C4be37bDfedaD2212d489b5aA7774207c",
       "decimals": 1,
       "name": "Real GDP — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0x2D43C0F06896Af9bc1AB9F9321457559ef34A412",
+      "proxyAddress": "0x8EC213E7191488C7873cEC6daC8e97cdbAdb7B35",
+      "decimals": 18,
+      "name": "DAI / BNB"
     },
     {
       "contractAddress": "0x2D6147589Bdda5383165dA12ad7a7E81A778b00F",
@@ -2939,16 +2895,17 @@ export const chainlinkFeeds = {
       "name": "SYRUPUSDT / USDT Exchange Rate"
     },
     {
+      "contractAddress": "0x3Cf2fEe3CaA34D4D5C6c0E7c840c77Ba9422bE6c",
+      "proxyAddress": "0xB678E64E287DB572aD35fA076cc450e8c0fA9eA9",
+      "decimals": 18,
+      "name": "SVR TRX / USD",
+      "secondaryProxyAddress": "0xE23e7A572099172048F06298555e5405a36592ef"
+    },
+    {
       "contractAddress": "0x3D39027E638f331B6FC48A9582934A2f40eD106C",
       "proxyAddress": "0x817326922c909b16944817c207562B25C4dF16aD",
       "decimals": 8,
       "name": "XAG / USD"
-    },
-    {
-      "contractAddress": "0x3D64A5744faCF257D7b99843b4eA10A80Fc12A93",
-      "proxyAddress": "0xF9F9ee505ef8C045f82b7eEF42EF5e627cc0Fa11",
-      "decimals": 6,
-      "name": "XGLD / XAUT Exchange Rate"
     },
     {
       "contractAddress": "0x3b656019AA73080B5909b1eA1D24dA1F4c530E75",
@@ -3036,6 +2993,12 @@ export const chainlinkFeeds = {
       "name": "USDT / BNB"
     },
     {
+      "contractAddress": "0x4CEFB2B0cf301402A30e1d1eB94cBA7d6250a32A",
+      "proxyAddress": "0x12bf0C3f7D5aca9E711930d704dA2774358d9210",
+      "decimals": 8,
+      "name": "KAVA / USD"
+    },
+    {
       "contractAddress": "0x4DCda6E12E11dA8656dCE2fcC743fc98B0bfb469",
       "proxyAddress": "0xad2388190FCDc5f1d17ef5cB3106E8b781C9193d",
       "decimals": 18,
@@ -3084,6 +3047,12 @@ export const chainlinkFeeds = {
       "name": "BETH / USD"
     },
     {
+      "contractAddress": "0x591ae4Ba58E3cF8f7C6cc4Ce59Ab6de029880F8E",
+      "proxyAddress": "0xF2f8273F6b9Fc22C90891DC802cAf60eeF805cDF",
+      "decimals": 8,
+      "name": "KNC / USD"
+    },
+    {
       "contractAddress": "0x593D02fFC0Ba6e5CFf1Cf7c026256D356D31ecaD",
       "proxyAddress": "0xb24D1DeE5F9a3f761D286B56d2bC44CE1D02DF7e",
       "decimals": 8,
@@ -3094,6 +3063,27 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xb056B7C804297279A9a673289264c17E6Dc6055d",
       "decimals": 8,
       "name": "ATOM / USD"
+    },
+    {
+      "contractAddress": "0x5A69d0948b0607401cC821704b7E99916bc9452E",
+      "proxyAddress": "0xbD4Bcf7DCFF34fd67525FceB3992cec53C23892A",
+      "decimals": 18,
+      "name": "SVR LTC / USD",
+      "secondaryProxyAddress": "0x654C08FE9E53A8eC90d8350fB4055D4877693622"
+    },
+    {
+      "contractAddress": "0x5C1ca0D1CaF8F663Fa4F89D1C8301B6037831B07",
+      "proxyAddress": "0x6E8Ce841A3234Ce137A667047d106080B56EFe6D",
+      "decimals": 18,
+      "name": "AAVE SVR ETH / USD",
+      "secondaryProxyAddress": "0x5A626d35B0eFbb23d6790774f55740557DdDf82D"
+    },
+    {
+      "contractAddress": "0x5b3b1E268c4dAA1819739157e5e0CafA594f99aa",
+      "proxyAddress": "0x2D6Aae650054eA953CFb38CE55b6fD6c2B278B69",
+      "decimals": 18,
+      "name": "AAVE SVR WSTETH / STETH Exchange Rate",
+      "secondaryProxyAddress": "0x1672BCA4f27dE77d735381C803c39a3547F56879"
     },
     {
       "contractAddress": "0x5c60391E1Be7c43b106Da2e6575b73A8b30eDC35",
@@ -3142,6 +3132,19 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xA615Be6cb0f3F36A641858dB6F30B9242d0ABeD8",
       "decimals": 8,
       "name": "SHIB / USD"
+    },
+    {
+      "contractAddress": "0x653626CB56A5B9cFb5302e290685c50b085DF4a0",
+      "proxyAddress": "0xD164a1559e78B9e6eacb12B2E627F31d2f603C0f",
+      "decimals": 18,
+      "name": "ezETH / ETH"
+    },
+    {
+      "contractAddress": "0x653AF94dd711019dED4b3Da3342A23a895eeEAA9",
+      "proxyAddress": "0x6C28277b9a482F514964642C8E80EAb25D9B16e8",
+      "decimals": 18,
+      "name": "SVR TWT / BNB",
+      "secondaryProxyAddress": "0x1A083354421Da4e26D78D55DAfaeBf4CFc541dAf"
     },
     {
       "contractAddress": "0x66815140e049C986Ca00fae75591958c4c322a5e",
@@ -3199,6 +3202,13 @@ export const chainlinkFeeds = {
       "name": "INJ / USD"
     },
     {
+      "contractAddress": "0x75366e3D729B2B0c1C313265AA46C29221c3b51B",
+      "proxyAddress": "0xE0AA38B3655267a05465F2CBD668c924dEC60271",
+      "decimals": 18,
+      "name": "AAVE SVR BTC / USD",
+      "secondaryProxyAddress": "0x9889f7726F0235c8e975BcD9F2256FdF90AfE515"
+    },
+    {
       "contractAddress": "0x75caa486552Ce295323A572F6D03fb398861a901",
       "proxyAddress": "0xea93C82fa07773ed645d8A79eE27041eb867f221",
       "decimals": 18,
@@ -3235,6 +3245,12 @@ export const chainlinkFeeds = {
       "name": "POL / USD"
     },
     {
+      "contractAddress": "0x7F053DE73E3003E77492bba2174Ee197b4eBE370",
+      "proxyAddress": "0x87701B15C08687341c2a847ca44eCfBc8d7873E1",
+      "decimals": 8,
+      "name": "DODO / USD"
+    },
+    {
       "contractAddress": "0x7e9419C04D294554e6Fada20cc0d010C5f7F4e09",
       "proxyAddress": "0xf1769eB4D1943AF02ab1096D7893759F6177D6B8",
       "decimals": 18,
@@ -3267,16 +3283,22 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x131AC00f2CFa72dc06fEdE8C594B3E842D0E864a"
     },
     {
-      "contractAddress": "0x844d6C34309Da4764BD91302e3bc2a755a8904D4",
-      "proxyAddress": "0x0eAA9F1dB22D490979aE0b43214CACFB2C98592E",
-      "decimals": 18,
-      "name": "APXUSD / USD Exchange Rate"
-    },
-    {
       "contractAddress": "0x858BfEf1ee32c5206a081e89fd907B6585EDE16b",
       "proxyAddress": "0x8264d6983B219be65C4D62f1c82B3A2999944cF2",
       "decimals": 18,
       "name": "XTZ / BNB"
+    },
+    {
+      "contractAddress": "0x86bC50dBf15Aa7342BA5B2EAa6247b4acb228a3D",
+      "proxyAddress": "0xE188A9875af525d25334d75F3327863B2b8cd0F1",
+      "decimals": 8,
+      "name": "SXP / USD"
+    },
+    {
+      "contractAddress": "0x8C328f0Deca45Eb4D1d3c36d06f77815E11b6791",
+      "proxyAddress": "0x02Bfe714e78E2Ad1bb1C2beE93eC8dc5423B66d4",
+      "decimals": 8,
+      "name": "WOO / USD"
     },
     {
       "contractAddress": "0x8FDD87c3490ed8D62f9973Ba2cF7F42579408544",
@@ -3337,6 +3359,13 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x8fCC2d2973e3740c40aF00d030725A429cd24b57",
       "decimals": 8,
       "name": "TREE / USD"
+    },
+    {
+      "contractAddress": "0x99fdb9088d643509d2D8Dc3BfD5DfC8529a28992",
+      "proxyAddress": "0x6A241485a4CB366B23e2e22F0CbcE36D44Df7877",
+      "decimals": 18,
+      "name": "SVR TUSD / USD",
+      "secondaryProxyAddress": "0xbA1b481dba75DA598fcD56668C241c86CfccAA72"
     },
     {
       "contractAddress": "0x9D5763ca9a0BeC8bfC11603F37edA91Edca0CF2c",
@@ -3500,6 +3529,12 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x71cdD4BD7C42C752325cC7208deC1b3B418F1706"
     },
     {
+      "contractAddress": "0xDa15d5A05A2813395e9A851EA463281AA1354FF7",
+      "proxyAddress": "0x696B7eA5827548cd35C743A0a05c1f3130196e5e",
+      "decimals": 18,
+      "name": "stBTC Proof of Reserves"
+    },
+    {
       "contractAddress": "0xE0Aa6B17316140A964B08E0228152E282225607D",
       "proxyAddress": "0x10402B01cD2E6A9ed6DBe683CbC68f78Ff02f8FC",
       "decimals": 8,
@@ -3538,10 +3573,10 @@ export const chainlinkFeeds = {
       "name": "WLFI / USD"
     },
     {
-      "contractAddress": "0xEdF9Aa67c00E4503a67F65509cDaD2b71b796284",
-      "proxyAddress": "0xFa8e834DD2200923C706e6438d9030dB029B0c18",
-      "decimals": 18,
-      "name": "United Stables U Reserves"
+      "contractAddress": "0xEb2Fb95866285e731E2666669Cb6C362C3Ad06CD",
+      "proxyAddress": "0xE9736eB458b0741e781E460228b9e5291488F7cE",
+      "decimals": 8,
+      "name": "MUSD / USD"
     },
     {
       "contractAddress": "0xEe38B8F8B17Baa11ca558a3214E3261527a044cf",
@@ -3568,11 +3603,10 @@ export const chainlinkFeeds = {
       "name": "WTI / USD"
     },
     {
-      "contractAddress": "0xF9C05aE2436A6e1B58eD95F4feA7F4B62959b178",
-      "proxyAddress": "0x5e166AE635ea17640980085071A1441d6e2e28ca",
+      "contractAddress": "0xF9Fd3A9A36998425f31B23FBaE501445aAE65ec9",
+      "proxyAddress": "0xdF4Dd957a84F798acFADd448badd2D8b9bC99047",
       "decimals": 8,
-      "name": "SVR THE / USD",
-      "secondaryProxyAddress": "0xD55a9E7e00b6b86ee5C92cA0D9DD218b251E8e4B"
+      "name": "HIGH / USD"
     },
     {
       "contractAddress": "0xFA3072f7c8EACD26bd37b2743319d4A59401BAea",
@@ -3585,6 +3619,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x2a548935a323Bb7329a5E3F1667B979f16Bc890b",
       "decimals": 18,
       "name": "BCH / BNB"
+    },
+    {
+      "contractAddress": "0xFbBc7E59dd02ADa97FfB0f85C36cE14B1A3Fdfc2",
+      "proxyAddress": "0x08E70777b982a58D23D05E3D7714f44837c06A21",
+      "decimals": 8,
+      "name": "BSW / USD"
     },
     {
       "contractAddress": "0xa6779B22bAc7039E39fF9242A5cd3CCb1c6B9f39",
@@ -3605,6 +3645,12 @@ export const chainlinkFeeds = {
       "name": "AMZN / USD"
     },
     {
+      "contractAddress": "0xa72fEEA7b1e42611d371B1b3859b80e077DF5c89",
+      "proxyAddress": "0xc4429B539397a3166eF3ef132c29e34715a3ABb4",
+      "decimals": 8,
+      "name": "Calculated BNBx / USD"
+    },
+    {
       "contractAddress": "0xaB5bade5d88dD07da54d5df87d05d67fAfe977a0",
       "proxyAddress": "0x5974855ce31EE8E1fff2e76591CbF83D7110F151",
       "decimals": 8,
@@ -3623,6 +3669,13 @@ export const chainlinkFeeds = {
       "name": "COMP / USD"
     },
     {
+      "contractAddress": "0xb6D12f1a49a7935A53EE520b3883e28271E95aac",
+      "proxyAddress": "0x8fd3E788A8cF55C62B5A731ADa7ad8B1d2BFf851",
+      "decimals": 18,
+      "name": "AAVE SVR BNB / USD",
+      "secondaryProxyAddress": "0x59CD46F53D66F51B2F58d134fB9c279b73668D60"
+    },
+    {
       "contractAddress": "0xb97E2b3546FD99f8EB053cD3C50f88d9815f8d54",
       "proxyAddress": "0xC6A1314E89d01517a90AE4b0d9d5e499A324B283",
       "decimals": 18,
@@ -3639,6 +3692,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x9A18137ADCF7b05f033ad26968Ed5a9cf0Bf8E6b",
       "decimals": 8,
       "name": "XTZ / USD"
+    },
+    {
+      "contractAddress": "0xc5DFc3feaC05a9C3b4c1c2e5bE5546b74a1B5cc3",
+      "proxyAddress": "0x8b0D36ae4CF8e277773A7ba5F35c09Edb144241b",
+      "decimals": 8,
+      "name": "GMT / USD"
     },
     {
       "contractAddress": "0xc9BD2A5d605B3Df807e1E954c57f5FD5E98DA357",
@@ -3715,6 +3774,20 @@ export const chainlinkFeeds = {
       "name": "BCH / USD"
     },
     {
+      "contractAddress": "0xdaEaB3108483458cd1C441a753009D2f2c020292",
+      "proxyAddress": "0x4C45cf184D62E5a225101F06E24255a62CF2b28F",
+      "decimals": 18,
+      "name": "AAVE SVR USDT / USD",
+      "secondaryProxyAddress": "0x70dFc219Fb289A20EC3431548b30dbE2c653AA9B"
+    },
+    {
+      "contractAddress": "0xdc94188A6deb8B9D39e4ACBcED5395D5Ce118502",
+      "proxyAddress": "0x7c15aB340495a4D232553E1ebF78A9e6da66e834",
+      "decimals": 18,
+      "name": "AAVE SVR USDC / USD",
+      "secondaryProxyAddress": "0x7a6B6F81BeDBE9C25893455c985f356E2853C283"
+    },
+    {
       "contractAddress": "0xe0c744De6e2fB7Bab7034B5886612C42E100113d",
       "proxyAddress": "0xF841761481DF19831cCC851A54D8350aE6022583",
       "decimals": 18,
@@ -3770,12 +3843,6 @@ export const chainlinkFeeds = {
       "name": "XAU / USD"
     },
     {
-      "contractAddress": "0xf2e9F90246cbB2a6e6ad0fc7ed7B25368E40B474",
-      "proxyAddress": "0xC2453C637BbBC53Ca6aBd1F139D1352CCeb55eB1",
-      "decimals": 18,
-      "name": "SOLVBTC / BTC Exchange Rate"
-    },
-    {
       "contractAddress": "0xf6833571E1aa3850C8964EDa3d24A5daA4f3B466",
       "proxyAddress": "0x3400969D9b6156d75EC16c81296b93b3149B0E7C",
       "decimals": 3,
@@ -3796,202 +3863,232 @@ export const chainlinkFeeds = {
   ],
   "100": [
     {
-      "contractAddress": "0x03FC3B121dCD823170f2bADd1A4CcE3DB589f9E2",
-      "proxyAddress": "0x00288135bE38B83249F380e9b6b9a04c90EC39eE",
-      "decimals": 8,
-      "name": "WBTC / USD"
-    },
-    {
-      "contractAddress": "0x0593D34ecB0B490551B8104F93735084b3E1fa49",
-      "proxyAddress": "0xab70BCB260073d036d1660201e9d5405F5829b7a",
-      "decimals": 8,
-      "name": "EUR / USD"
-    },
-    {
-      "contractAddress": "0x0640C88b8179615F1B4c725609D8ca5377C90cD8",
-      "proxyAddress": "0x911e08A32A6b7671A80387F93147Ab29063DE9A2",
-      "decimals": 8,
-      "name": "AVAX / USD"
-    },
-    {
-      "contractAddress": "0x096130C8162451839FA6866B70A4541414c6634B",
-      "proxyAddress": "0x824b4A1A0443609A2ADd94a700b770FA5bE31287",
-      "decimals": 8,
-      "name": "DOGE / USD"
-    },
-    {
-      "contractAddress": "0x096D1296515ae8154a8E7709DA66a8dc25C49b47",
-      "proxyAddress": "0x68811D7DF835B1c33e6EEae8E7C141eF48d48cc7",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x10D6cc9E0ED06938A4326E0293a17f8886EE34C4",
-      "proxyAddress": "0xc5f7665e7FdC5059B93Db8bEAB83F5ffA05Eb18e",
-      "decimals": 18,
-      "name": "osETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x142D764205B70672A692DE898d60c52565962917",
-      "proxyAddress": "0x6D42cc26756C34F26BEcDD9b30a279cE9Ea8296E",
-      "decimals": 8,
-      "name": "BNB / USD"
-    },
-    {
-      "contractAddress": "0x368624B0A843F6EBB9f8accF03e91DF6A6F3B621",
-      "proxyAddress": "0xC77B83ac3Dd2a761073bD0f281f7b880B2DDDe18",
-      "decimals": 8,
-      "name": "CRV / USD"
-    },
-    {
-      "contractAddress": "0x37BF507229b7db8d2feDe64738baa141Cf9a1a81",
-      "proxyAddress": "0x2b481Dc923Aa050E009113Dca8dcb0daB4B68cDF",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0x3aeB3548ab12117eC16c69da02240128A76dA4D7",
-      "proxyAddress": "0x0064AC007fF665CF8D0D3Af5E0AD1c26a3f853eA",
-      "decimals": 18,
-      "name": "wstETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3d1F531204d916bf9ba0D6e81c4CA8a6EA53DD74",
-      "proxyAddress": "0x229e486Ee0D35b7A9f668d10a1e6029eEE6B77E0",
-      "decimals": 8,
-      "name": "STETH / USD"
-    },
-    {
-      "contractAddress": "0x4cD36A67EE9d41236cd5091673C4B3de62fbC0C9",
-      "proxyAddress": "0xF937ffAeA1363e4Fa260760bDFA2aA8Fc911F84D",
-      "decimals": 0,
-      "name": "AAVE Network Emergency Count (Gnosis Chain)"
-    },
-    {
-      "contractAddress": "0x55e3034EC51eBE549a1918d94Af3bdF1d94ED3b9",
-      "proxyAddress": "0x0CaE8f5c10931f0Ce87Ed9BbB71391C6E93C2C26",
-      "decimals": 8,
-      "name": "FTT / USD"
-    },
-    {
-      "contractAddress": "0x5e2cd515152ba308d1B63B2000B343E3f6c05eE7",
-      "proxyAddress": "0xB7B7d008c49295A0FF6Eed6dF4Ad3052Fd39d5e6",
-      "decimals": 8,
-      "name": "SOL / USD"
-    },
-    {
-      "contractAddress": "0x64676ef5b2f38669D2cb77A57438a639d5ee2AAE",
-      "proxyAddress": "0xeBbd67a84e33791F1bcFde74CDc22a71e332e2F1",
-      "decimals": 8,
-      "name": "GRT / USD"
-    },
-    {
-      "contractAddress": "0x68bcF394fA787e0A2BC55562c04065230e8aE021",
-      "proxyAddress": "0xe9cea51a7b1b9B32E057ff62762a2066dA933cD2",
-      "decimals": 8,
-      "name": "MXN / USD"
-    },
-    {
-      "contractAddress": "0x6f18ac369bb3e4aC9Ec3C4dAb164d325A9bcbB8B",
-      "proxyAddress": "0x3b84d6e6976D5826500572600eB44f9f1753827b",
-      "decimals": 8,
-      "name": "SNX / USD"
-    },
-    {
-      "contractAddress": "0x89BAf01D6E78b1F76922096f711430dB2DEFBbA2",
+      "contractAddress": "0x059e7Bd8157e0d302dF3626E162B6C835340b311",
       "proxyAddress": "0xa767f745331D267c7751297D982b050c93985627",
       "decimals": 8,
       "name": "ETH / USD"
     },
     {
-      "contractAddress": "0x8A671E6e6C55fe01DB74ea3809AEB36C09044AB4",
-      "proxyAddress": "0xc89077976e03d19057eb296215C15afAe4A7464B",
-      "decimals": 18,
-      "name": "LINK / DAI"
-    },
-    {
-      "contractAddress": "0x8FD5f699fE458194cE5265C8e7F1A1F641c11855",
-      "proxyAddress": "0xC0a6Bf8d5D408B091D022C3C0653d4056D4B9c01",
+      "contractAddress": "0x18064eA9430Dd74E854162Aff10E34aC6Df3838B",
+      "proxyAddress": "0xeBbd67a84e33791F1bcFde74CDc22a71e332e2F1",
       "decimals": 8,
-      "name": "SUSHI / USD"
+      "name": "GRT / USD"
     },
     {
-      "contractAddress": "0x9Ab16BD21B35A59394Dc05C22735EAf7EF2F406b",
-      "proxyAddress": "0x4a5AB0F60d12a4420d36D3eD9A1F77d8c47EB94c",
-      "decimals": 8,
-      "name": "XAU / USD"
-    },
-    {
-      "contractAddress": "0xB04B0669F478F71E6429D52618FA19D8D4D52F95",
+      "contractAddress": "0x257b970a3bca77410b534A47ce9e434544dA55B9",
       "proxyAddress": "0x855193775eF2ABb12CF95DE3086229a14Ab8E0E3",
       "decimals": 8,
       "name": "GHO / USD"
     },
     {
-      "contractAddress": "0xB768Bc77Ae35a2E3C4B26033568f66493FB0f942",
-      "proxyAddress": "0xBa95Bc8418Ebcdf8a690924E1d4aD5292139F2EA",
+      "contractAddress": "0x295442CF6Ba90E91b8a01A7C2dE9d7DB987439C8",
+      "proxyAddress": "0xB7B7d008c49295A0FF6Eed6dF4Ad3052Fd39d5e6",
       "decimals": 8,
-      "name": "COMP / USD"
+      "name": "SOL / USD"
     },
     {
-      "contractAddress": "0xBD30f5Ac6ba3F4FcEc65d6A6d8D85CEf2AD50591",
-      "proxyAddress": "0x6C1d7e76EF7304a40e8456ce883BC56d3dEA3F7d",
-      "decimals": 8,
-      "name": "BTC / USD"
-    },
-    {
-      "contractAddress": "0xC765657154240c72ed50f77319653E4A4B3C0aaD",
-      "proxyAddress": "0x3c30c5c415B2410326297F0f65f5Cbb32f3aefCc",
-      "decimals": 8,
-      "name": "DOT / USD"
-    },
-    {
-      "contractAddress": "0xE034125D3c8CcCAfF97F498f166fF98cD839ee4c",
-      "proxyAddress": "0x678df3415fc31947dA4324eC63212874be5a82f8",
-      "decimals": 8,
-      "name": "DAI / USD"
-    },
-    {
-      "contractAddress": "0xE2250252C4164A93447c75b565e04F3B5c175F28",
-      "proxyAddress": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317",
-      "decimals": 8,
-      "name": "JPY / USD"
-    },
-    {
-      "contractAddress": "0xa3A497A68b6834f3f40820cbD1713002C3325970",
+      "contractAddress": "0x29b914B44169B04262Ae11173149d7F1131791bC",
       "proxyAddress": "0xd98735d78266c62277Bb4dBf3e3bCdd3694782F4",
       "decimals": 8,
       "name": "UNI / USD"
     },
     {
-      "contractAddress": "0xb95B1b8f18e6227f0b49688675C61390232A17CE",
-      "proxyAddress": "0x14030d5a0C9e63D9606C6f2c8771Fc95b34b07e0",
-      "decimals": 8,
-      "name": "YFI / USD"
-    },
-    {
-      "contractAddress": "0xc78f9C32Ad86eb42885ccf1201947D825047C76D",
-      "proxyAddress": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
-      "decimals": 8,
-      "name": "CHF / USD"
-    },
-    {
-      "contractAddress": "0xd24B7aB13AE7cD8871806F0a1b1Ae66C0A225Ac2",
+      "contractAddress": "0x30bA871Ee7a08dBd255CdD8e7e035DAd72014E27",
       "proxyAddress": "0x26C31ac71010aF62E6B486D1132E266D6298857D",
       "decimals": 8,
       "name": "USDC / USD"
     },
     {
-      "contractAddress": "0xe2cd6230A5168932A7908a97e0a84a5e76aC6854",
+      "contractAddress": "0x337D84cE7Cc5e4Da39dDc0e76698e79Ff3b40217",
+      "proxyAddress": "0xC0a6Bf8d5D408B091D022C3C0653d4056D4B9c01",
+      "decimals": 8,
+      "name": "SUSHI / USD"
+    },
+    {
+      "contractAddress": "0x4339B4F9C53CAc6dDe61CEE327c1e932F77d4AdC",
+      "proxyAddress": "0x3b84d6e6976D5826500572600eB44f9f1753827b",
+      "decimals": 8,
+      "name": "SNX / USD"
+    },
+    {
+      "contractAddress": "0x5128beD0c719537b179aF0aF01386caf9B22Baf1",
+      "proxyAddress": "0x3c30c5c415B2410326297F0f65f5Cbb32f3aefCc",
+      "decimals": 8,
+      "name": "DOT / USD"
+    },
+    {
+      "contractAddress": "0x53BA6D580a9EAB65899Bbc1157c2062a83fa8D9E",
+      "proxyAddress": "0x4a5AB0F60d12a4420d36D3eD9A1F77d8c47EB94c",
+      "decimals": 8,
+      "name": "XAU / USD"
+    },
+    {
+      "contractAddress": "0x5ED6A59735297Bc5D6CB4942913Ae7098E0cD703",
+      "proxyAddress": "0x00288135bE38B83249F380e9b6b9a04c90EC39eE",
+      "decimals": 8,
+      "name": "WBTC / USD"
+    },
+    {
+      "contractAddress": "0x642736Bb512ac22D37171bf57eda17E48E977be8",
+      "proxyAddress": "0x14030d5a0C9e63D9606C6f2c8771Fc95b34b07e0",
+      "decimals": 8,
+      "name": "YFI / USD"
+    },
+    {
+      "contractAddress": "0x6E2482E011EC31a1960a938791B6B4Ff5BAa3217",
+      "proxyAddress": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
+      "decimals": 8,
+      "name": "CHF / USD"
+    },
+    {
+      "contractAddress": "0x6dcF8CE1982Fc71E7128407c7c6Ce4B0C1722F55",
+      "proxyAddress": "0x0064AC007fF665CF8D0D3Af5E0AD1c26a3f853eA",
+      "decimals": 18,
+      "name": "wstETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x759be90a34E426042ed7d17916B78a5cD2567dd1",
+      "proxyAddress": "0xab70BCB260073d036d1660201e9d5405F5829b7a",
+      "decimals": 8,
+      "name": "EUR / USD"
+    },
+    {
+      "contractAddress": "0x7D2c97DdB451259A3a850F67db8C803d3fB10Bf9",
+      "proxyAddress": "0xF937ffAeA1363e4Fa260760bDFA2aA8Fc911F84D",
+      "decimals": 0,
+      "name": "AAVE Network Emergency Count (Gnosis Chain)"
+    },
+    {
+      "contractAddress": "0x7FeD35C1e4C303F272E4fcdF19865E85DfA44f72",
+      "proxyAddress": "0x0CaE8f5c10931f0Ce87Ed9BbB71391C6E93C2C26",
+      "decimals": 8,
+      "name": "FTT / USD"
+    },
+    {
+      "contractAddress": "0x7cfEA3C34FBEf2e9A53c188a75494aeDC3A743ff",
+      "proxyAddress": "0xBa95Bc8418Ebcdf8a690924E1d4aD5292139F2EA",
+      "decimals": 8,
+      "name": "COMP / USD"
+    },
+    {
+      "contractAddress": "0x813a79EfDfd6a4352b7C583d8d38B2B5d1151d7E",
+      "proxyAddress": "0xed322A5ac55BAE091190dFf9066760b86751947B",
+      "decimals": 8,
+      "name": "LINK / USD"
+    },
+    {
+      "contractAddress": "0x817A6F75fA1840847382ab23203EA38eDB7158f6",
+      "proxyAddress": "0x824b4A1A0443609A2ADd94a700b770FA5bE31287",
+      "decimals": 8,
+      "name": "DOGE / USD"
+    },
+    {
+      "contractAddress": "0x88C76CccaA469614EAad7CED362050062DC2CCeB",
+      "proxyAddress": "0xC77B83ac3Dd2a761073bD0f281f7b880B2DDDe18",
+      "decimals": 8,
+      "name": "CRV / USD"
+    },
+    {
+      "contractAddress": "0x9Af55762115066D3e99AD4d237586344C4ABEAdD",
+      "proxyAddress": "0x6D42cc26756C34F26BEcDD9b30a279cE9Ea8296E",
+      "decimals": 8,
+      "name": "BNB / USD"
+    },
+    {
+      "contractAddress": "0xB660dC68D4cf26F5ac1c1fDcD9e57d648FCf13d9",
+      "proxyAddress": "0x2997eBa3d9c2447c36107bB0F082b8c33566b49c",
+      "decimals": 8,
+      "name": "ZIL / USD"
+    },
+    {
+      "contractAddress": "0xB840C9dBC0964bcD89d6410f34091b2cb6733ADb",
+      "proxyAddress": "0x911e08A32A6b7671A80387F93147Ab29063DE9A2",
+      "decimals": 8,
+      "name": "AVAX / USD"
+    },
+    {
+      "contractAddress": "0xD132Cf1dd2e1FB75c7d97d591d87D5E07A681353",
+      "proxyAddress": "0xc5f7665e7FdC5059B93Db8bEAB83F5ffA05Eb18e",
+      "decimals": 18,
+      "name": "osETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xD2CCCa5Bb84CB2F6b72B98Ee82c61F67c82DD40B",
+      "proxyAddress": "0x2b481Dc923Aa050E009113Dca8dcb0daB4B68cDF",
+      "decimals": 8,
+      "name": "AAVE / USD"
+    },
+    {
+      "contractAddress": "0xD8aE5c2AEec843531Df1e523D775d870f877103C",
+      "proxyAddress": "0xe9cea51a7b1b9B32E057ff62762a2066dA933cD2",
+      "decimals": 8,
+      "name": "MXN / USD"
+    },
+    {
+      "contractAddress": "0xa546012bE6CE11829bCF3930Fc9Ad0d3f0ef2b54",
+      "proxyAddress": "0x1b723C855F7D2c2785F99486973271355e782d77",
+      "decimals": 8,
+      "name": "BAL / USD"
+    },
+    {
+      "contractAddress": "0xa5f05b6C586f21b7E6200b6A6a4ADE55eCAB0103",
+      "proxyAddress": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317",
+      "decimals": 8,
+      "name": "JPY / USD"
+    },
+    {
+      "contractAddress": "0xaD479D707a8f1fAA346Fe1380f76CF993ae54330",
+      "proxyAddress": "0x6C1d7e76EF7304a40e8456ce883BC56d3dEA3F7d",
+      "decimals": 8,
+      "name": "BTC / USD"
+    },
+    {
+      "contractAddress": "0xafb768EF3aa6a5756f9F2d11CBE04C4EF90949bf",
+      "proxyAddress": "0x76e76F7E73F3BD42E3c2b4282B50b36E78130B4A",
+      "decimals": 8,
+      "name": "PERP / USD"
+    },
+    {
+      "contractAddress": "0xb208aFE3114BFA6db67Af4a5C7c7Ca50988dEE69",
+      "proxyAddress": "0xF826E3ff8c0481D2e58DB9d301936F94Cd4fa916",
+      "decimals": 8,
+      "name": "UMA / USD"
+    },
+    {
+      "contractAddress": "0xb65566283CAcE6b281308308da0f0783a613c416",
+      "proxyAddress": "0x678df3415fc31947dA4324eC63212874be5a82f8",
+      "decimals": 8,
+      "name": "DAI / USD"
+    },
+    {
+      "contractAddress": "0xc4D924b6baB6FEc909E482b93847D997463f0c79",
+      "proxyAddress": "0x68811D7DF835B1c33e6EEae8E7C141eF48d48cc7",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
+      "contractAddress": "0xcA16Ed36A7d1Ae2DC68873D62bce4f9BdCc2d378",
       "proxyAddress": "0x22441d81416430A54336aB28765abd31a792Ad37",
       "decimals": 8,
       "name": "GNO / USD"
     },
     {
-      "contractAddress": "0xf441F717f07894ec06Eb31576F301Ee0523144Db",
-      "proxyAddress": "0xed322A5ac55BAE091190dFf9066760b86751947B",
+      "contractAddress": "0xcC5a624A98600564992753DafF5Cdfe7a2e58f67",
+      "proxyAddress": "0x229e486Ee0D35b7A9f668d10a1e6029eEE6B77E0",
       "decimals": 8,
-      "name": "LINK / USD"
+      "name": "STETH / USD"
+    },
+    {
+      "contractAddress": "0xf0c7f73764502Ad0A2728200B0Ad11CC244b7276",
+      "proxyAddress": "0xc89077976e03d19057eb296215C15afAe4A7464B",
+      "decimals": 18,
+      "name": "LINK / DAI"
+    },
+    {
+      "contractAddress": "0xf50a71387D9D01ED3873E32f1044497327AF1044",
+      "proxyAddress": "0xFDF9EB5fafc11Efa65f6FD144898da39a7920Ae8",
+      "decimals": 8,
+      "name": "1INCH / USD"
     }
   ],
   "137": [
@@ -4074,10 +4171,22 @@ export const chainlinkFeeds = {
       "name": "MATIC / USD"
     },
     {
+      "contractAddress": "0x188069873B489A1A91B066C1C851aA9442124438",
+      "proxyAddress": "0x59161117086a4C7A9beDA16C66e40Bdaa1C5a8B6",
+      "decimals": 8,
+      "name": "DODO / USD"
+    },
+    {
       "contractAddress": "0x18f3161Bf51705ce72a9f479B01F145F484A4826",
       "proxyAddress": "0x162d8c5bF15eB6BEe003a1ffc4049C92114bc931",
       "decimals": 18,
       "name": "UNI / ETH"
+    },
+    {
+      "contractAddress": "0x1A9a36A20d02E247ABceC3C32e155E498BE398f9",
+      "proxyAddress": "0x6a99EC84819FB7007dd5D032068742604E755c56",
+      "decimals": 8,
+      "name": "WOO / USD"
     },
     {
       "contractAddress": "0x1DE171A5F00E22Ddf096cc2c5cF39B4e2c58c240",
@@ -4090,6 +4199,24 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x24B820870F726dA9B0D83B0B28a93885061dbF50",
       "decimals": 8,
       "name": "KRW / USD"
+    },
+    {
+      "contractAddress": "0x20141A70f958762391328Ef40268B5640B6F84d1",
+      "proxyAddress": "0xc86105DccF9BD629Cea7Fd41f94c6050bF96D57F",
+      "decimals": 8,
+      "name": "OM / USD"
+    },
+    {
+      "contractAddress": "0x22252D4293BB9D9eC3F47467d5B54EdFf31bD18C",
+      "proxyAddress": "0x7899dd75C329eFe63e35b02bC7d60D3739FB23c5",
+      "decimals": 8,
+      "name": "KAVA / USD"
+    },
+    {
+      "contractAddress": "0x24c1772f2725af97F0811Dc3Aee99B17dfd6115E",
+      "proxyAddress": "0x7C5D415B64312D38c56B54358449d0a4058339d2",
+      "decimals": 8,
+      "name": "TUSD / USD"
     },
     {
       "contractAddress": "0x28db4EFA5d3D1F7ec7CEA804576BbC3d4304E3Ae",
@@ -4168,6 +4295,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x171b16562EA3476F5C61d1b8dad031DbA0768545",
       "decimals": 8,
       "name": "MXN / USD"
+    },
+    {
+      "contractAddress": "0x3F50946E432D9E6cf0fD3Ab84E352c6223f4C7d2",
+      "proxyAddress": "0x70c69A2756AB7911EbD15DF88E1D4989BC4109d7",
+      "decimals": 8,
+      "name": "RDNT / USD"
     },
     {
       "contractAddress": "0x3Fe9c5D69C4857a1b38A6e11C374BfEa2042C952",
@@ -4260,16 +4393,22 @@ export const chainlinkFeeds = {
       "name": "GHST / USD"
     },
     {
-      "contractAddress": "0x51E9881835aD37b1fBBe23620E23aBA902C0d266",
-      "proxyAddress": "0xfE4A8cc5b5B2366C1B58Bea3858e81843581b2F7",
+      "contractAddress": "0x4f66684D81E51c16a2AB5f104f5108eC536aB02B",
+      "proxyAddress": "0x187c42f6C0e7395AeA00B1B30CB0fF807ef86d5d",
       "decimals": 8,
-      "name": "USDC / USD"
+      "name": "SPY.US"
     },
     {
       "contractAddress": "0x51dc6d1e7E215c5FE11FE5d5e2BFF01F1C303032",
       "proxyAddress": "0x9199b9dF4519a435b4F515E8B43B5C2df4DD0b8c",
       "decimals": 8,
       "name": "rcUSD+ NAV"
+    },
+    {
+      "contractAddress": "0x530a6F6e78391F80934de518f350affde5733663",
+      "proxyAddress": "0x10e5f3DFc81B3e5Ef4e648C4454D04e79E1E41E2",
+      "decimals": 8,
+      "name": "KNC / USD"
     },
     {
       "contractAddress": "0x53Ba81B50b47EE4dfe98F72Db287226580F2C912",
@@ -4350,6 +4489,12 @@ export const chainlinkFeeds = {
       "name": "TRUMATIC / MATIC Exchange Rate"
     },
     {
+      "contractAddress": "0x670eD927ca98c5f712499879E35098e9ecc78F4f",
+      "proxyAddress": "0x9d3A43c111E7b2C6601705D9fcF7a70c95b1dc55",
+      "decimals": 8,
+      "name": "YFI / USD"
+    },
+    {
       "contractAddress": "0x67aEB9800259C40Cf1aDc087BDdDE3Fad9136E3B",
       "proxyAddress": "0x0f6914d8e7e1214CDb3A4C6fbf729b75C69DF608",
       "decimals": 8,
@@ -4408,6 +4553,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x5164Ad28fb12a5e55946090Ec3eE1B748AFb3785",
       "decimals": 8,
       "name": "THB / USD"
+    },
+    {
+      "contractAddress": "0x7bd7Bd17a2cD5C0A5c31747d4507e95bB991eAEA",
+      "proxyAddress": "0x0A6513e40db6EB1b165753AD52E80663aeA50545",
+      "decimals": 8,
+      "name": "USDT / USD"
     },
     {
       "contractAddress": "0x837f41088D2c2AF372aEebC9Ec0A76460669397e",
@@ -4500,6 +4651,12 @@ export const chainlinkFeeds = {
       "name": "SNX / USD"
     },
     {
+      "contractAddress": "0x9FB469455209B098AdE3A59D1049b2A09fCf3522",
+      "proxyAddress": "0x6C0fe985D3cAcbCdE428b84fc9431792694d0f51",
+      "decimals": 8,
+      "name": "FXS / USD"
+    },
+    {
       "contractAddress": "0x9c19be1fF177eF3B58910f26FF5c67dD167bfB91",
       "proxyAddress": "0x2Ac3F3Bfac8fC9094BC3f0F9041a51375235B992",
       "decimals": 8,
@@ -4590,10 +4747,28 @@ export const chainlinkFeeds = {
       "name": "JPY / USD"
     },
     {
+      "contractAddress": "0xE7A140c5BF43f2E5FdF75c1DBbAb3120363D680f",
+      "proxyAddress": "0x97371dF4492605486e23Da797fA68e55Fc38a13f",
+      "decimals": 8,
+      "name": "Calculated stMATIC / USD"
+    },
+    {
       "contractAddress": "0xEBc3F5B57Bd33F8D5b4EA62eDE9539865B47e2b9",
       "proxyAddress": "0xD94427eDee70E4991b4b8DdCc848f2B58ED01C0b",
       "decimals": 8,
       "name": "DASH / USD"
+    },
+    {
+      "contractAddress": "0xED78A887422fbEf80CB3775Ea32057051025499a",
+      "proxyAddress": "0x00DBeB1e45485d53DF7C2F0dF1Aa0b6Dc30311d3",
+      "decimals": 8,
+      "name": "FRAX / USD"
+    },
+    {
+      "contractAddress": "0xEe2B6737b55e14b31fCa9247EA86593944F1c903",
+      "proxyAddress": "0xBB3eF70953fC3766bec4Ab7A9BF05B6E4caf89c6",
+      "decimals": 8,
+      "name": "SLP / USD"
     },
     {
       "contractAddress": "0xF4427712809751316A429F6dd6479Eb954B81277",
@@ -4638,18 +4813,6 @@ export const chainlinkFeeds = {
       "name": "1INCH / USD"
     },
     {
-      "contractAddress": "0xaB5633015A8B68b61E4C24e815Ac73e3CD855aD8",
-      "proxyAddress": "0x0A6513e40db6EB1b165753AD52E80663aeA50545",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0xaCc3ECfc198020e53Aa71235753cCBCDF260d52F",
-      "proxyAddress": "0xDFD0F00DD99208F1b8Cbe724ef2b9BCfCC36dfe6",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0xac5bc153F5Fd359c9Ad4b46e6A5c26e41315e20B",
       "proxyAddress": "0x5c3890e86f3E7Ed7F5390532De147953580f1605",
       "decimals": 8,
@@ -4680,10 +4843,22 @@ export const chainlinkFeeds = {
       "name": "ALGO / USD"
     },
     {
+      "contractAddress": "0xc76805E708d11180913265143dE3272B69AD0b80",
+      "proxyAddress": "0x0F1d5Bd7be9B30Fc09E110cd6504Bd450e53cb0E",
+      "decimals": 8,
+      "name": "STORJ / USD"
+    },
+    {
       "contractAddress": "0xc7fB8424b8309bc040508e957E38a9a6Bb64F677",
       "proxyAddress": "0xC5878bDf8a89FA3bF0DC8389ae8EE6DE601D01bC",
       "decimals": 8,
       "name": "HBAR / USD"
+    },
+    {
+      "contractAddress": "0xcC741360BA810cD879B05ba8b5A462fB6311fbBe",
+      "proxyAddress": "0xfE4A8cc5b5B2366C1B58Bea3858e81843581b2F7",
+      "decimals": 8,
+      "name": "USDC / USD"
     },
     {
       "contractAddress": "0xcDc3a8ba7aEEAc3a75082C148f34acae7C5B6338",
@@ -4696,6 +4871,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x7E7B45b08F68EC69A99AAb12e42FcCB078e10094",
       "decimals": 8,
       "name": "AAPL / USD"
+    },
+    {
+      "contractAddress": "0xcc66FdAAe873434259b0cEc8FA12fe03e937A64f",
+      "proxyAddress": "0x5DB6e61B6159B20F068dc15A47dF2E5931b14f29",
+      "decimals": 8,
+      "name": "ALCX / USD"
     },
     {
       "contractAddress": "0xcd6c03f397F67ed1A418Ee5EdA9921D0c45FF656",
@@ -4720,6 +4901,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xBC08c639e579a391C4228F20d0C29d0690092DF0",
       "decimals": 8,
       "name": "ZEC / USD"
+    },
+    {
+      "contractAddress": "0xdCEbe924EB9D11ca72fAE06f70515fa99470a6b6",
+      "proxyAddress": "0x33D9B1BAaDcF4b26ab6F8E83e9cb8a611B2B3956",
+      "decimals": 8,
+      "name": "UMA / USD"
     },
     {
       "contractAddress": "0xefA7E9D65ea67d8C8355a624B879CdbB6e2162C6",
@@ -4766,10 +4953,16 @@ export const chainlinkFeeds = {
       "name": "Fraxtal sdUSD-DUSD Exchange Rate"
     },
     {
-      "contractAddress": "0x02b9D1AD65291BC82EE99eB691b3c70f2b5127f1",
-      "proxyAddress": "0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216",
+      "contractAddress": "0x01dF8F64052f03c0ba20769d3152F83B9B0A19C2",
+      "proxyAddress": "0x1654Df3d2543717534eE1c38eb9aF5F0407Ec708",
       "decimals": 8,
-      "name": "USDT / USD"
+      "name": "DAI / USD"
+    },
+    {
+      "contractAddress": "0x05acfeE2c0b4efbBCe705932239A30613aCE42f2",
+      "proxyAddress": "0xc9541134848f525f8eaEA262599a1668A3a9b6eD",
+      "decimals": 8,
+      "name": "mooBIFI / USD"
     },
     {
       "contractAddress": "0x0B700bc408025A47567643fd55E0908b1D4fFB8d",
@@ -4782,12 +4975,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xc76dFb89fF298145b417d221B2c747d84952e01d",
       "decimals": 8,
       "name": "S / USD"
-    },
-    {
-      "contractAddress": "0x0F928BC2f45c43E8885d2365Bd75fb132E6C1165",
-      "proxyAddress": "0xc0663D811E63AcdcE3A73ddcA57B2c5Ff13fB33E",
-      "decimals": 18,
-      "name": "USSD / USD"
     },
     {
       "contractAddress": "0x19e6821Ee47a4c23E5971fEBeE29f78C2e514DC8",
@@ -4814,12 +5001,6 @@ export const chainlinkFeeds = {
       "name": "BTC / USD"
     },
     {
-      "contractAddress": "0x319D412B131511700d3119790d44C8ca736110AA",
-      "proxyAddress": "0x8B68832c213a73dCaeC8B65a2Ef8f8eEfBE5F327",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0x3556D3271E2b37039394c31B7F27FC265b5728ab",
       "proxyAddress": "0xe5bd703E6C4C7679e10D429D87EF4550a9fA6fF4",
       "decimals": 18,
@@ -4836,12 +5017,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x61140C09956495F1ce49D28E125Ed4035e1CAE95",
       "decimals": 8,
       "name": "WBTC / USD"
-    },
-    {
-      "contractAddress": "0x6073632F0173db91828F0E8a2504a3F81448edab",
-      "proxyAddress": "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
-      "decimals": 8,
-      "name": "USDC / USD"
     },
     {
       "contractAddress": "0x624c833038C3FBdf7d4cebeFb692c23d2BeAdF90",
@@ -4866,6 +5041,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x824364077993847f71293B24ccA8567c00c2de11",
       "decimals": 8,
       "name": "ETH / USD"
+    },
+    {
+      "contractAddress": "0x8A296B21c1950312BAC99728D110D721E73a8f34",
+      "proxyAddress": "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
+      "decimals": 8,
+      "name": "USDC / USD"
     },
     {
       "contractAddress": "0x8C1f12f291D319362cc5e02b5bcfD96d80214e44",
@@ -4896,6 +5077,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x852aE0B1Af1aAeDB0fC4428B4B24420780976ca8",
       "decimals": 1,
       "name": "PCE Price Index — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0xBb223278eCE74329276099E71d0F0be70Ba74faC",
+      "proxyAddress": "0xCdF021EbD115b1B225801F4056c40F4Ff14A574d",
+      "decimals": 8,
+      "name": "solvBTC / BTC"
     },
     {
       "contractAddress": "0xC5Fc8143afA3d47071B0A4460C57FA5407725cec",
@@ -5000,19 +5187,25 @@ export const chainlinkFeeds = {
       "name": "ZAR / USD"
     },
     {
+      "contractAddress": "0xdD234767F6368629fdf50CB21090AA69C9F56651",
+      "proxyAddress": "0x76F4C040A792aFB7F6dBadC7e30ca3EEa140D216",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
       "contractAddress": "0xeaBDA9d26BE3F5b49d267863E4881e9245f43643",
       "proxyAddress": "0xEE04fA54F0aDFB6a0d7791EA8236F4BbC5d07E97",
       "decimals": 18,
       "name": "wOS / OS - Exchange Rate"
+    },
+    {
+      "contractAddress": "0xfB9F4b058DEA7d242F7BD4eFEC7aFE7043EFF21A",
+      "proxyAddress": "0xb00C13A3a919259D1A2F47181ECD32C3b7df8636",
+      "decimals": 18,
+      "name": "Calculated stS / USD"
     }
   ],
   "324": [
-    {
-      "contractAddress": "0x06d28B709cae350678C35A42e16Ee6C261E1a78f",
-      "proxyAddress": "0x6939a4D826A78ad8Df7810A63bA2D6B3bdAA6778",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
     {
       "contractAddress": "0x0b0BdF8a0d4aa1d26DB9Ee294FD06260f05f32Ea",
       "proxyAddress": "0x11353117EB9cd5179Bb7F54BB22d8274dc4f1db7",
@@ -5024,6 +5217,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x2CfAb79113c81ebD672bC77c5B88Fc803b64cA77",
       "decimals": 3,
       "name": "Real Final Sales to Private Domestic Purchasers — Level"
+    },
+    {
+      "contractAddress": "0x14B50fb1E41a0ab1d10844610442BBb21c25Ba10",
+      "proxyAddress": "0x600E54Fc4cF6148Cd6696A3D37F5f672829BF7C2",
+      "decimals": 18,
+      "name": "ezETH / ETH"
     },
     {
       "contractAddress": "0x15c0CA3A6A7FB0634EBB228f4562aaBAdBcB5e73",
@@ -5080,12 +5279,6 @@ export const chainlinkFeeds = {
       "name": "xSolvBTC NAV"
     },
     {
-      "contractAddress": "0x4e6c0B59348064053feaCc608167FE69bF283a5F",
-      "proxyAddress": "0x1824D297C6d6D311A204495277B63e943C2D376E",
-      "decimals": 8,
-      "name": "USDC / USD"
-    },
-    {
       "contractAddress": "0x5941757Be22E8093Ef463d00F1f55eAAaa1D4FEb",
       "proxyAddress": "0x8D3184a992f93729b249407C33F1e78abE0d650e",
       "decimals": 18,
@@ -5096,6 +5289,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x97920183c36B022B46D6C14b9dA36c5f31A98C6A",
       "decimals": 18,
       "name": "sUSDe / USDe Exchange Rate"
+    },
+    {
+      "contractAddress": "0x5b89d4C2551Babb5fC92DA71804EdDBB5fF17370",
+      "proxyAddress": "0x1824D297C6d6D311A204495277B63e943C2D376E",
+      "decimals": 8,
+      "name": "USDC / USD"
     },
     {
       "contractAddress": "0x60feE434cd142D001B00E70d10D2D5c9A6AF83E3",
@@ -5120,6 +5319,18 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x92c2ed09B096470DF40973231Dac5aC987F9b8F9",
       "decimals": 18,
       "name": "rswETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x9391Ce308D6E31409Cd42F878fB5295B1c09F68d",
+      "proxyAddress": "0x20Af81052722DbE38792e595De231C41F4D3255B",
+      "decimals": 8,
+      "name": "MELANIA / USD"
+    },
+    {
+      "contractAddress": "0x963BD826c8827553130f2EFb957a9c3873f3165E",
+      "proxyAddress": "0x5d336664b5D7A332Cd256Bf68CbF2270C6202fc6",
+      "decimals": 8,
+      "name": "DAI / USD"
     },
     {
       "contractAddress": "0x97460913a0829432000bD64E0da2FC87986A6B17",
@@ -5176,6 +5387,12 @@ export const chainlinkFeeds = {
       "name": "TRUMP / USD"
     },
     {
+      "contractAddress": "0xa8a68eb87DF28D21Bb301aaDeA9437eb8bABDE40",
+      "proxyAddress": "0xB615075979AE1836B476F651f1eB79f0Cd3956a9",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
       "contractAddress": "0xb2AfE53eEC3f84fd9Bba5dC8E4bafA742e9C4C68",
       "proxyAddress": "0x7024c64Ad30Ebf224e417CfDE4438606d2b9B690",
       "decimals": 18,
@@ -5192,44 +5409,56 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x1B242BEfc3008E8590Fc7aca27C74592CdEce6e3",
       "decimals": 0,
       "name": "AAVE Network Emergency Count (ZKSync)"
-    },
-    {
-      "contractAddress": "0xeA94720EC9C7ff881EE18160afa950BF1C3411D1",
-      "proxyAddress": "0xB615075979AE1836B476F651f1eB79f0Cd3956a9",
-      "decimals": 8,
-      "name": "USDT / USD"
     }
   ],
   "1088": [
     {
-      "contractAddress": "0x211a2A85E34758F729443bc5eb38EBb8e92ffbEf",
-      "proxyAddress": "0x51864b8948Aa5e35aace2BaDaF901D63418A3b9D",
+      "contractAddress": "0x0F13cfAE20B3df71EEEFd67a260ECf0CF15629fA",
+      "proxyAddress": "0x51Ed8Fecf96813826F727CaBDF01b3cF6a61373e",
       "decimals": 8,
-      "name": "USDT / USD"
+      "name": "BTC / USD"
     },
     {
-      "contractAddress": "0x39Ac172240F6ed3556589ff02975B450c90C88A5",
-      "proxyAddress": "0xD4a5Bb03B5D66d9bf81507379302Ac2C2DFDFa6D",
-      "decimals": 8,
-      "name": "METIS / USD"
-    },
-    {
-      "contractAddress": "0x53dB87E2E1903E9F3EA1D507F8528c764454b910",
+      "contractAddress": "0x0f05008C8DF5C789a294F22EfAA13cFd6527FE79",
       "proxyAddress": "0x576855A9C189f42AcE61B784A9c049F51937f482",
       "decimals": 0,
       "name": "AAVE Network Emergency Count (Metis)"
     },
     {
-      "contractAddress": "0x5EE45ffB2568bc3c567019820CE859edadBdA444",
-      "proxyAddress": "0xa7CBaB1722a6631665863d624A81ab4C4eD0e876",
-      "decimals": 18,
-      "name": "frxETH / ETH Exchange Rate High"
+      "contractAddress": "0x2d338D3b5AF189984A03c6785899Cc681aBe6C4B",
+      "proxyAddress": "0xe0351cAAE70B5AdBD0107cD5331AD1D79c4c1CA1",
+      "decimals": 8,
+      "name": "DAI / USD"
     },
     {
-      "contractAddress": "0x686D90e28f7f129Da1F95D1d517018d138726adB",
-      "proxyAddress": "0x4A4F382A2FF9685de9f0418F1375cE16D0727637",
+      "contractAddress": "0x420AF689F50b9F7B67fe506237c877b98bb24dDA",
+      "proxyAddress": "0x54389e89A5Ec1d4312d5B5C48055d6E56a177BF9",
       "decimals": 8,
-      "name": "LINK / USD"
+      "name": "AAVE / USD"
+    },
+    {
+      "contractAddress": "0x49B7d3d231b993C9Aa29E122647e035aaf8B773B",
+      "proxyAddress": "0x51864b8948Aa5e35aace2BaDaF901D63418A3b9D",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
+      "contractAddress": "0x526B00801b2a09Cb730b3d2132a85fD75D0D9A44",
+      "proxyAddress": "0xD4a5Bb03B5D66d9bf81507379302Ac2C2DFDFa6D",
+      "decimals": 8,
+      "name": "METIS / USD"
+    },
+    {
+      "contractAddress": "0x5969848719F7571bDFe0e899014C270Ed39B8384",
+      "proxyAddress": "0x663855969c85F3BE415807250414Ca9129533a5f",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
+      "contractAddress": "0x70E63607D7cc193Ac1f12E8728E90c698c22c926",
+      "proxyAddress": "0x732bEa04DF4184Fb50B5648bf1A74553f01Fd850",
+      "decimals": 18,
+      "name": "sfrxETH / frxETH Exchange Rate"
     },
     {
       "contractAddress": "0x727C6BeB46bAc2E0418cC1E3F83be1f30Ab8056B",
@@ -5238,46 +5467,28 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0x7D3A1dC7D7A4B2052f401f337DCd67915196e221",
-      "proxyAddress": "0x51Ed8Fecf96813826F727CaBDF01b3cF6a61373e",
+      "contractAddress": "0x86f1FCb32ac073951d3156929A93428902F30765",
+      "proxyAddress": "0x4A4F382A2FF9685de9f0418F1375cE16D0727637",
       "decimals": 8,
-      "name": "BTC / USD"
+      "name": "LINK / USD"
     },
     {
-      "contractAddress": "0x920bcC2936581B811Ce816d46ffD3B996771E552",
-      "proxyAddress": "0x732bEa04DF4184Fb50B5648bf1A74553f01Fd850",
-      "decimals": 18,
-      "name": "sfrxETH / frxETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x97DfC4261bd2FDd47bbf69358b2B38775c92730f",
+      "contractAddress": "0x9656158b18Bc67ed62EcE17b385ac2A696513010",
       "proxyAddress": "0x3BBe70e2F96c87aEce7F67A2b0178052f62E37fE",
       "decimals": 8,
       "name": "ETH / USD"
     },
     {
-      "contractAddress": "0xDa354900d08019Db36A07bf9904ffe6bbeC65EB2",
-      "proxyAddress": "0xe0351cAAE70B5AdBD0107cD5331AD1D79c4c1CA1",
-      "decimals": 8,
-      "name": "DAI / USD"
-    },
-    {
-      "contractAddress": "0xDdDD7F56d25e8c6aE8D1294332985D0a3c15E65e",
+      "contractAddress": "0xB54239a4A4B2D1794572E3F399c658A91E97D022",
       "proxyAddress": "0x2aB80F9a26bc87c1359D86DDF89ce331648aE91E",
       "decimals": 18,
       "name": "frxETH / ETH Exchange Rate Low"
     },
     {
-      "contractAddress": "0xa49e0fE78134D044B9251c0ca8fc3A31F613c473",
-      "proxyAddress": "0x54389e89A5Ec1d4312d5B5C48055d6E56a177BF9",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0xc31A2717F2e46ac075b8DAd82b6Cf7664c82ABfD",
-      "proxyAddress": "0x663855969c85F3BE415807250414Ca9129533a5f",
-      "decimals": 8,
-      "name": "USDC / USD"
+      "contractAddress": "0xe06b017f568C282b331086775dc03F8CFF438444",
+      "proxyAddress": "0xa7CBaB1722a6631665863d624A81ab4C4eD0e876",
+      "decimals": 18,
+      "name": "frxETH / ETH Exchange Rate High"
     }
   ],
   "1868": [
@@ -5324,6 +5535,18 @@ export const chainlinkFeeds = {
       "name": "WBTC / USD"
     },
     {
+      "contractAddress": "0x64F4855349188677016A052CcBECbbe07Cd741D3",
+      "proxyAddress": "0x2580FA33f9dfD9D26F1aC418E09113f3E9c316c2",
+      "decimals": 18,
+      "name": "Calculated wstASTR / USD"
+    },
+    {
+      "contractAddress": "0x6E184f5c3BEE7D25328bEadEFE51FC13A0750D47",
+      "proxyAddress": "0x316DefA0f4BA9567aF55E66212e66b4fD6646eEE",
+      "decimals": 8,
+      "name": "USR / USD"
+    },
+    {
       "contractAddress": "0x6f62886C41455aDf1B9791e36EAB505283f1e094",
       "proxyAddress": "0x877654fE4da2FC54453a212aac601247b2A1B786",
       "decimals": 18,
@@ -5348,7 +5571,7 @@ export const chainlinkFeeds = {
       "name": "RLP-USD Exchange Rate"
     },
     {
-      "contractAddress": "0x9CdcEf23ebf529F96B88feeB3d3Ec50d8cB1DB33",
+      "contractAddress": "0xB63F7ef37DA20Fe7Cfd35663e17040f12d31D974",
       "proxyAddress": "0xE92d289831823c96C22592952C1cfA2584a65038",
       "decimals": 8,
       "name": "USDT / USD"
@@ -5360,7 +5583,7 @@ export const chainlinkFeeds = {
       "name": "ETH / USD"
     },
     {
-      "contractAddress": "0xDa56C1dAb978be8616954B886E55bEB0Cc15Cb4F",
+      "contractAddress": "0xD6489f2329Ac3f2Ce26a604e5e5a15A1cdF29dB8",
       "proxyAddress": "0x46522a7fD5bD5E7aaFF862C17E116152e07d7158",
       "decimals": 8,
       "name": "USDC / USD"
@@ -5390,12 +5613,6 @@ export const chainlinkFeeds = {
       "name": "stETH / ETH"
     },
     {
-      "contractAddress": "0xaE887350B9e2C3B6Cb3BB87568DBD79272C23e05",
-      "proxyAddress": "0x6B35cfA2ff5E3e617D080d8Af4d773C9D744dB6C",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0xb4D8DC49FE2b8b9d4FeAEE430a1E5d6D069F00f4",
       "proxyAddress": "0x42237D7d96A4178bB22498bb3B2C689D502DE847",
       "decimals": 18,
@@ -5403,12 +5620,6 @@ export const chainlinkFeeds = {
     }
   ],
   "5000": [
-    {
-      "contractAddress": "0x0Af720Fed18F4eab87d397401672dF155eb9778f",
-      "proxyAddress": "0x9Eb902C11A3999d8537A68D083c4B6db4b265adA",
-      "decimals": 18,
-      "name": "WRSETH / ETH Exchange Rate"
-    },
     {
       "contractAddress": "0x0DC50F0D8E8c423CE3f40935222B8C0a9D1B0300",
       "proxyAddress": "0x2D787621f9C635ADe313126dF7615c02bff35517",
@@ -5428,28 +5639,22 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0x16Bf05a3b301bAB25Cdf3b47724B38f0c63034b5",
-      "proxyAddress": "0xd645567129C54D549826faA06340448a2Cc6A3Bf",
-      "decimals": 6,
-      "name": "EUR / USD"
-    },
-    {
       "contractAddress": "0x1e4677728c66E6dB0a4029D6717Ff2c7B1cc379b",
       "proxyAddress": "0x5bc7Cf88EB131DB18b5d7930e793095140799aD5",
       "decimals": 8,
       "name": "ETH / USD"
     },
     {
+      "contractAddress": "0x208678F4ACAD11BB567B8BDfA0b243cE9671797a",
+      "proxyAddress": "0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
       "contractAddress": "0x26B58128cf3ec5A5D33B91dE1FBB30eb506c5ed3",
       "proxyAddress": "0x8A6D34330E8F61364a62899fD0a8F4C4021e3296",
       "decimals": 1,
       "name": "Real GDP — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x27C7B592AB1545F2b2620eBC4d2e6Ec3AE6aA6c6",
-      "proxyAddress": "0x23A1105fd2C26BCc9EA691725Bbda3f5F1bC0b78",
-      "decimals": 8,
-      "name": "XAU / USD"
     },
     {
       "contractAddress": "0x3601200E59D94C41904C91cAb65023F3501a06b6",
@@ -5476,28 +5681,16 @@ export const chainlinkFeeds = {
       "name": "mETH / ETH"
     },
     {
-      "contractAddress": "0x52117f061807AcE2EA03B2Ff216c177Bf4b0dA9F",
-      "proxyAddress": "0x5915597B320760d6DB11Dde485de27190Ef79B1a",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0x5322FD76c5002a9ead0353fF78C22f43c2F68Bb9",
       "proxyAddress": "0x5fc69E6bA39D9150D41B4FFBDa3Deb1b9Bd4611A",
       "decimals": 3,
       "name": "Real GDP - Level"
     },
     {
-      "contractAddress": "0x5A955a9b833487ea7CbB0c092b4488fF51279565",
-      "proxyAddress": "0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x666286094729f8e7148895EA4503c58011De5785",
-      "proxyAddress": "0x7B08bBa122baa24Ef4b1c7F72237d7fc0d343543",
+      "contractAddress": "0x5Df8fA6329dcE7528ec1d00C31A0F877D13ecff1",
+      "proxyAddress": "0x02959651ED50f9866BF39D29884dF245D03FdC51",
       "decimals": 18,
-      "name": "METH / ETH Exchange Rate"
+      "name": "Calculated cmETH / ETH"
     },
     {
       "contractAddress": "0x6C08C961cbc52D10e970741979c18eE17c313b17",
@@ -5512,34 +5705,28 @@ export const chainlinkFeeds = {
       "name": "SYRUPUSDC / USDC Exchange Rate"
     },
     {
+      "contractAddress": "0x7A9BFC7B172a782Bd6AF20A1383F32696D6aa4f9",
+      "proxyAddress": "0x80C42686a5F953d3c629cb5a35BCC86B1Ddd21e3",
+      "decimals": 18,
+      "name": "Calculated cmETH / USD"
+    },
+    {
       "contractAddress": "0x7F172b856540845cD5690707C4474c9Bdba4d7a9",
       "proxyAddress": "0xAa7B3679db156d3773620eBce98E38Cd87544C0e",
       "decimals": 18,
       "name": "RSETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x7d1Dd46cA026AD53CA5b2BfB9d539A4E15432641",
-      "proxyAddress": "0x03fc4C004F8Ac9047860Dd9eC0c087eD5326dBE1",
-      "decimals": 8,
-      "name": "SGD / USD"
-    },
-    {
-      "contractAddress": "0x8316a38D56605800e608778D9bd001969625a4a2",
-      "proxyAddress": "0x5a40c0E0b7763851E41a606456781DC2130FFd03",
-      "decimals": 8,
-      "name": "CNY / USD"
+      "contractAddress": "0x874effca5376D434d49021B3638d1e1BC214EC27",
+      "proxyAddress": "0x73b15e19b247263D03D7938f1356304b7B330Ff0",
+      "decimals": 18,
+      "name": "Calculated FBTC / USD"
     },
     {
       "contractAddress": "0x9059Abe9ac035c30cbB90CA4faDEc3994b7dd04d",
       "proxyAddress": "0x4F923DaC0871d29E6147C27Fb7f53bEf13267E31",
       "decimals": 3,
       "name": "Real Final Sales to Private Domestic Purchasers — Level"
-    },
-    {
-      "contractAddress": "0x91627573779e31720E5967330D2f811A92050153",
-      "proxyAddress": "0x70AB7A0cf78A3dECaF372Fe9cfb0dF2224ce396d",
-      "decimals": 6,
-      "name": "JPY / USD"
     },
     {
       "contractAddress": "0x9C706B84E2dcFe2E6d6Eb0Bab28929f6ce774654",
@@ -5572,22 +5759,10 @@ export const chainlinkFeeds = {
       "name": "sUSDe / USD"
     },
     {
-      "contractAddress": "0xC3C8b3Cd900131552cF9db4b92E59FDE153AdDBE",
-      "proxyAddress": "0x75f10Cb45612FBfB6500706e63EABBDBf143AB15",
-      "decimals": 6,
-      "name": "CHF / USD"
-    },
-    {
       "contractAddress": "0xC7bb4A63bEe54f660Ac24dC16C3C00A997B5C659",
       "proxyAddress": "0x7db2275279F52D0914A481e14c4Ce5a59705A25b",
       "decimals": 8,
       "name": "BTC / USD"
-    },
-    {
-      "contractAddress": "0xa2196133a692d407Bf2529C60269b1eaa9678240",
-      "proxyAddress": "0x22b422CECb0D4Bd5afF3EA999b048FA17F5263bD",
-      "decimals": 8,
-      "name": "USDC / USD"
     },
     {
       "contractAddress": "0xa236d64Ef51e3243887aac4270ea75De65ECABfd",
@@ -5602,10 +5777,10 @@ export const chainlinkFeeds = {
       "name": "MNT / USD"
     },
     {
-      "contractAddress": "0xfD8a433f571A93976d6DcACE3C06fE1a9dA47a93",
-      "proxyAddress": "0xC3A38144D810cDcC61d36D2765245ba73aBF6897",
+      "contractAddress": "0xfDf6d12aCD121082f6B71a91FAd66E2Dd0C58c28",
+      "proxyAddress": "0xd86048D5e4fe96157CE03Ae519A9045bEDaa6551",
       "decimals": 8,
-      "name": "HKD / USD"
+      "name": "USDT / USD"
     }
   ],
   "5042": [
@@ -5804,28 +5979,34 @@ export const chainlinkFeeds = {
   ],
   "8453": [
     {
-      "contractAddress": "0x01947080Cc567312f7e1ff744Dc5d1186d32C554",
-      "proxyAddress": "0x7FCED5198e43ec93Ef2179DFC70a8dcf494DcB80",
-      "decimals": 8,
-      "name": "iBTC Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x0288234d9311C33BE6c3a34b051bff8A799dAA82",
-      "proxyAddress": "0xFaf869185383a24F8cb00e27BdA6b63B9905DCb4",
-      "decimals": 8,
-      "name": "Coinbase TSLA"
-    },
-    {
-      "contractAddress": "0x02ff7E73EBb2B281602aF44D2e36C619aD4d3b93",
-      "proxyAddress": "0xD89c7fFB39C44b17EAecd8717a75A36c19C07582",
+      "contractAddress": "0x00480f7Df64d3711940E956c2Ca0C47Cc48240eB",
+      "proxyAddress": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
       "decimals": 18,
-      "name": "sUSDz / USDz Exchange Rate"
+      "name": "sUSDS / USDS Exchange Rate"
     },
     {
-      "contractAddress": "0x032973836d41234a0959661FAd3c7f5a447c8635",
-      "proxyAddress": "0xf488FA1B4Ac8210bf0b2d212176ca28c48F86708",
+      "contractAddress": "0x00be872906C07d6d7D0eC3968b99C4e3D6Bd552a",
+      "proxyAddress": "0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3",
+      "decimals": 18,
+      "name": "ezETH / ETH"
+    },
+    {
+      "contractAddress": "0x01c72AE058b71E8505CC5504Ad23238f2dCd1fc5",
+      "proxyAddress": "0x1a42ec779Ed3e5249d9b83Ad6B51492953080Ad9",
+      "decimals": 18,
+      "name": "SUSDAI / USDAI Exchange Rate"
+    },
+    {
+      "contractAddress": "0x038fa58bd4DA1c938D2783941e657164D497C4B6",
+      "proxyAddress": "0x676C4C6C31D97A5581D3204C04A8125B350E2F9D",
       "decimals": 8,
-      "name": "GLDY Reserves"
+      "name": "AXL / USD"
+    },
+    {
+      "contractAddress": "0x04030d2F38Bc799aF9B0AaB5757ADC98000D7DeD",
+      "proxyAddress": "0xB88BAc61a4Ca37C43a3725912B1f472c9A5bc061",
+      "decimals": 18,
+      "name": "wstETH-stETH Exchange Rate"
     },
     {
       "contractAddress": "0x042fc0bA0684eDE99b751b0931B6D1F590758994",
@@ -5835,46 +6016,58 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x8a55b7aB579321Eb1adb54Bc770308EA0378E287"
     },
     {
-      "contractAddress": "0x044B0Db7A431e519C3901f62E6aE897a80CEce0e",
-      "proxyAddress": "0x50997b806B574501cC34a2a6d845e4dc1Bd9Aa8c",
-      "decimals": 8,
-      "name": "AVNT / USD"
-    },
-    {
-      "contractAddress": "0x06E61f356a2fAD29B915bD514D4598EFF6d8d46A",
-      "proxyAddress": "0xbb9786e37D54251477EbC1325b04ACdCA18C2254",
+      "contractAddress": "0x04d3d700150E03eD1Df763363D746F0E9dEE3BDD",
+      "proxyAddress": "0xD89c7fFB39C44b17EAecd8717a75A36c19C07582",
       "decimals": 18,
-      "name": "ultraETHs / ETH Exchange Rate"
+      "name": "sUSDz / USDz Exchange Rate"
     },
     {
-      "contractAddress": "0x07093eB55B7321Df38B219d79A1522bECb29A320",
-      "proxyAddress": "0x2621897C993fdE08873Ef58dA1453aEE49a70144",
+      "contractAddress": "0x05acfeE2c0b4efbBCe705932239A30613aCE42f2",
+      "proxyAddress": "0xe96EB1EDa83d18cbac224233319FA5071464e1b9",
       "decimals": 18,
-      "name": "LsETH / ETH Exchange Rate"
+      "name": "wOETH / OETH Exchange Rate"
     },
     {
-      "contractAddress": "0x08498A63165496A5B3165FF4e51902b8dF31da79",
-      "proxyAddress": "0x122b5334A8b55861dBc6729c294451471FbF318D",
-      "decimals": 8,
-      "name": "MLN / USD"
+      "contractAddress": "0x08F9654349B33B955133b28e35dbEcCe9950c219",
+      "proxyAddress": "0x806b4Ac04501c29769051e42783cF04dCE41440b",
+      "decimals": 18,
+      "name": "CBETH / ETH"
     },
     {
-      "contractAddress": "0x0E3Dc8A6A86D2F6F5F67B373a047C267FB1fc3E6",
-      "proxyAddress": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
+      "contractAddress": "0x093e52c967391A87732956121509b9594B02F153",
+      "proxyAddress": "0x0b0E64c05083FdF9ED7C5D3d8262c4216eFc9394",
       "decimals": 8,
-      "name": "BTC / USD"
+      "name": "BRL / USD"
     },
     {
-      "contractAddress": "0x0F3977C15c071217b61605833EEa1839a70653Fd",
-      "proxyAddress": "0x790181e93e9F4Eedb5b864860C12e4d2CffFe73B",
+      "contractAddress": "0x0C731e5985798B2B8374cA7e4F7AfDD174b1b74f",
+      "proxyAddress": "0x6D75BFB5A5885f841b132198C9f0bE8c872057BF",
       "decimals": 8,
-      "name": "USDe / USD"
+      "name": "TBTC / USD"
     },
     {
-      "contractAddress": "0x0FF88BebcF5ab08b15b511dF7415f98AF673b96D",
-      "proxyAddress": "0x1E6c22AAA11F507af12034A5Dc4126A6A25DC8d2",
+      "contractAddress": "0x0D4D5dC9cCf0c9e3028321a777B37Aa45Bc8fe87",
+      "proxyAddress": "0x9e07546c9Fe8868855CD04B26051a26D1599E270",
       "decimals": 8,
-      "name": "LBTC / BTC"
+      "name": "LBTC / USD"
+    },
+    {
+      "contractAddress": "0x0Ee7145e1370653533e2F2E824424bE2AA95A4Aa",
+      "proxyAddress": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
+      "contractAddress": "0x0F83393dB40FC0417D8aF7A2192212C57F62Be52",
+      "proxyAddress": "0xEf2E24ba6def99B5e0b71F6CDeaF294b02163094",
+      "decimals": 8,
+      "name": "RDNT / USD"
+    },
+    {
+      "contractAddress": "0x0FC7044a83a1Bd1c0661faf26A48D96902e2b5A5",
+      "proxyAddress": "0x4a595E0a62E50A2E5eC95A70c8E612F9746af006",
+      "decimals": 8,
+      "name": "USR / USD"
     },
     {
       "contractAddress": "0x0fB39aE1d48Faf8CA5ea8DbF7e134e07386A7877",
@@ -5884,22 +6077,28 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x1550207eAeB590D1557a6E6C066D3d57B5A4Dc65"
     },
     {
-      "contractAddress": "0x1115F0280b489644E0D913036E4131e072667370",
-      "proxyAddress": "0x97b770B0200CCe161907a9cbe0C6B177679f8F7C",
+      "contractAddress": "0x11884a84125eCbC089291cA85288352feC2630de",
+      "proxyAddress": "0x311D3A3faA1d5939c681E33C2CDAc041FF388EB2",
       "decimals": 18,
-      "name": "rswETH / ETH Exchange Rate"
+      "name": "syrupUSDC-USDC Exchange Rate"
     },
     {
-      "contractAddress": "0x122b6da52Ba2F22F8Cd3FC723B941E637b498149",
-      "proxyAddress": "0x1E6A29666288a310326B37d823Fe4Ea3937424D2",
-      "decimals": 18,
-      "name": "rETH / ETH Exchange Rate"
+      "contractAddress": "0x11da1FC2BF92316931E8978A23928D058fC57f5A",
+      "proxyAddress": "0x2ecc8A8B370fC6a217166b2782a35339bEBEe98B",
+      "decimals": 8,
+      "name": "ZAR / USD"
     },
     {
-      "contractAddress": "0x123a4B3E93DF5BF820426DE92047DCd47f27Ad44",
-      "proxyAddress": "0x1a42ec779Ed3e5249d9b83Ad6B51492953080Ad9",
-      "decimals": 18,
-      "name": "SUSDAI / USDAI Exchange Rate"
+      "contractAddress": "0x12Cc14513c923dd197139E8280852c9ed2575271",
+      "proxyAddress": "0xEEe1a9D5A0C36d99972C057Cb959267e88Ab9160",
+      "decimals": 8,
+      "name": "CBXRP / USD"
+    },
+    {
+      "contractAddress": "0x12c97C24eDFf0A1693ff1eF00ee413b5B8Bbae2E",
+      "proxyAddress": "0x81575495532fB311Efc5C993B612564274F0949b",
+      "decimals": 8,
+      "name": "SGD / USD"
     },
     {
       "contractAddress": "0x137233996b6586a110bb7a753248e26CC0307b1B",
@@ -5909,237 +6108,196 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x3A932b286715abc4A86a4ACAF68A6cdD89E0d446"
     },
     {
-      "contractAddress": "0x15157DDab501fCDD195b62d673267Ae508Da23B7",
-      "proxyAddress": "0x1688e4B274a4CC9fD398EbA6Ae4dfb6528A9D2bc",
-      "decimals": 8,
-      "name": "AMP / USD"
-    },
-    {
-      "contractAddress": "0x15692547e525EC63D2080Cf95C26817c0923565C",
-      "proxyAddress": "0xf586d0728a47229e747d824a939000Cf21dEF5A0",
+      "contractAddress": "0x1564DF754C268d6402e1d5D55C288A83ABd9f5EC",
+      "proxyAddress": "0x8004571d9f54dE016fc3D448e7AEe2d70947727A",
       "decimals": 18,
-      "name": "STETH / ETH"
+      "name": "tETH / wstETH Exchange Rate"
     },
     {
-      "contractAddress": "0x1983910ADE325E678d56CEBf8d6995e211574f82",
-      "proxyAddress": "0x7bAfa1Af54f17cC0775a1Cf813B9fF5dED2C51E5",
-      "decimals": 8,
-      "name": "TRUMP / USD"
-    },
-    {
-      "contractAddress": "0x1AF6f3bDD9DC16C770e61FF950b09B2EB51955cb",
-      "proxyAddress": "0x0b68ac37a1668DAaab1882543368E076C38C40e9",
-      "decimals": 18,
-      "name": "TETH Reserves"
-    },
-    {
-      "contractAddress": "0x1D292e75f586f4B2638b9C81300d58aD6299c0Da",
-      "proxyAddress": "0x2ecc8A8B370fC6a217166b2782a35339bEBEe98B",
-      "decimals": 8,
-      "name": "ZAR / USD"
-    },
-    {
-      "contractAddress": "0x1b70E0Ee4041FA9F0E0FA2879B8818EaF4E2d81c",
-      "proxyAddress": "0x43a5C292A453A3bF3606fa856197f09D7B74251a",
-      "decimals": 18,
-      "name": "WSTETH / ETH"
-    },
-    {
-      "contractAddress": "0x1e0B2C3896338FBb201C4f0A27C6904801Dca06B",
-      "proxyAddress": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
-      "decimals": 8,
-      "name": "ETH / USD"
-    },
-    {
-      "contractAddress": "0x1e536d8f053feaB16c65861B7A3462b5b5AcD3A2",
-      "proxyAddress": "0xB88BAc61a4Ca37C43a3725912B1f472c9A5bc061",
-      "decimals": 18,
-      "name": "wstETH-stETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x20556514ca77b9163ca767A98b22957804FF1c6e",
-      "proxyAddress": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x258bC2A6427F0E0012508488B8a8FAdD8D454a76",
-      "proxyAddress": "0xAa98aE504658766Dfe11F31c5D95a0bdcABDe0b1",
-      "decimals": 8,
-      "name": "RSR / USD"
-    },
-    {
-      "contractAddress": "0x2ADeE6721025a7DFFdbAd64E3fF7A2E69C7ca5e0",
-      "proxyAddress": "0x0F8E057D1D7b282EF968D26E9cB432617dF52519",
-      "decimals": 8,
-      "name": "cbBTC Reserves"
-    },
-    {
-      "contractAddress": "0x2e46086480909c2049F372DE72Ba5a2fAB281eE9",
-      "proxyAddress": "0xCceA6576904C118037695eB71195a5425E69Fa15",
-      "decimals": 8,
-      "name": "GBP / USD"
-    },
-    {
-      "contractAddress": "0x2fF5D6ADD7D688deC04f9e254C7FcAE7c2D1C2C6",
-      "proxyAddress": "0xb58c5C550Ba19c4CEeE071F8CeeB58f8770e6978",
-      "decimals": 18,
-      "name": "inwstETH / wstETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x30379a1F8f96072021D6E7dc68d611974196317D",
+      "contractAddress": "0x1628C5a2c844ED77036Fd04e4BB8e9DA5A869801",
       "proxyAddress": "0x83ac12dBb5Bd7Fa597ab2FFEc9F2F13DeDdFe163",
       "decimals": 18,
       "name": "inETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x3148aD104d536F97bb349FAba21c834c5f5F2b5f",
-      "proxyAddress": "0xaE95742Cf839529798Bcd1610c6E0AFEBA0cBC03",
+      "contractAddress": "0x16f542BC40723DfE8976A334564eF0c3CfD602Fd",
+      "proxyAddress": "0x868a501e68F3D1E89CfC0D22F6b22E8dabce5F04",
       "decimals": 18,
-      "name": "YETH-ETH Exchange Rate"
+      "name": "cbETH-ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x3591Ffd547Db65020C18e80Fce399cF167B2BdcE",
-      "proxyAddress": "0x5213eBB69743b85644dbB6E25cdF994aFBb8cF31",
-      "decimals": 8,
-      "name": "XAU / USD"
-    },
-    {
-      "contractAddress": "0x36d41dcE2657f72176a3Ab6f28B5038Da8b1c5d1",
-      "proxyAddress": "0x4e7dB2f9a28348AB48a968dd4217D565D1F15Ba4",
+      "contractAddress": "0x19e6821Ee47a4c23E5971fEBeE29f78C2e514DC8",
+      "proxyAddress": "0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181",
       "decimals": 18,
-      "name": "ynETHx / ETH Exchange Rate"
+      "name": "weETH / eETH Exchange Rate"
     },
     {
-      "contractAddress": "0x37697A31A23C5598A6cE84413BD74c0E11b50B31",
-      "proxyAddress": "0x9eb8a54d0590798880C665C7A6d51B95f4078Ad7",
-      "decimals": 8,
-      "name": "USD / ARS"
-    },
-    {
-      "contractAddress": "0x3860668e752604a6734e3d812E14DF14d2B3Ae48",
-      "proxyAddress": "0x81575495532fB311Efc5C993B612564274F0949b",
-      "decimals": 8,
-      "name": "SGD / USD"
-    },
-    {
-      "contractAddress": "0x3B3DC576Ec3c0676896dd626d51d9a07a568e01E",
-      "proxyAddress": "0xD8B5397eDE8B83553BdFCCAA496dd771c5336D37",
+      "contractAddress": "0x205B614B4cE3c56db1c8408ed54414f13185DD05",
+      "proxyAddress": "0xb4482096e3cdE116C15fC0D700a73a58FEdeB8c0",
       "decimals": 18,
-      "name": "rwaUSD NAV"
+      "name": "ynETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x3F296B981A34A3336E0382B78d08459DFE8644c8",
-      "proxyAddress": "0xdEd37FC1400B8022968441356f771639ad1B23aA",
-      "decimals": 18,
-      "name": "sUSDe / USDe Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3b6B8e4e6027cC945f32D46d8Ed4417AfEAe16Cb",
-      "proxyAddress": "0x5299a0e1e79BaebA0EAB96C10727DF35489aAA38",
-      "decimals": 8,
-      "name": "SVR ADA / USD",
-      "secondaryProxyAddress": "0x2DFd771ec9081c59A61056eeC82bb29649cdeA49"
-    },
-    {
-      "contractAddress": "0x3f335B20039774a46EAA7D33D762A2f3A1184FD1",
-      "proxyAddress": "0x10509b4053385b49145Fab2D6B1c58e96Eac5b79",
-      "decimals": 18,
-      "name": "SVR CBBTC / USD",
-      "secondaryProxyAddress": "0x2231aEdEf63Bef7F32fA1cEc5851C5CD72746263"
-    },
-    {
-      "contractAddress": "0x3f7d053b1FFa61568b7fdF57069cc62400e0EB57",
-      "proxyAddress": "0x237A94A589DD38DF7e50CeFDa0b8916a54d01ecC",
-      "decimals": 8,
-      "name": "XDC / USD"
-    },
-    {
-      "contractAddress": "0x4126DE81fd1326Da45B6307a271b4F8B10c1A6d3",
-      "proxyAddress": "0x304adeae3041d6D0745249FD4583e8C542De67d6",
-      "decimals": 8,
-      "name": "SVR DOGE / USD",
-      "secondaryProxyAddress": "0x3A5dCa7751715Eb11A13c74BD2FF00CC40bF2Dfd"
-    },
-    {
-      "contractAddress": "0x42bD5c0D55108E1B65A264784e60dC823663736A",
+      "contractAddress": "0x21F577D890e5c74e3f56E2C6C0ba4321B5D5bFc6",
       "proxyAddress": "0x7dBC779B2A6F9B9AaB83a2dED78A2F7E9e203f0c",
       "decimals": 8,
       "name": "XAG / USD"
     },
     {
-      "contractAddress": "0x43151D66D653aD888Bf909F006A01792d5f33243",
-      "proxyAddress": "0xDa5Fd22F9382e57534fEdA4fF544878aa1cf401f",
-      "decimals": 8,
-      "name": "SVR SOL / USD",
-      "secondaryProxyAddress": "0xB221fFf161c23C6473a6316294E2d510cfb667b0"
-    },
-    {
-      "contractAddress": "0x4369451a6A853dA428c81F0eA5FFF126F111A592",
-      "proxyAddress": "0xC4300B7CF0646F0Fe4C5B2ACFCCC4dCA1346f5d8",
-      "decimals": 18,
-      "name": "ezETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x440A3800e459E3BC77df690D17c718651718344e",
-      "proxyAddress": "0xF35059FB4471333F81E4F39fA40260FF53Dc340b",
-      "decimals": 8,
-      "name": "SVR XRP / USD",
-      "secondaryProxyAddress": "0x2938070D32d08E46B29E285fb7cA7EE3EE08FF05"
-    },
-    {
-      "contractAddress": "0x44E7AEF957Ab60d32c346ccA6e83d891A1Abf770",
-      "proxyAddress": "0xe3971Ed6F1A5903321479Ef3148B5950c0612075",
-      "decimals": 8,
-      "name": "SNX / USD"
-    },
-    {
-      "contractAddress": "0x450a83EF601B9E4D4ab90BBB99cfc051F81d7353",
-      "proxyAddress": "0x4b7836916781CAAfbb7Bd1E5FDd20ED544B453b1",
-      "decimals": 8,
-      "name": "BNB / USD"
-    },
-    {
-      "contractAddress": "0x46ba9365C7CE12224504cF8581f061a6942f8516",
-      "proxyAddress": "0xc91D87E81faB8f93699ECf7Ee9B44D11e1D53F0F",
-      "decimals": 8,
-      "name": "EUR / USD"
-    },
-    {
-      "contractAddress": "0x474Ec38919D3d30D7b717CddEa6205130E195572",
-      "proxyAddress": "0x975043adBb80fc32276CbF9Bbcfd4A601a12462D",
-      "decimals": 8,
-      "name": "SOL / USD"
-    },
-    {
-      "contractAddress": "0x4816cb7EE43eE12C0BC9D3C597246f34D5CFdb7C",
-      "proxyAddress": "0x06A8E4b3aBB3B7543d8396FB2B763d22820cB295",
-      "decimals": 8,
-      "name": "Coinbase AMZN"
-    },
-    {
-      "contractAddress": "0x4A280641db6932990542B48bA37cd44b77FCD7aD",
-      "proxyAddress": "0x5E988c11a4f92155C30D9fb69Ed75597f712B113",
-      "decimals": 8,
-      "name": "POL / USD"
-    },
-    {
-      "contractAddress": "0x4BB0a4EDBAfd66E6891fDcF23F95428Fd5B27564",
+      "contractAddress": "0x21b1E4eA0E9AE2e79932662300eB12A0f90AbE59",
       "proxyAddress": "0x591e79239a7d679378eC8c847e5038150364C78F",
       "decimals": 8,
       "name": "DAI / USD"
     },
     {
-      "contractAddress": "0x4a42c94ac72879954c91d8958d933D70eaE83F35",
+      "contractAddress": "0x222d25e4dEacAb0eE03E0cb282Ab3F602dED6EF2",
+      "proxyAddress": "0xe8dD07CCf5BC4922424140E44Eb970F5950725ef",
+      "decimals": 18,
+      "name": "wrsETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x233A45BF331B35440D45e9BEB1fdF2FbB7B4e3D2",
+      "proxyAddress": "0xC4300B7CF0646F0Fe4C5B2ACFCCC4dCA1346f5d8",
+      "decimals": 18,
+      "name": "ezETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x23c463c4fB13fFC8c20a1Bdd71A928686eD3A4A2",
+      "proxyAddress": "0x237A94A589DD38DF7e50CeFDa0b8916a54d01ecC",
+      "decimals": 8,
+      "name": "XDC / USD"
+    },
+    {
+      "contractAddress": "0x23e47A253776F1Fce32e5F2D5D342ca5D6Edd226",
+      "proxyAddress": "0x3E3A6bD129A63564FE7abde85FA67c3950569060",
+      "decimals": 8,
+      "name": "OP / USD"
+    },
+    {
+      "contractAddress": "0x253Fe73DfBa6d099d081b1caf0E2B33e02F79d9b",
+      "proxyAddress": "0xdfbb5Cbc88E382de007bfe6CE99C388176ED80aD",
+      "decimals": 8,
+      "name": "NGN / USD"
+    },
+    {
+      "contractAddress": "0x290B97eb30Af8Ed088659D6738e314069d71352b",
+      "proxyAddress": "0xc5E65227fe3385B88468F9A01600017cDC9F3A12",
+      "decimals": 18,
+      "name": "LINK / ETH"
+    },
+    {
+      "contractAddress": "0x29633dce259AAcfccf8F26B97B05EE7fD921dE7F",
+      "proxyAddress": "0x4aEE0164400FE35B6b400F2d767A618Bcb96a02D",
+      "decimals": 8,
+      "name": "DOLA / USD"
+    },
+    {
+      "contractAddress": "0x29a0BF5D5e677d38f7AbBd4d292895a3574796C0",
+      "proxyAddress": "0x790181e93e9F4Eedb5b864860C12e4d2CffFe73B",
+      "decimals": 8,
+      "name": "USDe / USD"
+    },
+    {
+      "contractAddress": "0x2Ed8E3264f82FF609bc07A1313e02aF9576d66e8",
+      "proxyAddress": "0x0396000dc82bfAEe746A9Ac6dC69dAd3223Ca9c6",
+      "decimals": 8,
+      "name": "PHP / USD"
+    },
+    {
+      "contractAddress": "0x2a87b8BC32Abf977c713785E6389F6FaB9C5b555",
+      "proxyAddress": "0x65623109aA4561AD3cfF503542083548CeD7e085",
+      "decimals": 3,
+      "name": "Real Final Sales to Private Domestic Purchasers — Level"
+    },
+    {
+      "contractAddress": "0x3177D9723D68D900B3c74DaA6C484992142BF856",
       "proxyAddress": "0x2330aaE3bca5F05169d5f4597964D44522F62930",
       "decimals": 8,
       "name": "USDS / USD"
     },
     {
-      "contractAddress": "0x4ae8386017814D379Be6fE8fF2F942E30FC8d1B7",
-      "proxyAddress": "0x05A6cF213EcC5501A11a08EBefA4A8a60313ef97",
+      "contractAddress": "0x330eC3210511cC8f5A87A737A08905092e033AF3",
+      "proxyAddress": "0xd7818272B9e248357d13057AAb0B417aF31E817d",
       "decimals": 8,
-      "name": "IDR / USD"
+      "name": "CBETH / USD"
+    },
+    {
+      "contractAddress": "0x334d43dA7dBb0a6b66A7282250Ff69dEC97B58B7",
+      "proxyAddress": "0x311681f6E0b34670Fb03e066cc08C6D09149a44c",
+      "decimals": 8,
+      "name": "WMTx / USD"
+    },
+    {
+      "contractAddress": "0x33CDd3f7259327E0f124398A19c25Ac143776bC1",
+      "proxyAddress": "0xb58c5C550Ba19c4CEeE071F8CeeB58f8770e6978",
+      "decimals": 18,
+      "name": "inwstETH / wstETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x36ef9EE769dCea734A14d0745AF7Af14969Aa5fD",
+      "proxyAddress": "0x491a921c41d6a97C57426E0c0108a231cd6E5f60",
+      "decimals": 8,
+      "name": "SUI / USD"
+    },
+    {
+      "contractAddress": "0x3A6D121bF125Fc0909babC708E0Ca1fe4A02d2a4",
+      "proxyAddress": "0x5213eBB69743b85644dbB6E25cdF994aFBb8cF31",
+      "decimals": 8,
+      "name": "XAU / USD"
+    },
+    {
+      "contractAddress": "0x3f9925c8c5123F7d7333B447A8909eBe0dF1B6bF",
+      "proxyAddress": "0xCceA6576904C118037695eB71195a5425E69Fa15",
+      "decimals": 8,
+      "name": "GBP / USD"
+    },
+    {
+      "contractAddress": "0x41414C39811D9Dce7feDda7522199Fb3410EF95a",
+      "proxyAddress": "0xc1a849217F3BaB97F1a46b990e369D6705B4be96",
+      "decimals": 18,
+      "name": "yUSD / USD Exchange Rate"
+    },
+    {
+      "contractAddress": "0x43F92e6805196FA6cd7a19F3d769957f95Baa261",
+      "proxyAddress": "0xB366E8Efb9661323ff477CedF70f55F897D6cFeA",
+      "decimals": 8,
+      "name": "ARKB Reserves"
+    },
+    {
+      "contractAddress": "0x45867eb09bB39766eBCee7fF9dCDFb6f6CC6f8DA",
+      "proxyAddress": "0x0F8E057D1D7b282EF968D26E9cB432617dF52519",
+      "decimals": 8,
+      "name": "cbBTC Reserves"
+    },
+    {
+      "contractAddress": "0x484Cc23Fee336291E3C8803cF27e16B9BEe68744",
+      "proxyAddress": "0xf397bF97280B488cA19ee3093E81C0a77F02e9a5",
+      "decimals": 18,
+      "name": "RETH / ETH"
+    },
+    {
+      "contractAddress": "0x4C83489A62d52eE68a800Dd09410f790A14A5d95",
+      "proxyAddress": "0xa669E5272E60f78299F4824495cE01a3923f4380",
+      "decimals": 18,
+      "name": "wstETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x4D1d9223B5d6806815506b9Ba034dD35390Aad68",
+      "proxyAddress": "0xFC1415403EbB0c693f9a7844b92aD2Ff24775C65",
+      "decimals": 18,
+      "name": "weETH / ETH"
+    },
+    {
+      "contractAddress": "0x4a61dB12d0Cb4293d799ecdD82e5994B5746f850",
+      "proxyAddress": "0xd7221b10FBBC1e1ba95Fd0B4D031C15f7F365296",
+      "decimals": 18,
+      "name": "RSETH / ETH"
+    },
+    {
+      "contractAddress": "0x4b08a30c6208681eFF2980981057ce4C8bCB2310",
+      "proxyAddress": "0xc91D87E81faB8f93699ECf7Ee9B44D11e1D53F0F",
+      "decimals": 8,
+      "name": "EUR / USD"
     },
     {
       "contractAddress": "0x4b6F092e0e13B94fFAF2C59aAbDEb85a5342e9C1",
@@ -6149,82 +6307,64 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xAAEbc0287EC3BF3fe56fCA1E4bcC793b219De551"
     },
     {
-      "contractAddress": "0x4c78deA223b013511E40B2a08282631A47C53CDE",
-      "proxyAddress": "0x868a501e68F3D1E89CfC0D22F6b22E8dabce5F04",
+      "contractAddress": "0x4d07037b0cFeebb796e54D88F6304675FD30EB6d",
+      "proxyAddress": "0x0594c1a01375c1151c2ca78BE4870836EbFA9846",
       "decimals": 18,
-      "name": "cbETH-ETH Exchange Rate"
+      "name": "wstUSR / stUSR Exchange Rate"
     },
     {
-      "contractAddress": "0x4d252e67e643566C5b2B79Eb3FE42007be483fC7",
-      "proxyAddress": "0x979447581b39caCA33EF0CA8208592393D16cc13",
-      "decimals": 8,
-      "name": "MAVIA / USD"
-    },
-    {
-      "contractAddress": "0x518788cC82BfE8b89BF205daeb71072389F2b52F",
-      "proxyAddress": "0x30A76F4E688Cf52f4A06D7AAd987A7037f3Ae6f7",
-      "decimals": 8,
-      "name": "dlcBTC Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x51cE3091Cf646587E02Cad83b580992f8723e718",
+      "contractAddress": "0x52A12E019826C53B1f7Fd3E6D9546c0935377B95",
       "proxyAddress": "0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D",
       "decimals": 8,
       "name": "cbBTC / USD"
     },
     {
-      "contractAddress": "0x51e704F21912388250918317FF46bCC426F5EF90",
-      "proxyAddress": "0xEf2E24ba6def99B5e0b71F6CDeaF294b02163094",
-      "decimals": 8,
-      "name": "RDNT / USD"
-    },
-    {
-      "contractAddress": "0x53552f41b6BD85FA2893e4874f4879bB48da7105",
-      "proxyAddress": "0x2a18E2d46Cb067b69e0759dB39b16597fC42D962",
-      "decimals": 1,
-      "name": "PCE Price Index — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x53fDcAb0650570d07E2770004979EF10A86Df559",
-      "proxyAddress": "0x806b4Ac04501c29769051e42783cF04dCE41440b",
-      "decimals": 18,
-      "name": "CBETH / ETH"
-    },
-    {
-      "contractAddress": "0x54F6b1e6642C882cB9F214BDc896F1E22a5409f2",
-      "proxyAddress": "0xa669E5272E60f78299F4824495cE01a3923f4380",
-      "decimals": 18,
-      "name": "wstETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x59ebeAa775cf19C628bBcc588b61C81cC9181C9a",
-      "proxyAddress": "0x676C4C6C31D97A5581D3204C04A8125B350E2F9D",
-      "decimals": 8,
-      "name": "AXL / USD"
-    },
-    {
-      "contractAddress": "0x5C009455D61528567da3A7a3552693121D6D41B3",
+      "contractAddress": "0x52baE0b6d130E1F10d48c1675AF852F28E653418",
       "proxyAddress": "0x18A3fcA54FaC5B05837205bA4b823fc56191F793",
       "decimals": 3,
       "name": "PCE Price Index — Level"
     },
     {
-      "contractAddress": "0x5D37a28c16FEBa33D54679C9493e2c5d408680e1",
-      "proxyAddress": "0x4a595E0a62E50A2E5eC95A70c8E612F9746af006",
+      "contractAddress": "0x52d743436F6bA414050bD8869C8bF6537C355A00",
+      "proxyAddress": "0x30A76F4E688Cf52f4A06D7AAd987A7037f3Ae6f7",
       "decimals": 8,
-      "name": "USR / USD"
+      "name": "dlcBTC Proof of Reserves"
     },
     {
-      "contractAddress": "0x5F01BbE8a1687d8e2fe003f7B2b427Fc97f033E3",
-      "proxyAddress": "0xEEe1a9D5A0C36d99972C057Cb959267e88Ab9160",
+      "contractAddress": "0x5387a1EA9361BD8A2AA1BE68E1e10bd566eECFa4",
+      "proxyAddress": "0x9f0C1dD78C4CBdF5b9cf923a549A201EdC676D34",
       "decimals": 8,
-      "name": "CBXRP / USD"
+      "name": "XRP / USD"
     },
     {
-      "contractAddress": "0x5bf848B4ef13bd590ea41aD664fF45b155D1C582",
-      "proxyAddress": "0x206a34e47093125fbf4C75b7c7E88b84c6A77a69",
+      "contractAddress": "0x5526525178A842eB07e54cAE0d30c967d74bd0b7",
+      "proxyAddress": "0x1E6A29666288a310326B37d823Fe4Ea3937424D2",
+      "decimals": 18,
+      "name": "rETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x57d2d46Fc7ff2A7142d479F2f59e1E3F95447077",
+      "proxyAddress": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
       "decimals": 8,
-      "name": "LTC / USD"
+      "name": "ETH / USD"
+    },
+    {
+      "contractAddress": "0x59B13FabB34DD4BC398B896b5018c8714BEF7b6d",
+      "proxyAddress": "0x05A6cF213EcC5501A11a08EBefA4A8a60313ef97",
+      "decimals": 8,
+      "name": "IDR / USD"
+    },
+    {
+      "contractAddress": "0x59F798E5999c65702a417F9485863698ee1678a4",
+      "proxyAddress": "0x29413773e7CD4Dfd6Ad89a50887877b88a6C592C",
+      "decimals": 8,
+      "name": "TRY / USD"
+    },
+    {
+      "contractAddress": "0x5d427E797C665Ad7413a4e0fF4ceB3E31959C4C5",
+      "proxyAddress": "0x1Eba1d6941088c8FCE2CbcaC80754C77871aD093",
+      "decimals": 18,
+      "name": "sfrxETH-frxETH Exchange Rate"
     },
     {
       "contractAddress": "0x606c6ecBD272E2174F6710b5974F23fE9899602e",
@@ -6233,34 +6373,34 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0x60EF9f4DFC79F481bbF5806AB0f1d73D47E62AC1",
-      "proxyAddress": "0x9e07546c9Fe8868855CD04B26051a26D1599E270",
+      "contractAddress": "0x6228A44Cd0Ec29c3373C9742e4bBAF6f2E536B9A",
+      "proxyAddress": "0x9DDa783DE64A9d1A60c49ca761EbE528C35BA428",
       "decimals": 8,
-      "name": "LBTC / USD"
+      "name": "COMP / USD"
     },
     {
-      "contractAddress": "0x61d85c6cCE419845c2DfC20130B4f120C10B2105",
-      "proxyAddress": "0x3A1d6444fb6a402470098E23DaD0B7E86E14252F",
+      "contractAddress": "0x62c9CB9Dd648d9ed28C4C243d062093571b934D7",
+      "proxyAddress": "0x206a34e47093125fbf4C75b7c7E88b84c6A77a69",
       "decimals": 8,
-      "name": "CHF / USD"
+      "name": "LTC / USD"
     },
     {
-      "contractAddress": "0x63bC8063994661420fA770FdE3f8fb3143aBf815",
-      "proxyAddress": "0x311681f6E0b34670Fb03e066cc08C6D09149a44c",
-      "decimals": 8,
-      "name": "WMTx / USD"
+      "contractAddress": "0x62e0512CaEE391c27f132F1CA01fc063a6B647Ac",
+      "proxyAddress": "0x4F2fe331C8EB0fb8A84A4d893C87Cf28A36Ab093",
+      "decimals": 2,
+      "name": "ARSx Proof of Reserves"
     },
     {
-      "contractAddress": "0x646eC7E0Ed8D0a8ab6B7E51792A7C5267E4F3201",
-      "proxyAddress": "0x0ca181015d21A5ed19baFC17F2138883C2b16D54",
+      "contractAddress": "0x638708d73A0Eea5dAef10155083399D24a2c92C7",
+      "proxyAddress": "0x99C098FA069B120dd81E56c0f2178093cc7a851f",
       "decimals": 18,
-      "name": "JITOSOL / USD"
+      "name": "vyUSD-USD Exchange Rate"
     },
     {
-      "contractAddress": "0x66c3528A23ceFA7d01AF284Cd240F73c8A41B9fa",
-      "proxyAddress": "0xc5E65227fe3385B88468F9A01600017cDC9F3A12",
-      "decimals": 18,
-      "name": "LINK / ETH"
+      "contractAddress": "0x63a3b4E2aeea2d1Cc883987AEc22E9Aa88323b3c",
+      "proxyAddress": "0x79cf4a31B29D69191f0b6E97916eB93FEB81E533",
+      "decimals": 8,
+      "name": "sUSDe / USD"
     },
     {
       "contractAddress": "0x68358e8E49138E89af9d3E55Cc66Bc44f6025d0f",
@@ -6270,16 +6410,10 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xd8CA171B6f0F6B2a01B6B2dB7424dd72AA07a6F1"
     },
     {
-      "contractAddress": "0x69aFba65E4c16FAbFe2baf4916EF90F986921106",
-      "proxyAddress": "0xf397bF97280B488cA19ee3093E81C0a77F02e9a5",
-      "decimals": 18,
-      "name": "RETH / ETH"
-    },
-    {
-      "contractAddress": "0x6B29CEd17Bd1Fc3e1dA6D82aCA5963e9111660d2",
-      "proxyAddress": "0x17CAb8FE31E32f08326e5E27412894e49B0f9D65",
+      "contractAddress": "0x69c6dcBaeBAa2A82Ca02350ceD0694697D21A3f1",
+      "proxyAddress": "0x46e51B8cA41d709928EdA9Ae43e42193E6CDf229",
       "decimals": 8,
-      "name": "LINK / USD"
+      "name": "AUD / USD"
     },
     {
       "contractAddress": "0x6D96F90d0Db82903406E97Dda54969EA58a82ec8",
@@ -6289,107 +6423,70 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x807f6Da67498aE4185Cd45deaB9e803eDDd151bf"
     },
     {
-      "contractAddress": "0x6EbCc00496e9943b503Ce333cC1e274B3DEAC886",
-      "proxyAddress": "0x88a98431C25329AA422B21D147c1518b34dD36F4",
+      "contractAddress": "0x6adE13EeacDd21e96FE2A6F4E2a5C6cf4FD30C00",
+      "proxyAddress": "0x674940e1dBf7FD841b33156DA9A88afbD95AaFBa",
       "decimals": 8,
-      "name": "APT / USD"
+      "name": "WIF / USD"
     },
     {
-      "contractAddress": "0x6F49F44436A220C8aebd5776AB58b80Ecb41622E",
-      "proxyAddress": "0xeF7541b388a77C1709a3d44BfBfC5c1ED3F0Ac94",
+      "contractAddress": "0x6f22C6925b27bCf9713fAE2Ab6f4397549D684b8",
+      "proxyAddress": "0x63Af8341b62E683B87bB540896bF283D96B4D385",
       "decimals": 8,
-      "name": "MAMO / USD"
+      "name": "STG / USD"
     },
     {
-      "contractAddress": "0x6bF33b7855eB8047dDe206D9F6321D7d02CfB308",
-      "proxyAddress": "0x5bF49E0ffA937CE2FfF033c739aD7C634c4D34F2",
+      "contractAddress": "0x6f9829A2278A5b017b6e997E2BafCDbCb8d6Bc04",
+      "proxyAddress": "0x962C0Df8Ca7f7C682B3872ccA31Ea9c8999ab23c",
       "decimals": 8,
-      "name": "Coinbase GOOGL"
+      "name": "Total Market Cap USD"
     },
     {
-      "contractAddress": "0x70f3a88dfD546dE52D2cEA8733E4DecC5d58F5f0",
-      "proxyAddress": "0x0b0E64c05083FdF9ED7C5D3d8262c4216eFc9394",
+      "contractAddress": "0x721860ef887896c19003886349a785749845e38d",
+      "proxyAddress": "0x3d6774EF702A10b20FCa8Ed40FC022f7E4938e07",
       "decimals": 8,
-      "name": "BRL / USD"
+      "name": "AAVE / USD"
     },
     {
-      "contractAddress": "0x7131F5aB411a575D9CC3b921329D0Ef06fe9DF8b",
-      "proxyAddress": "0x900E653c6b25eCf1eF43525fcCC5263E654085cc",
+      "contractAddress": "0x72ABdAA3141aAdf286eaea4e3bcd29a3A5c89Cb0",
+      "proxyAddress": "0x1Bb54D3d4edBB52B83BC89Da5B176Facc90D46bc",
       "decimals": 18,
-      "name": "RLUSD / USD"
+      "name": "ccUSDC / USDC Exchange Rate"
     },
     {
-      "contractAddress": "0x71E021bc2e8a709B72aC7b6036e5B2Bf30F263d0",
-      "proxyAddress": "0xd7818272B9e248357d13057AAb0B417aF31E817d",
+      "contractAddress": "0x72FC7950A832396720736e7e08D6F74C84C6909a",
+      "proxyAddress": "0x17CAb8FE31E32f08326e5E27412894e49B0f9D65",
       "decimals": 8,
-      "name": "CBETH / USD"
+      "name": "LINK / USD"
     },
     {
-      "contractAddress": "0x73850E47AFbE677fd86165333048b80118aF56b7",
-      "proxyAddress": "0xB93901c344325f89630C56458eD1dD27a76a2FCd",
+      "contractAddress": "0x72c2E05dC38b2AE47d8F87C9B99c264D9fD46A10",
+      "proxyAddress": "0x17738F7dacFc1De7d06f22cC52211EBf68744dBA",
+      "decimals": 18,
+      "name": "xSolvBTC NAV"
+    },
+    {
+      "contractAddress": "0x735326Bcc0479e3F23eD65DC83310d63eBA6250D",
+      "proxyAddress": "0xe3971Ed6F1A5903321479Ef3148B5950c0612075",
       "decimals": 8,
-      "name": "FRNT Proof of Reserves"
+      "name": "SNX / USD"
     },
     {
-      "contractAddress": "0x74535Ecc46F5F1e1614b830b3B3cCdc08EF02482",
-      "proxyAddress": "0xdfbb5Cbc88E382de007bfe6CE99C388176ED80aD",
+      "contractAddress": "0x74f70D08c92f1cd4Ed70B9aa3F8edC0bA5496a01",
+      "proxyAddress": "0x5E988c11a4f92155C30D9fb69Ed75597f712B113",
       "decimals": 8,
-      "name": "NGN / USD"
+      "name": "POL / USD"
     },
     {
-      "contractAddress": "0x74Ec57bB8B8eb99e668c052c7F3c0c6e88d38Dec",
-      "proxyAddress": "0x29413773e7CD4Dfd6Ad89a50887877b88a6C592C",
+      "contractAddress": "0x75d0797767dC2F767fE50660FD4C6FeC9a110463",
+      "proxyAddress": "0x1688e4B274a4CC9fD398EbA6Ae4dfb6528A9D2bc",
       "decimals": 8,
-      "name": "TRY / USD"
+      "name": "AMP / USD"
     },
     {
-      "contractAddress": "0x764a8F2FcEd3565Ee599DdE2D5150A69234D7Fea",
-      "proxyAddress": "0x35e9D7001819Ea3B39Da906aE6b06A62cfe2c181",
+      "contractAddress": "0x79b0e87fF1C40D27a0F941296D70a91cD1553482",
+      "proxyAddress": "0xf586d0728a47229e747d824a939000Cf21dEF5A0",
       "decimals": 18,
-      "name": "weETH / eETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x767B5C02AF56C2621d66C8596aaC32DE7374b55b",
-      "proxyAddress": "0x388b0dC46C0Fb05A74BeE0994fa5b02c6Fcca2eA",
-      "decimals": 8,
-      "name": "Coinbase SNDK"
-    },
-    {
-      "contractAddress": "0x76A7a709Cb6279A9D85406eF1F2e0C2509d135A2",
-      "proxyAddress": "0xC8D5D660bb585b68fa0263EeD7B4224a5FC99669",
-      "decimals": 8,
-      "name": "SHIB / USD"
-    },
-    {
-      "contractAddress": "0x775320D30149E6ccec1c37AC866a3f548bCe001f",
-      "proxyAddress": "0xb87Eba1aF247453930B71B87e948049882B1A95e",
-      "decimals": 18,
-      "name": "SVR MXN / USD",
-      "secondaryProxyAddress": "0x43Ec496624B805077D83d33F5E8026030A937644"
-    },
-    {
-      "contractAddress": "0x78e89a41E158c5012027E03130D857F45a50c371",
-      "proxyAddress": "0x95Eba7bE2f755a298984bd714822994f1d4B6313",
-      "decimals": 18,
-      "name": "YBTC-BTC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x795d0C2CedfEa1DA81c76753f3D12Bc0E73FFD8d",
-      "proxyAddress": "0xe96EB1EDa83d18cbac224233319FA5071464e1b9",
-      "decimals": 18,
-      "name": "wOETH / OETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x7A4f5D6a55455799b147aA3a614Ae899CE591060",
-      "proxyAddress": "0xbC7c5023eE571e4D9C4890C90a16be05c1EEf410",
-      "decimals": 18,
-      "name": "uniBTC / BTC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x7D792EAbbAAE82344bc35a8e8afd3f30B850be4a",
-      "proxyAddress": "0x1Eba1d6941088c8FCE2CbcaC80754C77871aD093",
-      "decimals": 18,
-      "name": "sfrxETH-frxETH Exchange Rate"
+      "name": "STETH / ETH"
     },
     {
       "contractAddress": "0x7F73eB1ae276Ef4d155f9Cf9a81986DB343CF1CA",
@@ -6399,16 +6496,46 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x1401Fd60F9ba4F718a2fE6149aadf3d1F0dB1b0A"
     },
     {
-      "contractAddress": "0x82A8739C5C19DAAf33802db4AEFfBD03D8ee3c04",
-      "proxyAddress": "0xc15d9944dAefE2dB03e53bef8DDA25a56832C5fe",
-      "decimals": 8,
-      "name": "WELL / USD"
+      "contractAddress": "0x7F98C05C5ed1A07B39E78f7876BC343daa30233f",
+      "proxyAddress": "0xbb9786e37D54251477EbC1325b04ACdCA18C2254",
+      "decimals": 18,
+      "name": "ultraETHs / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x8327BD1d98a2e8874D0d456CBCadE231E3Ab087c",
-      "proxyAddress": "0xAB657C39bac0D5886250D70849e2E3E008F2EECB",
+      "contractAddress": "0x7c37874298b38a1346080eE4aF33781EeBE8251B",
+      "proxyAddress": "0xd9c5B59A913d75AC44EB51b7E0F3f5B58816ECAc",
+      "decimals": 0,
+      "name": "AAVE Network Emergency Count (Base)"
+    },
+    {
+      "contractAddress": "0x7f567Bf6EB08740F18Cd4de0A5716118954F731f",
+      "proxyAddress": "0x900E653c6b25eCf1eF43525fcCC5263E654085cc",
+      "decimals": 18,
+      "name": "RLUSD / USD"
+    },
+    {
+      "contractAddress": "0x801B6E7d186370EeE854F76481643c22c7d1da99",
+      "proxyAddress": "0xdEd37FC1400B8022968441356f771639ad1B23aA",
+      "decimals": 18,
+      "name": "sUSDe / USDe Exchange Rate"
+    },
+    {
+      "contractAddress": "0x814d854de623bA3F846e97895ebC3b9aCfAAEBBc",
+      "proxyAddress": "0xB48ac6409C0c3718b956089b0fFE295A10ACDdad",
       "decimals": 8,
-      "name": "Coinbase INTC"
+      "name": "PEPE / USD"
+    },
+    {
+      "contractAddress": "0x820E799eD8754e007E9901531b8Ac7D283d9a1A2",
+      "proxyAddress": "0xA840145F87572E82519d578b1F36340368a25D5d",
+      "decimals": 8,
+      "name": "CAD / USD"
+    },
+    {
+      "contractAddress": "0x834CE448A994CA9F4cfe2Bf0C6BB5Ab7F24B8920",
+      "proxyAddress": "0x9FB8b5A4b3FE655564f0c76616ae79DE90Cc7382",
+      "decimals": 18,
+      "name": "MEW / USD"
     },
     {
       "contractAddress": "0x83f3425A5b32655DC645f7f4e422DD60E9741794",
@@ -6418,46 +6545,28 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x1428C9E908e32dD2839F99D63C242c91329A58C0"
     },
     {
-      "contractAddress": "0x84206FeDAFeCf1f6EF3b902b5f4A6dcf11549a82",
-      "proxyAddress": "0xB48ac6409C0c3718b956089b0fFE295A10ACDdad",
+      "contractAddress": "0x84efF9466d371ccAB94728e8bdFcd9Bc095D7Ca6",
+      "proxyAddress": "0xE70f2D34Fd04046aaEC26a198A35dD8F2dF5cd92",
       "decimals": 8,
-      "name": "PEPE / USD"
+      "name": "AVAX / USD"
     },
     {
-      "contractAddress": "0x84A0f5A767BD862bE27F6C8F07aCf6506b393370",
-      "proxyAddress": "0x9e8Ee77c76d4fa41306056D1C3196AF5da1600bd",
+      "contractAddress": "0x852aE0B1Af1aAeDB0fC4428B4B24420780976ca8",
+      "proxyAddress": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
       "decimals": 8,
-      "name": "MXN / USD"
+      "name": "BTC / USD"
     },
     {
-      "contractAddress": "0x8597C19e048ea1dEfF99e9eF233eAf2Ff6c0d508",
-      "proxyAddress": "0xE62BcE5D7CB9d16AB8b4D622538bc0A50A5799c2",
-      "decimals": 8,
-      "name": "DEGEN / USD"
+      "contractAddress": "0x89406394615978c0FB4A969574edA675595553C4",
+      "proxyAddress": "0x121934C415937863d64ef93436169444633EE0d8",
+      "decimals": 18,
+      "name": "HOME / USD"
     },
     {
-      "contractAddress": "0x86AF8309b812bDcA427a1Ad83088705ad0689cFE",
-      "proxyAddress": "0x408e44f504A7371a345F03a73dDC96A4b48e8aa7",
-      "decimals": 8,
-      "name": "Coinbase COIN"
-    },
-    {
-      "contractAddress": "0x86b83752a024FB5db9608c082BDF9239dC91e9E2",
-      "proxyAddress": "0x962C0Df8Ca7f7C682B3872ccA31Ea9c8999ab23c",
-      "decimals": 8,
-      "name": "Total Market Cap USD"
-    },
-    {
-      "contractAddress": "0x88442f5D541d9616FaD57c312e0059fbf0B1f8fE",
-      "proxyAddress": "0x3E3A6bD129A63564FE7abde85FA67c3950569060",
-      "decimals": 8,
-      "name": "OP / USD"
-    },
-    {
-      "contractAddress": "0x89BF92E003F58cBa4db03f25fC27f2ab76508912",
-      "proxyAddress": "0x95051De9Db5Cac61682f64505006f2991dEaB3c2",
-      "decimals": 8,
-      "name": "CBDOGE / USD"
+      "contractAddress": "0x89B734B0f34c4697857C07CedB58afeb482F5596",
+      "proxyAddress": "0x9C6BF4884Ff0c7873652F7d5142FA3b9859a526D",
+      "decimals": 18,
+      "name": "instETH / ETH Exchange Rate"
     },
     {
       "contractAddress": "0x8Bd94C7616fa88cc2ab59A66540bcEaf034ef304",
@@ -6467,34 +6576,28 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xA6E3b91196afC536E4944B78aBb7DA41E7e18d6b"
     },
     {
-      "contractAddress": "0x8C75Dce32892F9B7d3dFA51f81519d8b4ca45f10",
-      "proxyAddress": "0x4F2fe331C8EB0fb8A84A4d893C87Cf28A36Ab093",
-      "decimals": 2,
-      "name": "ARSx Proof of Reserves"
+      "contractAddress": "0x8b535cC811c4E4c9CFf85b823479B1616CB5C7B5",
+      "proxyAddress": "0x1E6c22AAA11F507af12034A5Dc4126A6A25DC8d2",
+      "decimals": 8,
+      "name": "LBTC / BTC"
     },
     {
-      "contractAddress": "0x8a5Ad59Bf9efDfB686A5b5622B064C17Ba13132f",
-      "proxyAddress": "0x39C6E14CdE46D4FFD9F04Ff159e7ce8eC20E10B4",
+      "contractAddress": "0x90596b0D54C36d449c5d811EA4b476Af581dB58D",
+      "proxyAddress": "0xaE95742Cf839529798Bcd1610c6E0AFEBA0cBC03",
       "decimals": 18,
-      "name": "SUPEROETHB / ETH"
+      "name": "YETH-ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x918F93C265905C8669E824f85fbb6cE5644af3b3",
-      "proxyAddress": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
-      "decimals": 18,
-      "name": "sUSDS / USDS Exchange Rate"
+      "contractAddress": "0x9189882B85D37f117dC125Fbcce7B61C653Fa30c",
+      "proxyAddress": "0x42868EFcee13C0E71af89c04fF7d96f5bec479b0",
+      "decimals": 8,
+      "name": "GHO / USD"
     },
     {
-      "contractAddress": "0x91DbCc9ad2A706C3e6B1b389570045AB282BE63b",
-      "proxyAddress": "0xe0eda54fC1362C0d7d0ff855E4fCEA79916Fe094",
-      "decimals": 1,
-      "name": "Real GDP — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x925861A08CC74D210a8691593f1C2AEFEBF2D10E",
-      "proxyAddress": "0xe8dD07CCf5BC4922424140E44Eb970F5950725ef",
-      "decimals": 18,
-      "name": "wrsETH-ETH Exchange Rate"
+      "contractAddress": "0x91e936921Df850Cc8714527EBE6C45ECbD2CAd31",
+      "proxyAddress": "0x34cD971a092d5411bD69C10a5F0A7EEF72C69041",
+      "decimals": 8,
+      "name": "ADA / USD"
     },
     {
       "contractAddress": "0x926E0bbA53F2deEb8a2BD0138fDd3Dc675830399",
@@ -6504,94 +6607,22 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x2d4b8B1083a7C278B4C45c598De155e5f9b7A8D5"
     },
     {
-      "contractAddress": "0x92A745Cf19Bb199f9353488047Dd6B580558D78d",
-      "proxyAddress": "0xE1F1011D0043392174bF95F0725130E870AbACaa",
-      "decimals": 18,
-      "name": "Coinshift USPC Reserves"
-    },
-    {
-      "contractAddress": "0x92A7c3a57E17AfF701c159c5480073B095100b62",
-      "proxyAddress": "0x9f0C1dD78C4CBdF5b9cf923a549A201EdC676D34",
+      "contractAddress": "0x97100bac08Ef1532401041b5F864B4De999ab6D4",
+      "proxyAddress": "0xC8D5D660bb585b68fa0263EeD7B4224a5FC99669",
       "decimals": 8,
-      "name": "XRP / USD"
+      "name": "SHIB / USD"
     },
     {
-      "contractAddress": "0x92f88CCA9D3C846be7E8163E4c32BB07772cD245",
-      "proxyAddress": "0xCCADC697c55bbB68dc5bCdf8d3CBe83CdD4E071E",
+      "contractAddress": "0x98608b1AEEbFE5b3d05E14Ecd2C74AC613A3C0D7",
+      "proxyAddress": "0x0E230b1077c663f8Fb5e68d84A8e3e33D97d7436",
       "decimals": 8,
-      "name": "WBTC / USD"
+      "name": "OUSDT / USD"
     },
     {
-      "contractAddress": "0x936b2e82AAeDa0f437E88B24D877f6195c5FF2E2",
-      "proxyAddress": "0x0231cF2635D1E17bB5c2462cc7504Ba1fBd61f33",
+      "contractAddress": "0x9FE139104eef5B113e93859F185aa3C6E04e102B",
+      "proxyAddress": "0x979447581b39caCA33EF0CA8208592393D16cc13",
       "decimals": 8,
-      "name": "Coinbase CRCL"
-    },
-    {
-      "contractAddress": "0x93d826226DadBf15f38448da3FD08d1507B0C109",
-      "proxyAddress": "0xDbc71D0ca5F37dB7A9a45E5c0C46FfFe5E7C24B5",
-      "decimals": 6,
-      "name": "XGLD / XAUT Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9491aEdFe0Da70Eb110582B66B2Edace28D82a5d",
-      "proxyAddress": "0x34cD971a092d5411bD69C10a5F0A7EEF72C69041",
-      "decimals": 8,
-      "name": "ADA / USD"
-    },
-    {
-      "contractAddress": "0x95fe7dBaEC54bf70223F767FEde360E1AA1deE3D",
-      "proxyAddress": "0x99DAf760d2CFB770cc17e883dF45454FE421616b",
-      "decimals": 18,
-      "name": "rsETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x97A5a78D62F2AA095a50840A8d1142189E876119",
-      "proxyAddress": "0x17738F7dacFc1De7d06f22cC52211EBf68744dBA",
-      "decimals": 18,
-      "name": "xSolvBTC NAV"
-    },
-    {
-      "contractAddress": "0x994BB54Cf76De8A4b746512FaD45cd9B87D6e4De",
-      "proxyAddress": "0x0594c1a01375c1151c2ca78BE4870836EbFA9846",
-      "decimals": 18,
-      "name": "wstUSR / stUSR Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9D09A83Ff9FFe120191392A4E7fa027879d97191",
-      "proxyAddress": "0xE70f2D34Fd04046aaEC26a198A35dD8F2dF5cd92",
-      "decimals": 8,
-      "name": "AVAX / USD"
-    },
-    {
-      "contractAddress": "0x9D779986f861810CadA370F04F524226d150fb7F",
-      "proxyAddress": "0xA840145F87572E82519d578b1F36340368a25D5d",
-      "decimals": 8,
-      "name": "CAD / USD"
-    },
-    {
-      "contractAddress": "0x9a126B0e2c784F3Bc8727646F0Cb5De81445bC98",
-      "proxyAddress": "0x42868EFcee13C0E71af89c04fF7d96f5bec479b0",
-      "decimals": 8,
-      "name": "GHO / USD"
-    },
-    {
-      "contractAddress": "0x9b3d0cCdeD2343CF7FfbAEC5a7ed1DB00B09F996",
-      "proxyAddress": "0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250",
-      "decimals": 8,
-      "name": "EURC / USD"
-    },
-    {
-      "contractAddress": "0x9baE03dEAD97D3A8B14C30CFE46bFdb993Acd592",
-      "proxyAddress": "0xAc5287ad4B1629a88964085FDD1F7d45f8032D33",
-      "decimals": 18,
-      "name": "SAVUSD / AVUSD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9e086506F7e6c84d6D5EBf59b089E2F819023153",
-      "proxyAddress": "0xD40e758b5eC80820B68DFC302fc5Ce1239083548",
-      "decimals": 8,
-      "name": "YFI / USD"
+      "name": "MAVIA / USD"
     },
     {
       "contractAddress": "0x9eF2826f41563b1375a3188C33040E697981F7C5",
@@ -6601,16 +6632,34 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xB5DD7388a9cE094dAde71bB1Dd32dCE68dA8Ac30"
     },
     {
-      "contractAddress": "0xA678Cb16980289f2F0053176DBF5a7Fb16E37052",
-      "proxyAddress": "0x9FB8b5A4b3FE655564f0c76616ae79DE90Cc7382",
+      "contractAddress": "0x9eb524dA226328d8ff69440F0F4bAE7DC0BFf34C",
+      "proxyAddress": "0x97b770B0200CCe161907a9cbe0C6B177679f8F7C",
       "decimals": 18,
-      "name": "MEW / USD"
+      "name": "rswETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xA7155928bEE40052EFb3094a046c5498202FD3EE",
-      "proxyAddress": "0x6526aE6797A76123638b863AeE4dD27Ba4E4b27D",
+      "contractAddress": "0xA1062b63D4097D2506650dCa3Ea442ce41BcEF8b",
+      "proxyAddress": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7",
       "decimals": 8,
-      "name": "Coinbase META"
+      "name": "VIRTUAL / USD"
+    },
+    {
+      "contractAddress": "0xA31289604833866940BD063d54e31b312b223b24",
+      "proxyAddress": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB",
+      "decimals": 8,
+      "name": "ZRO / USD"
+    },
+    {
+      "contractAddress": "0xA5925A27D3281198c0ae60a5eFcD6C44A5e47526",
+      "proxyAddress": "0x43a5C292A453A3bF3606fa856197f09D7B74251a",
+      "decimals": 18,
+      "name": "WSTETH / ETH"
+    },
+    {
+      "contractAddress": "0xA59b0A11fC48250F980120a8489bf9E95e687185",
+      "proxyAddress": "0x39C6E14CdE46D4FFD9F04Ff159e7ce8eC20E10B4",
+      "decimals": 18,
+      "name": "SUPEROETHB / ETH"
     },
     {
       "contractAddress": "0xA7f8123688b9d7cf2f91cb926B2a3f44Cc229d0A",
@@ -6620,94 +6669,82 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x203e994f3908cF886C6155c31742557D82c9B4a2"
     },
     {
-      "contractAddress": "0xA8A284E1db82A006a2c47bce8dEA5BC41a5f7AAE",
-      "proxyAddress": "0x99C098FA069B120dd81E56c0f2178093cc7a851f",
+      "contractAddress": "0xA9BDecf007120EBb013E223d2a4EEa4C8C35e7f1",
+      "proxyAddress": "0xbC7c5023eE571e4D9C4890C90a16be05c1EEf410",
       "decimals": 18,
-      "name": "vyUSD-USD Exchange Rate"
+      "name": "uniBTC / BTC Exchange Rate"
     },
     {
-      "contractAddress": "0xAE52CDF9718103f20654b51b601Bac33bBFEDf0b",
-      "proxyAddress": "0x4aeb6D15769EaD32D0c5Be2940F40c7CFf53801d",
+      "contractAddress": "0xAa1399A25AB0f9a5464f44963BA77626937D1523",
+      "proxyAddress": "0x88a98431C25329AA422B21D147c1518b34dD36F4",
+      "decimals": 8,
+      "name": "APT / USD"
+    },
+    {
+      "contractAddress": "0xB76EecECe7A7Cbf10a55Dc4284fb762577EE9e3D",
+      "proxyAddress": "0x67283A47E470afbCcc4aC74ccC32401a81027691",
       "decimals": 18,
-      "name": "MOG / USD"
+      "name": "SolvBTC.BBN / SolvBTC Exchange Rate"
     },
     {
-      "contractAddress": "0xAFCB26E867DEB777B3b0B6d0126bcdD1a477356F",
-      "proxyAddress": "0x121934C415937863d64ef93436169444633EE0d8",
+      "contractAddress": "0xB9b5C92b596F36eDfB5d510A45ABDC160c427DE6",
+      "proxyAddress": "0x122b5334A8b55861dBc6729c294451471FbF318D",
+      "decimals": 8,
+      "name": "MLN / USD"
+    },
+    {
+      "contractAddress": "0xC18cC9B106A50D945024F0a25EfF16B6dC56D4B9",
+      "proxyAddress": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0",
+      "decimals": 8,
+      "name": "AERO / USD"
+    },
+    {
+      "contractAddress": "0xC2b36eEBE261eEEC502dFE761BA8cDB0E9bC057b",
+      "proxyAddress": "0x0b68ac37a1668DAaab1882543368E076C38C40e9",
       "decimals": 18,
-      "name": "HOME / USD"
+      "name": "TETH Reserves"
     },
     {
-      "contractAddress": "0xAfe7B895c368aB6eCb03641FF20B49f8E6F99cD6",
-      "proxyAddress": "0xB366E8Efb9661323ff477CedF70f55F897D6cFeA",
+      "contractAddress": "0xC83D70E2a016AA3C51f8047EfB2329d9c7Ed6ed7",
+      "proxyAddress": "0x3A1d6444fb6a402470098E23DaD0B7E86E14252F",
       "decimals": 8,
-      "name": "ARKB Reserves"
+      "name": "CHF / USD"
     },
     {
-      "contractAddress": "0xBBC19fd98308b52EF962252145b25cDA7f1e7116",
-      "proxyAddress": "0x09b86FDE72653880F57b78581CAd0E9126e7f97B",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
+      "contractAddress": "0xC87569d17C0640f9F921C91351C832833ad26Cef",
+      "proxyAddress": "0xe0eda54fC1362C0d7d0ff855E4fCEA79916Fe094",
+      "decimals": 1,
+      "name": "Real GDP — Percent Change (Annual Rate)"
     },
     {
-      "contractAddress": "0xBC94b7BA3A8941Fb7AEE8bD10538F79F39185EdB",
-      "proxyAddress": "0xB3cE282CD188b35DA0E38D8Bc7d58e33173D202a",
-      "decimals": 8,
-      "name": "Coinbase MSTR"
+      "contractAddress": "0xCa1a4BdF7f9f8F8F281E311028dEa7e472a7A194",
+      "proxyAddress": "0x4e7dB2f9a28348AB48a968dd4217D565D1F15Ba4",
+      "decimals": 18,
+      "name": "ynETHx / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xBe5bC9c1d407a0D97C34A73FbA19118b478F427d",
-      "proxyAddress": "0x46e51B8cA41d709928EdA9Ae43e42193E6CDf229",
-      "decimals": 8,
-      "name": "AUD / USD"
+      "contractAddress": "0xCb374B34B6b74a0b6d0d4Ef6B73E07F299387957",
+      "proxyAddress": "0x0df397aFE00085C138a99eFB39C498e08eB95aD1",
+      "decimals": 3,
+      "name": "Real GDP — Level"
     },
     {
-      "contractAddress": "0xC1174E6BB6Bb68a7Bf003f170Fb13b2EfCC7907b",
-      "proxyAddress": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB",
-      "decimals": 8,
-      "name": "ZRO / USD"
+      "contractAddress": "0xCd867f3962c108ea2F90828a58f22D202dEAf913",
+      "proxyAddress": "0x2a18E2d46Cb067b69e0759dB39b16597fC42D962",
+      "decimals": 1,
+      "name": "PCE Price Index — Percent Change (Annual Rate)"
     },
     {
-      "contractAddress": "0xC28b74022D625849ff43f6E5987978Ea8d2afC80",
+      "contractAddress": "0xD0407a6524C7d9075E0b040dCEf4696129B2C3B4",
+      "proxyAddress": "0xeDC243c7E3c1A9dAf067C90641D2346d2694d2e5",
+      "decimals": 18,
+      "name": "LSETH / ETH"
+    },
+    {
+      "contractAddress": "0xD41A2B9575eD27D38EC9B75B4d0DD9632a72e45b",
       "proxyAddress": "0x5218Ebeb96bD2bAFe21F9b143f5672552629ba79",
       "decimals": 18,
       "name": "USDO Reserves"
-    },
-    {
-      "contractAddress": "0xC6c99357d01814B7350403dCAc16ec66fD797d42",
-      "proxyAddress": "0x311D3A3faA1d5939c681E33C2CDAc041FF388EB2",
-      "decimals": 18,
-      "name": "syrupUSDC-USDC Exchange Rate"
-    },
-    {
-      "contractAddress": "0xCc23537f501104321Ba1b4D450e7F0dc673c456E",
-      "proxyAddress": "0x0396000dc82bfAEe746A9Ac6dC69dAd3223Ca9c6",
-      "decimals": 8,
-      "name": "PHP / USD"
-    },
-    {
-      "contractAddress": "0xD1548B3ae7fAae82E623b8b8f3083976347882D2",
-      "proxyAddress": "0xe2b3688371130f333443428Cf03f27Ce0378F9dC",
-      "decimals": 1,
-      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0xD2035378489BB590a87a5D74aC2a820621B49043",
-      "proxyAddress": "0x3d6774EF702A10b20FCa8Ed40FC022f7E4938e07",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0xD69217c25C7Ecf1DF340E778A9916676d4d903bA",
-      "proxyAddress": "0x8004571d9f54dE016fc3D448e7AEe2d70947727A",
-      "decimals": 18,
-      "name": "tETH / wstETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xD72B34be6c2180Ad0d28dbb415AEfdE8a55F3eD3",
-      "proxyAddress": "0xeB10A6c9aa7E537aEd766C08c35Dae35B321b18c",
-      "decimals": 8,
-      "name": "Coinbase MSFT"
     },
     {
       "contractAddress": "0xD772F6D9b7A35cb96fDdFE569964ab1C05017BF9",
@@ -6717,70 +6754,88 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x9dA00D23465282005DB222a441a663eE7B9dfCc8"
     },
     {
-      "contractAddress": "0xD8dB97C694ca56649405211087145Eef416bD234",
-      "proxyAddress": "0x491a921c41d6a97C57426E0c0108a231cd6E5f60",
+      "contractAddress": "0xD8341Fd0F84d0E5755CD419969BbD3Bf73e6Ab43",
+      "proxyAddress": "0xe95e258bb6615d47515Fc849f8542dA651f12bF6",
       "decimals": 8,
-      "name": "SUI / USD"
+      "name": "MORPHO / USD"
     },
     {
-      "contractAddress": "0xD8eABc83226bC29b134f9862309F08642528a049",
-      "proxyAddress": "0x1Bb54D3d4edBB52B83BC89Da5B176Facc90D46bc",
+      "contractAddress": "0xDC2D2fA8E7b824A2c16128446E288280dcB12844",
+      "proxyAddress": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
+      "contractAddress": "0xE186722b9d5C063625C49a4BF6Bb3d669F66A8b5",
+      "proxyAddress": "0xCCADC697c55bbB68dc5bCdf8d3CBe83CdD4E071E",
+      "decimals": 8,
+      "name": "WBTC / USD"
+    },
+    {
+      "contractAddress": "0xE5D482092b4efDb45B118741D5529F35543e5826",
+      "proxyAddress": "0xeF7541b388a77C1709a3d44BfBfC5c1ED3F0Ac94",
+      "decimals": 8,
+      "name": "MAMO / USD"
+    },
+    {
+      "contractAddress": "0xEA990BCCb5b4dA5023B6dc88480297405Fd222c3",
+      "proxyAddress": "0x975043adBb80fc32276CbF9Bbcfd4A601a12462D",
+      "decimals": 8,
+      "name": "SOL / USD"
+    },
+    {
+      "contractAddress": "0xEC1b27BAF5cc164DD8407562A0C13A7b5b931B36",
+      "proxyAddress": "0x69a1d14a4e58e97EDE8337DE61eEB2e4a55886E0",
       "decimals": 18,
-      "name": "ccUSDC / USDC Exchange Rate"
+      "name": "pufETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xE2F30AF46DddDdb7795995d615C828F722E2e6F0",
-      "proxyAddress": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
+      "contractAddress": "0xEC509C1f0791504667972D5FF705AE4Bd2dB500F",
+      "proxyAddress": "0x7bAfa1Af54f17cC0775a1Cf813B9fF5dED2C51E5",
       "decimals": 8,
-      "name": "USDC / USD"
+      "name": "TRUMP / USD"
     },
     {
-      "contractAddress": "0xE541F301C5674d831E314D2c6f80891d8eE19498",
-      "proxyAddress": "0x0df397aFE00085C138a99eFB39C498e08eB95aD1",
-      "decimals": 3,
-      "name": "Real GDP — Level"
-    },
-    {
-      "contractAddress": "0xEa3fe19eBC773aeb4f3f027D8e4E98c15d880530",
+      "contractAddress": "0xF498887CbB2AD354D187764680ED735f967b01fB",
       "proxyAddress": "0xFCb2C36ac8A91cE9D3c94590ED239E1f683467fe",
       "decimals": 8,
       "name": "USDAI / USD"
     },
     {
-      "contractAddress": "0xF72B1eB5932800F3d2a5EeC5f99e6cD586479675",
-      "proxyAddress": "0x04689a41629776563E6822F76f2e57D148d28513",
-      "decimals": 8,
-      "name": "Coinbase NVDA"
-    },
-    {
-      "contractAddress": "0xFC31FD82064083FbD869dc7B5e7230286051C615",
-      "proxyAddress": "0xc1a849217F3BaB97F1a46b990e369D6705B4be96",
+      "contractAddress": "0xF929EC74AB71033792308dB7fbE82Eb87b42ac3E",
+      "proxyAddress": "0x95Eba7bE2f755a298984bd714822994f1d4B6313",
       "decimals": 18,
-      "name": "yUSD / USD Exchange Rate"
+      "name": "YBTC-BTC Exchange Rate"
     },
     {
-      "contractAddress": "0xFCDdfb2294beBa43987516371fEBb2E677EB403e",
-      "proxyAddress": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0",
+      "contractAddress": "0xFa7fafD062112455EBF576cFDf4005F5324b97E0",
+      "proxyAddress": "0x8422f3d3CAFf15Ca682939310d6A5e619AE08e57",
       "decimals": 8,
-      "name": "AERO / USD"
+      "name": "DOGE / USD"
     },
     {
-      "contractAddress": "0xa56Ab337482c198e746d3BfD9f7C92D6435871f5",
-      "proxyAddress": "0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3",
-      "decimals": 18,
-      "name": "ezETH / ETH"
-    },
-    {
-      "contractAddress": "0xa8a0E343183515117a7Ac325f63d37f09EdF0297",
-      "proxyAddress": "0xb4482096e3cdE116C15fC0D700a73a58FEdeB8c0",
-      "decimals": 18,
-      "name": "ynETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xa994B7fC3123AE0EF4EE53ab5e3545f2639187a7",
-      "proxyAddress": "0x6A634B235903C4ad6376892180d6fF8612e3Fa68",
+      "contractAddress": "0xa1336EFDD45978B8aea9CAf66c73781F5C966e6B",
+      "proxyAddress": "0xf488FA1B4Ac8210bf0b2d212176ca28c48F86708",
       "decimals": 8,
-      "name": "Coinbase SPCX"
+      "name": "GLDY Reserves"
+    },
+    {
+      "contractAddress": "0xa1923f93B032BF2dFEDcdFD0dA93037D32C39F4D",
+      "proxyAddress": "0xFAf372CaBc765b63f6fabD436c845D965eDA1CA5",
+      "decimals": 8,
+      "name": "MELANIA / USD"
+    },
+    {
+      "contractAddress": "0xa24AAfb9d49d0cF43dcd8A5f2442a30391F494D2",
+      "proxyAddress": "0x7FCED5198e43ec93Ef2179DFC70a8dcf494DcB80",
+      "decimals": 8,
+      "name": "iBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xa47344071B503F4B3B34d768e7bAAB0631990825",
+      "proxyAddress": "0xB4a1a7f260C9FF7fEd6A6fbb9fe5a9acFa725DBf",
+      "decimals": 8,
+      "name": "solvBTC / BTC"
     },
     {
       "contractAddress": "0xa9c061D7f744796b29025a50Ec7eb55971ca587d",
@@ -6790,40 +6845,46 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x2C33efee59abFcc3612B60B7a78bdc2CDd8797d1"
     },
     {
-      "contractAddress": "0xaf56195c52215241d79d386bDF1E106586EC7d2e",
-      "proxyAddress": "0xBD867487712ADeC5A59b9Ae475Ee942f652B4C91",
+      "contractAddress": "0xaE4602716079C0Be7948c0b84553dEE0e6564a3d",
+      "proxyAddress": "0xE62BcE5D7CB9d16AB8b4D622538bc0A50A5799c2",
       "decimals": 8,
-      "name": "swBTC / WBTC Exchange Rate"
+      "name": "DEGEN / USD"
     },
     {
-      "contractAddress": "0xb9Df6B5AC0A6679a8677741d5b7DB6302E563620",
-      "proxyAddress": "0x6D75BFB5A5885f841b132198C9f0bE8c872057BF",
+      "contractAddress": "0xb9b743D02D173e4529051eC9dda06a0C5cb4A2a4",
+      "proxyAddress": "0x9e8Ee77c76d4fa41306056D1C3196AF5da1600bd",
       "decimals": 8,
-      "name": "TBTC / USD"
+      "name": "MXN / USD"
     },
     {
-      "contractAddress": "0xc2d5F4bC0E4f225178483286895A9c5674409848",
-      "proxyAddress": "0x9C6BF4884Ff0c7873652F7d5142FA3b9859a526D",
-      "decimals": 18,
-      "name": "instETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xc37B6F754e90D4Cca1f533F5a08f7d532b3d0d9D",
-      "proxyAddress": "0x787f13dEa48Db0897CbCDD985de77809D837F988",
+      "contractAddress": "0xbF477e69a0adF91b6e3d6e70cb67E5D1A27e88e3",
+      "proxyAddress": "0x4b7836916781CAAfbb7Bd1E5FDd20ED544B453b1",
       "decimals": 8,
-      "name": "Coinbase AAPL"
+      "name": "BNB / USD"
     },
     {
-      "contractAddress": "0xc702EF9DE0494D2AA36e9960283B4937F38c9257",
-      "proxyAddress": "0x67283A47E470afbCcc4aC74ccC32401a81027691",
+      "contractAddress": "0xc73B7635630A94a3E9a595741cbb8A3845C27826",
+      "proxyAddress": "0x99DAf760d2CFB770cc17e883dF45454FE421616b",
       "decimals": 18,
-      "name": "SolvBTC.BBN / SolvBTC Exchange Rate"
+      "name": "rsETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xc7cE71328e6c6C84Dc7B1a45656A0DcF58F4226d",
-      "proxyAddress": "0xFC1415403EbB0c693f9a7844b92aD2Ff24775C65",
-      "decimals": 18,
-      "name": "weETH / ETH"
+      "contractAddress": "0xc934f510966De1940706eA6c73B054089d2525c7",
+      "proxyAddress": "0x95051De9Db5Cac61682f64505006f2991dEaB3c2",
+      "decimals": 8,
+      "name": "CBDOGE / USD"
+    },
+    {
+      "contractAddress": "0xc95cd3490be4af06F0A25435e21C2c91B988C482",
+      "proxyAddress": "0xDAe398520e2B67cd3f27aeF9Cf14D93D927f8250",
+      "decimals": 8,
+      "name": "EURC / USD"
+    },
+    {
+      "contractAddress": "0xcAd16df709bFe62D02cde5d4039684fA47Dc216c",
+      "proxyAddress": "0xc15d9944dAefE2dB03e53bef8DDA25a56832C5fe",
+      "decimals": 8,
+      "name": "WELL / USD"
     },
     {
       "contractAddress": "0xcc7cC8513BD52E443cEA0E63599d47Db56149817",
@@ -6833,34 +6894,46 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xb4b7ac939fB1ABA057D70Eb070254503777D8b1c"
     },
     {
-      "contractAddress": "0xdE44dd56EF2EDCE5C5bDfa5F628eC07ceeD53573",
-      "proxyAddress": "0x4b28dFaF2aCaF982524a75409Ab59DFf85942Ad7",
-      "decimals": 18,
-      "name": "JITOSOL-SOL Calculated"
-    },
-    {
-      "contractAddress": "0xdFc69e4fcd4C17d14417ce986DF949A8320FB767",
-      "proxyAddress": "0xe95e258bb6615d47515Fc849f8542dA651f12bF6",
+      "contractAddress": "0xd7640cCAda34152220662780493E310DDA6e0d3D",
+      "proxyAddress": "0xBbdA526258856c06f167399097e13D79E8f88ba8",
       "decimals": 8,
-      "name": "MORPHO / USD"
+      "name": "CUSDO / USD"
     },
     {
-      "contractAddress": "0xe18a8d430d611e79d978cf7396fDa01018b1102b",
+      "contractAddress": "0xdB793acA8bE40a123c34300Bb21b02F21F8ef501",
+      "proxyAddress": "0xD40e758b5eC80820B68DFC302fc5Ce1239083548",
+      "decimals": 8,
+      "name": "YFI / USD"
+    },
+    {
+      "contractAddress": "0xdD24Cd0F5243800a7b29Decd58736cbEa92AbBc0",
+      "proxyAddress": "0xe2b3688371130f333443428Cf03f27Ce0378F9dC",
+      "decimals": 1,
+      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0xdc22706Ac082C85fE56A5ac4cc85A7b012490c35",
       "proxyAddress": "0xaABc55Ca55D70B034e4daA2551A224239890282F",
       "decimals": 18,
       "name": "VVV / USD"
     },
     {
-      "contractAddress": "0xe30d957bdC58a07b68D138dB8A96164fAb4C41f9",
-      "proxyAddress": "0x69a1d14a4e58e97EDE8337DE61eEB2e4a55886E0",
-      "decimals": 18,
-      "name": "pufETH / ETH Exchange Rate"
+      "contractAddress": "0xe09bE26CF556F7211c16B75BE9fB4DB433A0d37E",
+      "proxyAddress": "0x06bdFe07E71C476157FC025d3cCD4BBe08e83EF9",
+      "decimals": 8,
+      "name": "NZD / USD"
     },
     {
-      "contractAddress": "0xe9BFfeEc2226172E7c3de8B22A95a7f23C7C7DC1",
-      "proxyAddress": "0x79cf4a31B29D69191f0b6E97916eB93FEB81E533",
+      "contractAddress": "0xe34d9Eb7b735c816BbC89F5E99ED1Aa015cC1881",
+      "proxyAddress": "0x50997b806B574501cC34a2a6d845e4dc1Bd9Aa8c",
       "decimals": 8,
-      "name": "sUSDe / USD"
+      "name": "AVNT / USD"
+    },
+    {
+      "contractAddress": "0xeCA1EBFb5CA472C76328f5DdE011c6CcCF2a66F4",
+      "proxyAddress": "0x4aeb6D15769EaD32D0c5Be2940F40c7CFf53801d",
+      "decimals": 18,
+      "name": "MOG / USD"
     },
     {
       "contractAddress": "0xeb3Ad4395924b76eB64b3d6aBabA0B62875b1A1f",
@@ -6870,18 +6943,6 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x03Df23A32C83cA8cD9B1aAC0aF1c72924af7502b"
     },
     {
-      "contractAddress": "0xefbFEAed4aC97950860564F90B9Fa5966D08C5C6",
-      "proxyAddress": "0x65623109aA4561AD3cfF503542083548CeD7e085",
-      "decimals": 3,
-      "name": "Real Final Sales to Private Domestic Purchasers — Level"
-    },
-    {
-      "contractAddress": "0xf0F5EEbEa4910927B7165d8e3824aBB7d7215825",
-      "proxyAddress": "0x8422f3d3CAFf15Ca682939310d6A5e619AE08e57",
-      "decimals": 8,
-      "name": "DOGE / USD"
-    },
-    {
       "contractAddress": "0xf1A51Dc55e6707F5aEE7D426110CA50119A5314B",
       "proxyAddress": "0xAc0a5bB171350536207245afB0EB269b8195501B",
       "decimals": 18,
@@ -6889,40 +6950,22 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xF5f4A4de107a46f25CDf08529144B48448dc2f83"
     },
     {
-      "contractAddress": "0xf207FE9653525B2491edd0d0a4E2dCfd1B44A8d3",
-      "proxyAddress": "0xd7221b10FBBC1e1ba95Fd0B4D031C15f7F365296",
+      "contractAddress": "0xf2d85ee7CD9e75f3FFFF4B44ADE48581d2dbDFDd",
+      "proxyAddress": "0xBD867487712ADeC5A59b9Ae475Ee942f652B4C91",
+      "decimals": 8,
+      "name": "swBTC / WBTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0xf3764B1fc0Ab831f75D3edd7435ABFE4Af675c9A",
+      "proxyAddress": "0xAa98aE504658766Dfe11F31c5D95a0bdcABDe0b1",
+      "decimals": 8,
+      "name": "RSR / USD"
+    },
+    {
+      "contractAddress": "0xf45821111c1Ef3e116Ca108c0F06014216Ed39c4",
+      "proxyAddress": "0x2621897C993fdE08873Ef58dA1453aEE49a70144",
       "decimals": 18,
-      "name": "RSETH / ETH"
-    },
-    {
-      "contractAddress": "0xf4Faa0370d24Cf7307F91af89381C569AF17F900",
-      "proxyAddress": "0x9DDa783DE64A9d1A60c49ca761EbE528C35BA428",
-      "decimals": 8,
-      "name": "COMP / USD"
-    },
-    {
-      "contractAddress": "0xf74260ed595B7e31829f6f32cAD273563949A4BB",
-      "proxyAddress": "0x06bdFe07E71C476157FC025d3cCD4BBe08e83EF9",
-      "decimals": 8,
-      "name": "NZD / USD"
-    },
-    {
-      "contractAddress": "0xf757089A9DeaD5Ea86311C8e8D99fd2542B442Fc",
-      "proxyAddress": "0xd9c5B59A913d75AC44EB51b7E0F3f5B58816ECAc",
-      "decimals": 0,
-      "name": "AAVE Network Emergency Count (Base)"
-    },
-    {
-      "contractAddress": "0xf9036c275a07f5Ce669416CA1108388E071d6AB2",
-      "proxyAddress": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7",
-      "decimals": 8,
-      "name": "VIRTUAL / USD"
-    },
-    {
-      "contractAddress": "0xfA349670509c9C633cA4208B9b6F38Df858B8F27",
-      "proxyAddress": "0x63Af8341b62E683B87bB540896bF283D96B4D385",
-      "decimals": 8,
-      "name": "STG / USD"
+      "name": "LsETH / ETH Exchange Rate"
     }
   ],
   "42161": [
@@ -6934,10 +6977,16 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xe4c892BE702F8e0771122CCaAA0E50BF9639e2Fd"
     },
     {
-      "contractAddress": "0x01679C37637F57924D3f254aF64e99e5Da7fB9E9",
-      "proxyAddress": "0xD6aB2298946840262FcC278fF31516D39fF611eF",
-      "decimals": 18,
-      "name": "RETH / ETH"
+      "contractAddress": "0x01DD3Cf6118069DB13A2d64d7e1A09FECd587EDD",
+      "proxyAddress": "0x8d0CC5f38f9E802475f2CFf4F9fc7000C2E1557c",
+      "decimals": 8,
+      "name": "AAPL / USD"
+    },
+    {
+      "contractAddress": "0x02F6bc122595651127Ffb89B1cD5bb4FfD942182",
+      "proxyAddress": "0x3d9145b5804E13Bc14d19c3DDbd3DA8fD02b5034",
+      "decimals": 8,
+      "name": "AB / USD"
     },
     {
       "contractAddress": "0x0309C05449070AC1aB244B99955EA5fEdEB79E6A",
@@ -6947,82 +6996,64 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x72B424C9A254481626535dBb1Aa3175C08F15943"
     },
     {
-      "contractAddress": "0x03939Ff43A46F6c6Bd628c7b524Da5628CfcFd9D",
-      "proxyAddress": "0xA0C8611b0CfB31Bc8AdE3189ae2b982c90D9302f",
+      "contractAddress": "0x033809b88Cc5DE5944c70DdD9E25dAf36db823DF",
+      "proxyAddress": "0x46306F3795342117721D8DEd50fbcF6DF2b3cc10",
       "decimals": 8,
-      "name": "SYRUP / USD"
+      "name": "SPY / USD"
     },
     {
-      "contractAddress": "0x03de09a7EC7Ec33ddB67557eC0c73682eAe3CBa1",
-      "proxyAddress": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
-      "decimals": 18,
-      "name": "STETH / ETH"
-    },
-    {
-      "contractAddress": "0x056BEE35603c2ba91ed4612f537BA8fFaaa8183b",
-      "proxyAddress": "0xDC1a8F77Cdc46D1Fb7F22F94dFCA4dDBf566fA23",
-      "decimals": 1,
-      "name": "Real GDP — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x05792cF957015901D11dbf399713C2EC8c17eDdc",
-      "proxyAddress": "0x6303C35D49B13016A6acef5414893Fa7519E6da0",
-      "decimals": 18,
-      "name": "agETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x05b4a20a6Ef5a455AB49cB75821F8be1894b94EE",
-      "proxyAddress": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
-      "decimals": 18,
-      "name": "tETH / wstETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x05c4c7D50d5be675d46431afB5B3Ac288B241eA7",
-      "proxyAddress": "0xF230542B263Ad8F37a4c6d640F42BcE2Ec7C6cA3",
-      "decimals": 9,
-      "name": "FRAGSOL / SOL Exchange Rate"
-    },
-    {
-      "contractAddress": "0x0667d77b5F269fb9BbA64A66B6b652bAdcCD8a1D",
-      "proxyAddress": "0xDB98056FecFff59D032aB628337A4887110df3dB",
+      "contractAddress": "0x0526ED34229425a10888C6972906CF2a820D6d13",
+      "proxyAddress": "0x205aaD468a11fd5D34fA7211bC6Bad5b3deB9b98",
       "decimals": 8,
-      "name": "GMX / USD"
+      "name": "OP / USD"
     },
     {
-      "contractAddress": "0x076b0C94ef9a64d9dd0698b09e97b0adbA773744",
-      "proxyAddress": "0xE808488e8627F6531bA79a13A9E0271B39abEb1C",
+      "contractAddress": "0x08fbE2551e223E8c861Cd6548dF8eAA9C1DcdFf1",
+      "proxyAddress": "0x4881A4418b5F2460B21d6F08CD5aA0678a7f262F",
       "decimals": 8,
-      "name": "TBTC / USD"
+      "name": "NVDA / USD"
     },
     {
-      "contractAddress": "0x085a38e33a14b1e3078B0614380b4469AEA4E0f2",
-      "proxyAddress": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+      "contractAddress": "0x0A4d55347817738166e2eF8302e12F99CfbDdEDD",
+      "proxyAddress": "0xC56765f04B248394CF1619D20dB8082Edbfa75b1",
       "decimals": 8,
-      "name": "USDC / USD"
+      "name": "XAG / USD"
     },
     {
-      "contractAddress": "0x09542AC90FA6AF73922fbBD6FB1F713B6D8b7dFb",
-      "proxyAddress": "0xD07de6e37A011CCAfD375d7eb130205E0fa24d69",
+      "contractAddress": "0x0AAAFE4278AA9D4514552f2743cBFa5a5Bdce04b",
+      "proxyAddress": "0xF3272CAfe65b190e76caAF483db13424a3e23dD2",
+      "decimals": 18,
+      "name": "rETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x0Ae17556F9698fC47C365A746AB9CddCB17F3809",
+      "proxyAddress": "0x87121F6c9A9F6E90E59591E4Cf4804873f54A95b",
       "decimals": 8,
-      "name": "MLN / USD"
+      "name": "MIM / USD"
     },
     {
-      "contractAddress": "0x09BEA958eB27B2cBCC42dA1770FD5fb2305b584a",
-      "proxyAddress": "0xc5a90A6d7e4Af242dA238FFe279e9f2BA0c64B2e",
-      "decimals": 18,
-      "name": "BTC / ETH"
+      "contractAddress": "0x0C9679F1798797Ad2db4d7dc0D01749b5B64E143",
+      "proxyAddress": "0xf9ce4fE2F0EcE0362cb416844AE179a49591D567",
+      "decimals": 8,
+      "name": "HYPE / USD"
     },
     {
-      "contractAddress": "0x0E6C138DA34CfE0a41397e9Fd21eE2EB4edF738f",
-      "proxyAddress": "0xF8722c901675C4F2F7824E256B8A6477b2c105FB",
+      "contractAddress": "0x0D390bF7C43D9Ac7Ea848AE4C9ce3798A83384D2",
+      "proxyAddress": "0x6BC7fF3C21f005684ef834FBA4d88459e988CcdC",
       "decimals": 18,
-      "name": "syrupUSDC / USDC Exchange Rate"
+      "name": "WSTUSR-STUSR Exchange Rate"
     },
     {
-      "contractAddress": "0x0E6F449Ceed1e1a85843637Cf885cD2E451db721",
-      "proxyAddress": "0x98Fe18B979ef3ba82E527bcBAb4Ec71CEaC79656",
+      "contractAddress": "0x0E69A0F6E6937064dC68cA7507D1d458F71d325d",
+      "proxyAddress": "0x496DC5AAbf2f118D78816B7358e69dC784D3De65",
       "decimals": 18,
-      "name": "LUSD / USD Capped Test"
+      "name": "AoABT Reserves"
+    },
+    {
+      "contractAddress": "0x0a58c18EeBAA6C8BBa1F0aAb6C7C7721A07C6fC3",
+      "proxyAddress": "0xD0E31451f58d3991045D68C479ea80D37e418851",
+      "decimals": 8,
+      "name": "GLV [WETH-USDC]-USD"
     },
     {
       "contractAddress": "0x0b6eaC11aAD4211AD686d1Ece56C071E306Bd29B",
@@ -7032,46 +7063,40 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xe4dF63Bf89fD868A899F2422B030709FD79Be921"
     },
     {
-      "contractAddress": "0x0c4f8ACC18e00ABe370636084E2a3E6F94fEFE6F",
-      "proxyAddress": "0x5d046567b97B0d7322F2402e3b34Bf789cE329f5",
+      "contractAddress": "0x0cA784A2A7Fa84f69021aacbf481bA899e79E732",
+      "proxyAddress": "0x4b13Dd76De990Db9A2Dab58D35C2c02E5e3AE848",
       "decimals": 8,
-      "name": "gmARB / USD"
+      "name": "WLFI / USD"
     },
     {
-      "contractAddress": "0x0d74C1BA29698aaB8613Afc3E147e96B48aA0353",
-      "proxyAddress": "0x5F25Ea8Cf2a3aB12E4D6fB58FB63C7938473B036",
-      "decimals": 10,
-      "name": "aBTC Proof of Reserves"
+      "contractAddress": "0x0ce05dcbD07ac17528fA47f9752b233f00E6c29b",
+      "proxyAddress": "0x866fa212dfc5AAf321379874eCe95631F6d12e00",
+      "decimals": 8,
+      "name": "HSK / USD"
     },
     {
-      "contractAddress": "0x0f546579979cA3e427500F9Fb263A9731bFC2780",
-      "proxyAddress": "0xea320E4d688B143A3bFBF1b4a5cc4B986fCa086c",
-      "decimals": 8,
-      "name": "CRO / USD"
+      "contractAddress": "0x0e9b5c79e005a30bf3fbB4d8ccCB6B0082ac5a17",
+      "proxyAddress": "0xb523AE262D20A936BC152e6023996e46FDC2A95D",
+      "decimals": 18,
+      "name": "WSTETH / ETH"
     },
     {
-      "contractAddress": "0x0f8Db6fE3F0EC6d69fac118b94a6FC125C301b9a",
-      "proxyAddress": "0xdE89a55d04DEd40A410877ab87d4F567ee66a1f0",
-      "decimals": 8,
-      "name": "SEK / USD"
+      "contractAddress": "0x10e138756622245F43Bc210AECa5a9be22764493",
+      "proxyAddress": "0x4050bD8263771f8BBded08C299BD944488a91AaD",
+      "decimals": 18,
+      "name": "instETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x0fEfD0644D8F35AB9B447D21f59fB70DcA4Dc576",
-      "proxyAddress": "0x47E55cCec6582838E173f252D08Afd8116c2202d",
-      "decimals": 8,
-      "name": "MAGIC / USD"
+      "contractAddress": "0x11F15B46dFDcAE97FFCC08d4Fe2520CC09B8c959",
+      "proxyAddress": "0xAa3024cF3f77bA88f8Fe9ff0D24903c50022f874",
+      "decimals": 18,
+      "name": "SAVUSD / AVUSD Exchange Rate"
     },
     {
-      "contractAddress": "0x10980632e93c1bFD30cE77595B38Df166B6Cf218",
-      "proxyAddress": "0xA9cC9B5Ea2584239365Ea6b985868D121CB7Aea6",
+      "contractAddress": "0x126b9a529Dd6f14C62c494F6b6b5AA73d9f6F849",
+      "proxyAddress": "0x3609baAa0a9b1f0FE4d6CC01884585d0e191C3E3",
       "decimals": 8,
-      "name": "ZAR / USD"
-    },
-    {
-      "contractAddress": "0x116AF422654D98d680029181f66A11D9cbED6bEC",
-      "proxyAddress": "0x9C917083fDb403ab5ADbEC26Ee294f6EcAda2720",
-      "decimals": 8,
-      "name": "UNI / USD"
+      "name": "TSLA / USD"
     },
     {
       "contractAddress": "0x12b8916e7B6297f31C99e3A8e2BDa661f27c676A",
@@ -7081,28 +7106,22 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x21E1a03da332F9277A6839d1EF182d07644d1875"
     },
     {
-      "contractAddress": "0x139186425Fd93cFF42BD02b43780264573E37136",
-      "proxyAddress": "0x5Fb8E23065C362080E540e01e0bd4119B6cB53fe",
-      "decimals": 1,
-      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x13D18d5A1Fa2F3565Cc7867918f395607931fD15",
-      "proxyAddress": "0x46306F3795342117721D8DEd50fbcF6DF2b3cc10",
+      "contractAddress": "0x13A3651dfF754e279CB2139Dbd848054B993d797",
+      "proxyAddress": "0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB",
       "decimals": 8,
-      "name": "SPY / USD"
+      "name": "USDS / USD"
     },
     {
-      "contractAddress": "0x14D2F8E5f626803955E3C6D5Ea2B7DD86355BD29",
-      "proxyAddress": "0x496DC5AAbf2f118D78816B7358e69dC784D3De65",
-      "decimals": 18,
-      "name": "AoABT Reserves"
-    },
-    {
-      "contractAddress": "0x16F8497fA9092615881746819C0CBa8E4A70e595",
-      "proxyAddress": "0x7597Fdc0DaFc5FC743DFBc304cD57b15e8ea955c",
+      "contractAddress": "0x15cDF4FdbC7BD5207B8ba0960731e013e49c5bA9",
+      "proxyAddress": "0xcAc0138592090762385CCB7bb94C9401F734Eb30",
       "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
+      "name": "USD1 / USD"
+    },
+    {
+      "contractAddress": "0x16C9299D2089Ba2e0FA7cdC082710Ad31A83B8c3",
+      "proxyAddress": "0xE9Bd4Ca2CDacb56cd06c9C4C5231e69c33340B3c",
+      "decimals": 8,
+      "name": "USDG / USD"
     },
     {
       "contractAddress": "0x16c0e73906CDa7AC1F137B0F513a00b84c8f7A4E",
@@ -7112,142 +7131,154 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xDbFF913E9058C1E60446150D23Bb0fFE9144d531"
     },
     {
-      "contractAddress": "0x17721958AaCf6315dFDB0bC1C4376F1Ca548099f",
-      "proxyAddress": "0xC56765f04B248394CF1619D20dB8082Edbfa75b1",
+      "contractAddress": "0x17298e460F18f1380fe5Ed68985A566949B91d20",
+      "proxyAddress": "0x17d8D87dF3E279c737568aB0C5cC3fF750aB763e",
       "decimals": 8,
-      "name": "XAG / USD"
+      "name": "DOLO / USD"
     },
     {
-      "contractAddress": "0x17E81EF48eB418F14B6B7675cf67D5Bf6c93dD5D",
+      "contractAddress": "0x18230897e88bD26B47E4c8c472DB59849792c799",
+      "proxyAddress": "0x3815dd45CDe3BfAf1E3db6D7FF9EF3b437d6D0E0",
+      "decimals": 8,
+      "name": "TAC / USD"
+    },
+    {
+      "contractAddress": "0x1893d4951A6Bd8605B21fb4CD4B173e69d84688c",
+      "proxyAddress": "0x1D1a83331e9D255EB1Aaf75026B60dFD00A252ba",
+      "decimals": 8,
+      "name": "GOOGL / USD"
+    },
+    {
+      "contractAddress": "0x1B3224c0847242f6d0FbC31087117459596FfcCF",
+      "proxyAddress": "0xD6aB2298946840262FcC278fF31516D39fF611eF",
+      "decimals": 18,
+      "name": "RETH / ETH"
+    },
+    {
+      "contractAddress": "0x1Cde96670e1e779b13dDfd6a5c6D19349cc6a642",
+      "proxyAddress": "0x0017abAc5b6f291F9164e35B1234CA1D697f9CF4",
+      "decimals": 8,
+      "name": "WBTC / BTC"
+    },
+    {
+      "contractAddress": "0x1D416D75FA88100FA0198f1c1f3ECC074c555d6E",
+      "proxyAddress": "0x3a9659C071dD3C37a8b1A2363409A8D41B2Feae3",
+      "decimals": 8,
+      "name": "STX / USD"
+    },
+    {
+      "contractAddress": "0x1D9Fab737E0BB55e891FA19d8256cA4bd4F05F2D",
+      "proxyAddress": "0x03a1f4b19aaeA6e68f0f104dc4346dA3E942cC45",
+      "decimals": 18,
+      "name": "wOETH / OETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x1Fe010E64b5Df97BCB034870334Ff8FbB02ad019",
+      "proxyAddress": "0xB4AD57B52aB9141de9926a3e0C8dc6264c2ef205",
+      "decimals": 8,
+      "name": "XRP / USD"
+    },
+    {
+      "contractAddress": "0x1b9749e06817433a34D7efAaa0a7f6a94a41E432",
+      "proxyAddress": "0xcC3370Bde6AFE51e1205a5038947b9836371eCCb",
+      "decimals": 8,
+      "name": "CNY / USD"
+    },
+    {
+      "contractAddress": "0x1f4aBf0cDe2959FA199a16FC6E4c6BC15888E5FF",
+      "proxyAddress": "0x413b219D371C352f6d1E9A39f5CE4c869EdA9476",
+      "decimals": 8,
+      "name": "KAIA / USD"
+    },
+    {
+      "contractAddress": "0x20870D99455B6F9d7c0E6f2608245719d789ff53",
+      "proxyAddress": "0xbF539d4c2106dd4D9AB6D56aed3d9023529Db145",
+      "decimals": 8,
+      "name": "KNC / USD"
+    },
+    {
+      "contractAddress": "0x20CD97619A51d1a6f1910ce62d98Aceb9a13d5e6",
+      "proxyAddress": "0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF",
+      "decimals": 8,
+      "name": "LUSD / USD"
+    },
+    {
+      "contractAddress": "0x244ea8646Cc2342497dFD5D8f841f79e66e598cF",
+      "proxyAddress": "0x85bb02E0Ae286600d1c68Bb6Ce22Cc998d411916",
+      "decimals": 8,
+      "name": "KRW / USD"
+    },
+    {
+      "contractAddress": "0x2829F6CC137Cf3552325f69b9FD215aCaCFd104c",
+      "proxyAddress": "0x4a85B128EBDaFC24d5CB611e161376ffDECeB289",
+      "decimals": 8,
+      "name": "SUI / USD"
+    },
+    {
+      "contractAddress": "0x2946220288DbBF77dF0030fCecc2a8348CbBE32C",
+      "proxyAddress": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
+      "contractAddress": "0x29ef0aE1eDb5764b5bd2ff3a605b5d4Eb39a0d63",
+      "proxyAddress": "0x5F25Ea8Cf2a3aB12E4D6fB58FB63C7938473B036",
+      "decimals": 10,
+      "name": "aBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x2C50f2Fe9427d120DEA2eb804c148d2780519d59",
+      "proxyAddress": "0x221912ce795669f628c51c69b7d0873eDA9C03bB",
+      "decimals": 8,
+      "name": "APE / USD"
+    },
+    {
+      "contractAddress": "0x2F45a77c5024eB546E9E7F445f266c0D3e71e616",
       "proxyAddress": "0xa6bC5bAF2000424e90434bA7104ee399dEe80DEc",
       "decimals": 8,
       "name": "DOT / USD"
     },
     {
-      "contractAddress": "0x186e253e137a7F2B27B24Cf6021cA5f3CE03bdEf",
-      "proxyAddress": "0x605EA726F0259a30db5b7c9ef39Df9fE78665C44",
+      "contractAddress": "0x2cDe70a472A8ffc6EBf2Ee54713Ab7D404006854",
+      "proxyAddress": "0xEcD471ef663eCEFFC7D731a0C7e51007433e6d6e",
       "decimals": 18,
-      "name": "sUSDe / USDe Exchange Rate"
+      "name": "swETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x19449f94baEaeEf6f1ACa4e861c471f0e71c17a1",
-      "proxyAddress": "0x20b0159404886F4BFE51A1ad9c14cFc3Cde5995c",
+      "contractAddress": "0x2e4c363449E2EC7E93cd9ed4F3843c2CA4497108",
+      "proxyAddress": "0x2BA975D4D7922cD264267Af16F3bD177F206FE3c",
+      "decimals": 8,
+      "name": "PAXG / USD"
+    },
+    {
+      "contractAddress": "0x2fB0A0cc872A43Ff74B95FeD874e95687c56fD0f",
+      "proxyAddress": "0x5698690a7B7B84F6aa985ef7690A8A7288FBc9c8",
+      "decimals": 8,
+      "name": "LTC / USD"
+    },
+    {
+      "contractAddress": "0x30AdB11d64Ba2b98e19FdAE60B5e8469082EdA41",
+      "proxyAddress": "0x0301e5D0A8f7490444ebd1921E3d0f0fe7722786",
+      "decimals": 8,
+      "name": "TON / USD"
+    },
+    {
+      "contractAddress": "0x31Aa84856316ACf2e6a0bA973B7f65BC960a7905",
+      "proxyAddress": "0x11E1836bFF2ce9d6A5bec9cA79dc998210f3886d",
       "decimals": 18,
-      "name": "ultraETHs / ETH Exchange Rate"
+      "name": "ezETH / ETH"
     },
     {
-      "contractAddress": "0x1C2Cc7111a83fc96E5d97608Cf160F180d6647EF",
-      "proxyAddress": "0xE9Bd4Ca2CDacb56cd06c9C4C5231e69c33340B3c",
-      "decimals": 8,
-      "name": "USDG / USD"
-    },
-    {
-      "contractAddress": "0x1Ce4eeeA2E091f8EcDe210B4F82AAeE05158DDDd",
-      "proxyAddress": "0xA14d53bC1F1c0F31B4aA3BD109344E5009051a84",
-      "decimals": 8,
-      "name": "EUR / USD"
-    },
-    {
-      "contractAddress": "0x1E47aD4d2748680e6E74Fce145761eD174eE4665",
-      "proxyAddress": "0xBF5C3fB2633e924598A46B9D07a174a9DBcF57C0",
-      "decimals": 8,
-      "name": "NEAR / USD"
-    },
-    {
-      "contractAddress": "0x1b4f5CCf338AC1081Db6B86f6d0f7a5266D8B0A3",
-      "proxyAddress": "0xF3d6b05E69918d71807Ab005791daCcEC5de8C78",
-      "decimals": 8,
-      "name": "USDAI / USD"
-    },
-    {
-      "contractAddress": "0x1bCeb0b5eB8Ef3Cae669683336448095c3Cb905a",
-      "proxyAddress": "0x4b13Dd76De990Db9A2Dab58D35C2c02E5e3AE848",
-      "decimals": 8,
-      "name": "WLFI / USD"
-    },
-    {
-      "contractAddress": "0x22f407c0926eB5387f8Dd9eB5835fc4a12dF6102",
-      "proxyAddress": "0x5e2b5C5C07cCA3437c4D724225Bb42c7E55d1597",
-      "decimals": 8,
-      "name": "WOO / USD"
-    },
-    {
-      "contractAddress": "0x24C15675360a6fD711d10a35b12025e5116a79C3",
-      "proxyAddress": "0xD9f615A9b820225edbA2d821c4A696a0924051c6",
-      "decimals": 8,
-      "name": "ADA / USD"
-    },
-    {
-      "contractAddress": "0x2541f39ba483558FDfDA251D87Ed4EFC0FF12504",
-      "proxyAddress": "0xcAc0138592090762385CCB7bb94C9401F734Eb30",
-      "decimals": 8,
-      "name": "USD1 / USD"
-    },
-    {
-      "contractAddress": "0x26fb8c475D28E5c1dCe990b5FB655eE17441E841",
-      "proxyAddress": "0x8c76E8cab5ef3B410a318DDb82d83Ed47D7d2701",
-      "decimals": 8,
-      "name": "XMR / USD"
-    },
-    {
-      "contractAddress": "0x284bD26209b40aEa56daF954Afc812A7b5B15c8E",
-      "proxyAddress": "0x02DEd5a7EDDA750E3Eb240b54437a54d57b74dBE",
+      "contractAddress": "0x329301Ccd96Fd45bFaeD8CEc37cb4A9C0bC76119",
+      "proxyAddress": "0xb966F82183E41208f594586BBF04bb6163571C48",
       "decimals": 18,
-      "name": "PEPE / USD"
+      "name": "RYT Arbitrum / Proof of Reserves"
     },
     {
-      "contractAddress": "0x2AdabB7f00F706d62c104fA339E97307064dC15F",
-      "proxyAddress": "0x66853E19d73c0F9301fe099c324A1E9726953433",
+      "contractAddress": "0x331480b3C79f16018704A83847db1e29d8cdce14",
+      "proxyAddress": "0xfb010c715Ff2B85DB9c896f0C030bF9329638905",
       "decimals": 8,
-      "name": "PENDLE / USD"
-    },
-    {
-      "contractAddress": "0x2B362B121337631E1D115639d8636dc5529eCBeE",
-      "proxyAddress": "0x24ceA4b8ce57cdA5058b924B9B9987992450590c",
-      "decimals": 8,
-      "name": "SOL / USD"
-    },
-    {
-      "contractAddress": "0x2B72C34cbb350e019027FddCAC7c977ed790CE5D",
-      "proxyAddress": "0x82BA56a2fADF9C14f17D08bc51bDA0bDB83A8934",
-      "decimals": 8,
-      "name": "POL / USD"
-    },
-    {
-      "contractAddress": "0x2F0311b3763d1AE7C32A865C1288ed00e3F70A80",
-      "proxyAddress": "0x326fA29b208DE897981C78827b8ffDbfa355590b",
-      "decimals": 3,
-      "name": "Real GDP — Level"
-    },
-    {
-      "contractAddress": "0x2FcC3a39cB52F6F73cf77EF3F44198Af71Ee1C82",
-      "proxyAddress": "0x07C5b924399cc23c24a95c8743DE4006a32b7f2a",
-      "decimals": 8,
-      "name": "STETH / USD"
-    },
-    {
-      "contractAddress": "0x307dd61Ac87f941e78092e1E61DF8554A765b3ce",
-      "proxyAddress": "0xAa3024cF3f77bA88f8Fe9ff0D24903c50022f874",
-      "decimals": 18,
-      "name": "SAVUSD / AVUSD Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3124D909b901BE60474d70537D73252a33915c25",
-      "proxyAddress": "0x395D5c5D552Df670dc4B2B1cef0c4EABfFba492f",
-      "decimals": 8,
-      "name": "gmBTC / USD"
-    },
-    {
-      "contractAddress": "0x312A7298c91acCFB170441621852b74bA223C38B",
-      "proxyAddress": "0xF18BE32dB91591A7256d738C166FA195a17457DA",
-      "decimals": 18,
-      "name": "uniETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x3292DD20ED376346EB63cb105B37A6b5a89bf016",
-      "proxyAddress": "0x0d20576Fae18e89A28e75B63BFce5D1B8586d739",
-      "decimals": 0,
-      "name": "AAVE Network Emergency Count (Arbitrum)"
+      "name": "FBTC Proof of Reserves"
     },
     {
       "contractAddress": "0x333399F03B84678Ec22842Cd467c8Fe089E3Ef27",
@@ -7257,16 +7288,10 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x86e5D529Cb7cAeF5C475Aab0727a84739E12EA3F"
     },
     {
-      "contractAddress": "0x351730Ed7Bca353E7B88ca0899a0E9B86CD338c8",
-      "proxyAddress": "0x0543Bb6b5A57E3e7569237b67321eAB773e41401",
-      "decimals": 8,
-      "name": "iBTC Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x351B656f10A8F4b43e887aa1f16C4bF8075dbd02",
-      "proxyAddress": "0x0518673439245BB95A58688Bc31cd513F3D5bDd6",
+      "contractAddress": "0x34EA4fc62510bd81a72399309f717B96F740A4AE",
+      "proxyAddress": "0x7A58648CAeA88e042767823723aF266DC6c4c4D9",
       "decimals": 18,
-      "name": "cbETH-ETH Exchange Rate"
+      "name": "stBTC / BTC Exchange Rate"
     },
     {
       "contractAddress": "0x355E12F02C59B31AfF1ae2775352dC2Ac1f5C829",
@@ -7276,64 +7301,64 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x3EAbF62EB761BD86c71d07AdBb1A9183FeC24064"
     },
     {
-      "contractAddress": "0x37493d570a3cD17b890285F559Fef65dbcE413d2",
-      "proxyAddress": "0xf126852f551800ddeaBB91B5284C1C3d7C55d7F1",
-      "decimals": 18,
-      "name": "STHAPT / APT Exchange Rate"
+      "contractAddress": "0x3607e46698d218B3a5Cae44bF381475C0a5e2ca7",
+      "proxyAddress": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+      "decimals": 8,
+      "name": "ETH / USD"
     },
     {
-      "contractAddress": "0x37943881A1B2A513B88AeEE346585d60067a1439",
+      "contractAddress": "0x377dB25BbD41Bf70746cC2936875AA6bDF58fD43",
+      "proxyAddress": "0x4Fd4455b88D38945ca1B2ef2D499f805091EB5a6",
+      "decimals": 18,
+      "name": "SOLVBTC / BTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0x37b300020b77d043F2A8cf7700f1b05d6d889090",
+      "proxyAddress": "0xf2215b9c35b1697B5f47e407c917a40D055E68d7",
+      "decimals": 8,
+      "name": "sUSDe / USD"
+    },
+    {
+      "contractAddress": "0x382f3C547e3EBd1D08cd0CAf6e5F0a7b0B350A11",
+      "proxyAddress": "0x054296f0D036b95531B4E14aFB578B80CFb41252",
+      "decimals": 8,
+      "name": "SNX / USD"
+    },
+    {
+      "contractAddress": "0x3A00c8Ffe6d87C00c55543f3a265E153bC50e754",
+      "proxyAddress": "0x9fa74925F21ad6C86d8f402EF490cFbA2Fa5e9bE",
+      "decimals": 8,
+      "name": "LBTC / BTC"
+    },
+    {
+      "contractAddress": "0x3AA743F761e03458D41d36019e2B505Ed2057a04",
       "proxyAddress": "0x875C69Da7AE092E4Dc277171e9c373718DDB25E2",
       "decimals": 18,
       "name": "yUSD / USD Exchange Rate"
     },
     {
-      "contractAddress": "0x3800c2D1C4c73606baB64fB5d044d8Deb9418B84",
-      "proxyAddress": "0x552c92c0C09A73d569Ab52FF4C17a153C3472BE3",
-      "decimals": 1,
-      "name": "PCE Price Index — Percent Change (Annual Rate)"
-    },
-    {
-      "contractAddress": "0x3842d286bC5A5B63C636F8550Aa1C8f68f35227b",
-      "proxyAddress": "0x3815dd45CDe3BfAf1E3db6D7FF9EF3b437d6D0E0",
-      "decimals": 8,
-      "name": "TAC / USD"
-    },
-    {
-      "contractAddress": "0x38FB1E8f12874bc663E45C14Dff34b57701CE4Aa",
-      "proxyAddress": "0xB4AD57B52aB9141de9926a3e0C8dc6264c2ef205",
-      "decimals": 8,
-      "name": "XRP / USD"
-    },
-    {
-      "contractAddress": "0x3Bc01E30707c7FcD0A8dADA317aa18881E9145eA",
-      "proxyAddress": "0x639b7cD102A1c5BaB71c54f88D41E894215c54E2",
+      "contractAddress": "0x3E2932440e72191de51FA4CcfDE8a93045945A81",
+      "proxyAddress": "0x640F0B3e8Ee59bD7310C3E16B93f4c6612CC1130",
       "decimals": 18,
-      "name": "SHIB / ETH"
+      "name": "vyUSD / USD Exchange Rate"
     },
     {
-      "contractAddress": "0x3CBDF88CD62A5532Db88Faba1a3B2043302BF655",
-      "proxyAddress": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x3EB6508A82518fEaF339BFa85879019d5eF0744c",
-      "proxyAddress": "0x745Ab5b69E01E2BE1104Ca84937Bb71f96f5fB21",
-      "decimals": 8,
-      "name": "YFI / USD"
-    },
-    {
-      "contractAddress": "0x3a48Ab599c0aE9282FFcBE4b719F9d58562af39e",
-      "proxyAddress": "0x6aCcBB82aF71B8a576B4C05D4aF92A83A035B991",
-      "decimals": 8,
-      "name": "TAO / USD"
-    },
-    {
-      "contractAddress": "0x3b1508FaFC3b619baf311d333abBf93E62D5e540",
-      "proxyAddress": "0xa677622735c38001fd1183c92dc5b889128EC234",
+      "contractAddress": "0x3E9C84fA8251e0EC00647d2FcCbE43D850bE8647",
+      "proxyAddress": "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
       "decimals": 18,
-      "name": "uniBTC / BTC Exchange Rate"
+      "name": "wrsETH / rsETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x3c6AbdA21358c15601A3175D8dd66D0c572cc904",
+      "proxyAddress": "0xaD1d5344AaDE45F43E596773Bcc4c423EAbdD034",
+      "decimals": 8,
+      "name": "AAVE / USD"
+    },
+    {
+      "contractAddress": "0x3c8F2d5af2e0F5Ef7C23A08DF6Ad168ece071D4b",
+      "proxyAddress": "0xc5a90A6d7e4Af242dA238FFe279e9f2BA0c64B2e",
+      "decimals": 18,
+      "name": "BTC / ETH"
     },
     {
       "contractAddress": "0x3caF678232f500b05864dBaDDD9F9dB8760bE072",
@@ -7960,16 +7985,22 @@ export const chainlinkFeeds = {
       "name": "EUR/USD-RefPrice-DSstaging-Premium-Global-004"
     },
     {
-      "contractAddress": "0x3e248aE3ddb5B28854D80FAc8Ea6391558E5de8F",
-      "proxyAddress": "0x569dCA98c58d7A89cEE87801805A8EaAf2C72B5b",
+      "contractAddress": "0x3d62E33E97de1F0ce913dB62d5972722C2A7E4f6",
+      "proxyAddress": "0x851175a919f36c8e30197c09a9A49dA932c2CC00",
       "decimals": 8,
-      "name": "LIT / USD"
+      "name": "CVX / USD"
     },
     {
-      "contractAddress": "0x3fDE0dD560AACC1e7592257fd833eb707b7b9899",
-      "proxyAddress": "0x4a85B128EBDaFC24d5CB611e161376ffDECeB289",
+      "contractAddress": "0x3eD9d8146a32B3390B373bBDFF0ede7361568C4e",
+      "proxyAddress": "0x926Eed7973EBc57a8767659C5b35b9a0bAB6302f",
+      "decimals": 3,
+      "name": "Real Final Sales to Private Domestic Purchasers — Level"
+    },
+    {
+      "contractAddress": "0x41230419afFF6c7fFecF715fA57958D53F803De9",
+      "proxyAddress": "0x3c786e934F23375Ca345C9b8D5aD54838796E8e7",
       "decimals": 8,
-      "name": "SUI / USD"
+      "name": "GHO / USD"
     },
     {
       "contractAddress": "0x41F14AfB0eB605097c5950D2458415437A3d2Bcd",
@@ -7979,70 +8010,106 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x6AA147E11E423F529BEDAed75F3128D5fbE67939"
     },
     {
-      "contractAddress": "0x4384df8853Ca1e6D120E49FeaA6841adf40405a8",
-      "proxyAddress": "0xD3631AC9D81eD560D61957a55E9c992cdE497eb6",
+      "contractAddress": "0x42081A82Cbeab05b6FEeCF8beD1E200B23B48Ec2",
+      "proxyAddress": "0x47C38C695639aE97A00f57D6D9f5ece1DebB033C",
+      "decimals": 8,
+      "name": "0G / USD"
+    },
+    {
+      "contractAddress": "0x4258e5D50d737CBBEA347f0115Ad166e234902D7",
+      "proxyAddress": "0x9854e9a850e7C354c1de177eA953a6b1fba8Fc22",
+      "decimals": 8,
+      "name": "AUD / USD"
+    },
+    {
+      "contractAddress": "0x43C570dab5fE78bb255359Fa4E9d5cC1b7070062",
+      "proxyAddress": "0x0d20576Fae18e89A28e75B63BFce5D1B8586d739",
+      "decimals": 0,
+      "name": "AAVE Network Emergency Count (Arbitrum)"
+    },
+    {
+      "contractAddress": "0x44D3ab6c4b98A3F9f241E1753b2475ad7e502051",
+      "proxyAddress": "0xF0b7159BbFc341Cc41E7Cb182216F62c6d40533D",
+      "decimals": 8,
+      "name": "RPL / USD"
+    },
+    {
+      "contractAddress": "0x453E2DB4288c75f3b6b8C44AAE1F7e7C8CC8E0E3",
+      "proxyAddress": "0x5Fb73f7Af8a29297953d3611422826039338E5b4",
       "decimals": 18,
-      "name": "egETH / ETH Exchange Rate"
+      "name": "ankrETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x4430E46123dCA4d1012763F3537C3a378A70feaA",
-      "proxyAddress": "0x8bf61728eeDCE2F32c456454d87B5d6eD6150208",
-      "decimals": 8,
-      "name": "AVAX / USD"
-    },
-    {
-      "contractAddress": "0x44Dd909B5e939146cf19A9F65096b98275209F8D",
-      "proxyAddress": "0xCDA67618e51762235eacA373894F0C79256768fa",
-      "decimals": 8,
-      "name": "ATOM / USD"
-    },
-    {
-      "contractAddress": "0x4599907687428697285C115C3883999591E43BDf",
-      "proxyAddress": "0x037100C673E8A63fBF8F6f78A8FBeEbb683593a8",
-      "decimals": 8,
-      "name": "CORE / USD"
-    },
-    {
-      "contractAddress": "0x4813FF175c4bC77499DC692b53E6d918f7FD7dFc",
-      "proxyAddress": "0x03e4054B11ad01915257bE53Af03A32Abf7837b9",
+      "contractAddress": "0x457AFca66d8B797b3924A1aCB5529e08897C13e4",
+      "proxyAddress": "0x605EA726F0259a30db5b7c9ef39Df9fE78665C44",
       "decimals": 18,
-      "name": "sFRAX / FRAX Exchange Rate"
+      "name": "sUSDe / USDe Exchange Rate"
     },
     {
-      "contractAddress": "0x49ba01789aD8E3Df3D76b017dE20a4F12b06c0Bc",
-      "proxyAddress": "0xE89E98CE4E19071E59Ed4780E0598b541CE76486",
+      "contractAddress": "0x46de66F10343b59BAcc37dF9b3F67cD0CcC121A3",
+      "proxyAddress": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
       "decimals": 8,
-      "name": "GNS / USD"
+      "name": "ARB / USD"
     },
     {
-      "contractAddress": "0x4A9a584170fD4f32e6ED0446074cA76ba1eF00cc",
-      "proxyAddress": "0x989a480b6054389075CBCdC385C18CfB6FC08186",
+      "contractAddress": "0x476de91e5Ea44747f5be60a8C8EDa5407D2af349",
+      "proxyAddress": "0xE2A3216D8e4BdFA2Ee78F2e55B995e787e6Ce500",
+      "decimals": 8,
+      "name": "ORDER / USD"
+    },
+    {
+      "contractAddress": "0x47C0e86123c5D33801cC6957626DB14fb4352778",
+      "proxyAddress": "0x6303C35D49B13016A6acef5414893Fa7519E6da0",
       "decimals": 18,
-      "name": "ezETH / ETH Exchange Rate"
+      "name": "agETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x4B3a32Dd246c2B79105D5F859b6135Da9E22eFEe",
-      "proxyAddress": "0x29D57534598BF8Adda2CC2FbDe4B7502387B8177",
-      "decimals": 8,
-      "name": "RON / USD"
+      "contractAddress": "0x4948e89a367D296559A4AD211D958908B6EA592f",
+      "proxyAddress": "0x9BC7E5a6f1EED1C3217d2c63ad680DF83D84a906",
+      "decimals": 18,
+      "name": "wstUSR / stUSR Exchange Rate"
     },
     {
-      "contractAddress": "0x4Ec44df1847C6f592bBd23650EeF233e5240A0bE",
-      "proxyAddress": "0x920E09A98f83b82701207BA7E433a5b53eCB888A",
+      "contractAddress": "0x496000e12F6d5A2eC4512a6bE34Fe36ba84E6349",
+      "proxyAddress": "0x256654437f1ADA8057684b18d742eFD14034C400",
       "decimals": 8,
-      "name": "ATH / USD"
+      "name": "CAKE / USD"
     },
     {
-      "contractAddress": "0x4c14dE03875363b0c42a3DE8220FDF956Accc806",
-      "proxyAddress": "0x1E48733Eeee02468b674b69958b046EB6A0a7d94",
-      "decimals": 8,
-      "name": "MORPHO / USD"
+      "contractAddress": "0x4AD5B7Cf8B05B3c1b4C2e9302A8767A349901A70",
+      "proxyAddress": "0x683989a7A6424122678164Ad26736bA484055B35",
+      "decimals": 18,
+      "name": "rswETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x4c75337F1FaF726fb1Db8f1e3876D9dF1A34a9DD",
-      "proxyAddress": "0x3dD6e51CB9caE717d5a8778CF79A04029f9cFDF8",
+      "contractAddress": "0x4B552F6496a9E5E05B51BDdC372E623b76560155",
+      "proxyAddress": "0x594b919AD828e693B935705c3F816221729E7AE8",
       "decimals": 8,
-      "name": "JPY / USD"
+      "name": "WTI / USD"
+    },
+    {
+      "contractAddress": "0x4DACFb8dDf3067da0787fC31409aBD40B052B2F9",
+      "proxyAddress": "0x703389807836463cff0CB01142dE903a74E509C4",
+      "decimals": 18,
+      "name": "YETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x4DAe86531bd9D1DEFEB8D6E5D8ad0E95bf23C831",
+      "proxyAddress": "0xf3451Fd5eddE08cDAE95A6233BaD69DE95552a61",
+      "decimals": 8,
+      "name": "XTZ / USD"
+    },
+    {
+      "contractAddress": "0x4b05c0bC43BD3E43a120F9DffC08D6455B9182a3",
+      "proxyAddress": "0x5d046567b97B0d7322F2402e3b34Bf789cE329f5",
+      "decimals": 8,
+      "name": "gmARB / USD"
+    },
+    {
+      "contractAddress": "0x4c594a54c857c53eE03975c460c4030D67bdb1e4",
+      "proxyAddress": "0xe74d69E233faB0d8F48921f2D93aDfDe44cEb3B7",
+      "decimals": 8,
+      "name": "STG / USD"
     },
     {
       "contractAddress": "0x4c76F02E484e8ce9B6C2358CF9624BabC5531E9e",
@@ -8052,34 +8119,46 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x2C1C5eaB455A91cEAD280B12650faaA7bfDd59e6"
     },
     {
-      "contractAddress": "0x4e44f8e5C19533742b84a922477E56e8b54f07AE",
-      "proxyAddress": "0xcd58ed9D515977e467E6eBf0b45F52c1D52BBED1",
-      "decimals": 18,
-      "name": "CTC / USD"
-    },
-    {
-      "contractAddress": "0x502c9Ce803Bf567aEa0637Bf168C3e07c8886635",
-      "proxyAddress": "0x683989a7A6424122678164Ad26736bA484055B35",
-      "decimals": 18,
-      "name": "rswETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x5199bc181335Ca8F92e7A099D16802319380219C",
-      "proxyAddress": "0xf3451Fd5eddE08cDAE95A6233BaD69DE95552a61",
+      "contractAddress": "0x4dE8e7D9503c9ADA0805BA71Ea5C6d2A4d8734c6",
+      "proxyAddress": "0x66853E19d73c0F9301fe099c324A1E9726953433",
       "decimals": 8,
-      "name": "XTZ / USD"
+      "name": "PENDLE / USD"
     },
     {
-      "contractAddress": "0x525CBbecD7A35B8E86e9A6ef726f1851DBB8D5c8",
-      "proxyAddress": "0x9eE96caa9972c801058CAA8E23419fc6516FbF7e",
-      "decimals": 8,
-      "name": "ENA / USD"
-    },
-    {
-      "contractAddress": "0x527E6A2F75D26286540aAB346Eeb5e5Fa2f93d94",
-      "proxyAddress": "0x21082CA28570f0ccfb089465bFaEfDc77b00D367",
+      "contractAddress": "0x506f87C9E3030715C67712bCc8E1Ca0d1748145C",
+      "proxyAddress": "0x88d7538A4cD2664FCd610FE2a39b9ac01E430d3e",
       "decimals": 18,
-      "name": "ZEC / USD"
+      "name": "GLV [BTC-USDC] / USD"
+    },
+    {
+      "contractAddress": "0x507c9aC4502d62a80d5898c17EB635ea46427670",
+      "proxyAddress": "0xE89E98CE4E19071E59Ed4780E0598b541CE76486",
+      "decimals": 8,
+      "name": "GNS / USD"
+    },
+    {
+      "contractAddress": "0x519936385413Dbce03da2A4d34125a555D3f0438",
+      "proxyAddress": "0x80dd57c45B73f3c70feAF1BFe1bcdF384703E558",
+      "decimals": 18,
+      "name": "ibBTC PricePerShare"
+    },
+    {
+      "contractAddress": "0x5265846205081Df808b2111ebCE5899811b62Fc5",
+      "proxyAddress": "0xF3d6b05E69918d71807Ab005791daCcEC5de8C78",
+      "decimals": 8,
+      "name": "USDAI / USD"
+    },
+    {
+      "contractAddress": "0x52716c109696C0229E18fDeadFf6f54B3b73784F",
+      "proxyAddress": "0xf6DA27749484843c4F02f5Ad1378ceE723dD61d4",
+      "decimals": 8,
+      "name": "CAD / USD"
+    },
+    {
+      "contractAddress": "0x52df0481c6D2Ad7E50889AFd03C8ddd8413ac63d",
+      "proxyAddress": "0xe7C53FFd03Eb6ceF7d208bC4C13446c76d1E5884",
+      "decimals": 8,
+      "name": "COMP / USD"
     },
     {
       "contractAddress": "0x534a7FF707Bc862cAB0Dda546F1B817Be5235b66",
@@ -8694,82 +8773,100 @@ export const chainlinkFeeds = {
       "name": "EUR/USD-RefPrice-DS-Premium-Global-004"
     },
     {
-      "contractAddress": "0x547cB1258C3981a1c6246f29f7225335B21ff21c",
-      "proxyAddress": "0x20bAe7e1De9c596f5F7615aeaa1342Ba99294e12",
+      "contractAddress": "0x5539E0A39AC89AC19E3663412BcCeBDe7f6b8960",
+      "proxyAddress": "0xBf4C6D59070F5649670E3d4f9033673D3489c4E9",
       "decimals": 18,
-      "name": "weETH / eETH Exchange Rate"
+      "name": "RYT NAV"
     },
     {
-      "contractAddress": "0x55Ccdb9002A2e82A5daedF8178C94946f3c29298",
-      "proxyAddress": "0x9C4424Fd84C6661F97D8d6b3fc3C1aAc2BeDd137",
+      "contractAddress": "0x55EfafFC2764389a08FFDFcd36AEe2C30610d42c",
+      "proxyAddress": "0xdE9f0894670c4EFcacF370426F10C3AD2Cdf147e",
       "decimals": 8,
-      "name": "GBP / USD"
+      "name": "MKR / USD"
     },
     {
-      "contractAddress": "0x566281Cd5a186AEffE3645Da8d862855996F798e",
-      "proxyAddress": "0xf9ce4fE2F0EcE0362cb416844AE179a49591D567",
+      "contractAddress": "0x56Bb7F0037836431dCad051337625E59A97d2e48",
+      "proxyAddress": "0x5C3e80763862CB777Aa07BDDBcCE0123104e1c34",
+      "decimals": 18,
+      "name": "frxETH-ETH Exchange Rate High"
+    },
+    {
+      "contractAddress": "0x575f3625F3465749b612aF2abbCf9d6498B95BD7",
+      "proxyAddress": "0xd6a77691f071E98Df7217BED98f38ae6d2313EBA",
       "decimals": 8,
-      "name": "HYPE / USD"
+      "name": "AMZN / USD"
     },
     {
-      "contractAddress": "0x572295a84F650f80050BBC934e6270b85DCa04F2",
+      "contractAddress": "0x58DBe57Afe332Db719D1147E6145316cBCc51Ab9",
       "proxyAddress": "0xcfF9349ec6d027f20fC9360117fef4a1Ad38B488",
       "decimals": 8,
       "name": "RSR / USD"
     },
     {
-      "contractAddress": "0x574863f76617B617B83bb78A620E85be9BBA8A7f",
-      "proxyAddress": "0xF3272CAfe65b190e76caAF483db13424a3e23dD2",
+      "contractAddress": "0x5A0F8231e89264E9FE7555896724e8Fb1b7B6E23",
+      "proxyAddress": "0xE2CB592D636c500a6e469628054F09d58e4d91BB",
+      "decimals": 8,
+      "name": "MELANIA / USD"
+    },
+    {
+      "contractAddress": "0x5D041081725468Aa43e72ff0445Fde2Ad1aDE775",
+      "proxyAddress": "0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8",
+      "decimals": 8,
+      "name": "FRAX / USD"
+    },
+    {
+      "contractAddress": "0x5DDC9A020C34D00bE5fb042f797a89bEB0480dBE",
+      "proxyAddress": "0xdB0c64eFa0395063033b10769A80c62F885A620a",
       "decimals": 18,
-      "name": "rETH-ETH Exchange Rate"
+      "name": "SYRUPUSDT / USD Exchange Rate"
     },
     {
-      "contractAddress": "0x58eD6b0268DFEa3d58C5967cFcA86634d73eeB0A",
-      "proxyAddress": "0x52099D4523531f678Dfc568a7B1e5038aadcE1d6",
+      "contractAddress": "0x5E4C65194F6F33a8BF7E9B95F1D0Ca9d611F6D62",
+      "proxyAddress": "0xfF82AAF635645fD0bcc7b619C3F28004cDb58574",
       "decimals": 8,
-      "name": "MATIC / USD"
+      "name": "PHP / USD"
     },
     {
-      "contractAddress": "0x5ADa8E598331e98250F4ffab6Fe7fA022DfCb477",
-      "proxyAddress": "0xF0d38324d1F86a176aC727A4b0c43c9F9d9c5EB1",
+      "contractAddress": "0x5EB7Ca4678D60fF937274Fa1E091A86D0444770C",
+      "proxyAddress": "0xDde33fb9F21739602806580bdd73BAd831DcA867",
       "decimals": 8,
-      "name": "SGD / USD"
+      "name": "MSFT / USD"
     },
     {
-      "contractAddress": "0x5B7D8B20cD5fF013236AA3ebebBb8605A500DBD3",
-      "proxyAddress": "0x004f214586CaFE0F1321Ad13A93bca77C385b196",
+      "contractAddress": "0x5F36C484290Ec4bDaC745c6C8BD681F44bE6ac4D",
+      "proxyAddress": "0x0543Bb6b5A57E3e7569237b67321eAB773e41401",
       "decimals": 8,
-      "name": "PLUME / USD"
+      "name": "iBTC Proof of Reserves"
     },
     {
-      "contractAddress": "0x5Cd56012C1014F052F15133701E3247F4F8B8345",
-      "proxyAddress": "0xb2378F24E6d543cd28A8edcc7d2bE517FC9e074c",
+      "contractAddress": "0x5ab0B1e2604d4B708721bc3cD1ce962958b4297E",
+      "proxyAddress": "0x47E55cCec6582838E173f252D08Afd8116c2202d",
+      "decimals": 8,
+      "name": "MAGIC / USD"
+    },
+    {
+      "contractAddress": "0x5b1dfB31846D04Cd3A79baF842957F17634d0D5E",
+      "proxyAddress": "0xBafDf5307EaEF8dCd18c4b7b3977BEEB73b4AFE4",
+      "decimals": 8,
+      "name": "USR / USD"
+    },
+    {
+      "contractAddress": "0x5d750CC68ff61E2D68930003f77241f7346ADc84",
+      "proxyAddress": "0x04b7384473A2aDF1903E3a98aCAc5D62ba8C2702",
+      "decimals": 8,
+      "name": "BRL / USD"
+    },
+    {
+      "contractAddress": "0x5dda1ef53ee270d65bBcCaa0e12Cd1E56d3dd378",
+      "proxyAddress": "0x98E5a52fB741347199C08a7a3fcF017364284431",
       "decimals": 18,
-      "name": "LUSD / USD CAPPED"
+      "name": "sfrxETH-frxETH Exchange Rate"
     },
     {
-      "contractAddress": "0x5F63C8b16cEda1D21f7067aB0dE21C24288d66Eb",
-      "proxyAddress": "0x6BC7fF3C21f005684ef834FBA4d88459e988CcdC",
-      "decimals": 18,
-      "name": "WSTUSR-STUSR Exchange Rate"
-    },
-    {
-      "contractAddress": "0x5c98f1724C0c47ff9cBd3c668c14075f4132621a",
-      "proxyAddress": "0x703389807836463cff0CB01142dE903a74E509C4",
-      "decimals": 18,
-      "name": "YETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x5f6E1f19e984E9268e18a1C3748f250492aA7AfE",
-      "proxyAddress": "0xE56BEA9Ff0780D668f92a9ab4Ace1D713CaA1016",
+      "contractAddress": "0x60cE55EF13992B45459C8a97D51D76EF5F41723A",
+      "proxyAddress": "0x950DC95D4E537A14283059bADC2734977C454498",
       "decimals": 8,
-      "name": "VVV / USD"
-    },
-    {
-      "contractAddress": "0x619166BE38606486cdBa32C83afbe5c5Ff1a2B9c",
-      "proxyAddress": "0x19eCDd6DDc12597ec4A522fB1E25b1A580B605B7",
-      "decimals": 8,
-      "name": "GM BTC/USD [WBTC-WBTC]"
+      "name": "COIN / USD"
     },
     {
       "contractAddress": "0x62619470FcBA2Ae5c2dc22c18CF5251C09c1E618",
@@ -8779,22 +8876,28 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x54a82Bc6C6540F95C0b84690773635aCC97A92ff"
     },
     {
-      "contractAddress": "0x647eaE0d2023cD01f15b06b664d68e3dAB0f8b7b",
-      "proxyAddress": "0x47A2fBEb46553F01E7133686Fb1b5349d4823a0C",
-      "decimals": 8,
-      "name": "dlcBTC Proof of Reserves"
-    },
-    {
-      "contractAddress": "0x64b0975126A7dbCB97A5494b682e032e9D6287EF",
-      "proxyAddress": "0x229a9322D050BB6aC91C40fFbB8e3bef79c48071",
+      "contractAddress": "0x626Fd7E1bbD2bbfA91260a1F7E485CE2286231A7",
+      "proxyAddress": "0x0E278D14B4bf6429dDB0a1B353e2Ae8A4e128C93",
       "decimals": 18,
-      "name": "USR-USD Exchange Rate"
+      "name": "SHIB / USD"
     },
     {
-      "contractAddress": "0x66e6eD5f2f8B7aFaF91CAaE1eC9e4dd4277980d0",
-      "proxyAddress": "0x0F38D86FceF4955B705F35c9e41d1A16e0637c73",
+      "contractAddress": "0x660e7aF290F540205A84dccC1F40D0269fC936F5",
+      "proxyAddress": "0x745Ab5b69E01E2BE1104Ca84937Bb71f96f5fB21",
       "decimals": 8,
-      "name": "GRT / USD"
+      "name": "YFI / USD"
+    },
+    {
+      "contractAddress": "0x66B074afc32caFD8e5518FA061701cF84789fD25",
+      "proxyAddress": "0x84ad1Cb9FDE786c00a77b7539344ad3C66A616f5",
+      "decimals": 18,
+      "name": "FBTC / BTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0x66EBB94F342EBc551E779D26Ca36DA1451F7423B",
+      "proxyAddress": "0x3791D5eFF50Ab65fD82BBb16BCba42BEA556E7aA",
+      "decimals": 8,
+      "name": "GRASS / USD"
     },
     {
       "contractAddress": "0x674a6D60637891C63116218c38a9a49BE07D21bc",
@@ -8804,370 +8907,280 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xB49b8beB7b57E92416a122a495244D7cf2fE0bd4"
     },
     {
-      "contractAddress": "0x6AC813FfEFC7A1898Bfbd16276a406b59B3A422c",
-      "proxyAddress": "0xf2215b9c35b1697B5f47e407c917a40D055E68d7",
-      "decimals": 8,
-      "name": "sUSDe / USD"
-    },
-    {
-      "contractAddress": "0x6B82AdF1fe755B53e838C13714Dd580a5813535b",
-      "proxyAddress": "0x41f8459f911658e9C627c5D1d2Fb18c7dbc8ceBe",
+      "contractAddress": "0x67db13c76Ce77E8FEef9B500616162eC142597ac",
+      "proxyAddress": "0x02DEd5a7EDDA750E3Eb240b54437a54d57b74dBE",
       "decimals": 18,
-      "name": "apxETH / pxETH Exchange Rate"
+      "name": "PEPE / USD"
     },
     {
-      "contractAddress": "0x6D0560143a92FE7C6B68ad975576E18cBd2879Ce",
-      "proxyAddress": "0x5B58aA6E0651Ae311864876A55411F481aD86080",
-      "decimals": 8,
-      "name": "AXS / USD"
-    },
-    {
-      "contractAddress": "0x6D7419b921e46058ae68cC99707d96C7FF0711a6",
-      "proxyAddress": "0x03a1f4b19aaeA6e68f0f104dc4346dA3E942cC45",
-      "decimals": 18,
-      "name": "wOETH / OETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x6DADD817F7d2D69940FDaf5726410b1e27dfA217",
-      "proxyAddress": "0x066Ba4567C40cB315EAd257Bd86585bb4a74004f",
-      "decimals": 3,
-      "name": "PCE Price Index — Level"
-    },
-    {
-      "contractAddress": "0x6E73Da9738977ecd131219A10C2c67a6f6580295",
-      "proxyAddress": "0xaDd2332106183906318974Ace0fE4E44Ec49645c",
-      "decimals": 8,
-      "name": "PROS / USD"
-    },
-    {
-      "contractAddress": "0x6F70622386565AcdA2f51b811cDd4582E0b55cb4",
-      "proxyAddress": "0x1F954Dc24a49708C26E0C1777f16750B5C6d5a2c",
-      "decimals": 8,
-      "name": "XAU / USD"
-    },
-    {
-      "contractAddress": "0x6be6cD0AcE32cC016C0a6339B1C002c5567f6548",
-      "proxyAddress": "0x9dA16A80B3C7C489dFCf11024763144d94A9Dbd6",
-      "decimals": 18,
-      "name": "CHIP / USD"
-    },
-    {
-      "contractAddress": "0x6d4A1C40C3902E4F72017006414211B3874AC67e",
-      "proxyAddress": "0xA43A34030088E6510FecCFb77E88ee5e7ed0fE64",
-      "decimals": 8,
-      "name": "LDO / USD"
-    },
-    {
-      "contractAddress": "0x70cBdC706ff77d9530F92ACe33B2a1B839a02EaD",
-      "proxyAddress": "0xcd1bd86fDc33080DCF1b5715B6FCe04eC6F85845",
-      "decimals": 8,
-      "name": "META / USD"
-    },
-    {
-      "contractAddress": "0x71f8e9d6EEF7Bd626a91b76A801f606630a42537",
-      "proxyAddress": "0xdE9f0894670c4EFcacF370426F10C3AD2Cdf147e",
-      "decimals": 8,
-      "name": "MKR / USD"
-    },
-    {
-      "contractAddress": "0x73eF34Dd562E9ca661bb9F59269acC42DbCe76da",
-      "proxyAddress": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66",
-      "decimals": 8,
-      "name": "CRVUSD / USD"
-    },
-    {
-      "contractAddress": "0x74827EA909fe3DDf0200D105aE1D5B517f5Ce92F",
-      "proxyAddress": "0xcC3370Bde6AFE51e1205a5038947b9836371eCCb",
-      "decimals": 8,
-      "name": "CNY / USD"
-    },
-    {
-      "contractAddress": "0x767802a8610C3D34CbeC9d064028EacA976dAba0",
-      "proxyAddress": "0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8",
-      "decimals": 8,
-      "name": "FRAX / USD"
-    },
-    {
-      "contractAddress": "0x775FAFCD9bDbEEa4e49b15F497f3159cf3BD074C",
-      "proxyAddress": "0x950DC95D4E537A14283059bADC2734977C454498",
-      "decimals": 8,
-      "name": "COIN / USD"
-    },
-    {
-      "contractAddress": "0x77a41868F2B7240a67B51176f9e472FF0aEd22f5",
-      "proxyAddress": "0x0C997958ccE7A0403AEA7E34d14bbaDA897B5bb3",
-      "decimals": 18,
-      "name": "PUMP / USD"
-    },
-    {
-      "contractAddress": "0x77cFEEEdC0930ed8FAFa2f36FB7A41b3Cf642286",
-      "proxyAddress": "0x3a9659C071dD3C37a8b1A2363409A8D41B2Feae3",
-      "decimals": 8,
-      "name": "STX / USD"
-    },
-    {
-      "contractAddress": "0x7907084Cf515780BFD25c49D1a0Db2AF39138B3a",
-      "proxyAddress": "0x052d4200b624b07262F574af26C71A6553996Ab5",
-      "decimals": 18,
-      "name": "StaFi Staked ETH rETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x7D6470c26429B0a84326aE923C45a8966fd57FCf",
+      "contractAddress": "0x682C4f55135167930cbe5Ce77ac44fB9A03B8E73",
       "proxyAddress": "0x726a96F31846f586E6a4C72F73c3dB671986a002",
       "decimals": 18,
       "name": "YBTC-BTC Exchange Rate"
     },
     {
-      "contractAddress": "0x7c748d4624159cF1E6660F444802121fE778222f",
-      "proxyAddress": "0x20d0Fcab0ECFD078B036b6CAf1FaC69A6453b352",
-      "decimals": 8,
-      "name": "RDNT / USD"
-    },
-    {
-      "contractAddress": "0x7d13B49FD8484BB4E9A2dc34A67faDeFF6969131",
-      "proxyAddress": "0x594b919AD828e693B935705c3F816221729E7AE8",
-      "decimals": 8,
-      "name": "WTI / USD"
-    },
-    {
-      "contractAddress": "0x7f3AbE119FFeE2Dc0d95D80b72c064E53e942b8C",
-      "proxyAddress": "0x221912ce795669f628c51c69b7d0873eDA9C03bB",
-      "decimals": 8,
-      "name": "APE / USD"
-    },
-    {
-      "contractAddress": "0x7fF6f0d5d216b9ba8E218633C18bc75ebf439671",
-      "proxyAddress": "0x86E53CF1B870786351Da77A57575e79CB55812CB",
-      "decimals": 8,
-      "name": "LINK / USD"
-    },
-    {
-      "contractAddress": "0x80d3003D88f3fD420dF4D28F9Ba67D098168ceb3",
-      "proxyAddress": "0x5698690a7B7B84F6aa985ef7690A8A7288FBc9c8",
-      "decimals": 8,
-      "name": "LTC / USD"
-    },
-    {
-      "contractAddress": "0x8242D7a8c2F9554A94D1f9F8F8e8545B77864DFc",
-      "proxyAddress": "0xEcD471ef663eCEFFC7D731a0C7e51007433e6d6e",
-      "decimals": 18,
-      "name": "swETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x82603B6702944D53F2B33D973911Fa9aa61Fb919",
-      "proxyAddress": "0x4096b9bfB4c34497B7a3939D4f629cf65EBf5634",
-      "decimals": 8,
-      "name": "TIA / USD"
-    },
-    {
-      "contractAddress": "0x826a2cF6AA12A9eDCABFA6BA8c94F890F934313b",
-      "proxyAddress": "0xD0E31451f58d3991045D68C479ea80D37e418851",
-      "decimals": 8,
-      "name": "GLV [WETH-USDC]-USD"
-    },
-    {
-      "contractAddress": "0x83c23d560a91a271570ed7471ED673224991dC04",
-      "proxyAddress": "0x866fa212dfc5AAf321379874eCe95631F6d12e00",
-      "decimals": 8,
-      "name": "HSK / USD"
-    },
-    {
-      "contractAddress": "0x84C63eDE20B84733d6bBec9afA10639e0bAF42B2",
-      "proxyAddress": "0xFeaC1A3936514746e70170c0f539e70b23d36F19",
-      "decimals": 8,
-      "name": "S / USD"
-    },
-    {
-      "contractAddress": "0x85F3D6135D84C381b9260730e92643c1e2E6C8aA",
-      "proxyAddress": "0xb0EA543f9F8d4B818550365d13F66Da747e1476A",
-      "decimals": 18,
-      "name": "RSETH / ETH"
-    },
-    {
-      "contractAddress": "0x86825dA4a6D07F7060206C1A4C7569142b31d59d",
-      "proxyAddress": "0x9854e9a850e7C354c1de177eA953a6b1fba8Fc22",
-      "decimals": 8,
-      "name": "AUD / USD"
-    },
-    {
-      "contractAddress": "0x868503e6FE61afC4702f68A61B94938d095C0e71",
-      "proxyAddress": "0xf6DA27749484843c4F02f5Ad1378ceE723dD61d4",
-      "decimals": 8,
-      "name": "CAD / USD"
-    },
-    {
-      "contractAddress": "0x8723c3f579BC99CFdB2D42218879c16A7F9180CD",
-      "proxyAddress": "0x3609baAa0a9b1f0FE4d6CC01884585d0e191C3E3",
-      "decimals": 8,
-      "name": "TSLA / USD"
-    },
-    {
-      "contractAddress": "0x8B5FEbfB03168F85388c6D438012D1F3760F7680",
-      "proxyAddress": "0x0B2aB7AE5276F6f466f8e62953138B106dD19A63",
-      "decimals": 8,
-      "name": "AERO / USD"
-    },
-    {
-      "contractAddress": "0x8E5a36faF68a6BedBF305BC778548c1afb16d44b",
-      "proxyAddress": "0x3C5C5329b028E674F7a124b18527B94BE74A66cF",
-      "decimals": 18,
-      "name": "inETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x8E84A9eA64FF5c051B4b8a13E75F4aE28EF07b78",
-      "proxyAddress": "0x6043bb1909eC6db2Ba41451d559D05E3C04D913D",
-      "decimals": 8,
-      "name": "SPCX-USD HyperLiquid Top-of-Book"
-    },
-    {
-      "contractAddress": "0x8F1138C465A34027d6fF386FA63f85ED7C817168",
-      "proxyAddress": "0xdc49F292ad1bb3DAb6C11363d74ED06F38b9bd9C",
-      "decimals": 8,
-      "name": "APT / USD"
-    },
-    {
-      "contractAddress": "0x907AFB08A65e812B7eAC9B588476776d66A6da48",
-      "proxyAddress": "0xa668682974E3f121185a3cD94f00322beC674275",
-      "decimals": 18,
-      "name": "CBETH / ETH"
-    },
-    {
-      "contractAddress": "0x908C791B41095F284CD42ab29A497cef248bbAC2",
-      "proxyAddress": "0x84ad1Cb9FDE786c00a77b7539344ad3C66A616f5",
-      "decimals": 18,
-      "name": "FBTC / BTC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x912F9CBf47b4F8669ae535842114e267E197D2a9",
-      "proxyAddress": "0x054296f0D036b95531B4E14aFB578B80CFb41252",
-      "decimals": 8,
-      "name": "SNX / USD"
-    },
-    {
-      "contractAddress": "0x9270bb543eB6F34470FdF6657FEc3821DFf07AA3",
-      "proxyAddress": "0xb2A8BA74cbca38508BA1632761b56C897060147C",
-      "decimals": 8,
-      "name": "SUSHI / USD"
-    },
-    {
-      "contractAddress": "0x932bb1788cB5E7a34578848C95AC63F354eAff1b",
-      "proxyAddress": "0x5C3e80763862CB777Aa07BDDBcCE0123104e1c34",
-      "decimals": 18,
-      "name": "frxETH-ETH Exchange Rate High"
-    },
-    {
-      "contractAddress": "0x9726B511e4479c978A1C1be888520e847A37E44A",
-      "proxyAddress": "0xaD1d5344AaDE45F43E596773Bcc4c423EAbdD034",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0x977BcEb1d9e8C6cC7afd6CCE2d5a8Fd5Aafd86C7",
-      "proxyAddress": "0x80dd57c45B73f3c70feAF1BFe1bcdF384703E558",
-      "decimals": 18,
-      "name": "ibBTC PricePerShare"
-    },
-    {
-      "contractAddress": "0x97Aae9DAC7C4A649f54c00a29aAA8a140616dC50",
-      "proxyAddress": "0x0017abAc5b6f291F9164e35B1234CA1D697f9CF4",
-      "decimals": 8,
-      "name": "WBTC / BTC"
-    },
-    {
-      "contractAddress": "0x98F6B0332871f4528DD412067927D12b66A99350",
-      "proxyAddress": "0x37833E5b3fbbEd4D613a3e0C354eF91A42B81eeB",
-      "decimals": 8,
-      "name": "USDS / USD"
-    },
-    {
-      "contractAddress": "0x9911d0780Aa7ebAe391661b7eF06F8824FCe47D2",
-      "proxyAddress": "0x1D1a83331e9D255EB1Aaf75026B60dFD00A252ba",
-      "decimals": 8,
-      "name": "GOOGL / USD"
-    },
-    {
-      "contractAddress": "0x99CB1d8D3409eC1ea8D6680A0A813B92F557d38c",
-      "proxyAddress": "0x851175a919f36c8e30197c09a9A49dA932c2CC00",
-      "decimals": 8,
-      "name": "CVX / USD"
-    },
-    {
-      "contractAddress": "0x9B473852Ca8aE2278D28F5271dda66C5b9d467F8",
-      "proxyAddress": "0x373510BDa1ab7e873c731968f4D81B685f520E4B",
-      "decimals": 8,
-      "name": "TRUMP / USD"
-    },
-    {
-      "contractAddress": "0x9D6A992627F04D7C258465c05a1E1fcfc141114F",
-      "proxyAddress": "0xBf4C6D59070F5649670E3d4f9033673D3489c4E9",
-      "decimals": 18,
-      "name": "RYT NAV"
-    },
-    {
-      "contractAddress": "0x9EC305EfD5D1D139Fa00810Ce4b50CF147f0266C",
-      "proxyAddress": "0xB1552C5e96B312d0Bf8b554186F846C40614a540",
-      "decimals": 18,
-      "name": "wstETH-stETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9F69dec115857aeB8E9A159ee9a38295749296A9",
+      "contractAddress": "0x69C17BE52399EA82CC0d890EA712da8316C08535",
       "proxyAddress": "0x84e8237CC1418Ea1B4A1e0C3e7F48c3A5fbC81AF",
       "decimals": 8,
       "name": "AXL / USD"
     },
     {
-      "contractAddress": "0x9ca36bBD6f4136D6D4B729306D7c26c405e6B39b",
-      "proxyAddress": "0x9BC7E5a6f1EED1C3217d2c63ad680DF83D84a906",
+      "contractAddress": "0x6B37301D8723009dE204baf49e9AF6d4D37fe654",
+      "proxyAddress": "0xF7Ee427318d2Bd0EEd3c63382D0d52Ad8A68f90D",
+      "decimals": 8,
+      "name": "WIF / USD"
+    },
+    {
+      "contractAddress": "0x6Ef1909282C2729BC593D8148D88E1ad66130328",
+      "proxyAddress": "0xc2430cD1214F8452f4040473b7587195f9c565bD",
       "decimals": 18,
-      "name": "wstUSR / stUSR Exchange Rate"
+      "name": "ynETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x9d559AaE09E097aE47eab72c9e32af8d1Bf04390",
-      "proxyAddress": "0x926Eed7973EBc57a8767659C5b35b9a0bAB6302f",
-      "decimals": 3,
-      "name": "Real Final Sales to Private Domestic Purchasers — Level"
-    },
-    {
-      "contractAddress": "0x9ed084B3613049638c16fBAecd3e37D8545aB0Ff",
-      "proxyAddress": "0x9fa74925F21ad6C86d8f402EF490cFbA2Fa5e9bE",
+      "contractAddress": "0x6b22717A43c639b3055DE40911d09d8be23F3c54",
+      "proxyAddress": "0x9ca3D04Bdf90Ddc0074Ea57d3e2D331CD4b2d5a2",
       "decimals": 8,
-      "name": "LBTC / BTC"
+      "name": "solvBTC / BTC"
     },
     {
-      "contractAddress": "0x9f13A70423f0bcD9b628A5B30021fde850FDbc45",
-      "proxyAddress": "0x9dC30b7242556F871932AFe38CC34d2a77E6F6C9",
+      "contractAddress": "0x73BBf768a429a4f80c47D0d22DdBCe5823c97d7a",
+      "proxyAddress": "0x052d4200b624b07262F574af26C71A6553996Ab5",
       "decimals": 18,
-      "name": "DAI / USD CAPPED"
+      "name": "StaFi Staked ETH rETH-ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xA2fA3B319710D88e3ff4eaDc1f0Cc2eE6Eb6Cd2F",
-      "proxyAddress": "0xD2385f41995499bBF255cE0A1486ebCe3Dca0e5D",
+      "contractAddress": "0x73b6A47371f6278F41Ec655A3a06477997912D09",
+      "proxyAddress": "0xA0118D8948FA85624608d94eC6B52973578082fA",
+      "decimals": 18,
+      "name": "stBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x75DD106b46017F9b5BF2c468f29Ee55f410b991c",
+      "proxyAddress": "0x0F38D86FceF4955B705F35c9e41d1A16e0637c73",
       "decimals": 8,
-      "name": "M NAV"
+      "name": "GRT / USD"
     },
     {
-      "contractAddress": "0xA305BC9c84ea02123c315fD09530287415Fede68",
-      "proxyAddress": "0x205aaD468a11fd5D34fA7211bC6Bad5b3deB9b98",
+      "contractAddress": "0x778356313A7419EEc9d0762bF15795a771E0Cd36",
+      "proxyAddress": "0x5Fb8E23065C362080E540e01e0bd4119B6cB53fe",
+      "decimals": 1,
+      "name": "Real Final Sales to Private Domestic Purchasers — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0x77D76Ea1A5A2616275d50350B4c796AAEf7ce0aA",
+      "proxyAddress": "0x8b7C8726F93063b88Db512f34b90291AEB1E884B",
       "decimals": 8,
-      "name": "OP / USD"
+      "name": "BONE / USD"
     },
     {
-      "contractAddress": "0xA339700847dEBC88991590caDF0cD12B23554D9A",
+      "contractAddress": "0x77b911DBe147ED5b4554997860D6362A5652fC91",
+      "proxyAddress": "0xCDA67618e51762235eacA373894F0C79256768fa",
+      "decimals": 8,
+      "name": "ATOM / USD"
+    },
+    {
+      "contractAddress": "0x78ac19A7c3c266dF5292F0d0a12Fa0FB2F74222a",
+      "proxyAddress": "0x920E09A98f83b82701207BA7E433a5b53eCB888A",
+      "decimals": 8,
+      "name": "ATH / USD"
+    },
+    {
+      "contractAddress": "0x78f28D363533695458696b42577D2e1728cEa3D1",
+      "proxyAddress": "0x9C4424Fd84C6661F97D8d6b3fc3C1aAc2BeDd137",
+      "decimals": 8,
+      "name": "GBP / USD"
+    },
+    {
+      "contractAddress": "0x79BAa65505C6682F16F9b2C7F8afEBb1821BE3f6",
+      "proxyAddress": "0xD3631AC9D81eD560D61957a55E9c992cdE497eb6",
+      "decimals": 18,
+      "name": "egETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x79DaA21a44D1415306Ec17C361e0090bdD4cFCbe",
+      "proxyAddress": "0xaebDA2c976cfd1eE1977Eac079B4382acb849325",
+      "decimals": 8,
+      "name": "CRV / USD"
+    },
+    {
+      "contractAddress": "0x7AAeE6aD40a947A162DEAb5aFD0A1e12BE6FF871",
+      "proxyAddress": "0xA14d53bC1F1c0F31B4aA3BD109344E5009051a84",
+      "decimals": 8,
+      "name": "EUR / USD"
+    },
+    {
+      "contractAddress": "0x7B5FDbE00Ed829e97020dC94dFA65c6533e6AB87",
+      "proxyAddress": "0x639b7cD102A1c5BaB71c54f88D41E894215c54E2",
+      "decimals": 18,
+      "name": "SHIB / ETH"
+    },
+    {
+      "contractAddress": "0x7B9845A634822c543F5Ce544Dd7D7797B79a06b8",
       "proxyAddress": "0x4763b84cdBc5211B9e0a57D5E39af3B3b2440012",
       "decimals": 8,
       "name": "Total Marketcap USD"
     },
     {
-      "contractAddress": "0xA53DDee64C6204c91F039F3D792a6dfbb8B5D111",
-      "proxyAddress": "0xCc9742d77622eE9abBF1Df03530594f9097bDcB3",
+      "contractAddress": "0x7D5cA9120E0145193a999c1225aE2F32DA401DC3",
+      "proxyAddress": "0x4096b9bfB4c34497B7a3939D4f629cf65EBf5634",
       "decimals": 8,
-      "name": "SEI / USD"
+      "name": "TIA / USD"
     },
     {
-      "contractAddress": "0xA5febA4657b308cd7219a332404f4321f8b8f88C",
-      "proxyAddress": "0x702609AFaDda5b357bc7b0C5174645a4438A99F3",
+      "contractAddress": "0x7D8DCd217E30c5232Aa1E50bA0E4c56DdB5E387C",
+      "proxyAddress": "0x0518673439245BB95A58688Bc31cd513F3D5bDd6",
+      "decimals": 18,
+      "name": "cbETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x7DD7029668c78af259a27A7696d468a152F06E53",
+      "proxyAddress": "0xF0d38324d1F86a176aC727A4b0c43c9F9d9c5EB1",
       "decimals": 8,
-      "name": "JLP / USD"
+      "name": "SGD / USD"
+    },
+    {
+      "contractAddress": "0x7F4a174E65c29146f8ed01f2Ef1484bE00454d44",
+      "proxyAddress": "0xF8722c901675C4F2F7824E256B8A6477b2c105FB",
+      "decimals": 18,
+      "name": "syrupUSDC / USDC Exchange Rate"
+    },
+    {
+      "contractAddress": "0x7aF1872B9F21Fa7470a429F479221433e7539f47",
+      "proxyAddress": "0x395D5c5D552Df670dc4B2B1cef0c4EABfFba492f",
+      "decimals": 8,
+      "name": "gmBTC / USD"
+    },
+    {
+      "contractAddress": "0x807EB1664b774F37E23d7Ea4a384028cC888c511",
+      "proxyAddress": "0x5e2b5C5C07cCA3437c4D724225Bb42c7E55d1597",
+      "decimals": 8,
+      "name": "WOO / USD"
+    },
+    {
+      "contractAddress": "0x8334F7Df02E9e49f4aD630916f448766F498e9Dd",
+      "proxyAddress": "0xF6a5c5480A9aC736ea567454e2E570889E0DB4Bc",
+      "decimals": 8,
+      "name": "frxUSD / USD"
+    },
+    {
+      "contractAddress": "0x8548A931B2E5605a8936089B75F0bF66136e2393",
+      "proxyAddress": "0xE8f8AfE4b56c6C421F691bfAc225cE61b2C7CD05",
+      "decimals": 8,
+      "name": "TRY / USD"
+    },
+    {
+      "contractAddress": "0x8ABe008B267C82199EC81E7f80eE4DC3A3545c82",
+      "proxyAddress": "0x9eE96caa9972c801058CAA8E23419fc6516FbF7e",
+      "decimals": 8,
+      "name": "ENA / USD"
+    },
+    {
+      "contractAddress": "0x8C4308F7cbD7fB829645853cD188500D7dA8610a",
+      "proxyAddress": "0x24ceA4b8ce57cdA5058b924B9B9987992450590c",
+      "decimals": 8,
+      "name": "SOL / USD"
+    },
+    {
+      "contractAddress": "0x8aFe9B0e7c131b6a7E749d6e967751f40e4dF5d6",
+      "proxyAddress": "0xAE8B4179389059A735821A77417eACcA60f3e4B4",
+      "decimals": 18,
+      "name": "xSolvBTC NAV"
+    },
+    {
+      "contractAddress": "0x8b48E1A576d47Eb8BfE13d54d30aC2251C9F1A8A",
+      "proxyAddress": "0x0C997958ccE7A0403AEA7E34d14bbaDA897B5bb3",
+      "decimals": 18,
+      "name": "PUMP / USD"
+    },
+    {
+      "contractAddress": "0x8bc041b1FBDC6420d4ED6E8135F14a3B36E7b8ad",
+      "proxyAddress": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
+      "decimals": 18,
+      "name": "sUSDS / USDS Exchange Rate"
+    },
+    {
+      "contractAddress": "0x920d90b3953B3C90b06ebE8579B0215d6801DA54",
+      "proxyAddress": "0xe4c31C5B118d8aA92433eD1c7EC70afb430cd730",
+      "decimals": 8,
+      "name": "TBTC / BTC"
+    },
+    {
+      "contractAddress": "0x92F0de8F4966DBd48475622676deabD05A17d8a6",
+      "proxyAddress": "0x989a480b6054389075CBCdC385C18CfB6FC08186",
+      "decimals": 18,
+      "name": "ezETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x92e6B837362FABe1aDF1D11a4255884e5f4dD939",
+      "proxyAddress": "0x4f861F14246229530a881D32C8d26D78b8c48BE6",
+      "decimals": 8,
+      "name": "BERA / USD"
+    },
+    {
+      "contractAddress": "0x931405Ec93013ecf492CBfc49341a869e5379Eb3",
+      "proxyAddress": "0x20bAe7e1De9c596f5F7615aeaa1342Ba99294e12",
+      "decimals": 18,
+      "name": "weETH / eETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x942d00008D658dbB40745BBEc89A93c253f9B882",
+      "proxyAddress": "0x6ce185860a4963106506C203335A2910413708e9",
+      "decimals": 8,
+      "name": "BTC / USD"
+    },
+    {
+      "contractAddress": "0x94cD888Bea0dE39DD0b41396a9311c5212635EB7",
+      "proxyAddress": "0x20d0Fcab0ECFD078B036b6CAf1FaC69A6453b352",
+      "decimals": 8,
+      "name": "RDNT / USD"
+    },
+    {
+      "contractAddress": "0x9BDA3a26361b6021b5a4DF6E77e2cfb3A54A967b",
+      "proxyAddress": "0xD07de6e37A011CCAfD375d7eb130205E0fa24d69",
+      "decimals": 8,
+      "name": "MLN / USD"
+    },
+    {
+      "contractAddress": "0x9b8DdcF800a7BfCdEbaD6D65514dE59160a2C9CC",
+      "proxyAddress": "0x86E53CF1B870786351Da77A57575e79CB55812CB",
+      "decimals": 8,
+      "name": "LINK / USD"
+    },
+    {
+      "contractAddress": "0x9c65Bc9C18f754129bA00c5298B539e69A32102d",
+      "proxyAddress": "0x6970460aabF80C5BE983C6b74e5D06dEDCA95D4A",
+      "decimals": 8,
+      "name": "BNB / USD"
+    },
+    {
+      "contractAddress": "0x9d4E679Af57FaC9b64b1354EBff00DA293e2E3Cb",
+      "proxyAddress": "0xF9329B38084cbE893894F19a518Fc6Cd306D9930",
+      "decimals": 18,
+      "name": "GLV [WETH-USDC] / USD"
+    },
+    {
+      "contractAddress": "0x9d75b71Bd393a67F9bbDc040C61B14Dc99706af9",
+      "proxyAddress": "0xE141425bc1594b8039De6390db1cDaf4397EA22b",
+      "decimals": 18,
+      "name": "weETH / ETH"
+    },
+    {
+      "contractAddress": "0xA0F937c8Ca81354FB3604E9Ee561493449F880d7",
+      "proxyAddress": "0x36194c6DBB4218036d5f1ef070e9900896f84e06",
+      "decimals": 18,
+      "name": "AoABT NAV"
+    },
+    {
+      "contractAddress": "0xA303a72d334e589122454e8e849E147BAd309E73",
+      "proxyAddress": "0x5B58aA6E0651Ae311864876A55411F481aD86080",
+      "decimals": 8,
+      "name": "AXS / USD"
+    },
+    {
+      "contractAddress": "0xA4A2b2000d447CC1086d15C077730008b0251FFD",
+      "proxyAddress": "0x52099D4523531f678Dfc568a7B1e5038aadcE1d6",
+      "decimals": 8,
+      "name": "MATIC / USD"
     },
     {
       "contractAddress": "0xA686Fa6122d30EBc51843847fEf4a0ae759fBac1",
@@ -9177,52 +9190,40 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x06047dD6f43552831BB51319917DC0C99c29A44c"
     },
     {
-      "contractAddress": "0xA852E889Ef8834e7A7B835A69713c4b0A19eB876",
-      "proxyAddress": "0x3c786e934F23375Ca345C9b8D5aD54838796E8e7",
+      "contractAddress": "0xAC812C6eaEd6823D115ed2BEb9eCFcbC98b31a8E",
+      "proxyAddress": "0x004f214586CaFE0F1321Ad13A93bca77C385b196",
       "decimals": 8,
-      "name": "GHO / USD"
+      "name": "PLUME / USD"
     },
     {
-      "contractAddress": "0xA8c2ad8Fc02733d758C0585478cdf6C53d6c9cB8",
-      "proxyAddress": "0x6ce185860a4963106506C203335A2910413708e9",
+      "contractAddress": "0xAb5745A3bC42a8F73232d56F0566d5eb4E4095A7",
+      "proxyAddress": "0xA9cC9B5Ea2584239365Ea6b985868D121CB7Aea6",
       "decimals": 8,
-      "name": "BTC / USD"
+      "name": "ZAR / USD"
     },
     {
-      "contractAddress": "0xADc5B912956B626287A10fF7e06038bf4577f89C",
-      "proxyAddress": "0x76998C22eEa325A11dc6971Cedcf533E9740F854",
+      "contractAddress": "0xAeB20e0A781A31F4cC497A898b17FB4f8137BC83",
+      "proxyAddress": "0x6aCcBB82aF71B8a576B4C05D4aF92A83A035B991",
       "decimals": 8,
-      "name": "ORDI / USD"
+      "name": "TAO / USD"
     },
     {
-      "contractAddress": "0xAE3915B1EE36c045c9E3b11aCF5F5cd4F5e23939",
+      "contractAddress": "0xAfAEbEB1Db6d13EC1279B59396a9dc40502458c1",
+      "proxyAddress": "0x47A2fBEb46553F01E7133686Fb1b5349d4823a0C",
+      "decimals": 8,
+      "name": "dlcBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xB4A1F9641186D822a941FEc71E374bB66cd27cdA",
+      "proxyAddress": "0xcd1bd86fDc33080DCF1b5715B6FCe04eC6F85845",
+      "decimals": 8,
+      "name": "META / USD"
+    },
+    {
+      "contractAddress": "0xB4C75e52E2436aab6e6971BEF49ad17576C08882",
       "proxyAddress": "0x37DDEE84dE03d039e1Bf809b7a01EDd2c4665771",
       "decimals": 8,
       "name": "MNT / USD"
-    },
-    {
-      "contractAddress": "0xAFC97C9Cb03348E48E309FA85ac4DF0177b874f8",
-      "proxyAddress": "0xb7c8Fb1dB45007F98A68Da0588e1AA524C317f27",
-      "decimals": 18,
-      "name": "LINK / ETH"
-    },
-    {
-      "contractAddress": "0xAe31D4158C9644866489d23b4219e5ae9B397Ecb",
-      "proxyAddress": "0x640F0B3e8Ee59bD7310C3E16B93f4c6612CC1130",
-      "decimals": 18,
-      "name": "vyUSD / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0xB1CFCf021a843B3229c23ed10a3f2c336a0E868e",
-      "proxyAddress": "0x98E5a52fB741347199C08a7a3fcF017364284431",
-      "decimals": 18,
-      "name": "sfrxETH-frxETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xB491f82FDC953C90Ab80a5D7ee58b454411cb4c4",
-      "proxyAddress": "0x6FfBc6339DD46a7e0513D4887106349214C05505",
-      "decimals": 8,
-      "name": "WEMIX / USD"
     },
     {
       "contractAddress": "0xB72359B2dc04Ff363e094648DF78247c98297c20",
@@ -9232,10 +9233,34 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x339a66699167D8bc7105C4B9772492D2576E5183"
     },
     {
-      "contractAddress": "0xB81D2c057201F707b883e182892c7a4D9A65c980",
-      "proxyAddress": "0x0301e5D0A8f7490444ebd1921E3d0f0fe7722786",
+      "contractAddress": "0xBC81b4E883375c387db454aCaE322196Ae07a481",
+      "proxyAddress": "0x326fA29b208DE897981C78827b8ffDbfa355590b",
+      "decimals": 3,
+      "name": "Real GDP — Level"
+    },
+    {
+      "contractAddress": "0xBFf434a1B44677D4ce302da64d84bB4d305c0D49",
+      "proxyAddress": "0xded2c52b75B24732e9107377B7Ba93eC1fFa4BAf",
+      "decimals": 18,
+      "name": "STETH / ETH"
+    },
+    {
+      "contractAddress": "0xBc78D5f22ae6a7B86ab716c5d2F7DC61a8c1b61e",
+      "proxyAddress": "0x88AC7Bca36567525A866138F03a6F6844868E0Bc",
       "decimals": 8,
-      "name": "TON / USD"
+      "name": "USDe / USD"
+    },
+    {
+      "contractAddress": "0xBcC740F9Da5bb5D582a20380D172f1E074495ADc",
+      "proxyAddress": "0xF18BE32dB91591A7256d738C166FA195a17457DA",
+      "decimals": 18,
+      "name": "uniETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xC0cF8EA64afc44E4a2948a5E31f9c5AC99851A1A",
+      "proxyAddress": "0xF230542B263Ad8F37a4c6d640F42BcE2Ec7C6cA3",
+      "decimals": 9,
+      "name": "FRAGSOL / SOL Exchange Rate"
     },
     {
       "contractAddress": "0xC1303BBBaf172C55848D3Cb91606d8E27FF38428",
@@ -9244,112 +9269,76 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0xC26e58beD3ED7Caf5fc5Ea0d9444605b484a707E",
-      "proxyAddress": "0xB4102D5E72c402D537C9f024F4bd9c3709FE200d",
-      "decimals": 18,
-      "name": "osETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xC3c4750C95CA2385F40A78AD14F8c40d1DA4d51d",
-      "proxyAddress": "0x88d7538A4cD2664FCd610FE2a39b9ac01E430d3e",
-      "decimals": 18,
-      "name": "GLV [BTC-USDC] / USD"
-    },
-    {
-      "contractAddress": "0xC437048Be2B5cEeD931A1Aa487040dcfa28E9f1f",
-      "proxyAddress": "0xCF7a7A1Fb746E926Bbe5C88a702a89167a94C51C",
+      "contractAddress": "0xC3a633B6f50e1a5103d8D7fA6D26A413ce480285",
+      "proxyAddress": "0xA43A34030088E6510FecCFb77E88ee5e7ed0fE64",
       "decimals": 8,
-      "name": "GAS / USD"
+      "name": "LDO / USD"
     },
     {
-      "contractAddress": "0xC470F88D5aEc98A1EE9BF63a8e74F2d2e20b9106",
+      "contractAddress": "0xC59D26FC2FF1309930569fAa0C541E2A31339D18",
+      "proxyAddress": "0x229a9322D050BB6aC91C40fFbB8e3bef79c48071",
+      "decimals": 18,
+      "name": "USR-USD Exchange Rate"
+    },
+    {
+      "contractAddress": "0xC6A1314E89d01517a90AE4b0d9d5e499A324B283",
       "proxyAddress": "0x1940fEd49cDBC397941f2D336eb4994D599e568B",
       "decimals": 8,
       "name": "ZRO / USD"
     },
     {
-      "contractAddress": "0xC7e39DAEa9B85AB03B7C868Fbc688D7668A9f339",
-      "proxyAddress": "0xc6984fF1047Ddd0AB52D2dFa78381CC677921A85",
+      "contractAddress": "0xC952F31456c15087E014F489A48E13B69d707d66",
+      "proxyAddress": "0xea320E4d688B143A3bFBF1b4a5cc4B986fCa086c",
       "decimals": 8,
-      "name": "GLV [BTC-USDC]-USD"
+      "name": "CRO / USD"
     },
     {
-      "contractAddress": "0xCA3DdbDA8Aad6c9cD08916b1BDC5AE6f0A051704",
-      "proxyAddress": "0x3d9145b5804E13Bc14d19c3DDbd3DA8fD02b5034",
+      "contractAddress": "0xCD11B95945DEe19cFdfE45Bbb8C19F481a05233A",
+      "proxyAddress": "0xE808488e8627F6531bA79a13A9E0271B39abEb1C",
       "decimals": 8,
-      "name": "AB / USD"
+      "name": "TBTC / USD"
     },
     {
-      "contractAddress": "0xCA5d5C4BA22418fd6A94d9C352ee85E39473923e",
-      "proxyAddress": "0xfb010c715Ff2B85DB9c896f0C030bF9329638905",
+      "contractAddress": "0xCb35fE6E53e71b30301Ec4a3948Da4Ad3c65ACe4",
+      "proxyAddress": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
       "decimals": 8,
-      "name": "FBTC Proof of Reserves"
+      "name": "USDT / USD"
     },
     {
-      "contractAddress": "0xCBB673E7C868e3E0A4E426757fAaCD1d31b324D6",
-      "proxyAddress": "0x76fF6b7fA1213bD4042c16191C1ea3904e274D66",
+      "contractAddress": "0xD05Ad7B6e72b23C15C011A6d2967017005639c2A",
+      "proxyAddress": "0xB4102D5E72c402D537C9f024F4bd9c3709FE200d",
       "decimals": 18,
-      "name": "eAPT / APT Exchange Rate"
+      "name": "osETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xCC210Fd4C2Fff1B083074dbf5E46774c5D1395b1",
-      "proxyAddress": "0x2BA975D4D7922cD264267Af16F3bD177F206FE3c",
+      "contractAddress": "0xD542b9C755587D595CdD7DF808841D74585E194c",
+      "proxyAddress": "0xFeaC1A3936514746e70170c0f539e70b23d36F19",
       "decimals": 8,
-      "name": "PAXG / USD"
+      "name": "S / USD"
     },
     {
-      "contractAddress": "0xD00Af6CE437B4017163180A22E0706CD3E5938e5",
-      "proxyAddress": "0x413b219D371C352f6d1E9A39f5CE4c869EdA9476",
+      "contractAddress": "0xDB4BDD7F74c2c961a1EE138a6C33c32c7e6bd27e",
+      "proxyAddress": "0x373510BDa1ab7e873c731968f4D81B685f520E4B",
       "decimals": 8,
-      "name": "KAIA / USD"
+      "name": "TRUMP / USD"
     },
     {
-      "contractAddress": "0xD38E5B2e6E01dEfCec3Fc7Fcda46B735ad96460C",
-      "proxyAddress": "0x47C38C695639aE97A00f57D6D9f5ece1DebB033C",
+      "contractAddress": "0xDB99d80bD3aE8dae5d929493Ddf696196f7f59f2",
+      "proxyAddress": "0xd9344493d99153Ad4353D604A1d80d4089004c5D",
       "decimals": 8,
-      "name": "0G / USD"
+      "name": "zBTC Proof of Reserves"
     },
     {
-      "contractAddress": "0xD3b165BedAbF094D79f61184cCd9361878035492",
-      "proxyAddress": "0xC1D05bAd3Acd3D11329c9A6e417A613d32aC4a78",
+      "contractAddress": "0xDf8a3fc9bC6fA89F1b630e58f6eB4b874f24C165",
+      "proxyAddress": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
       "decimals": 18,
-      "name": "AoABTb NAV"
+      "name": "rsETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xD827123D014578C965F6c9d87A641ec05FaA5501",
-      "proxyAddress": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
+      "contractAddress": "0xE5B5Be82015444c04B281CF4aFa6A99130ED83a2",
+      "proxyAddress": "0x07C5b924399cc23c24a95c8743DE4006a32b7f2a",
       "decimals": 8,
-      "name": "ETH / USD"
-    },
-    {
-      "contractAddress": "0xDE681bC1D0Af3899202a0814b2955559344d3815",
-      "proxyAddress": "0xd6a77691f071E98Df7217BED98f38ae6d2313EBA",
-      "decimals": 8,
-      "name": "AMZN / USD"
-    },
-    {
-      "contractAddress": "0xDeB952D7F376e1489FEE6b889a69BD038Fb3c076",
-      "proxyAddress": "0x2483326d19f780Fb082f333Fe124e4C075B207ba",
-      "decimals": 18,
-      "name": "sUSDS / USDS Exchange Rate"
-    },
-    {
-      "contractAddress": "0xDeFDE0abA65538a1C3Cd6c78180aDb8697B1Ec4A",
-      "proxyAddress": "0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF",
-      "decimals": 8,
-      "name": "LUSD / USD"
-    },
-    {
-      "contractAddress": "0xE4e7A030096B5A93AB0F681F0F4D3746F7A4EBE7",
-      "proxyAddress": "0x70E48a135F76bA31B47FE944e769E052A8FeB849",
-      "decimals": 18,
-      "name": "ASTR / USD"
-    },
-    {
-      "contractAddress": "0xE6ACBbC87a3Abb5D4d663c04A4cdf932a5001209",
-      "proxyAddress": "0x26DC0763135Db2EC0dC4563148AC57eB48Ed0BAd",
-      "decimals": 8,
-      "name": "AR / USD"
+      "name": "STETH / USD"
     },
     {
       "contractAddress": "0xE7c522c60bA7f1b5E398D2312593713e2B19aeb0",
@@ -9359,46 +9348,46 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xDe4Af8b4747192Ea29339D0FeB36d9830d399134"
     },
     {
-      "contractAddress": "0xE8df13FA9D99aE5AC929a5250Fda3b463c463622",
-      "proxyAddress": "0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB",
-      "decimals": 8,
-      "name": "DAI / USD"
+      "contractAddress": "0xE837702F8D422f19A3FE9799FCADF8dab9c6EBEF",
+      "proxyAddress": "0x1b47b4124b9A5094C59710E6b9126e5e32a4fb8E",
+      "decimals": 18,
+      "name": "XPL / USD"
     },
     {
-      "contractAddress": "0xE8eF6d70E4F656Ae18B60b161e5b2125464a3cde",
+      "contractAddress": "0xEC2E9000B487F28Fd03455f9277bE3c96a3180b2",
+      "proxyAddress": "0x6fAbee62266Da6686EE2744C6f15bb8352d2f28D",
+      "decimals": 8,
+      "name": "TUSD / USD"
+    },
+    {
+      "contractAddress": "0xF32Aaecb1909EB672E96522e979c3c5b76a438bB",
       "proxyAddress": "0xCF9752295D0ac9215461fA095faFEC1B854b849B",
       "decimals": 8,
       "name": "EURC / USD"
     },
     {
-      "contractAddress": "0xEb31ab88cC04b67Ad1eF811196fd7c4ce45F0DBA",
-      "proxyAddress": "0x17d8D87dF3E279c737568aB0C5cC3fF750aB763e",
+      "contractAddress": "0xF5038dD0aBB1aCD297f69494F66a0adF7Bb1B7D2",
+      "proxyAddress": "0xc6984fF1047Ddd0AB52D2dFa78381CC677921A85",
       "decimals": 8,
-      "name": "DOLO / USD"
+      "name": "GLV [BTC-USDC]-USD"
     },
     {
-      "contractAddress": "0xF3a62782FbA47E77Daa7Bc7A65d1cDEA4a482024",
-      "proxyAddress": "0x974412BCe0CAd39EB4627a19729Be7780581A9E3",
-      "decimals": 18,
-      "name": "TRUAPT / APT Exchange Rate"
-    },
-    {
-      "contractAddress": "0xF570FeA1b9a0720eBaF321eaE0D2201AEcc3834f",
-      "proxyAddress": "0x181976c209aB6CdBeA3e64374f2ecA0235F3BBe2",
-      "decimals": 18,
-      "name": "RLUSD / USD"
-    },
-    {
-      "contractAddress": "0xF9815745Ee13A0824C492f6AE6290a9ff1eF871c",
-      "proxyAddress": "0x4050bD8263771f8BBded08C299BD944488a91AaD",
-      "decimals": 18,
-      "name": "instETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xFA9fe80d038c46B2C72937093A6e5cb409A5D7c5",
-      "proxyAddress": "0xE2CB592D636c500a6e469628054F09d58e4d91BB",
+      "contractAddress": "0xF56e6cb49304c2AD4a7C416665b55a1424014B1F",
+      "proxyAddress": "0xe32AccC8c4eC03F6E75bd3621BfC9Fbb234E1FC3",
       "decimals": 8,
-      "name": "MELANIA / USD"
+      "name": "CHF / USD"
+    },
+    {
+      "contractAddress": "0xF613F9fdA1c83fa88924E02781AeeCC1Daf03BCF",
+      "proxyAddress": "0x3C5C5329b028E674F7a124b18527B94BE74A66cF",
+      "decimals": 18,
+      "name": "inETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xF6328F007A2FDc547875e24A3BC7e0603fd01727",
+      "proxyAddress": "0xDB98056FecFff59D032aB628337A4887110df3dB",
+      "decimals": 8,
+      "name": "GMX / USD"
     },
     {
       "contractAddress": "0xFBe1C9F4297d509b4D0ECcbc098df7Db29DA2918",
@@ -9408,22 +9397,28 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x368B55bEb0d85aBe2bD04C7cba5Bd640A53fCF37"
     },
     {
-      "contractAddress": "0xFf120DdA2c6E39Ca98b73D580fC76b0A6A05099A",
-      "proxyAddress": "0x59644ec622243878d1464A9504F9e9a31294128a",
+      "contractAddress": "0xFE45C3466c42EDd8868FD8Efa161F4A7745678e1",
+      "proxyAddress": "0x5082d93991DfCc69F57a27CEC63EDEe1B8C22757",
       "decimals": 8,
-      "name": "MIMATIC / USD"
+      "name": "HKD / USD"
     },
     {
-      "contractAddress": "0xa0941B253B92f98d85dd6B8453b27f8E668C7E80",
-      "proxyAddress": "0x5Fb73f7Af8a29297953d3611422826039338E5b4",
-      "decimals": 18,
-      "name": "ankrETH / ETH Exchange Rate"
+      "contractAddress": "0xFc06bB03a9e1D8033f87eA6A682cbd65477A43b9",
+      "proxyAddress": "0xc5C8E77B397E531B8EC06BFb0048328B30E9eCfB",
+      "decimals": 8,
+      "name": "DAI / USD"
     },
     {
-      "contractAddress": "0xa0e625bF0fE664FA6Ce3883177064C5eA01B8C14",
-      "proxyAddress": "0xb2A824043730FE05F3DA2efaFa1CBbe83fa548D6",
+      "contractAddress": "0xFf5247dB1a983F7405B5f848400D95770Dab75E1",
+      "proxyAddress": "0x806c532D543352e7C344ba6C7F3F00Bfbd309Af1",
       "decimals": 8,
-      "name": "ARB / USD"
+      "name": "XAI / USD"
+    },
+    {
+      "contractAddress": "0xa0A62496C42627379D865618a00849239ff69E66",
+      "proxyAddress": "0x0a32255dd4BB6177C994bAAc73E0606fDD568f66",
+      "decimals": 8,
+      "name": "CRVUSD / USD"
     },
     {
       "contractAddress": "0xa0e9a602B8060E1828Be7eE4626e086bDdbD2F99",
@@ -9433,28 +9428,35 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x670BD6D743fa996dC512e2c652b7c8FFa8E7C23F"
     },
     {
-      "contractAddress": "0xa0fD6fB063c851F39Cf7D5E2CD72FAD180D1FBd6",
-      "proxyAddress": "0xE141425bc1594b8039De6390db1cDaf4397EA22b",
+      "contractAddress": "0xa136978a2c8a92ec5EacC5179642AA2E1c1Eae18",
+      "proxyAddress": "0xb7c8Fb1dB45007F98A68Da0588e1AA524C317f27",
       "decimals": 18,
-      "name": "weETH / ETH"
+      "name": "LINK / ETH"
     },
     {
-      "contractAddress": "0xa242e0334FD3Ae9D1997D47CfD27E5a4e48cA046",
-      "proxyAddress": "0x11E1836bFF2ce9d6A5bec9cA79dc998210f3886d",
-      "decimals": 18,
-      "name": "ezETH / ETH"
+      "contractAddress": "0xa1c0bD64AFFAF53E7674E2A6C5df6b80A4FB80d3",
+      "proxyAddress": "0xFa74Da2Fc3d7ADaA6Fc1136eA1690ccD5E2d242C",
+      "decimals": 8,
+      "name": "SVR DAI / USD",
+      "secondaryProxyAddress": "0xba55b9d246d351278f1Ec3bacdDe414caC8006D7"
     },
     {
-      "contractAddress": "0xa28438F7d15A2637E94b6F08b5647eD716aEc589",
-      "proxyAddress": "0x0225781042C46dB247e009FFEAd5aEf044f3E7BE",
-      "decimals": 18,
-      "name": "MON / USD"
+      "contractAddress": "0xa3403Cbd8Db989ED2204A51F9f70945Bf5b2CFb7",
+      "proxyAddress": "0xDC1a8F77Cdc46D1Fb7F22F94dFCA4dDBf566fA23",
+      "decimals": 1,
+      "name": "Real GDP — Percent Change (Annual Rate)"
     },
     {
-      "contractAddress": "0xa32637B6Aa76Fa7033e1a5F61DCA725e49E5F019",
-      "proxyAddress": "0x1b47b4124b9A5094C59710E6b9126e5e32a4fb8E",
+      "contractAddress": "0xa4598924ca0cbEbB2D850684a9BFc0a7D1D848EB",
+      "proxyAddress": "0x1f5C0C2CD2e9Ad1eE475660AF0bBa27aE7d87f5e",
       "decimals": 18,
-      "name": "XPL / USD"
+      "name": "ETHx / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xa4ad279c8acf7eFa993be093777Db4595C59B253",
+      "proxyAddress": "0xC1D05bAd3Acd3D11329c9A6e417A613d32aC4a78",
+      "decimals": 18,
+      "name": "AoABTb NAV"
     },
     {
       "contractAddress": "0xa5E1a36938769cbd5a26f5e19D8FCB379f597c83",
@@ -9464,6 +9466,18 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xbD41b1548a5A06544cBcf87c0c54864312842C00"
     },
     {
+      "contractAddress": "0xa61465865E7EF347845741b0AB6f4cf42E30Ec9c",
+      "proxyAddress": "0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856",
+      "decimals": 18,
+      "name": "tETH / wstETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xa64344ec6b4971d1FBDaf5550001ac5751EEd599",
+      "proxyAddress": "0x4bC735Ef24bf286983024CAd5D03f0738865Aaef",
+      "decimals": 8,
+      "name": "1INCH / USD"
+    },
+    {
       "contractAddress": "0xa821e9cD8490ad5Cb398FBaeA8BAEEDa27AA6f93",
       "proxyAddress": "0x7A8A9aD4AeE9B8cF491de61c03834eb364A4EED1",
       "decimals": 8,
@@ -9471,58 +9485,82 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xb39082aA764c8EbEb91F196E31cE0E570b1A268C"
     },
     {
-      "contractAddress": "0xa96B90824073052609aD6aA44a7BA7C6FFDf4Bd8",
-      "proxyAddress": "0x9A7FB1b3950837a8D9b40517626E11D4127C098C",
+      "contractAddress": "0xaD81BC9887ab35B4aA05493E9B3C32cA7393c8b1",
+      "proxyAddress": "0x3b9c34dC5B6BfC1dE896496aFCEf1ca705D0c762",
       "decimals": 8,
-      "name": "DOGE / USD"
+      "name": "XDC / USD"
     },
     {
-      "contractAddress": "0xaF4C93D9257B64Cd4978A63dCC2E6d0027cb8C34",
-      "proxyAddress": "0x3A917e6B5732dFCc4A45257e3930979fAE6a3737",
-      "decimals": 18,
-      "name": "rsETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xae3F80d26aA94a46CF0a95eEB3fE8977736be018",
-      "proxyAddress": "0xfF82AAF635645fD0bcc7b619C3F28004cDb58574",
+      "contractAddress": "0xadBf1c8a244d537C343d771e2Fa897F3654a1Ae4",
+      "proxyAddress": "0x3dD6e51CB9caE717d5a8778CF79A04029f9cFDF8",
       "decimals": 8,
-      "name": "PHP / USD"
+      "name": "JPY / USD"
     },
     {
-      "contractAddress": "0xb1003aA5eA15F5069add59e83C6b9024AA83b34C",
-      "proxyAddress": "0x85bb02E0Ae286600d1c68Bb6Ce22Cc998d411916",
-      "decimals": 8,
-      "name": "KRW / USD"
-    },
-    {
-      "contractAddress": "0xb19D0B75191894dE745B61342D728e5fc6Ead1bA",
+      "contractAddress": "0xb20bd22d3D2E5a628523d37b3DED569598EB649b",
       "proxyAddress": "0xd0C7101eACbB49F3deCcCc166d238410D6D46d57",
       "decimals": 8,
       "name": "WBTC / USD"
     },
     {
-      "contractAddress": "0xb6ef3E79b57f0816E44F7cbB3D07156B4c424467",
-      "proxyAddress": "0xF9329B38084cbE893894F19a518Fc6Cd306D9930",
+      "contractAddress": "0xb39bfAD6295724E01E079Ee3aa78a378Eff6dEB0",
+      "proxyAddress": "0xB1552C5e96B312d0Bf8b554186F846C40614a540",
       "decimals": 18,
-      "name": "GLV [WETH-USDC] / USD"
+      "name": "wstETH-stETH Exchange Rate"
     },
     {
-      "contractAddress": "0xb7C68F6cEB27381876B4CF8Ed4F326BEA1e8D923",
-      "proxyAddress": "0x4bC735Ef24bf286983024CAd5D03f0738865Aaef",
-      "decimals": 8,
-      "name": "1INCH / USD"
-    },
-    {
-      "contractAddress": "0xb9675e99accDD93e00916C6E80Ab5e000f0780A7",
-      "proxyAddress": "0xd9344493d99153Ad4353D604A1d80d4089004c5D",
-      "decimals": 8,
-      "name": "zBTC Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xc1003b071c4fCc8027A07404b7F70DC25655B366",
-      "proxyAddress": "0x1f5C0C2CD2e9Ad1eE475660AF0bBa27aE7d87f5e",
+      "contractAddress": "0xb58AFa4be9B13D896E81D5355C961D2c33172099",
+      "proxyAddress": "0xbcD8bEA7831f392bb019ef3a672CC15866004536",
       "decimals": 18,
-      "name": "ETHx / ETH Exchange Rate"
+      "name": "CV Index"
+    },
+    {
+      "contractAddress": "0xb5F3A4ac09d801Bdd3d2224B997CAdCeE1Cb2d17",
+      "proxyAddress": "0xdc49F292ad1bb3DAb6C11363d74ED06F38b9bd9C",
+      "decimals": 8,
+      "name": "APT / USD"
+    },
+    {
+      "contractAddress": "0xb915D2b9d10df9Df8043F6d72fECDbA36edBdB60",
+      "proxyAddress": "0x9dC30b7242556F871932AFe38CC34d2a77E6F6C9",
+      "decimals": 18,
+      "name": "DAI / USD CAPPED"
+    },
+    {
+      "contractAddress": "0xb930631CF1A4158903Acaf30CAa716cC320c936F",
+      "proxyAddress": "0xb2378F24E6d543cd28A8edcc7d2bE517FC9e074c",
+      "decimals": 18,
+      "name": "LUSD / USD CAPPED"
+    },
+    {
+      "contractAddress": "0xb98512d5a21e13cf27b84Cc90eA118AE14134A76",
+      "proxyAddress": "0x021126143D0B6e20Bb69beFcc860e7E523df8055",
+      "decimals": 8,
+      "name": "SUSDAI / USD"
+    },
+    {
+      "contractAddress": "0xbA4492A430fE9bEF7Abbd9C78b953A6E1aA48CFA",
+      "proxyAddress": "0xBF5C3fB2633e924598A46B9D07a174a9DBcF57C0",
+      "decimals": 8,
+      "name": "NEAR / USD"
+    },
+    {
+      "contractAddress": "0xbF1CD5Cb759f8E21c98A4367B665F43D607E8885",
+      "proxyAddress": "0x9A7FB1b3950837a8D9b40517626E11D4127C098C",
+      "decimals": 8,
+      "name": "DOGE / USD"
+    },
+    {
+      "contractAddress": "0xbfc294070e8A7594cEAa6C564883E1F9222BC09b",
+      "proxyAddress": "0xa668682974E3f121185a3cD94f00322beC674275",
+      "decimals": 18,
+      "name": "CBETH / ETH"
+    },
+    {
+      "contractAddress": "0xc0552C1a54409D11a7f644b7B3A0F8c9AD628F2A",
+      "proxyAddress": "0x29D57534598BF8Adda2CC2FbDe4B7502387B8177",
+      "decimals": 8,
+      "name": "RON / USD"
     },
     {
       "contractAddress": "0xc1720A8240Dbd992d95D6c865A15e490901879B1",
@@ -9532,136 +9570,112 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0xf97eEAac36bdd096bb2445c7582F9095bfCE04C7"
     },
     {
-      "contractAddress": "0xc3E4cF0a537673f1bBA1F134aE966012114ec663",
-      "proxyAddress": "0xAD57D7c059E2aFef2241EB6EF43559f8a409897E",
+      "contractAddress": "0xc195bA27455182e3Bb6F86dAB5838901604Ba72c",
+      "proxyAddress": "0xA33a06c119EC08F92735F9ccA37e07Af08C4f281",
       "decimals": 8,
-      "name": "ASTER / USD"
+      "name": "DODO / USD"
     },
     {
-      "contractAddress": "0xc497Ad44E1Efa1603e32b33622206845A6cA365B",
-      "proxyAddress": "0xDde33fb9F21739602806580bdd73BAd831DcA867",
+      "contractAddress": "0xc339c4c7c58cb1d964b7B66f846572D5C355441a",
+      "proxyAddress": "0x59644ec622243878d1464A9504F9e9a31294128a",
       "decimals": 8,
-      "name": "MSFT / USD"
+      "name": "MIMATIC / USD"
     },
     {
-      "contractAddress": "0xc52B9Ab60193c4097e5700328789001F4D1FB94F",
-      "proxyAddress": "0x1bD872f3A606471787B1a304cE0356e4e87Af930",
-      "decimals": 18,
-      "name": "frxETH-ETH Exchange Rate Low"
-    },
-    {
-      "contractAddress": "0xc55D3bbf32870448662228C6fFEb408D6943D306",
-      "proxyAddress": "0x256654437f1ADA8057684b18d742eFD14034C400",
-      "decimals": 8,
-      "name": "CAKE / USD"
-    },
-    {
-      "contractAddress": "0xc5bD63Fa1e0AF15D7eBa42610B7a9E918CD54567",
-      "proxyAddress": "0x3b9c34dC5B6BfC1dE896496aFCEf1ca705D0c762",
-      "decimals": 8,
-      "name": "XDC / USD"
-    },
-    {
-      "contractAddress": "0xc6c2DeD396193c879a963239530B81F534624E63",
-      "proxyAddress": "0xb966F82183E41208f594586BBF04bb6163571C48",
-      "decimals": 18,
-      "name": "RYT Arbitrum / Proof of Reserves"
-    },
-    {
-      "contractAddress": "0xcA790B72ADDB03A35F660FBCFd265AacF38136dF",
-      "proxyAddress": "0x7CF132bd0456Af4ECfCeaae684fD7967Df931141",
-      "decimals": 18,
-      "name": "ADI / USD"
-    },
-    {
-      "contractAddress": "0xcF2226fE6C672E7355866fA00E9e329600b56526",
-      "proxyAddress": "0x36194c6DBB4218036d5f1ef070e9900896f84e06",
-      "decimals": 18,
-      "name": "AoABT NAV"
-    },
-    {
-      "contractAddress": "0xcdD58f33ce4Aa8f15CE3cC95ac382Cc2b00eFe8C",
-      "proxyAddress": "0x5082d93991DfCc69F57a27CEC63EDEe1B8C22757",
-      "decimals": 8,
-      "name": "HKD / USD"
-    },
-    {
-      "contractAddress": "0xcec5721f8380bF35964E59AE77FC4751a2BB78e8",
-      "proxyAddress": "0x8d0CC5f38f9E802475f2CFf4F9fc7000C2E1557c",
-      "decimals": 8,
-      "name": "AAPL / USD"
-    },
-    {
-      "contractAddress": "0xd099074f591cB41707fe8Bb8Bee16a7780Fb96E5",
-      "proxyAddress": "0xb523AE262D20A936BC152e6023996e46FDC2A95D",
-      "decimals": 18,
-      "name": "WSTETH / ETH"
-    },
-    {
-      "contractAddress": "0xd34E35996de8d3814061E10622a953b44d38E61f",
-      "proxyAddress": "0x0E278D14B4bf6429dDB0a1B353e2Ae8A4e128C93",
-      "decimals": 18,
-      "name": "SHIB / USD"
-    },
-    {
-      "contractAddress": "0xd7f886A645e1D2514eCEFE797A8C6ecCb356B635",
-      "proxyAddress": "0x3d50d699A812A0f66F36876DF47B2aE68e781736",
-      "decimals": 18,
-      "name": "PYUSD / USD"
-    },
-    {
-      "contractAddress": "0xd90cC0e0858AAe11d8deec2886B3475b5d33377F",
-      "proxyAddress": "0xCCa91A477fBF466D676B2056bfDfDA94f343a64F",
-      "decimals": 8,
-      "name": "MEGA / USD"
-    },
-    {
-      "contractAddress": "0xd98Bf129728C863c10A48A166d2a82Bc93D4d22f",
-      "proxyAddress": "0xe32AccC8c4eC03F6E75bd3621BfC9Fbb234E1FC3",
-      "decimals": 8,
-      "name": "CHF / USD"
-    },
-    {
-      "contractAddress": "0xdBd99438E454eF8E6CA42D7eA3656f9A142D98a8",
-      "proxyAddress": "0xdB0c64eFa0395063033b10769A80c62F885A620a",
-      "decimals": 18,
-      "name": "SYRUPUSDT / USD Exchange Rate"
-    },
-    {
-      "contractAddress": "0xdDf97BB505F6B01377818EAAf9BA905e6C6e5555",
+      "contractAddress": "0xcB6501e44e7d9165Df29649bCCc39434F2dF6847",
       "proxyAddress": "0x3861d83ed006A6570cE8Eb9878F4Df0dF889A2da",
       "decimals": 18,
       "name": "RLP-USD Exchange Rate"
     },
     {
-      "contractAddress": "0xe0F3798265955A3a328bA18bE85f6E68BEEd1924",
-      "proxyAddress": "0xE8f8AfE4b56c6C421F691bfAc225cE61b2C7CD05",
+      "contractAddress": "0xcE2ADFfF491f4627eA61091182D4bF9a87Ffd80a",
+      "proxyAddress": "0x76998C22eEa325A11dc6971Cedcf533E9740F854",
       "decimals": 8,
-      "name": "TRY / USD"
+      "name": "ORDI / USD"
     },
     {
-      "contractAddress": "0xe21756D3C0C7c5e05cc3730105249D04D3Ab0508",
-      "proxyAddress": "0x04b7384473A2aDF1903E3a98aCAc5D62ba8C2702",
-      "decimals": 8,
-      "name": "BRL / USD"
-    },
-    {
-      "contractAddress": "0xe47651557Bb3Ad9487142e469bb6216B6425b54f",
-      "proxyAddress": "0x4Fd4455b88D38945ca1B2ef2D499f805091EB5a6",
+      "contractAddress": "0xcaD2225f02B0d077DCf3f945f129d12F3B595820",
+      "proxyAddress": "0xa677622735c38001fd1183c92dc5b889128EC234",
       "decimals": 18,
-      "name": "SOLVBTC / BTC Exchange Rate"
+      "name": "uniBTC / BTC Exchange Rate"
     },
     {
-      "contractAddress": "0xe4f9493968AE48A28E4f0542685B1c27E09F775a",
-      "proxyAddress": "0x6970460aabF80C5BE983C6b74e5D06dEDCA95D4A",
+      "contractAddress": "0xcf17b68a40f10d3DcEedd9a092F1Df331cE3D9da",
+      "proxyAddress": "0x8bf61728eeDCE2F32c456454d87B5d6eD6150208",
       "decimals": 8,
-      "name": "BNB / USD"
+      "name": "AVAX / USD"
     },
     {
-      "contractAddress": "0xe58d2cC35CD13Ca735907aAFFC74e61a046e2100",
-      "proxyAddress": "0xaebDA2c976cfd1eE1977Eac079B4382acb849325",
+      "contractAddress": "0xd0DA1FE3A35359564CB7561F6a6AA69A1eCEc8d5",
+      "proxyAddress": "0xdE89a55d04DEd40A410877ab87d4F567ee66a1f0",
       "decimals": 8,
-      "name": "CRV / USD"
+      "name": "SEK / USD"
+    },
+    {
+      "contractAddress": "0xd0b5f6b81811FCE57e533dC57AE7D90E0867C177",
+      "proxyAddress": "0x3d50d699A812A0f66F36876DF47B2aE68e781736",
+      "decimals": 18,
+      "name": "PYUSD / USD"
+    },
+    {
+      "contractAddress": "0xd352DBaC3e877649238A320532ac77c8FAFA2F67",
+      "proxyAddress": "0xCc9742d77622eE9abBF1Df03530594f9097bDcB3",
+      "decimals": 8,
+      "name": "SEI / USD"
+    },
+    {
+      "contractAddress": "0xd35B0e1Fd468Bd264570C64f28Ea48F778bc0DfC",
+      "proxyAddress": "0x1F954Dc24a49708C26E0C1777f16750B5C6d5a2c",
+      "decimals": 8,
+      "name": "XAU / USD"
+    },
+    {
+      "contractAddress": "0xd8951C90d0602867c927A59FEF2C855D57bEFEf0",
+      "proxyAddress": "0x702609AFaDda5b357bc7b0C5174645a4438A99F3",
+      "decimals": 8,
+      "name": "JLP / USD"
+    },
+    {
+      "contractAddress": "0xd896f8B9E7c1058bAde26323181dbD9765D38C21",
+      "proxyAddress": "0x70E48a135F76bA31B47FE944e769E052A8FeB849",
+      "decimals": 8,
+      "name": "ASTR / USD"
+    },
+    {
+      "contractAddress": "0xd9fCb26FE3D4589c3e2ecD6A2A3af54EdDB67240",
+      "proxyAddress": "0x4Ee1f9ec1048979930aC832a3C1d18a0b4955a02",
+      "decimals": 8,
+      "name": "USDD / USD"
+    },
+    {
+      "contractAddress": "0xdecCf98Ab543E6fAca8E22dB33445c7DDc855df0",
+      "proxyAddress": "0x82BA56a2fADF9C14f17D08bc51bDA0bDB83A8934",
+      "decimals": 8,
+      "name": "POL / USD"
+    },
+    {
+      "contractAddress": "0xe3E8e2b9C801Ae818fd48cd721f0222e270784B1",
+      "proxyAddress": "0x03e4054B11ad01915257bE53Af03A32Abf7837b9",
+      "decimals": 18,
+      "name": "sFRAX / FRAX Exchange Rate"
+    },
+    {
+      "contractAddress": "0xe4A492420eBdA03B04973Ed1E46d5fe9F3b077EF",
+      "proxyAddress": "0xb2A8BA74cbca38508BA1632761b56C897060147C",
+      "decimals": 8,
+      "name": "SUSHI / USD"
+    },
+    {
+      "contractAddress": "0xe4dEAEa592522893A6960b7eB70f6cA24668fe62",
+      "proxyAddress": "0x41f8459f911658e9C627c5D1d2Fb18c7dbc8ceBe",
+      "decimals": 18,
+      "name": "apxETH / pxETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xe60F9489Ea2478A149EfD26bF9F5D31264AacAb2",
+      "proxyAddress": "0x037100C673E8A63fBF8F6f78A8FBeEbb683593a8",
+      "decimals": 8,
+      "name": "CORE / USD"
     },
     {
       "contractAddress": "0xe68Beb4eB070c4362494FddBD2fb9288CE2631e3",
@@ -9671,82 +9685,106 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x02E892E7F49dFEb8B26563150047C7c33D148e40"
     },
     {
-      "contractAddress": "0xe69E3c54d6ed2520679F37ba7c518b231f8416AA",
-      "proxyAddress": "0xAE8B4179389059A735821A77417eACcA60f3e4B4",
+      "contractAddress": "0xe7bEF4C93A720eb8bEB145F86D5F6555127B8538",
+      "proxyAddress": "0xb0EA543f9F8d4B818550365d13F66Da747e1476A",
       "decimals": 18,
-      "name": "xSolvBTC NAV"
+      "name": "RSETH / ETH"
     },
     {
-      "contractAddress": "0xe849D4549d4f1e2A316bC5cc5C0BE2a186302B14",
-      "proxyAddress": "0xEAeFFF521cb36dFb414E8580f8635BFB44d96255",
+      "contractAddress": "0xe98eAEDC8dcED617EB6ceA806257Db0e071a2a05",
+      "proxyAddress": "0x19eCDd6DDc12597ec4A522fB1E25b1A580B605B7",
       "decimals": 8,
-      "name": "GM ETH/USD [wETH-wETH]"
+      "name": "GM BTC/USD [WBTC-WBTC]"
     },
     {
-      "contractAddress": "0xeD4E56A17C3Ad52E88bCC1d9BD08D5e86fD68bA5",
-      "proxyAddress": "0x383b3624478124697BEF675F07cA37570b73992f",
+      "contractAddress": "0xeA84B5A70175A98DF02A85bdC6f9191c753130D5",
+      "proxyAddress": "0x552c92c0C09A73d569Ab52FF4C17a153C3472BE3",
+      "decimals": 1,
+      "name": "PCE Price Index — Percent Change (Annual Rate)"
+    },
+    {
+      "contractAddress": "0xeC3dfE4FF480C64A6F78b43Fa9963567d35A2cA9",
+      "proxyAddress": "0xfB3264D1129824933a52374c2C1696F4470D041e",
       "decimals": 8,
-      "name": "SPELL / USD"
+      "name": "gmETH / USD"
     },
     {
-      "contractAddress": "0xeE3d1eD3Cc45F2197FFa49870d5d1240346F21e7",
-      "proxyAddress": "0x4f861F14246229530a881D32C8d26D78b8c48BE6",
-      "decimals": 8,
-      "name": "BERA / USD"
-    },
-    {
-      "contractAddress": "0xec2D2F3B5Aa286CA4D6Aa746f5debeb6859A2cD0",
-      "proxyAddress": "0xc2430cD1214F8452f4040473b7587195f9c565bD",
+      "contractAddress": "0xeF1B41577f2b53eEce602e6e3E132dCe2E7d58c3",
+      "proxyAddress": "0x0225781042C46dB247e009FFEAd5aEf044f3E7BE",
       "decimals": 18,
-      "name": "ynETH / ETH Exchange Rate"
+      "name": "MON / USD"
     },
     {
-      "contractAddress": "0xf09FF13d59B4e6c1B63f606241ea2C8dF8455Faa",
-      "proxyAddress": "0xe4c31C5B118d8aA92433eD1c7EC70afb430cd730",
+      "contractAddress": "0xeFBC6F8C9806B066fa0Da149349450Be60e5e136",
+      "proxyAddress": "0xD9f615A9b820225edbA2d821c4A696a0924051c6",
       "decimals": 8,
-      "name": "TBTC / BTC"
+      "name": "ADA / USD"
     },
     {
-      "contractAddress": "0xf2A8376875273C8798Ca55cF1042d30f13aa2Ef5",
+      "contractAddress": "0xeFc5061B7a8AeF31F789F1bA5b3b8256674F2B71",
+      "proxyAddress": "0x9C917083fDb403ab5ADbEC26Ee294f6EcAda2720",
+      "decimals": 8,
+      "name": "UNI / USD"
+    },
+    {
+      "contractAddress": "0xea9B4DA450A1feb3c374fd671f291D563b54cc47",
       "proxyAddress": "0xF6897122530ca89beB919f5990FDd3F7Cc9837C4",
       "decimals": 18,
       "name": "ynETHx / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xf4A124fd3b2115913641038C6F437337b30B4a42",
-      "proxyAddress": "0x88AC7Bca36567525A866138F03a6F6844868E0Bc",
+      "contractAddress": "0xebb9C119F3df7E49D71B8698D73E73d64Cb8689A",
+      "proxyAddress": "0xD2385f41995499bBF255cE0A1486ebCe3Dca0e5D",
       "decimals": 8,
-      "name": "USDe / USD"
+      "name": "M NAV"
     },
     {
-      "contractAddress": "0xf5B747BB3f7ecFD17503aC5e2084E43B7A828C5B",
-      "proxyAddress": "0xe7C53FFd03Eb6ceF7d208bC4C13446c76d1E5884",
-      "decimals": 8,
-      "name": "COMP / USD"
-    },
-    {
-      "contractAddress": "0xfAd7ce73591f487a1564B535d31F5C6d197B03D2",
-      "proxyAddress": "0x8f1dF6D7F2db73eECE86a18b4381F4707b918FB1",
+      "contractAddress": "0xed85D7BAF914122a28612A00a3e37eD6F4a63896",
+      "proxyAddress": "0x20b0159404886F4BFE51A1ad9c14cFc3Cde5995c",
       "decimals": 18,
-      "name": "wrsETH / rsETH Exchange Rate"
+      "name": "ultraETHs / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xfB7849E5057fdBA039Ed802A1B82AA57CB695a90",
-      "proxyAddress": "0x4881A4418b5F2460B21d6F08CD5aA0678a7f262F",
+      "contractAddress": "0xeea356a751a11698D1B937C3ff6B4428a3338139",
+      "proxyAddress": "0xEAeFFF521cb36dFb414E8580f8635BFB44d96255",
       "decimals": 8,
-      "name": "NVDA / USD"
+      "name": "GM ETH/USD [wETH-wETH]"
     },
     {
-      "contractAddress": "0xfbB3A0A198eafa38D0Ad4b14841a7b2eb0D2Cd69",
-      "proxyAddress": "0xF7Ee427318d2Bd0EEd3c63382D0d52Ad8A68f90D",
-      "decimals": 8,
-      "name": "WIF / USD"
+      "contractAddress": "0xf0e892f66173d37Ed7Fb0794C704330C0ac3bd22",
+      "proxyAddress": "0x066Ba4567C40cB315EAd257Bd86585bb4a74004f",
+      "decimals": 3,
+      "name": "PCE Price Index — Level"
     },
     {
-      "contractAddress": "0xfd4baC308670d6372B2FE08f74AD24D4538fcea5",
-      "proxyAddress": "0xfB3264D1129824933a52374c2C1696F4470D041e",
+      "contractAddress": "0xf1a81F33CDe09D59B64d0BE084971b9FBbA776E7",
+      "proxyAddress": "0x21082CA28570f0ccfb089465bFaEfDc77b00D367",
+      "decimals": 18,
+      "name": "ZEC / USD"
+    },
+    {
+      "contractAddress": "0xf6bACC7750c23A34b996A355A6E78b17Fc4BaEdC",
+      "proxyAddress": "0x383b3624478124697BEF675F07cA37570b73992f",
       "decimals": 8,
-      "name": "gmETH / USD"
+      "name": "SPELL / USD"
+    },
+    {
+      "contractAddress": "0xf8abb3c41A3b21687Ad862C9Fd00D007E413EEAA",
+      "proxyAddress": "0x6FfBc6339DD46a7e0513D4887106349214C05505",
+      "decimals": 8,
+      "name": "WEMIX / USD"
+    },
+    {
+      "contractAddress": "0xf94463c077c828b4EFB82e07f1525027fA296255",
+      "proxyAddress": "0xCF7a7A1Fb746E926Bbe5C88a702a89167a94C51C",
+      "decimals": 8,
+      "name": "GAS / USD"
+    },
+    {
+      "contractAddress": "0xfaEDF201cd39887f13C1D94Ef04c8830E5E633D6",
+      "proxyAddress": "0x1bD872f3A606471787B1a304cE0356e4e87Af930",
+      "decimals": 18,
+      "name": "frxETH-ETH Exchange Rate Low"
     }
   ],
   "42220": [
@@ -9767,6 +9805,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xe8EcaF727080968Ed5F6DBB595B91e50eEb9F8B3",
       "decimals": 8,
       "name": "BRL / USD"
+    },
+    {
+      "contractAddress": "0x338357b4eaEc1db6Fc528cAd0EA3B3d9Aa4EBF4C",
+      "proxyAddress": "0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02",
+      "decimals": 8,
+      "name": "USDT / USD"
     },
     {
       "contractAddress": "0x393B96d0C18C892f2e79C0C5e44D0069571Ec133",
@@ -9797,6 +9841,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0xe76FE54dfeD2ce8B4d1AC63c982DfF7CFc92bf82",
       "decimals": 8,
       "name": "GBP / USD"
+    },
+    {
+      "contractAddress": "0x6854a6495F735c012616B4e0B5491cE138AE81E5",
+      "proxyAddress": "0xc7A353BaE210aed958a1A2928b654938EC59DaB2",
+      "decimals": 8,
+      "name": "USDC / USD"
     },
     {
       "contractAddress": "0x6Dad5A3Ff709b3688188e206458375451290A414",
@@ -9877,12 +9927,6 @@ export const chainlinkFeeds = {
       "name": "INR / USD"
     },
     {
-      "contractAddress": "0xEd9183DDb0718C80488BdEbdDA15b14D3166053C",
-      "proxyAddress": "0x5e37AF40A7A344ec9b03CCD34a250F3dA9a20B02",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
       "contractAddress": "0xF4f6843A8003417b04EAbDd7a1bAe2cAFCBF0aCC",
       "proxyAddress": "0x91b21900E91CD302EBeD05E45D8f270ddAED944d",
       "decimals": 0,
@@ -9907,12 +9951,6 @@ export const chainlinkFeeds = {
       "name": "JPY / USD"
     },
     {
-      "contractAddress": "0xa82b382154BF1e2819B8156326016537cdff9be6",
-      "proxyAddress": "0xc7A353BaE210aed958a1A2928b654938EC59DaB2",
-      "decimals": 8,
-      "name": "USDC / USD"
-    },
-    {
       "contractAddress": "0xadfc6044c20B61eC54617F326e19ddA0422DCeE1",
       "proxyAddress": "0xBa45f0a1a2fa3FB62a4D6dC135741E2aeb1b14e7",
       "decimals": 18,
@@ -9923,12 +9961,6 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x0826492a24b1dBd1d8fcB4701b38C557CE685e9D",
       "decimals": 18,
       "name": "KES / USD"
-    },
-    {
-      "contractAddress": "0xdc49b43341eeFC4a09813484C0427a86a1Dd0CD6",
-      "proxyAddress": "0x225342d9CAfc539a2b34207f5be25e7B45030b3d",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
     },
     {
       "contractAddress": "0xe0c266443401929B11A41156520b060E0bFec572",
@@ -9951,12 +9983,6 @@ export const chainlinkFeeds = {
       "name": "WBTC.e Proof of Reserves"
     },
     {
-      "contractAddress": "0x05D9c76A8f5Ff38c5040ccB50FFf9d6Aaa9eEB25",
-      "proxyAddress": "0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
       "contractAddress": "0x08DFfE6AC415B0d10C6b7b2d21c106e40c9d2c1f",
       "proxyAddress": "0x735f816f63890c6E9FF28484E2d257e9c5dc4788",
       "decimals": 18,
@@ -9967,6 +9993,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x0A6fd6F735faCD3Cdb1D5aE1c74ebd54a4fc3CCf",
       "decimals": 18,
       "name": "GLV [AVAX-USDC] / USD"
+    },
+    {
+      "contractAddress": "0x0B2bFcbE40213cF93CE2Be85156DD16E31483f70",
+      "proxyAddress": "0x6f2A1D4014FED967172FC7caCf7a6e04Cf02752e",
+      "decimals": 8,
+      "name": "SAND / USD"
     },
     {
       "contractAddress": "0x0d0284f3E249E635e3984810B233e7bBD62F3C91",
@@ -10053,6 +10085,12 @@ export const chainlinkFeeds = {
       "name": "Re Offchain Reserves"
     },
     {
+      "contractAddress": "0x30b48C6821B8611756556523a323a20c9A72BB2d",
+      "proxyAddress": "0xfAa665F5a0e13beea63b6DfF601DD634959690Df",
+      "decimals": 18,
+      "name": "WOO / ETH"
+    },
+    {
       "contractAddress": "0x37FAb7e59f59a52870012A61314D95f2A9e52288",
       "proxyAddress": "0xA418573AB5226711c8564Eeb449c3618ABFaf677",
       "decimals": 8,
@@ -10063,6 +10101,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x41185495Bc8297a65DC46f94001DC7233775EbEe",
       "decimals": 0,
       "name": "AAVE Network Emergency Count (Avalanche)"
+    },
+    {
+      "contractAddress": "0x38E41034eA72CaE98aC14c0fFa8fe992C57d78c5",
+      "proxyAddress": "0x9df2195dc96e6Ef983B1aAC275649F3f28F82Aa1",
+      "decimals": 8,
+      "name": "KNC / USD"
     },
     {
       "contractAddress": "0x39b3e74A77206Df2683792c5DC8012Ea6bD39E4F",
@@ -10161,6 +10205,12 @@ export const chainlinkFeeds = {
       "name": "Real Final Sales to Private Domestic Purchasers — Level"
     },
     {
+      "contractAddress": "0x65527d2556ffFEe7e545C5eE5B81f5DAe925cE00",
+      "proxyAddress": "0xF096872672F44d6EBA71458D74fe67F9a77a23B9",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
       "contractAddress": "0x6576f172a3DfB3B78Eb028773ec5c1Aa676E4Fb1",
       "proxyAddress": "0x1b8a25F73c9420dD507406C3A3816A276b62f56a",
       "decimals": 18,
@@ -10185,6 +10235,12 @@ export const chainlinkFeeds = {
       "name": "CZK / USD"
     },
     {
+      "contractAddress": "0x6cBEE88E5af162c453311D12c6688D202613E749",
+      "proxyAddress": "0x3427232b88Ce4e7d62A03289247eE0cA5324f6ba",
+      "decimals": 8,
+      "name": "BEAM / USD"
+    },
+    {
       "contractAddress": "0x70f69FA03E4CE3D8033d178Fd26dE5270C9C4982",
       "proxyAddress": "0xB5f607A2bb2C950053F4DA1F535180e5902EAD16",
       "decimals": 8,
@@ -10197,16 +10253,16 @@ export const chainlinkFeeds = {
       "name": "POL / USD"
     },
     {
+      "contractAddress": "0x72470E4Cb2CA62C71783dE44259ef68DA6cBF78C",
+      "proxyAddress": "0x4F3ddF9378a4865cf4f28BE51E10AECb83B7daeE",
+      "decimals": 8,
+      "name": "SPELL / USD"
+    },
+    {
       "contractAddress": "0x725E90a77dA43e3B70FA5fbcc8313ca61c98A352",
       "proxyAddress": "0xA61bF273688Ea095b5e4c11f1AF5E763F7aEEE91",
       "decimals": 8,
       "name": "TRY / USD"
-    },
-    {
-      "contractAddress": "0x75156f96935f60FF27dfb6EeB0114C468ADf0dE6",
-      "proxyAddress": "0xaaac35A8E89aB5708B7310aBEe44796e09A9e104",
-      "decimals": 8,
-      "name": "Lombard BTC.b Reserves"
     },
     {
       "contractAddress": "0x7921B896f96E951809ce009f259FF9d12438C467",
@@ -10219,6 +10275,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x908C8195E085b3290d335014B94E6F1C886a889F",
       "decimals": 18,
       "name": "SYRUPUSDT / USD Exchange Rate"
+    },
+    {
+      "contractAddress": "0x816B2DC017083D66FCe4496fae71c9285772e735",
+      "proxyAddress": "0xfD2b540D6c147D0889A1F1B97a2A9aB694992677",
+      "decimals": 8,
+      "name": "fsBTC - Frictionless Bitcoin Treasury Fund - Reserves"
     },
     {
       "contractAddress": "0x8273492CC60D6aD10914d5Ad10De564553302913",
@@ -10281,12 +10343,6 @@ export const chainlinkFeeds = {
       "name": "DAI / USD"
     },
     {
-      "contractAddress": "0x972a0b6e643193826D173537f00c3b36D3B4eC16",
-      "proxyAddress": "0x70F88d3083FC1CA357f1efAF89F2F53281e09f5b",
-      "decimals": 18,
-      "name": "XCU / USD"
-    },
-    {
       "contractAddress": "0x9FC8683EFf42913f0F1F32EEc2f21340017FCDdB",
       "proxyAddress": "0x49ccd9ca821EfEab2b98c60dC60F518E765EDe9a",
       "decimals": 8,
@@ -10299,10 +10355,10 @@ export const chainlinkFeeds = {
       "name": "ETH / USD"
     },
     {
-      "contractAddress": "0xB051A0A13FE913C6C723Ac7111A17508081Dbd3a",
-      "proxyAddress": "0xF096872672F44d6EBA71458D74fe67F9a77a23B9",
-      "decimals": 8,
-      "name": "USDC / USD"
+      "contractAddress": "0xA6D08e6F2b20707D79801Ff419091265DDDCBb58",
+      "proxyAddress": "0xc43861646Cdc051D04CA0c9dF2265FFcFa0dF6f3",
+      "decimals": 18,
+      "name": "MATICX / USD Calculated"
     },
     {
       "contractAddress": "0xB0A8471d9A217bd553B2485697Ab9CAb05df852f",
@@ -10333,6 +10389,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x9a1372f9b1B71B3A5a72E092AE67E172dBd7Daaa",
       "decimals": 8,
       "name": "UNI / USD"
+    },
+    {
+      "contractAddress": "0xC664E24102e0a9d3b64D08fCBFE11dD7A378809d",
+      "proxyAddress": "0x0AB119EB3f6820BA43c345e9aAbF1e3dE3C09Ce4",
+      "decimals": 8,
+      "name": "Ion Digital Total Reserve"
     },
     {
       "contractAddress": "0xCdE5431BCa66081d509d15c9bD036208Ee118081",
@@ -10389,6 +10451,12 @@ export const chainlinkFeeds = {
       "name": "TUSD / USD"
     },
     {
+      "contractAddress": "0xFd436ad484d29bd75D0917777a8d7b183255212b",
+      "proxyAddress": "0x7f7A07FFDe2ab490dad0C0D139d6c730bbe842cC",
+      "decimals": 8,
+      "name": "YBTC.B / BTC"
+    },
+    {
       "contractAddress": "0xFfAc06e5D08455474192a4dA40dFEdd2090FdaA3",
       "proxyAddress": "0xBb92195Ec95DE626346eeC8282D53e261dF95241",
       "decimals": 8,
@@ -10411,6 +10479,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x2854Ca10a54800e15A2a25cFa52567166434Ff0a",
       "decimals": 18,
       "name": "Calculated SAVAX / USD"
+    },
+    {
+      "contractAddress": "0xbAa30e66208a21E7481e402cb178513A2D0FFdF8",
+      "proxyAddress": "0x774f067083f23cAB866310489419C884a6Dc00a8",
+      "decimals": 8,
+      "name": "MANA / USD"
     },
     {
       "contractAddress": "0xc03C33937F4Ae48f72a9563abfDde76D46B8548F",
@@ -10437,12 +10511,6 @@ export const chainlinkFeeds = {
       "name": "AVAX / USD"
     },
     {
-      "contractAddress": "0xd09152EEB6734A391d2049753eD47f24dc9916B8",
-      "proxyAddress": "0x5dF3D7a07DF29DB7330FF56FD162EB8b6E4421B4",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
-    },
-    {
       "contractAddress": "0xd2eB0f960e2Af673C4162c82ffBf7e967534C1D9",
       "proxyAddress": "0x3368310bC4AeE5D96486A73bae8E6b49FcDE62D3",
       "decimals": 8,
@@ -10453,6 +10521,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x94D8c2548018C27F1aa078A23C4158206bE1CC72",
       "decimals": 6,
       "name": "USDT.e Proof of Reserves"
+    },
+    {
+      "contractAddress": "0xd761cFc03e833FEBB04297Cc1aB7291D80c9595f",
+      "proxyAddress": "0xEBE676ee90Fe1112671f19b6B7459bC678B67e8a",
+      "decimals": 8,
+      "name": "USDT / USD"
     },
     {
       "contractAddress": "0xdae179d0782cE28d6fD0cedd965C69B54B794aB8",
@@ -10509,6 +10583,12 @@ export const chainlinkFeeds = {
       "proxyAddress": "0x8eCE1AbA32716FdDe8D6482bfd88E9a0ee01f565",
       "decimals": 8,
       "name": "WSTETH / USD"
+    },
+    {
+      "contractAddress": "0x1E5777E847c6e1ed918590D1BDCdDCE3C795404B",
+      "proxyAddress": "0xdE14081b6bd39230EcA7Be1137413b7b87B07C07",
+      "decimals": 18,
+      "name": "FOXY / USD"
     },
     {
       "contractAddress": "0x211B86dDd31811A78ea28171b234085aC7Fd0E38",
@@ -10649,6 +10729,12 @@ export const chainlinkFeeds = {
       "name": "wrsETH-ETH Exchange Rate"
     },
     {
+      "contractAddress": "0xA6F72813b20758F08923b48926DF1BA54782F9FF",
+      "proxyAddress": "0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
       "contractAddress": "0xD691e46B96702a4B64C0aC552216dFCAcd233319",
       "proxyAddress": "0x452b408b3e2805C109D52C80Bd54Deda239716d1",
       "decimals": 8,
@@ -10703,28 +10789,22 @@ export const chainlinkFeeds = {
       "name": "ynETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xEF34744d4c68499B1bc76F9Ee002Ba93a69a476b",
-      "proxyAddress": "0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5",
-      "decimals": 8,
-      "name": "USDC / USD"
-    },
-    {
       "contractAddress": "0xa872F1f102473205e202F5cd337487c1cc35B82d",
       "proxyAddress": "0x0AAC940015d333b8E4f93fcE9c0f6f365d252741",
       "decimals": 18,
       "name": "SAVUSD / AVUSD Exchange Rate"
     },
     {
+      "contractAddress": "0xa901c5741FAd401DfF8a750218aEB72527F86eD3",
+      "proxyAddress": "0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
       "contractAddress": "0xb2E19CB3b030Ba39Ec9C83821400e261026F9898",
       "proxyAddress": "0x1FBc7d24654b10c71fd74d3730d9Df17836181EF",
       "decimals": 18,
       "name": "weETH / eETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xc450e99e57Ff8316E6Eb93D03FB32D0abAeB6eCb",
-      "proxyAddress": "0x3b185d7e1Bca02566e5cbe104abDB50e32Fd7570",
-      "decimals": 8,
-      "name": "USDC / USD TEST CAPPED"
     },
     {
       "contractAddress": "0xcA3d6b17dEf8c8CCc37c4fcFCf303A3D5209157e",
@@ -10745,12 +10825,6 @@ export const chainlinkFeeds = {
       "name": "wstETH / stETH Exchange Rate"
     },
     {
-      "contractAddress": "0xe966c1c191b7768d3128f1c2bB193AB2a2871dEA",
-      "proxyAddress": "0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
       "contractAddress": "0xfB27a93105BBc2130f458C609F61d7e7994AED8a",
       "proxyAddress": "0x921000Dd4faA3Dc53F5Ee1c21Ab6e4211B191C5C",
       "decimals": 18,
@@ -10759,112 +10833,112 @@ export const chainlinkFeeds = {
   ],
   "534352": [
     {
-      "contractAddress": "0x0e61C2e12D16e5ddE2DB8690d3502738eA38B978",
-      "proxyAddress": "0xB4b121ebE4DdCdFD3378b9519A101678829fE8c6",
-      "decimals": 8,
-      "name": "AVAX / USD"
-    },
-    {
-      "contractAddress": "0x11239739a2e4AF0E8410e23B551BD810d176332a",
-      "proxyAddress": "0x1AC823FdC79c30b1aB1787FF5e5766D6f29235E1",
-      "decimals": 8,
-      "name": "BNB / USD"
-    },
-    {
-      "contractAddress": "0x36fE4f53c64754Ca90F8c7833171f4B3D8Dc3EE2",
-      "proxyAddress": "0x61C432B58A43516899d8dF33A5F57edb8d57EB77",
-      "decimals": 8,
-      "name": "WBTC / USD"
-    },
-    {
-      "contractAddress": "0x39C6bCceC03aB222981E2b32E1355C2D8B2CAc9B",
-      "proxyAddress": "0x227a4E5E9239CAc88022DF86B1Ad9B24A7616e60",
-      "decimals": 8,
-      "name": "LINK / USD"
-    },
-    {
-      "contractAddress": "0x3CBfFebfBA29d4e74d8a7eBAE19E25Bc304D7eA0",
-      "proxyAddress": "0xf376A91Ae078927eb3686D6010a6f1482424954E",
-      "decimals": 8,
-      "name": "USDT / USD"
-    },
-    {
-      "contractAddress": "0x4077d3bDB6d19264358C3F73EEB04098b0c4441f",
-      "proxyAddress": "0xf42e954D384247cE971d65f09a34500551942d67",
-      "decimals": 18,
-      "name": "agETH-ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x4111fD5bF367349e37fBCbfcD5855808A899000D",
-      "proxyAddress": "0x16F46406457D35fc40BBAA306d8a81aa414e8482",
-      "decimals": 18,
-      "name": "uniETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x4EE7f4ECf3b94D9AE3aDecFe3F8e7cd111Ecafe4",
-      "proxyAddress": "0xDf3F55B6bd57084DD4a72a41853C0a2487CB757F",
-      "decimals": 8,
-      "name": "SOL / USD"
-    },
-    {
-      "contractAddress": "0x4d322697b85Bc1c07c117f3EbFAb373bc3c2f46A",
-      "proxyAddress": "0x5df16dE72003c33dE38f8620BF91f0e7c4eE7300",
-      "decimals": 18,
-      "name": "EURC / USD"
-    },
-    {
-      "contractAddress": "0x4eBF4B54037892EA75a6033D32EAAbBB0b9FD470",
-      "proxyAddress": "0xe428fbdbd61CC1be6C273dC0E27a1F43124a86F3",
-      "decimals": 18,
-      "name": "WSTETH / ETH"
-    },
-    {
-      "contractAddress": "0x60d49400f31D555FfccF136F28a62fF3a0e1923d",
-      "proxyAddress": "0x14473e2BD405dcb5550ccA1d36da40227A6810EC",
-      "decimals": 18,
-      "name": "ynETHx / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x6Ac56573F99e3F847CaE3A7AF311D76c634F76B8",
+      "contractAddress": "0x035575ea823C92DB7C0bf50bfd5585cCEaE0B499",
       "proxyAddress": "0x7C6Da2C92caCe9F77274379Dc32a1eEE0B4C5FfD",
       "decimals": 18,
       "name": "pufETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0x6EBF58202f9e1AaEc741A9AA418E6BA2ccb90CD9",
-      "proxyAddress": "0xCaca6BFdeDA537236Ee406437D2F8a400026C589",
-      "decimals": 8,
-      "name": "BTC / USD"
-    },
-    {
-      "contractAddress": "0x6f735aCD12df15686d14dCeA4cE76718558f1f68",
-      "proxyAddress": "0x7e73693088d88694146ab30f1dA5903a4489e992",
-      "decimals": 8,
-      "name": "WBTC / BTC"
-    },
-    {
-      "contractAddress": "0x73C8A043E20824C88b14caf516fEbE827BE13f06",
-      "proxyAddress": "0xE61Da4C909F7d86797a0D06Db63c34f76c9bCBDC",
-      "decimals": 18,
-      "name": "wstETH-stETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x7da7d7441DD08B2Ff039236F47A86b84d3808B6a",
-      "proxyAddress": "0x439a2b573C8Ecd215990Fc25b4F547E89CF67b79",
-      "decimals": 8,
-      "name": "STETH / USD"
-    },
-    {
-      "contractAddress": "0x8B20858ABDBAF767651250dAfa6aF01514E06cE8",
-      "proxyAddress": "0x43d12Fb3AfCAd5347fA764EeAB105478337b7200",
-      "decimals": 8,
-      "name": "USDC / USD"
-    },
-    {
-      "contractAddress": "0x90b22552CB2583BC7Ee9Dd68fccD81Bf89C0B1fC",
+      "contractAddress": "0x0392Fe0098bF5bDbCE3c64285AEB9668999f9161",
       "proxyAddress": "0x8B5947e03894cEAD4f96283cFa19d88D6bc73d8F",
       "decimals": 18,
       "name": "ylstETH-stETH exchange rate"
+    },
+    {
+      "contractAddress": "0x0578cdc93B5eb49485f97053F54b4735DDfBf5ce",
+      "proxyAddress": "0x57bd9E614f542fB3d6FeF2B744f3B813f0cc1258",
+      "decimals": 18,
+      "name": "weETH / eETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x0C6A143f8c1B4098C2EcC6607ce171c193d8C2c8",
+      "proxyAddress": "0x0E4d8D665dA14D35444f0eCADc82F78a804A5F95",
+      "decimals": 18,
+      "name": "STONE / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x14E01d7eFe09065e1716112Ca47C71A98E7d40b5",
+      "proxyAddress": "0xe428fbdbd61CC1be6C273dC0E27a1F43124a86F3",
+      "decimals": 18,
+      "name": "WSTETH / ETH"
+    },
+    {
+      "contractAddress": "0x193e1f27BdCa01591045C7cdf265946B34B7572a",
+      "proxyAddress": "0x6726C678feE07B25BBE67bC720728652E4129369",
+      "decimals": 8,
+      "name": "COMP / USD"
+    },
+    {
+      "contractAddress": "0x1B0196b24e7ADBD477A4bf7c74d71167d21b8dAc",
+      "proxyAddress": "0x812Ef236A7240D8d0d59d61A9E7d67C43eFDB20e",
+      "decimals": 8,
+      "name": "USDe / USD"
+    },
+    {
+      "contractAddress": "0x2613814Ba7EF8146d9b44296e793074632b55299",
+      "proxyAddress": "0x9019Be7Aa8f66551E94d6508EA48856386945E80",
+      "decimals": 8,
+      "name": "STG / USD"
+    },
+    {
+      "contractAddress": "0x30413D396Eb0611807840d8f50Af4ed61Dd04B90",
+      "proxyAddress": "0x1AC823FdC79c30b1aB1787FF5e5766D6f29235E1",
+      "decimals": 8,
+      "name": "BNB / USD"
+    },
+    {
+      "contractAddress": "0x4A295f37A7CA6D2842349cCa55607312216519aa",
+      "proxyAddress": "0x227a4E5E9239CAc88022DF86B1Ad9B24A7616e60",
+      "decimals": 8,
+      "name": "LINK / USD"
+    },
+    {
+      "contractAddress": "0x52d9a4FaC326934c593b451dDA6f53bBA053577F",
+      "proxyAddress": "0x6bF14CB0A831078629D993FDeBcB182b21A8774C",
+      "decimals": 8,
+      "name": "ETH / USD"
+    },
+    {
+      "contractAddress": "0x5653502a209A57D353a7700de49CCC37e39B04a4",
+      "proxyAddress": "0x26f6F7C468EE309115d19Aa2055db5A74F8cE7A5",
+      "decimals": 8,
+      "name": "SCR / USD"
+    },
+    {
+      "contractAddress": "0x6E759F11611c0495864527bd46cA089F2920399D",
+      "proxyAddress": "0x667f449F2B57C8FB3DaaB04D41A85216D83EbaCB",
+      "decimals": 18,
+      "name": "stBTC / BTC Exchange Rate"
+    },
+    {
+      "contractAddress": "0x6d90CACCD19E84eE08dd3EEC80B04c02299ED713",
+      "proxyAddress": "0x16F46406457D35fc40BBAA306d8a81aa414e8482",
+      "decimals": 18,
+      "name": "uniETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0x85DD2b093ea221B732752058AF61598d66362722",
+      "proxyAddress": "0xDf3F55B6bd57084DD4a72a41853C0a2487CB757F",
+      "decimals": 8,
+      "name": "SOL / USD"
+    },
+    {
+      "contractAddress": "0x863451a4C718699bb3C860799a785DBd4DDf3a4D",
+      "proxyAddress": "0x6dCa10bce66548e26DBd1FCF4E8692796BeDdd7E",
+      "decimals": 18,
+      "name": "stBTC Proof of Reserves"
+    },
+    {
+      "contractAddress": "0x88926382559e24D1153d9F492554064C9f052A22",
+      "proxyAddress": "0xB4b121ebE4DdCdFD3378b9519A101678829fE8c6",
+      "decimals": 8,
+      "name": "AVAX / USD"
+    },
+    {
+      "contractAddress": "0x940b5c8d6f757Af7e8c5266215314819932C0cCd",
+      "proxyAddress": "0x203322e1d15EB3Dff541a5aF0288D951c4a8d3eA",
+      "decimals": 8,
+      "name": "DAI / USD"
     },
     {
       "contractAddress": "0x95BcCbBBaCBB7ed224AC2EE38531f2467DF41Ea4",
@@ -10873,88 +10947,118 @@ export const chainlinkFeeds = {
       "name": "L2 Sequencer Uptime Status Feed"
     },
     {
-      "contractAddress": "0x9d8CE4Dc8345db680f18DB39648535e6851E43C7",
-      "proxyAddress": "0x57bd9E614f542fB3d6FeF2B744f3B813f0cc1258",
-      "decimals": 18,
-      "name": "weETH / eETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0x9e26c8b96aF92fFf93a4C96eDdd8A2765f5577fC",
+      "contractAddress": "0x990a501a308070eAF192b2Cdad21083887f4c2d0",
       "proxyAddress": "0xE9C5bedC9dfA8d758a8C2e81482c2e0623301d4D",
       "decimals": 18,
       "name": "ynETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xB03A29f065397d8379fa35a28293D6b49CA78fdE",
-      "proxyAddress": "0xf39adcF2e13D99818a3AE560F87Dd30c8326C278",
-      "decimals": 0,
-      "name": "AAVE Network Emergency Count (Scroll)"
-    },
-    {
-      "contractAddress": "0xC83c7e6CD2a399aab848aDB69BD96FB031C42c3F",
-      "proxyAddress": "0x6726C678feE07B25BBE67bC720728652E4129369",
-      "decimals": 8,
-      "name": "COMP / USD"
-    },
-    {
-      "contractAddress": "0xD048Da7f3FF8C349eBD6D74BB8440C60a380A210",
+      "contractAddress": "0x99C3d25507c9772E524cb7081e5Ab0BB1431E294",
       "proxyAddress": "0x3a44916dc37Bb7D73419Fc6492d6d9Dfd8e6ddf7",
       "decimals": 18,
       "name": "rsETH / ETH Exchange Rate"
     },
     {
-      "contractAddress": "0xD19C171Fcf2eAaF4f53d8B059336ce7578f178C2",
-      "proxyAddress": "0x6bF14CB0A831078629D993FDeBcB182b21A8774C",
-      "decimals": 8,
-      "name": "ETH / USD"
-    },
-    {
-      "contractAddress": "0xDaEFEfC8f1fC603c6e75dCa7c322924b402De52C",
-      "proxyAddress": "0x2667de5E58Ae152ce9c5EA6D1a8E051444294B82",
-      "decimals": 8,
-      "name": "DOGE / USD"
-    },
-    {
-      "contractAddress": "0xE223f977C75E1020e469b59C2833ccCB64719684",
-      "proxyAddress": "0x538E0fC727ce4604e25354D082890cdb5553d33B",
-      "decimals": 8,
-      "name": "AAVE / USD"
-    },
-    {
-      "contractAddress": "0xFd39EE176824883f303dA1Ca3Ca27Ed740d418FC",
-      "proxyAddress": "0x26f6F7C468EE309115d19Aa2055db5A74F8cE7A5",
-      "decimals": 8,
-      "name": "SCR / USD"
-    },
-    {
-      "contractAddress": "0xd44F8A6CB030c7AF506A5392AF5E6ACA4b292E7E",
-      "proxyAddress": "0x78409c5b2dE2aC8ac76f45458FBaDD707e87B98a",
-      "decimals": 18,
-      "name": "LINK / ETH"
-    },
-    {
-      "contractAddress": "0xecA648D8deC1c4Ef4256741736D79E2e179479eA",
-      "proxyAddress": "0x97acBC804c5Cd994829Bdf89A2569575B159ebD4",
-      "decimals": 18,
-      "name": "rswETH / ETH Exchange Rate"
-    },
-    {
-      "contractAddress": "0xf4ebC60B1b57A9a055340E2B7e680d579628e227",
+      "contractAddress": "0xA9ED9258DE15CF5DfC8f85DE60836613B02a716a",
       "proxyAddress": "0x8658273E2f7bc06d3F8462703b8a733204312fF2",
       "decimals": 8,
       "name": "CRV / USD"
     },
     {
-      "contractAddress": "0xfD7Dda482fE060241C03D0cEf47299f54812Af76",
-      "proxyAddress": "0x812Ef236A7240D8d0d59d61A9E7d67C43eFDB20e",
+      "contractAddress": "0xAb6F72DA09A088a57A254FAbEe3d86d14d0dDc8D",
+      "proxyAddress": "0x61C432B58A43516899d8dF33A5F57edb8d57EB77",
       "decimals": 8,
-      "name": "USDe / USD"
+      "name": "WBTC / USD"
     },
     {
-      "contractAddress": "0xfEE2754a19890917770582D1311401B2C57FAB46",
-      "proxyAddress": "0x0E4d8D665dA14D35444f0eCADc82F78a804A5F95",
+      "contractAddress": "0xB2360457251c51029BDd9d88bB31F1982271171b",
+      "proxyAddress": "0x78409c5b2dE2aC8ac76f45458FBaDD707e87B98a",
       "decimals": 18,
-      "name": "STONE / ETH Exchange Rate"
+      "name": "LINK / ETH"
+    },
+    {
+      "contractAddress": "0xB7e22305E1baC145e3Bee3FdBd77f9c074624c1e",
+      "proxyAddress": "0x2667de5E58Ae152ce9c5EA6D1a8E051444294B82",
+      "decimals": 8,
+      "name": "DOGE / USD"
+    },
+    {
+      "contractAddress": "0xC66a96e320D3f61807ED656DF80696fC0C09cE28",
+      "proxyAddress": "0x439a2b573C8Ecd215990Fc25b4F547E89CF67b79",
+      "decimals": 8,
+      "name": "STETH / USD"
+    },
+    {
+      "contractAddress": "0xCD8714B9E4B2794e511614c2749525Ae89430397",
+      "proxyAddress": "0xf42e954D384247cE971d65f09a34500551942d67",
+      "decimals": 18,
+      "name": "agETH-ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xCbD4CB4116Dee5273Cbeb36F26Edb3640055cD34",
+      "proxyAddress": "0xCaca6BFdeDA537236Ee406437D2F8a400026C589",
+      "decimals": 8,
+      "name": "BTC / USD"
+    },
+    {
+      "contractAddress": "0xD34E5e5120Ef8F70f6Cdc1E0ef9B169eEcda3d6E",
+      "proxyAddress": "0xE61Da4C909F7d86797a0D06Db63c34f76c9bCBDC",
+      "decimals": 18,
+      "name": "wstETH-stETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xD80196353308B3b0B34DA405b049F7F4f0E4C298",
+      "proxyAddress": "0x538E0fC727ce4604e25354D082890cdb5553d33B",
+      "decimals": 8,
+      "name": "AAVE / USD"
+    },
+    {
+      "contractAddress": "0xE863C747c127Ef8cd543F3f8975e7A4aB7aBb0F3",
+      "proxyAddress": "0xf376A91Ae078927eb3686D6010a6f1482424954E",
+      "decimals": 8,
+      "name": "USDT / USD"
+    },
+    {
+      "contractAddress": "0xEE78CBd50906c577213ff4Febd0c0C9116Af4142",
+      "proxyAddress": "0x97acBC804c5Cd994829Bdf89A2569575B159ebD4",
+      "decimals": 18,
+      "name": "rswETH / ETH Exchange Rate"
+    },
+    {
+      "contractAddress": "0xEd746456ba6Ad119E3d80681b34E0474dA4e60F2",
+      "proxyAddress": "0x43d12Fb3AfCAd5347fA764EeAB105478337b7200",
+      "decimals": 8,
+      "name": "USDC / USD"
+    },
+    {
+      "contractAddress": "0xF8a4007970C464a6e615A8AfB35E1a0c177A35Ee",
+      "proxyAddress": "0xf39adcF2e13D99818a3AE560F87Dd30c8326C278",
+      "decimals": 0,
+      "name": "AAVE Network Emergency Count (Scroll)"
+    },
+    {
+      "contractAddress": "0xaD06d7b2Be282658e544a4B3444C7a88bEAd1523",
+      "proxyAddress": "0x7e73693088d88694146ab30f1dA5903a4489e992",
+      "decimals": 8,
+      "name": "WBTC / BTC"
+    },
+    {
+      "contractAddress": "0xb5d6a076549Af9E436f4D18F495772204f746f34",
+      "proxyAddress": "0x5df16dE72003c33dE38f8620BF91f0e7c4eE7300",
+      "decimals": 18,
+      "name": "EURC / USD"
+    },
+    {
+      "contractAddress": "0xeAEE2B0DA69DFf8977f2E73887509B51fbf9bBfd",
+      "proxyAddress": "0xd63624330Ed4e50dD65FeA45c08558F78a3d8abd",
+      "decimals": 18,
+      "name": "ezETH / ETH"
+    },
+    {
+      "contractAddress": "0xf4E8749184257684D3576C2c5d45F854Ca0f75ac",
+      "proxyAddress": "0x14473e2BD405dcb5550ccA1d36da40227A6810EC",
+      "decimals": 18,
+      "name": "ynETHx / ETH Exchange Rate"
     }
   ]
 } as const;
