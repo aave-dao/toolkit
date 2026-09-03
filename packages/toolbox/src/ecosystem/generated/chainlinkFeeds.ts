@@ -5785,100 +5785,11 @@ export const chainlinkFeeds = {
   ],
   "5042": [
     {
-      "contractAddress": "0x02ae69C812DD749c32afb4F1723F6833EeF3d7a3",
-      "proxyAddress": "0x1470F94EcecEFBc92014D883E4DB8d9726d1f25E",
-      "decimals": 8,
-      "name": "SVR BCH / USD",
-      "secondaryProxyAddress": "0xc65BdE76b0B44756Ce9A12795d97ad4AD3cAa3af"
-    },
-    {
-      "contractAddress": "0x0c9340d6d83bC7dCe72604bbD87bce1A6698c3A3",
-      "proxyAddress": "0x5024DF70A748e5f1E720AAe8EEfc590430d71573",
-      "decimals": 8,
-      "name": "SVR CAD / USD",
-      "secondaryProxyAddress": "0xa0575396F2fc7DCac6c4D6a6427Ee6Cc3B5Bdc77"
-    },
-    {
-      "contractAddress": "0x180899BEE02aFcFacA06812E169605CE2a377948",
-      "proxyAddress": "0xF9Fc1C20C82d774A3787845E73E41BCbF7F38F25",
-      "decimals": 8,
-      "name": "SVR JPY / USD",
-      "secondaryProxyAddress": "0xbD6c2a896745c7e13a2ccC2F6163c6801be0b3aD"
-    },
-    {
-      "contractAddress": "0x1a3c835ee66542afcD7cef792fE4a1A2DB8EE3c0",
-      "proxyAddress": "0x07040A33A0204596e927595D0994C5D841d7d61D",
-      "decimals": 8,
-      "name": "SVR KRW / USD",
-      "secondaryProxyAddress": "0x3f929667bdf783b99274F10465a89d6aF772736E"
-    },
-    {
-      "contractAddress": "0x2C99601FF5fD59716521E3C07E52e86B509F61Bf",
-      "proxyAddress": "0x5693D678943AE1FDfCECFf98B6c677FbAf331AE9",
-      "decimals": 8,
-      "name": "SVR TRX / USD",
-      "secondaryProxyAddress": "0x8DEDE26eFA1fe4C13aA242ead52a8004247159C1"
-    },
-    {
-      "contractAddress": "0x39ec0b14a982Ed72ACE2663c1bd6c43b7a6aF149",
-      "proxyAddress": "0x00d1516C06e030Ef2142478ce14CEbce2De81771",
-      "decimals": 8,
-      "name": "SVR BNB / USD",
-      "secondaryProxyAddress": "0x53fFB82B6A09Dc2b6Fea13e2795104efa9b458CC"
-    },
-    {
       "contractAddress": "0x3A9eb2B28B7f2a7C38807eb0cB64644c803C54b8",
       "proxyAddress": "0x84EA90AC252Dc437031461836DB5164219147905",
       "decimals": 8,
       "name": "SVR USDC / USD",
       "secondaryProxyAddress": "0xBC88A5182848151AE1f7b4877021F828d8F4D735"
-    },
-    {
-      "contractAddress": "0x3Bc620A3db574DD9CccdD72Ba2102929c2f31Da8",
-      "proxyAddress": "0x2d04D354f5fDaE3De723df475745B0a9B4edf90C",
-      "decimals": 8,
-      "name": "SVR SOL / USD",
-      "secondaryProxyAddress": "0xaD902511CbF378977149687D6aFB7D93A390D06e"
-    },
-    {
-      "contractAddress": "0x54754003964fE85Da378f76Ab4EfB6da2523A21F",
-      "proxyAddress": "0xEB0884a871ea1f6483B5FC10fd3D7dC5806411fc",
-      "decimals": 8,
-      "name": "cirBTC Reserves"
-    },
-    {
-      "contractAddress": "0x54Ebc34D8389aB1689dA3A55C44a27477C399583",
-      "proxyAddress": "0x3406DB72AC5136b89eba6808CFcaD83aF523B3C2",
-      "decimals": 8,
-      "name": "SVR BRL / USD",
-      "secondaryProxyAddress": "0x21b641ed53B2a91Ec616689298B067298B942012"
-    },
-    {
-      "contractAddress": "0x56654d76ed8b5AF1f9e64269914eFBBf7cF0aA2F",
-      "proxyAddress": "0x1AbF15E82566d274Bf8722AC3E42fC3c79304051",
-      "decimals": 6,
-      "name": "PSTUSDC / USDC Exchange Rate"
-    },
-    {
-      "contractAddress": "0x5a489EACad4BEc30B5bC3BcE8a0b9301CCDC0f60",
-      "proxyAddress": "0x953E668F395a76283ff73CCd26ACaEC96a057F9A",
-      "decimals": 8,
-      "name": "SVR HYPE / USD",
-      "secondaryProxyAddress": "0x0Bd931F734D4fA4F6e7566225Ce02B19996D8Ff4"
-    },
-    {
-      "contractAddress": "0x6B9e59032c11Cb80B144F320f86329e082658D7a",
-      "proxyAddress": "0x9F95c96324c07166B6C329B317c96DeD1dc14387",
-      "decimals": 8,
-      "name": "SVR USDT / USD",
-      "secondaryProxyAddress": "0x2E4AdB39B4f54B592293Eb832f54d2dCf081A02c"
-    },
-    {
-      "contractAddress": "0x725609aE7d540A7985D7fD189e155db9D72c1D44",
-      "proxyAddress": "0x0baD7926628b6408FeedcABaEc68c1Ea77bd127c",
-      "decimals": 8,
-      "name": "SVR CBBTC / USD",
-      "secondaryProxyAddress": "0x89f0bA0D46f51D6dbd2B315325FE1276EF937ec7"
     },
     {
       "contractAddress": "0x733FE1bA02ea9003C3CFbf5dcc41cf685fF64362",
@@ -5888,52 +5799,11 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x7777547914e03BCbB04Ae034942765a0dbb26aE3"
     },
     {
-      "contractAddress": "0x95e5313d2e1d97CB051fBCF92aaD0F17B6A5E795",
-      "proxyAddress": "0x06e59eA707FEAA09467C689Baf8D49C180fE2118",
-      "decimals": 8,
-      "name": "SVR AAVE / USD",
-      "secondaryProxyAddress": "0xaCBDEcFEf02BF72A802CC2bbb0a7188Fa4059a19"
-    },
-    {
-      "contractAddress": "0x9dBFb6a52c8cC446618E6fE0c5974d64694B78B9",
-      "proxyAddress": "0xaF452c2EA72b6E08AB64a67133a13C4ED35343eb",
-      "decimals": 8,
-      "name": "SVR AUD / USD",
-      "secondaryProxyAddress": "0x8Dc05B530f2d919c738F6Fa710c20AeC00258A12"
-    },
-    {
-      "contractAddress": "0xA70631a5Ac317eF1b3698d20268E5a3F48912d71",
-      "proxyAddress": "0xEd288826d3c2Dbb962534f4085073931aD7eeC93",
-      "decimals": 0,
-      "name": "AAVE Network Emergency Count (Arc)"
-    },
-    {
-      "contractAddress": "0xCE139B0d5D59bF1d2D71398F412e94fB4B51afb8",
-      "proxyAddress": "0x302eaa6cd6f7AdDdc973fAC2Bb8fa32e9Ce19f21",
-      "decimals": 8,
-      "name": "SVR MXN / USD",
-      "secondaryProxyAddress": "0xAFa801e508613be7CA88D2d0fDB3F84f4c1B0384"
-    },
-    {
       "contractAddress": "0xCEDbC96d866EBe46dcbeF8Ed12F9feA2C464d88F",
       "proxyAddress": "0xDd5B15443cd733D3966a50a3E48cB7DF9Fb5DE0D",
       "decimals": 8,
       "name": "SVR EUR / USD",
       "secondaryProxyAddress": "0xa4266689D107aF71c7dBE975cfB92aB40E7b4EFE"
-    },
-    {
-      "contractAddress": "0xD02F607AE16EbFb6cDb1Abc6277aaBEc581e229c",
-      "proxyAddress": "0xFFb04Fba8384e0a53Ee9975F9164905030F5ea29",
-      "decimals": 8,
-      "name": "SVR XRP / USD",
-      "secondaryProxyAddress": "0x3893e2b2820833d80679D61A4a77725c1787EDEe"
-    },
-    {
-      "contractAddress": "0xD58054e98ef8Db88F8AB23cdeFb747596400Ed41",
-      "proxyAddress": "0xf17C0EdcAA28371e9c8012D7699bF40ECF0F58d1",
-      "decimals": 8,
-      "name": "SVR AVAX / USD",
-      "secondaryProxyAddress": "0x48F9A46BA852B5c22D4153D0534397B59AbfdeF5"
     },
     {
       "contractAddress": "0xDBD49223AAaFEBA743A58D45df45D78A61234eC7",
@@ -5943,38 +5813,11 @@ export const chainlinkFeeds = {
       "secondaryProxyAddress": "0x2c7Dc3567b3490f53A8d32625d766834dd023F60"
     },
     {
-      "contractAddress": "0xE62CbD248482D7fe2A4Ee2832a419905ED12B34C",
-      "proxyAddress": "0xD37600AB06758356F0f5eE607299204785bF8c3a",
-      "decimals": 8,
-      "name": "SVR LINK / USD",
-      "secondaryProxyAddress": "0x053f9160FC1997540F6c1A3dc75E5D6677e9aA4E"
-    },
-    {
-      "contractAddress": "0xEbA739225744D21f6308adb68b723CB009135676",
-      "proxyAddress": "0x1CF4Ab7f18f42e4Aedb34475b9FF067Ad19698A9",
-      "decimals": 8,
-      "name": "SVR UNI / USD",
-      "secondaryProxyAddress": "0xe6382D7e5203E97C5e4c58f04506Ca1CCd0e2e22"
-    },
-    {
       "contractAddress": "0xd0586A927E9B6AF51b5B83e58453c811Fa5c243E",
       "proxyAddress": "0x361b95c10b76Ca3f35C686d423e43A951755Bf23",
       "decimals": 8,
       "name": "SVR EURC / USD",
       "secondaryProxyAddress": "0x71B0305ACA6A29d6485f9e4ac5a333af5Df2b62c"
-    },
-    {
-      "contractAddress": "0xd3a46BE5A6326772B43D49B6d52d58c3382E9f1F",
-      "proxyAddress": "0xD7a3C3E82867e606f21A1fEa9b38cF4f34B96D2a",
-      "decimals": 8,
-      "name": "SVR PAXG / USD",
-      "secondaryProxyAddress": "0x1702C284E0bE388C877FAFB791A0B4f029088617"
-    },
-    {
-      "contractAddress": "0xe35CcF1bE62Bc13f2f259acE624db10C3d527135",
-      "proxyAddress": "0x46c87ABb22510DE522121BE80adbB0Ca05Fb14E4",
-      "decimals": 18,
-      "name": "SYRUPUSDC / USDC Exchange Rate"
     }
   ],
   "8453": [
