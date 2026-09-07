@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.6.1
+
+### Patch Changes
+
+- 04f8864: fix: retry oklink rate limits on xlayer source code lookups (with optional OKLINK_API_KEY auth) and stop reporting explorer request failures as unverified contracts
+
 ## 0.6.0
 
 ### Minor Changes
