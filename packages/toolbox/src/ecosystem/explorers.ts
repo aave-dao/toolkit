@@ -34,6 +34,17 @@ type GetSourceCodeParams = {
   apiKey?: string;
 };
 
+/**
+ * Thrown when the explorer positively reports that no verified source exists
+ * for the contract, as opposed to the request itself failing.
+ */
+export class ContractNotVerifiedError extends Error {
+  constructor(address: Address) {
+    super(`Contract ${address} source code is not verified`);
+    this.name = "ContractNotVerifiedError";
+  }
+}
+
 export type EtherscanStyleSourceCode = {
   ABI: any;
   CompilerVersion: string;
@@ -89,6 +100,11 @@ export async function getSourceCode(params: GetSourceCodeParams) {
   if (status !== "1") {
     throw new Error(result as unknown as string);
   }
+  // etherscan responds with status "1" but an empty SourceCode for unverified
+  // contracts, blockscout omits the field entirely
+  if (!result[0]?.SourceCode) {
+    throw new ContractNotVerifiedError(params.address);
+  }
   return result[0];
 }
 
@@ -124,6 +140,9 @@ export function parseBlockscoutStyleSourceCode(
   return result;
 }
 
+const OKLINK_MAX_ATTEMPTS = 10;
+const OKLINK_RETRY_DELAY = 7_000;
+
 async function getXLayerSourceCode(params: GetSourceCodeParams) {
   const payload = {
     chainShortName: "xlayer",
@@ -135,14 +154,31 @@ async function getXLayerSourceCode(params: GetSourceCodeParams) {
     "https://www.oklink.com/api/v5/explorer/contract/verify-contract-info";
   const url = `${apiUrl}?${formattedPayload}`;
 
-  const request = await fetch(url);
-  const { data, message } = (await request.json()) as {
-    message: string;
-    data: any[];
-    status: string;
-  };
+  // authenticated requests have much higher rate limits
+  const oklinkApiKey =
+    typeof process !== "undefined" ? process.env.OKLINK_API_KEY : undefined;
+
+  let response: { code: string; msg: string; data?: any[] } | undefined;
+  for (let attempt = 1; attempt <= OKLINK_MAX_ATTEMPTS; attempt++) {
+    const request = await fetch(
+      url,
+      oklinkApiKey ? { headers: { "Ok-Access-Key": oklinkApiKey } } : undefined,
+    );
+    response = (await request.json()) as typeof response;
+    if (response?.code !== "50011" || attempt === OKLINK_MAX_ATTEMPTS) break;
+    // the keyless oklink api rate limits almost immediately ({"code":"50011","msg":"Too Many Requests"}),
+    // but recovers after a few seconds; other error codes are not retryable
+    await new Promise((resolve) => setTimeout(resolve, OKLINK_RETRY_DELAY));
+  }
+  // oklink error responses also carry "data": [], so only a success code means "no verified source"
+  if (response?.code !== "0" || !response.data) {
+    throw new Error(
+      `OKLink request failed: ${response?.code} ${response?.msg}`,
+    );
+  }
+  const data = response.data;
   if (data.length === 0) {
-    throw new Error(message);
+    throw new ContractNotVerifiedError(params.address);
   }
   return {
     SourceCode: data[0].sourceCode,

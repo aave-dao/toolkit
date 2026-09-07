@@ -157,10 +157,13 @@ ${payload.actions
   const unverified = verified.filter(
     (contract) => contract.status === VerificationStatus.ERROR,
   );
-  if (unverified.length !== 0) {
+  const unknownVerification = verified.filter(
+    (contract) => contract.status === VerificationStatus.UNKNOWN,
+  );
+  if (unverified.length !== 0 || unknownVerification.length !== 0) {
     try {
       await Promise.all(
-        unverified.map((ctr) =>
+        [...unverified, ...unknownVerification].map((ctr) =>
           tenderly_pingExplorer(client.chain!.id, ctr.address),
         ),
       );
@@ -168,8 +171,19 @@ ${payload.actions
       // we don't really care about errors here
       // the point is to ping the explorer because tenderly is not always reliable in fetching unknown contracts
     }
+  }
+  if (unverified.length !== 0) {
     report += `:sos: Found unverified contracts!\n\n`;
     report += unverified
+      .map(
+        (ctr) => ` - [${ctr.address}](${toAddressLink(ctr.address, client)})`,
+      )
+      .join("\n");
+    report += "\n\n";
+  }
+  if (unknownVerification.length !== 0) {
+    report += `:sos: Unable to determine verification status for some contracts!\n\n`;
+    report += unknownVerification
       .map(
         (ctr) => ` - [${ctr.address}](${toAddressLink(ctr.address, client)})`,
       )
