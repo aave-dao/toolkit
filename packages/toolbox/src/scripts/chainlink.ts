@@ -1,4 +1,4 @@
-import { isAddressEqual, zeroAddress, type Address } from "viem";
+import { zeroAddress, type Address } from "viem";
 import { ChainId } from "../ecosystem/chainIds";
 import { writeFileSync } from "node:fs";
 import { prefixWithGeneratedWarning } from "./common";
@@ -25,17 +25,6 @@ const chainToJson = {
   [ChainId.arc]: "arc-mainnet",
 };
 
-// Chains listed here only expose the feeds below, everything else is skipped
-const chainFeedAllowlist: Partial<Record<number, Address[]>> = {
-  [ChainId.arc]: [
-    "0x84EA90AC252Dc437031461836DB5164219147905", // USDC / USD
-    "0xDd5B15443cd733D3966a50a3E48cB7DF9Fb5DE0D", // EUR / USD
-    "0x361b95c10b76Ca3f35C686d423e43A951755Bf23", // EURC / USD
-    "0xa109B535C70C8Be9995be64Bb6751AcDB27e03De", // BTC / USD
-    "0x50FCDD99D6762D1C170DC6A9111db944AEE6D364", // ETH / USD
-  ],
-};
-
 (async function getPriceFeeds() {
   const feeds = await Promise.all(
     Object.keys(chainToJson).map(async (key) => {
@@ -55,7 +44,6 @@ const chainFeedAllowlist: Partial<Record<number, Address[]>> = {
   );
   const formattedFeeds = Object.keys(chainToJson).reduce(
     (acc, key, ix) => {
-      const allowlist = chainFeedAllowlist[key as unknown as number];
       acc[key as unknown as number] = feeds[ix]
         .map((f) => {
           let name = f.name;
@@ -74,14 +62,7 @@ const chainFeedAllowlist: Partial<Record<number, Address[]>> = {
               : {}),
           };
         })
-        .filter(
-          (feed) =>
-            feed.contractAddress !== zeroAddress &&
-            (allowlist === undefined ||
-              allowlist.some((address) =>
-                isAddressEqual(address, feed.proxyAddress),
-              )),
-        );
+        .filter((feed) => feed.contractAddress !== zeroAddress);
       return acc;
     },
     {} as Record<
