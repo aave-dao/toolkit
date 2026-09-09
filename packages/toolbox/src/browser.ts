@@ -14,6 +14,7 @@ export * from "./math/binary";
 export * from "./math/slot";
 export * from "./ecosystem/addresses";
 export * from "./ecosystem/explorers";
+export * from "./ecosystem/chainlinkFeeds";
 export * from "./ecosystem/tenderly";
 export * from "./ecosystem/tenderly.types";
 export * from "./ecosystem/event-db";
