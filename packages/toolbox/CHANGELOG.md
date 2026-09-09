@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.7.0
+
+### Minor Changes
+
+- 166100b: drop the arc chainlink feed allowlist now that the reference data directory lists arc feeds
+
 ## 0.6.1
 
 ### Patch Changes
