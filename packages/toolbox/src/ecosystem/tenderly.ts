@@ -3,8 +3,12 @@
  * This is a simple wrapper around the tenderly APIs.
  */
 import {
+  Account,
   Address,
+  Chain,
   Hex,
+  HttpTransport,
+  PublicActions,
   TestClient,
   WalletClient,
   createTestClient,
@@ -50,6 +54,16 @@ export type Tenderly_createVnetParamsResponse = {
     { url: string; name: "Admin RPC" },
     { url: string; name: "Public RPC" },
   ];
+};
+
+// Explicit so the dts doesn't inline a union over every ChainList entry (TS7056 on viem >= 2.56).
+export type Tenderly_createVnetResponse = {
+  vnet: Tenderly_createVnetParamsResponse;
+  testClient: TestClient<"hardhat", HttpTransport, Chain> &
+    PublicActions<HttpTransport, Chain>;
+  walletClient: WalletClient<HttpTransport, Chain, Account>;
+  simulate: (body: object) => ReturnType<typeof tenderly_simVnet>;
+  delete: () => ReturnType<typeof tenderly_deleteVnet>;
 };
 
 const TENDERLY_BASE_URL = "https://api.tenderly.co/api/v1";
@@ -118,7 +132,7 @@ export async function tenderly_createVnet(
     force,
   }: Tenderly_createVnetParams,
   { accessToken, accountSlug, projectSlug }: TenderlyConfig,
-) {
+): Promise<Tenderly_createVnetResponse> {
   if (!accessToken) throw new Error("Tenderly access token not provided");
   if (!accountSlug) throw new Error("Tenderly account slug not provided");
   if (!projectSlug) throw new Error("Tenderly project slug not provided");
