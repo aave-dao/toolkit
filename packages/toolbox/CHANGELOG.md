@@ -1,5 +1,12 @@
 # @aave-dao/toolbox
 
+## 0.8.0
+
+### Minor Changes
+
+- 02ea5c6: use viem's `arc` chain (public rpcs, explorer api, multicall3) and read arc-mainnet from the generated alchemy map. viem peer range is now ^2.56.6. `tenderly_createVnet` has an explicit return type (`Tenderly_createVnetResponse`) so the dts builds on viem 2.56.
+- 9433a2e: add `getChainlinkFeed` to resolve a feed from its proxy or secondary proxy address
+
 ## 0.7.0
 
 ### Minor Changes
