@@ -3,6 +3,7 @@ import {
   alchemySupportedChainIds,
   getAlchemyRPC,
   getNetworkEnv,
+  getQuicknodeRpc,
   getRPCUrl,
 } from "./rpcs";
 import { ChainId } from "./chainIds";
@@ -32,6 +33,21 @@ describe("rpcs", () => {
     expect(
       getRPCUrl(ChainId.mainnet, { alchemyKey: "abc" }),
     ).toMatchInlineSnapshot(`"https://eth-mainnet.g.alchemy.com/v2/abc"`);
+  });
+
+  it("should generate quicknode url for arc mainnet", () => {
+    expect(
+      getQuicknodeRpc(ChainId.arc, {
+        quicknodeEndpointName: "name",
+        quicknodeToken: "token",
+      }),
+    ).toMatchInlineSnapshot(`"https://name.arc-mainnet.quiknode.pro/token"`);
+  });
+
+  it("should fall back to the public rpc for arc mainnet", () => {
+    expect(getRPCUrl(ChainId.arc)).toMatchInlineSnapshot(
+      `"https://rpc.mainnet.arc.io"`,
+    );
   });
 
   it.each(alchemySupportedChainIds)(

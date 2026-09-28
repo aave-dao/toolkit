@@ -40,6 +40,7 @@ export const publicRPCs = {
   [ChainId.ink_sepolia]: "https://rpc-gel-sepolia.inkonchain.com",
   [ChainId.megaeth]: "https://mainnet.megaeth.com/rpc",
   [ChainId.monad]: "https://monad-mainnet.drpc.org",
+  [ChainId.arc]: "https://rpc.mainnet.arc.io",
 } as const;
 
 export const alchemySupportedChainIds = Object.values(ChainId).filter(
