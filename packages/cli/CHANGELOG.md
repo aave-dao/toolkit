@@ -1,5 +1,12 @@
 # @aave-dao/cli
 
+## 0.2.7
+
+### Patch Changes
+
+- Updated dependencies [5c10162]
+  - @aave-dao/toolbox@0.8.1
+
 ## 0.2.6
 
 ### Patch Changes
