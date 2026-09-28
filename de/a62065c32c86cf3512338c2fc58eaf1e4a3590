@@ -1,0 +1,26 @@
+packages/toolbox/src/ecosystem/rpcs.spec.ts
+  s_2dd072ae2291f8::t_c240a896c178db 47-52
+.changeset/quicknode-arc-mainnet.md
+  s_2dd072ae2291f8::t_dc1d41b05d3969 5
+packages/toolbox/src/ecosystem/rpcs.ts
+  s_2dd072ae2291f8::t_5d8bc338635da3 43
+  s_2dd072ae2291f8::t_85571a1b0b259e 136
+packages/toolbox/src/ecosystem/generated/quicknodeNetworkMap.ts
+  s_2dd072ae2291f8::t_5093adcf91eabb 42,73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "dea62065c32c86cf3512338c2fc58eaf1e4a3590",
+  "prompts": {},
+  "sessions": {
+    "s_2dd072ae2291f8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "02a84c87-8804-464c-b5ed-4a2f76c318c7",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
