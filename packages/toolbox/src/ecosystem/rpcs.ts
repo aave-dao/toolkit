@@ -40,17 +40,8 @@ export const publicRPCs = {
   [ChainId.ink_sepolia]: "https://rpc-gel-sepolia.inkonchain.com",
   [ChainId.megaeth]: "https://mainnet.megaeth.com/rpc",
   [ChainId.monad]: "https://monad-mainnet.drpc.org",
+  [ChainId.arc]: "https://rpc.mainnet.arc.io",
 } as const;
-
-// TODO: drop once Quicknode publishes arc-mainnet in the chains api `generate:rpcs` reads.
-const manualQuicknodeNetworkMap = {
-  [ChainId.arc]: "arc-mainnet",
-} as const;
-
-const quicknodeNetworks = {
-  ...quicknodeNetworkMap,
-  ...manualQuicknodeNetworkMap,
-};
 
 export const alchemySupportedChainIds = Object.values(ChainId).filter(
   (id) => alchemyNetworkMap[id as keyof typeof alchemyNetworkMap],
@@ -142,7 +133,7 @@ export function getQuicknodeRpc(
   options: { quicknodeEndpointName: string; quicknodeToken: string },
 ) {
   const quickNodeSlug =
-    quicknodeNetworks[chainId as keyof typeof quicknodeNetworks];
+    quicknodeNetworkMap[chainId as keyof typeof quicknodeNetworkMap];
   if (!quickNodeSlug) {
     throw new Error(`Quicknode does not support chainId: '${chainId}'`);
   }

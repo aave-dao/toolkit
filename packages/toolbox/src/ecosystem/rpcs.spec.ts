@@ -44,6 +44,12 @@ describe("rpcs", () => {
     ).toMatchInlineSnapshot(`"https://name.arc-mainnet.quiknode.pro/token"`);
   });
 
+  it("should fall back to the public rpc for arc mainnet", () => {
+    expect(getRPCUrl(ChainId.arc)).toMatchInlineSnapshot(
+      `"https://rpc.mainnet.arc.io"`,
+    );
+  });
+
   it.each(alchemySupportedChainIds)(
     "should return alchemy supported chain %s",
     (chainId) => {
