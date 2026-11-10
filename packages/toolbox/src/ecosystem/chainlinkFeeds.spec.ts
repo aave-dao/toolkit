@@ -30,6 +30,35 @@ describe("ecosystem:chainlinkFeeds", () => {
     });
   });
 
+  it("should not resolve a feed of another protocol's svr", () => {
+    // upstream lists compound's base eth/usd svr feed under the same name as aave's
+    expect(
+      getChainlinkFeed({
+        chainId: ChainId.base,
+        address: "0x5731Ae06077c79A3B292498940211E0aE7130bd3",
+      }),
+    ).toBeUndefined();
+  });
+
+  it("should keep the plain name on the feed a variant varies", () => {
+    const feed = getChainlinkFeed({
+      chainId: ChainId.arbitrum,
+      address: "0x6ce185860a4963106506C203335A2910413708e9",
+    });
+    expect(feed).toMatchObject({ name: "BTC / USD", path: "btc-usd" });
+  });
+
+  it("should qualify a feed that collides on name", () => {
+    const feed = getChainlinkFeed({
+      chainId: ChainId.arbitrum,
+      address: "0xf5166f957d716D26488f185E5B1d378839724530",
+    });
+    expect(feed).toMatchObject({
+      name: "CRE BACKUP BTC / USD",
+      path: "btc-usd-cre-backup",
+    });
+  });
+
   it("should be case insensitive", () => {
     const feed = getChainlinkFeed({
       chainId: ChainId.mainnet,

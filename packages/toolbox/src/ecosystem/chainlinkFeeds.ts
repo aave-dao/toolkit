@@ -7,6 +7,9 @@ export type ChainlinkFeed = {
   secondaryProxyAddress?: Address;
   decimals: number;
   name: string;
+  /** Upstream feed slug, unique per chain unlike `name` */
+  path: string;
+  svrDisplayLabel?: string;
 };
 
 export type ChainlinkFeedMatch = ChainlinkFeed & {
