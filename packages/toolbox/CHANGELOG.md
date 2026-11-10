@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.8.2
+
+### Patch Changes
+
+- 2e40188: Replaces dead and keyed public rpcs with reachable ones (chain-operated first, publicnode otherwise) and adds public rpcs for every chain except fantom_testnet and scroll_sepolia.
+
 ## 0.8.1
 
 ### Patch Changes
