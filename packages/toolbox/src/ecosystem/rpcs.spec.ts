@@ -50,6 +50,16 @@ describe("rpcs", () => {
     );
   });
 
+  it("falls back to a public rpc for every chain except fantom_testnet and scroll_sepolia", () => {
+    expect(Object.values(ChainId).filter((chainId) => !getRPCUrl(chainId)))
+      .toMatchInlineSnapshot(`
+      [
+        4002,
+        534351,
+      ]
+    `);
+  });
+
   it.each(alchemySupportedChainIds)(
     "should return alchemy supported chain %s",
     (chainId) => {
