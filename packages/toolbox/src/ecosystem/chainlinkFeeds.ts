@@ -7,6 +7,10 @@ export type ChainlinkFeed = {
   secondaryProxyAddress?: Address;
   decimals: number;
   name: string;
+  /** Chainlink's id for the feed, unique per chain */
+  path: string;
+  /** SVR flavor of the feed, e.g. "Shared SVR" or "Aave SVR" */
+  svrDisplayLabel?: string;
 };
 
 export type ChainlinkFeedMatch = ChainlinkFeed & {
