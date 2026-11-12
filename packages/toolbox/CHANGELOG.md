@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.8.4
+
+### Patch Changes
+
+- c1b1b2f: Switches the public rpcs for mainnet, sepolia, polygon, polygon_amoy, arbitrum, arbitrum_sepolia and bnb to the Tenderly gateway, which serves historical state, so fork tests pinned to a past block work without a key.
+
 ## 0.8.3
 
 ### Patch Changes
