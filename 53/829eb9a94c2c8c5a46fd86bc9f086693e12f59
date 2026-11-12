@@ -1,0 +1,21 @@
+packages/toolbox/src/ecosystem/rpcs.ts
+  s_2e6414cbf3e49c::t_68b8d4ebc2c6d1 31
+.changeset/arbitrum-archive-public-rpc.md
+  s_2e6414cbf3e49c::t_50eb7ac7fd52cb 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "53829eb9a94c2c8c5a46fd86bc9f086693e12f59",
+  "prompts": {},
+  "sessions": {
+    "s_2e6414cbf3e49c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dffe7ea6-7da9-441f-89c7-1485e37ef2d1",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
