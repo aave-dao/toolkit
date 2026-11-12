@@ -1,0 +1,29 @@
+.changeset/archive-public-rpcs.md
+  s_baa2e306a9ce7e::t_0affd3e0677e36 5
+packages/toolbox/src/ecosystem/rpcs.ts
+  s_2e6414cbf3e49c::t_2dc5158137bfeb 26-28,32,37,44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c1b1b2feff461d222676cb5146d07b25b99775b4",
+  "prompts": {},
+  "sessions": {
+    "s_2e6414cbf3e49c": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dffe7ea6-7da9-441f-89c7-1485e37ef2d1",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    },
+    "s_baa2e306a9ce7e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5fe9b53d-b377-4c11-b688-c311ccd286f9",
+        "model": "claude-fable-5-2"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
