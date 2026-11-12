@@ -28,7 +28,7 @@ export const publicRPCs = {
   [ChainId.polygon_amoy]: "https://polygon-amoy-bor-rpc.publicnode.com",
   [ChainId.avalanche]: "https://api.avax.network/ext/bc/C/rpc",
   [ChainId.avalanche_fuji]: "https://api.avax-test.network/ext/bc/C/rpc",
-  [ChainId.arbitrum]: "https://arb1.arbitrum.io/rpc",
+  [ChainId.arbitrum]: "https://arbitrum.gateway.tenderly.co",
   [ChainId.arbitrum_sepolia]: "https://sepolia-rollup.arbitrum.io/rpc",
   [ChainId.fantom]: "https://rpcapi.fantom.network",
   [ChainId.optimism]: "https://mainnet.optimism.io",
