@@ -18,6 +18,8 @@ exports[`rpcs > should return alchemy supported chain 196 > xlayer-mainnet 1`] =
 
 exports[`rpcs > should return alchemy supported chain 324 > zksync-mainnet 1`] = `"https://zksync-mainnet.g.alchemy.com/v2/abc"`;
 
+exports[`rpcs > should return alchemy supported chain 999 > hyperliquid-mainnet 1`] = `"https://hyperliquid-mainnet.g.alchemy.com/v2/abc"`;
+
 exports[`rpcs > should return alchemy supported chain 1088 > metis-mainnet 1`] = `"https://metis-mainnet.g.alchemy.com/v2/abc"`;
 
 exports[`rpcs > should return alchemy supported chain 1868 > soneium-mainnet 1`] = `"https://soneium-mainnet.g.alchemy.com/v2/abc"`;
