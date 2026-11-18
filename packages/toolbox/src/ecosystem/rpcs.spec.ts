@@ -93,6 +93,7 @@ describe("rpcs", () => {
         "RPC_FANTOM_TESTNET": 4002,
         "RPC_GNOSIS": 100,
         "RPC_HARMONY": 1666600000,
+        "RPC_HYPEREVM": 999,
         "RPC_INK": 57073,
         "RPC_INK_SEPOLIA": 763373,
         "RPC_LINEA": 59144,
