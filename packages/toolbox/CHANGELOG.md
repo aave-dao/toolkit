@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.9.0
+
+### Minor Changes
+
+- e320569: Adds HyperEVM (999) with the dRPC public rpc, which serves historical state.
+
 ## 0.8.4
 
 ### Patch Changes
