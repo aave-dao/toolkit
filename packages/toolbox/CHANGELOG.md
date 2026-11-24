@@ -1,5 +1,11 @@
 # @aave-dao/toolbox
 
+## 0.10.0
+
+### Minor Changes
+
+- 484d55d: Adds Tempo (4217) with the public rpc `https://rpc.tempo.xyz`, which serves historical state.
+
 ## 0.9.0
 
 ### Minor Changes
