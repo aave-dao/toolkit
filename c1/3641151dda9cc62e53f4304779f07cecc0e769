@@ -1,0 +1,28 @@
+.changeset/tempo-chain.md
+  s_b3abc8d2a3eef0::t_1e8f1600a61e7f 1-4
+  s_b3abc8d2a3eef0::t_3d8c398d185f9a 5
+packages/toolbox/src/ecosystem/rpcs.spec.ts
+  s_b3abc8d2a3eef0::t_3d8c398d185f9a 115
+packages/toolbox/src/ecosystem/chainIds.ts
+  s_b3abc8d2a3eef0::t_fbb7c99f58d71c 39,79,146
+packages/toolbox/src/ecosystem/__snapshots__/rpcs.spec.ts.snap
+  s_b3abc8d2a3eef0::t_f11b6ce2fb67a9 27-28
+packages/toolbox/src/ecosystem/rpcs.ts
+  s_b3abc8d2a3eef0::t_fbb7c99f58d71c 59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c13641151dda9cc62e53f4304779f07cecc0e769",
+  "prompts": {},
+  "sessions": {
+    "s_b3abc8d2a3eef0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f7c0e552-1bdf-437b-8bd8-923ee19e1f8a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AlbertoCentonze <11707683+AlbertoCentonze@users.noreply.github.com>"
+    }
+  }
+}
