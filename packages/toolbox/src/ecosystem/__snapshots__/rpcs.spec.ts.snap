@@ -24,6 +24,8 @@ exports[`rpcs > should return alchemy supported chain 1088 > metis-mainnet 1`] =
 
 exports[`rpcs > should return alchemy supported chain 1868 > soneium-mainnet 1`] = `"https://soneium-mainnet.g.alchemy.com/v2/abc"`;
 
+exports[`rpcs > should return alchemy supported chain 4217 > tempo-mainnet 1`] = `"https://tempo-mainnet.g.alchemy.com/v2/abc"`;
+
 exports[`rpcs > should return alchemy supported chain 4326 > megaeth-mainnet 1`] = `"https://megaeth-mainnet.g.alchemy.com/v2/abc"`;
 
 exports[`rpcs > should return alchemy supported chain 5000 > mantle-mainnet 1`] = `"https://mantle-mainnet.g.alchemy.com/v2/abc"`;
