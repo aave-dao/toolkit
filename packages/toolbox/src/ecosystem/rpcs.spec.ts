@@ -112,6 +112,7 @@ describe("rpcs", () => {
         "RPC_SEPOLIA": 11155111,
         "RPC_SONEIUM": 1868,
         "RPC_SONIC": 146,
+        "RPC_TEMPO": 4217,
         "RPC_XLAYER": 196,
         "RPC_ZKEVM": 1101,
         "RPC_ZKSYNC": 324,

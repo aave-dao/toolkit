@@ -36,6 +36,7 @@ import {
   monad,
   arc,
   hyperEvm,
+  tempo,
 } from "viem/chains";
 
 export const ChainId = {
@@ -75,6 +76,7 @@ export const ChainId = {
   monad: monad.id,
   arc: arc.id,
   hyperEvm: hyperEvm.id,
+  tempo: tempo.id,
 } as const;
 
 export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
@@ -141,4 +143,5 @@ export const ChainList: Record<valueOf<typeof ChainId>, Chain> = {
   },
   [ChainId.arc]: arc,
   [ChainId.hyperEvm]: hyperEvm,
+  [ChainId.tempo]: tempo,
 };

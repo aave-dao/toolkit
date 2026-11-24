@@ -56,6 +56,7 @@ export const publicRPCs = {
   [ChainId.monad]: "https://rpc.monad.xyz",
   [ChainId.arc]: "https://rpc.mainnet.arc.io",
   [ChainId.hyperEvm]: "https://hyperliquid.drpc.org",
+  [ChainId.tempo]: "https://rpc.tempo.xyz",
 } as const;
 
 export const alchemySupportedChainIds = Object.values(ChainId).filter(
