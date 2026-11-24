@@ -1,0 +1,27 @@
+packages/toolbox/src/ecosystem/rpcs.ts
+  s_acd10edb751004::t_56f5d456c9a20d 58
+.changeset/hyperevm-chain.md
+  s_acd10edb751004::t_56f5d456c9a20d 1-5
+packages/toolbox/src/ecosystem/chainIds.ts
+  s_acd10edb751004::t_56f5d456c9a20d 38,77,143
+packages/toolbox/src/ecosystem/rpcs.spec.ts
+  s_acd10edb751004::t_e1344c07bbe2aa 96
+packages/toolbox/src/ecosystem/__snapshots__/rpcs.spec.ts.snap
+  s_acd10edb751004::t_e56106f6c07e4c 21-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "294bfe11b9aebbb749dfdd8bd4e4f4e68b2b2b35",
+  "prompts": {},
+  "sessions": {
+    "s_acd10edb751004": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c0d9ef2e-4ad4-4ae8-aeb9-38180e91b765",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "DhairyaSethi <55102840+DhairyaSethi@users.noreply.github.com>"
+    }
+  }
+}
